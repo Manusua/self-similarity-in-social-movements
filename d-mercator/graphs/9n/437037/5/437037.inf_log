@@ -1,0 +1,197 @@
+
+===========================================================================================
+D-Mercator: accurate embeddings of graphs in the SD space
+version: 0.9
+started on: 2024/09/01 7:51 UTC
+edgelist filename: /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.edge
+seed: 1725177087
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    106
+    Nb edges:                       675
+    Average degree:                 12.74
+    Minimum degree:                 1
+    Maximum degree:                 86
+    Nb of degree class:             32
+    Average clustering:             0.8708
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.1000 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8394 
+         3.1499 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8473 
+         4.7249 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8479 
+         7.0873 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8513 
+        10.6310 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8506 
+        15.9465 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8559 
+        23.9197 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8480 
+WARNING: value too high, using beta =     35.8796.
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 12.7332
+    Minimum degree:                 1
+    Maximum degree:                 86
+    Average clustering:             0.8480
+    Parameters
+      - beta:                       35.8796
+      - mu:                         0.0391
+      - radius_S1 (R):              16.8704
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+
+    Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
+
+    Sum of the angular positions (before adjustment): 13.4986
+                                     .................................................done.
+
+Refining the positions...
+    ...of vertices     [1,5]......done in 0.0534 seconds (5/5 changed position)
+    ...of vertices    [6,10]......done in 0.0100 seconds (5/5 changed position)
+    ...of vertices   [11,15]......done in 0.0088 seconds (5/5 changed position)
+    ...of vertices   [16,20]......done in 0.0088 seconds (5/5 changed position)
+    ...of vertices   [21,25]......done in 0.0083 seconds (5/5 changed position)
+    ...of vertices   [26,30]......done in 0.0078 seconds (5/5 changed position)
+    ...of vertices   [31,35]......done in 0.0075 seconds (4/5 changed position)
+    ...of vertices   [36,40]......done in 0.0070 seconds (3/5 changed position)
+    ...of vertices   [41,45]......done in 0.0072 seconds (5/5 changed position)
+    ...of vertices   [46,50]......done in 0.0071 seconds (3/5 changed position)
+    ...of vertices   [51,55]......done in 0.0071 seconds (4/5 changed position)
+    ...of vertices   [56,60]......done in 0.0070 seconds (5/5 changed position)
+    ...of vertices   [61,65]......done in 0.0070 seconds (3/5 changed position)
+    ...of vertices   [66,70]......done in 0.0066 seconds (1/5 changed position)
+    ...of vertices   [71,75]......done in 0.0068 seconds (2/5 changed position)
+    ...of vertices   [76,80]......done in 0.0069 seconds (4/5 changed position)
+    ...of vertices   [81,85]......done in 0.0069 seconds (2/5 changed position)
+    ...of vertices   [86,90]......done in 0.0068 seconds (4/5 changed position)
+    ...of vertices   [91,95]......done in 0.0067 seconds (4/5 changed position)
+    ...of vertices  [96,100]......done in 0.0067 seconds (5/5 changed position)
+    ...of vertices [101,105]......done in 0.0063 seconds (3/5 changed position)
+    ...of vertices [106,106]......done in 0.0014 seconds (1/1 changed position)
+                         .............................................................done.
+
+Updating values of kappa based on inferred positions...
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                                                       ...............................done.
+
+    => Inferred coordinates saved to /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.inf_coord
+
+    => Inferred theta density saved to /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.inf_theta_density
+
+    => Inferred connection probability saved to /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.inf_pconn
+
+Characterizing the inferred ensemble...
+
+    A total of 1000 graphs will be generated (chosen in function of the total number
+    of vertices). To change this value, set the flag 'CUSTOM_CHARACTERIZATION_NB_GRAPHS'
+    to 'true' and set the variable 'CHARACTERIZATION_NB_GRAPHS' to the desired value.
+
+    Generating and analyzing graphs      [1,50]......done in 0.1423 seconds
+    Generating and analyzing graphs    [51,100]......done in 0.1421 seconds
+    Generating and analyzing graphs   [101,150]......done in 0.1433 seconds
+    Generating and analyzing graphs   [151,200]......done in 0.1424 seconds
+    Generating and analyzing graphs   [201,250]......done in 0.1644 seconds
+    Generating and analyzing graphs   [251,300]......done in 0.1450 seconds
+    Generating and analyzing graphs   [301,350]......done in 0.1442 seconds
+    Generating and analyzing graphs   [351,400]......done in 0.1423 seconds
+    Generating and analyzing graphs   [401,450]......done in 0.1437 seconds
+    Generating and analyzing graphs   [451,500]......done in 0.1648 seconds
+    Generating and analyzing graphs   [501,550]......done in 0.1447 seconds
+    Generating and analyzing graphs   [551,600]......done in 0.1428 seconds
+    Generating and analyzing graphs   [601,650]......done in 0.1432 seconds
+    Generating and analyzing graphs   [651,700]......done in 0.1437 seconds
+    Generating and analyzing graphs   [701,750]......done in 0.1454 seconds
+    Generating and analyzing graphs   [751,800]......done in 0.1423 seconds
+    Generating and analyzing graphs   [801,850]......done in 0.1424 seconds
+    Generating and analyzing graphs   [851,900]......done in 0.1422 seconds
+    Generating and analyzing graphs   [901,950]......done in 0.1431 seconds
+    Generating and analyzing graphs  [951,1000]......done in 0.1426 seconds
+                                       ...............................................done.
+
+    => Vertices properties of the inferred ensemble saved to /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.inf_vprop
+
+    => Inferred ensemble statistics by degree class saved to /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.inf_vstat
+
+Extracting the original graph statistics by degree class..............................done.
+
+    => Original graph statistics by degree class saved to /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.obs_vstat
+
+Computing two-sample Kolmogorov-Smirnov test......
+Test statistic: 0.0320, critical_value: 0.2905
+The null hypothesis is not rejected at level 0.0500
+Two data samples does come from the same distribution
+
+Internal parameters and options
+    ALREADY_INFERRED_PARAMETERS_FILENAME   
+    BETA_ABS_MAX                           25
+    BETA_ABS_MIN                           1.01
+    CHARACTERIZATION_MODE                  true
+    CHARACTERIZATION_NB_GRAPHS             1000
+    CLEAN_RAW_OUTPUT_MODE                  false
+    CUSTOM_BETA                            false
+    CUSTOM_CHARACTERIZATION_NB_GRAPHS      false
+    CUSTOM_INFERRED_COORDINATES            false
+    CUSTOM_OUTPUT_ROOTNAME_MODE            false
+    CUSTOM_SEED                            false
+    EDGELIST_FILENAME:                     /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037.edge
+    EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+    EXP_DIST_NB_INTEGRATION_STEPS          1000
+    KAPPA_MAX_NB_ITER_CONV                 500
+    KAPPA_POST_INFERENCE_MODE              true
+    MAXIMIZATION_MODE                      true
+    MIN_NB_ANGLES_TO_TRY                   100
+    NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+    NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+    NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+    NUMERICAL_ZERO                         1e-10
+    QUIET_MODE                             false
+    REFINE_MODE                            false
+    ROOTNAME_OUTPUT:                       /home/rcmrk/Escritorio/github/TFM_Manuel_Suarez_Roman/d-mercator/graphs/9n/437037/5/437037
+    SEED                                   1725177087
+    VALIDATION_MODE                        true
+    VERBOSE_MODE                           false
+    VERSION                                0.9
+
+Ended on: 2024/09/01 7:51 UTC
+Elapsed CPU time (embedding):               10.1234 seconds
+    initialization:                          0.0028 seconds
+    parameters inference:                    9.7403 seconds
+    initial positions:                       0.1162 seconds
+    refining positions:                      0.2024 seconds
+    adjusting kappas:                        0.0617 seconds
+Elapsed CPU time (validation):               2.9113 seconds
+    validating embedding:                    0.0020 seconds
+    characterizing ensemble:                 2.9093 seconds
+===========================================================================================
