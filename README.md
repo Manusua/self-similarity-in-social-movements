@@ -2,7 +2,7 @@
 
 El repositorio se encuentra organizado de la siguiente forma:
 
-* ```Self similarity in graphs.ipynb```: notebook principal. Contiene todo el flujo de ejecuciones necesario para llegar a los resultados presentados en la memoria del Trabajo de Fin de Máster. También se presenta en formato '.pdf'.
+* ```Self similarity in social movements.ipynb```: notebook principal. Contiene todo el flujo de ejecuciones necesario para llegar a los resultados presentados en la memoria del Trabajo de Fin de Máster. También se presenta en formato '.pdf'.
 * ```utils_graph.py```: funciones auxiliares del notebook de creación de grafo, obtención de métricas...
 * ```nestedness_calculator.py```: implementa el algoritmo NODF para el calculo del coeficiente de anidamiento. Creado por  Mika Straka.
 * ```requirements.txt```: archivo con las librerías empleadas para la ejecución de los archivos de código.
