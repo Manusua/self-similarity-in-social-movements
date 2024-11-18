@@ -18,6 +18,22 @@ from nestedness_calculator import NestednessCalculator
 #
 ########################################################################
 
+def create_csv_weighted(input_file, output_file):
+    main_df = pd.DataFrame(columns=["user", "hashtag", "hour", "weight"])
+    df = pd.read_csv(input_file, sep= ' ')
+    df_u = df["user"].unique()
+    for user in df_u:
+        df_user = df[(df["user"] == user)]
+        df_h = df_user["hashtag"].unique()
+        for hashtag in df_h:
+            df_hashtag = df_user[(df_user["hashtag"] == hashtag)]
+            df_ho = df_hashtag["hour"].unique()
+            for hour in df_ho:
+                weight = df_hashtag[(df_hashtag["hour"] == hour)].shape[1]
+                main_df = pd.concat([main_df, pd.DataFrame([user, hashtag, hour, weight])], ignore_index=True)
+    main_df.to_csv(output_file, sep=' ')
+
+
 def read_data(manifestacion, datasets_folder = "datasets/"):
     """
     Lee un archivo de datos en formato CSV delimitado por espacios y lo carga en un DataFrame de Pandas.
@@ -496,11 +512,17 @@ def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures
             else:
                 G = nx.read_gexf(graphs_folder + 'bipartite/' + manifestacion + '/' + str(hora) + '.gexf')
             if not "nestedness" in dict_manif[hora].keys():
-                nestedness = calc_nestedness(G)
+                if G.number_of_edges() > 0:
+                    nestedness = calc_nestedness(G)
+                else:
+                    nestedness = 0
                 dict_manif[hora]["nestedness"] = float(nestedness)
             
             if not "modularity" in dict_manif[hora].keys(): 
-                modularity_louv = nx.community.modularity(G, nx.community.louvain_communities(G, seed=123), weight="weight")
+                if G.number_of_edges() > 0:
+                    modularity_louv = nx.community.modularity(G, nx.community.louvain_communities(G, seed=123), weight="weight")
+                else:
+                    modularity_louv = 0
                 dict_manif[hora]["modularity"] = modularity_louv
 
     arr_hour =[]
