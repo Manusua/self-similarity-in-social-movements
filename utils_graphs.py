@@ -55,7 +55,7 @@ def read_data(manifestacion, datasets_folder = "datasets/"):
     --------
     df = read_data("datos_ejemplo")
     """
-    return pd.read_csv(datasets_folder + manifestacion + ".txt", sep= ' ')
+    return pd.read_csv(datasets_folder + manifestacion + ".csv", sep= ',')
 
 def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/"):
     """
