@@ -7,6 +7,8 @@ import json
 from tqdm import tqdm
 import numpy as np
 import powerlaw
+import csv
+
 
 
 from nestedness_calculator import NestednessCalculator
@@ -94,7 +96,7 @@ def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/"):
         G = nx.from_pandas_edgelist(df_hour, source="user", target="hashtag", edge_attr="weight")
         nx.write_gexf(G, graphs_folder + str(hour) + ".gexf")
 
-def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder="graphs/"):
+def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder="graphs/", labels=False):
     """
     Genera y almacena grafos basados en las relaciones entre nodos, que pueden ser usuarios o hashtags, según 
     el criterio especificado. Los grafos se crean para cada hora distinta en el DataFrame, y pueden incluir una 
@@ -158,6 +160,16 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
             old_weight = G.edges[edge]["weight"]
             nx.set_edge_attributes(G, {edge: {"weight": old_weight/2}})
 
+        if labels:
+            # Abre el archivo CSV
+            with open("datasets/dicts_hashtags/dict_hashtags_"+manifestacion+".csv", mode='r', encoding='utf-8') as file:
+                reader = csv.reader(file)
+                # Saltamos el header del csv (Id, haashtag)
+                next(reader, None)
+                # Convierte las filas en un diccionario
+                diccionario = {int(rows[1]): rows[0] for rows in reader}
+            #print("RElabeling", diccionario)
+            G = nx.relabel_nodes(G, diccionario)
         nx.write_gexf(G, graphs_folder + str(hour) + ".gexf")
 
 def calc_avg_degree(G):

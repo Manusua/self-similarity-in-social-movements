@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-21">
+  <meta lastmodifieddate="2025-01-22">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -59,50 +59,99 @@
       <edge source="26311860" target="280642135" id="2" weight="1.0" />
       <edge source="26311860" target="392740026" id="3" weight="1.0" />
       <edge source="970299846" target="1879400851" id="4" weight="1.0" />
-      <edge source="280642135" target="2808218208" id="5" weight="1.0" />
-      <edge source="280642135" target="565760153" id="6" weight="1.0" />
-      <edge source="280642135" target="392740026" id="7" weight="1.0" />
-      <edge source="133787945" target="340174496" id="8" weight="1.0" />
-      <edge source="133787945" target="392740026" id="9" weight="1.0" />
-      <edge source="133787945" target="356732032" id="10" weight="1.0" />
-      <edge source="133787945" target="408488536" id="11" weight="1.0" />
-      <edge source="891804792" target="1514262950" id="12" weight="1.0" />
-      <edge source="891804792" target="2515839411" id="13" weight="1.0" />
-      <edge source="891804792" target="1974679544" id="14" weight="1.0" />
-      <edge source="1561180602" target="149574120" id="15" weight="1.0" />
-      <edge source="1561180602" target="564721530" id="16" weight="1.0" />
-      <edge source="2847104915" target="2354694248" id="17" weight="1.0" />
-      <edge source="2847104915" target="369504998" id="18" weight="1.0" />
-      <edge source="291920996" target="369029762" id="19" weight="1.0" />
-      <edge source="291920996" target="976200576" id="20" weight="1.0" />
-      <edge source="1443911370" target="2386770957" id="21" weight="1.0" />
-      <edge source="2724077721" target="473989337" id="22" weight="1.0" />
-      <edge source="2724077721" target="409684385" id="23" weight="1.0" />
-      <edge source="2724077721" target="285628591" id="24" weight="1.0" />
-      <edge source="2724077721" target="1891529887" id="25" weight="1.0" />
-      <edge source="2808218208" target="565760153" id="26" weight="1.0" />
-      <edge source="2808218208" target="392740026" id="27" weight="1.0" />
-      <edge source="2354694248" target="369504998" id="28" weight="1.0" />
-      <edge source="444087668" target="414312564" id="29" weight="1.0" />
-      <edge source="473989337" target="409684385" id="30" weight="1.0" />
-      <edge source="473989337" target="285628591" id="31" weight="1.0" />
-      <edge source="473989337" target="1891529887" id="32" weight="1.0" />
-      <edge source="409684385" target="285628591" id="33" weight="1.0" />
-      <edge source="409684385" target="1891529887" id="34" weight="1.0" />
-      <edge source="565760153" target="392740026" id="35" weight="1.0" />
-      <edge source="1514262950" target="2515839411" id="36" weight="1.0" />
-      <edge source="1514262950" target="1974679544" id="37" weight="1.0" />
-      <edge source="2515839411" target="1974679544" id="38" weight="1.0" />
-      <edge source="340174496" target="392740026" id="39" weight="1.0" />
-      <edge source="340174496" target="356732032" id="40" weight="1.0" />
-      <edge source="340174496" target="408488536" id="41" weight="1.0" />
-      <edge source="149574120" target="564721530" id="42" weight="1.0" />
-      <edge source="285628591" target="1891529887" id="43" weight="1.0" />
-      <edge source="976200576" target="369029762" id="44" weight="1.0" />
-      <edge source="392740026" target="38291055" id="45" weight="1.0" />
-      <edge source="392740026" target="356732032" id="46" weight="1.0" />
-      <edge source="392740026" target="408488536" id="47" weight="1.0" />
-      <edge source="356732032" target="408488536" id="48" weight="1.0" />
+      <edge source="280642135" target="392740026" id="5" weight="2.0" />
+      <edge source="280642135" target="38291055" id="6" weight="1.0" />
+      <edge source="280642135" target="2808218208" id="7" weight="1.0" />
+      <edge source="280642135" target="565760153" id="8" weight="1.0" />
+      <edge source="133787945" target="340174496" id="9" weight="1.0" />
+      <edge source="133787945" target="392740026" id="10" weight="1.0" />
+      <edge source="133787945" target="356732032" id="11" weight="1.0" />
+      <edge source="133787945" target="38291055" id="12" weight="1.0" />
+      <edge source="133787945" target="408488536" id="13" weight="1.0" />
+      <edge source="891804792" target="1561180602" id="14" weight="1.0" />
+      <edge source="891804792" target="291920996" id="15" weight="1.0" />
+      <edge source="891804792" target="1514262950" id="16" weight="1.0" />
+      <edge source="891804792" target="2515839411" id="17" weight="1.0" />
+      <edge source="891804792" target="149574120" id="18" weight="1.0" />
+      <edge source="891804792" target="564721530" id="19" weight="1.0" />
+      <edge source="891804792" target="369029762" id="20" weight="1.0" />
+      <edge source="891804792" target="1974679544" id="21" weight="1.0" />
+      <edge source="891804792" target="976200576" id="22" weight="1.0" />
+      <edge source="1561180602" target="291920996" id="23" weight="1.0" />
+      <edge source="1561180602" target="1514262950" id="24" weight="1.0" />
+      <edge source="1561180602" target="2515839411" id="25" weight="1.0" />
+      <edge source="1561180602" target="149574120" id="26" weight="1.0" />
+      <edge source="1561180602" target="564721530" id="27" weight="1.0" />
+      <edge source="1561180602" target="369029762" id="28" weight="1.0" />
+      <edge source="1561180602" target="1974679544" id="29" weight="1.0" />
+      <edge source="1561180602" target="976200576" id="30" weight="1.0" />
+      <edge source="2847104915" target="1443911370" id="31" weight="1.0" />
+      <edge source="2847104915" target="2386770957" id="32" weight="1.0" />
+      <edge source="2847104915" target="2354694248" id="33" weight="1.0" />
+      <edge source="2847104915" target="369504998" id="34" weight="1.0" />
+      <edge source="291920996" target="1514262950" id="35" weight="1.0" />
+      <edge source="291920996" target="2515839411" id="36" weight="1.0" />
+      <edge source="291920996" target="149574120" id="37" weight="1.0" />
+      <edge source="291920996" target="564721530" id="38" weight="1.0" />
+      <edge source="291920996" target="369029762" id="39" weight="1.0" />
+      <edge source="291920996" target="1974679544" id="40" weight="1.0" />
+      <edge source="291920996" target="976200576" id="41" weight="1.0" />
+      <edge source="1443911370" target="2386770957" id="42" weight="1.0" />
+      <edge source="1443911370" target="2354694248" id="43" weight="1.0" />
+      <edge source="1443911370" target="369504998" id="44" weight="1.0" />
+      <edge source="2724077721" target="473989337" id="45" weight="1.0" />
+      <edge source="2724077721" target="409684385" id="46" weight="1.0" />
+      <edge source="2724077721" target="565760153" id="47" weight="1.0" />
+      <edge source="2724077721" target="285628591" id="48" weight="1.0" />
+      <edge source="2724077721" target="1891529887" id="49" weight="1.0" />
+      <edge source="2808218208" target="565760153" id="50" weight="1.0" />
+      <edge source="2808218208" target="392740026" id="51" weight="1.0" />
+      <edge source="2386770957" target="2354694248" id="52" weight="1.0" />
+      <edge source="2386770957" target="369504998" id="53" weight="1.0" />
+      <edge source="2354694248" target="369504998" id="54" weight="1.0" />
+      <edge source="444087668" target="414312564" id="55" weight="1.0" />
+      <edge source="473989337" target="409684385" id="56" weight="1.0" />
+      <edge source="473989337" target="565760153" id="57" weight="1.0" />
+      <edge source="473989337" target="285628591" id="58" weight="1.0" />
+      <edge source="473989337" target="1891529887" id="59" weight="1.0" />
+      <edge source="409684385" target="565760153" id="60" weight="1.0" />
+      <edge source="409684385" target="285628591" id="61" weight="1.0" />
+      <edge source="409684385" target="1891529887" id="62" weight="1.0" />
+      <edge source="565760153" target="285628591" id="63" weight="1.0" />
+      <edge source="565760153" target="1891529887" id="64" weight="1.0" />
+      <edge source="565760153" target="392740026" id="65" weight="1.0" />
+      <edge source="1514262950" target="2515839411" id="66" weight="1.0" />
+      <edge source="1514262950" target="149574120" id="67" weight="1.0" />
+      <edge source="1514262950" target="564721530" id="68" weight="1.0" />
+      <edge source="1514262950" target="369029762" id="69" weight="1.0" />
+      <edge source="1514262950" target="1974679544" id="70" weight="1.0" />
+      <edge source="1514262950" target="976200576" id="71" weight="1.0" />
+      <edge source="2515839411" target="149574120" id="72" weight="1.0" />
+      <edge source="2515839411" target="564721530" id="73" weight="1.0" />
+      <edge source="2515839411" target="369029762" id="74" weight="1.0" />
+      <edge source="2515839411" target="1974679544" id="75" weight="1.0" />
+      <edge source="2515839411" target="976200576" id="76" weight="1.0" />
+      <edge source="340174496" target="392740026" id="77" weight="1.0" />
+      <edge source="340174496" target="356732032" id="78" weight="1.0" />
+      <edge source="340174496" target="38291055" id="79" weight="1.0" />
+      <edge source="340174496" target="408488536" id="80" weight="1.0" />
+      <edge source="149574120" target="564721530" id="81" weight="1.0" />
+      <edge source="149574120" target="369029762" id="82" weight="1.0" />
+      <edge source="149574120" target="1974679544" id="83" weight="1.0" />
+      <edge source="149574120" target="976200576" id="84" weight="1.0" />
+      <edge source="285628591" target="1891529887" id="85" weight="1.0" />
+      <edge source="976200576" target="564721530" id="86" weight="1.0" />
+      <edge source="976200576" target="369029762" id="87" weight="1.0" />
+      <edge source="976200576" target="1974679544" id="88" weight="1.0" />
+      <edge source="392740026" target="38291055" id="89" weight="2.0" />
+      <edge source="392740026" target="356732032" id="90" weight="1.0" />
+      <edge source="392740026" target="408488536" id="91" weight="1.0" />
+      <edge source="356732032" target="38291055" id="92" weight="1.0" />
+      <edge source="356732032" target="408488536" id="93" weight="1.0" />
+      <edge source="564721530" target="369029762" id="94" weight="1.0" />
+      <edge source="564721530" target="1974679544" id="95" weight="1.0" />
+      <edge source="369029762" target="1974679544" id="96" weight="1.0" />
+      <edge source="38291055" target="408488536" id="97" weight="1.0" />
     </edges>
   </graph>
 </gexf>

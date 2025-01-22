@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-21">
+  <meta lastmodifieddate="2025-01-22">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="20773" label="20773" />
-      <node id="8962" label="8962" />
-      <node id="27497" label="27497" />
-      <node id="2898" label="2898" />
-      <node id="1379" label="1379" />
-      <node id="27501" label="27501" />
-      <node id="27502" label="27502" />
-      <node id="4624" label="4624" />
-      <node id="27503" label="27503" />
-      <node id="27504" label="27504" />
-      <node id="27505" label="27505" />
+      <node id="paristagram" label="paristagram" />
+      <node id="babysitting" label="babysitting" />
+      <node id="enormes" label="enormes" />
+      <node id="hypercashervincennes" label="hypercashervincennes" />
+      <node id="instacat" label="instacat" />
+      <node id="idee" label="idee" />
+      <node id="regali" label="regali" />
+      <node id="onarrivequand" label="onarrivequand" />
+      <node id="crisi" label="crisi" />
+      <node id="mgsphantompain" label="mgsphantompain" />
+      <node id="diplomacy" label="diplomacy" />
     </nodes>
     <edges>
-      <edge source="8962" target="27497" id="0" weight="1.0" />
-      <edge source="8962" target="2898" id="1" weight="1.0" />
-      <edge source="27497" target="2898" id="2" weight="1.0" />
-      <edge source="27503" target="27504" id="3" weight="1.0" />
-      <edge source="27503" target="27505" id="4" weight="1.0" />
-      <edge source="27504" target="27505" id="5" weight="1.0" />
+      <edge source="babysitting" target="enormes" id="0" weight="1.0" />
+      <edge source="babysitting" target="hypercashervincennes" id="1" weight="1.0" />
+      <edge source="enormes" target="hypercashervincennes" id="2" weight="1.0" />
+      <edge source="crisi" target="mgsphantompain" id="3" weight="1.0" />
+      <edge source="crisi" target="diplomacy" id="4" weight="1.0" />
+      <edge source="mgsphantompain" target="diplomacy" id="5" weight="1.0" />
     </edges>
   </graph>
 </gexf>

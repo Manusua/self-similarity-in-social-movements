@@ -1,45 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-21">
+  <meta lastmodifieddate="2025-01-22">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="1480" label="1480" />
-      <node id="5606" label="5606" />
-      <node id="1493" label="1493" />
-      <node id="1492" label="1492" />
-      <node id="5607" label="5607" />
-      <node id="1040" label="1040" />
-      <node id="1494" label="1494" />
-      <node id="5533" label="5533" />
-      <node id="3753" label="3753" />
-      <node id="3754" label="3754" />
-      <node id="5608" label="5608" />
-      <node id="1502" label="1502" />
-      <node id="5609" label="5609" />
-      <node id="1361" label="1361" />
-      <node id="5610" label="5610" />
+      <node id="hostelproblems" label="hostelproblems" />
+      <node id="campus" label="campus" />
+      <node id="speedtest" label="speedtest" />
+      <node id="universitedelorraine" label="universitedelorraine" />
+      <node id="russeltovey" label="russeltovey" />
+      <node id="strasbourg" label="strasbourg" />
+      <node id="3g" label="3g" />
+      <node id="pasdeconclusionhative" label="pasdeconclusionhative" />
+      <node id="parlement" label="parlement" />
+      <node id="europeen" label="europeen" />
+      <node id="couple" label="couple" />
+      <node id="afp" label="afp" />
+      <node id="mariage" label="mariage" />
+      <node id="kundera" label="kundera" />
+      <node id="islamistes" label="islamistes" />
     </nodes>
     <edges>
-      <edge source="5606" target="1493" id="0" weight="1.0" />
-      <edge source="5606" target="1492" id="1" weight="1.0" />
-      <edge source="5606" target="5607" id="2" weight="1.0" />
-      <edge source="5606" target="1040" id="3" weight="1.0" />
-      <edge source="5606" target="1494" id="4" weight="1.0" />
-      <edge source="1493" target="1492" id="5" weight="1.0" />
-      <edge source="1493" target="5607" id="6" weight="1.0" />
-      <edge source="1493" target="1040" id="7" weight="1.0" />
-      <edge source="1493" target="1494" id="8" weight="1.0" />
-      <edge source="1492" target="5607" id="9" weight="1.0" />
-      <edge source="1492" target="1040" id="10" weight="1.0" />
-      <edge source="1492" target="1494" id="11" weight="1.0" />
-      <edge source="5607" target="1040" id="12" weight="1.0" />
-      <edge source="5607" target="1494" id="13" weight="1.0" />
-      <edge source="1040" target="1494" id="14" weight="1.0" />
-      <edge source="3753" target="3754" id="15" weight="1.0" />
-      <edge source="3753" target="5608" id="16" weight="1.0" />
-      <edge source="3754" target="5608" id="17" weight="1.0" />
+      <edge source="campus" target="speedtest" id="0" weight="1.0" />
+      <edge source="campus" target="universitedelorraine" id="1" weight="1.0" />
+      <edge source="campus" target="russeltovey" id="2" weight="1.0" />
+      <edge source="campus" target="strasbourg" id="3" weight="1.0" />
+      <edge source="campus" target="3g" id="4" weight="1.0" />
+      <edge source="speedtest" target="universitedelorraine" id="5" weight="1.0" />
+      <edge source="speedtest" target="russeltovey" id="6" weight="1.0" />
+      <edge source="speedtest" target="strasbourg" id="7" weight="1.0" />
+      <edge source="speedtest" target="3g" id="8" weight="1.0" />
+      <edge source="universitedelorraine" target="russeltovey" id="9" weight="1.0" />
+      <edge source="universitedelorraine" target="strasbourg" id="10" weight="1.0" />
+      <edge source="universitedelorraine" target="3g" id="11" weight="1.0" />
+      <edge source="russeltovey" target="strasbourg" id="12" weight="1.0" />
+      <edge source="russeltovey" target="3g" id="13" weight="1.0" />
+      <edge source="strasbourg" target="3g" id="14" weight="1.0" />
+      <edge source="parlement" target="europeen" id="15" weight="1.0" />
+      <edge source="parlement" target="couple" id="16" weight="1.0" />
+      <edge source="europeen" target="couple" id="17" weight="1.0" />
     </edges>
   </graph>
 </gexf>

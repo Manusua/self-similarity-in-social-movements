@@ -1,56 +1,70 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-21">
+  <meta lastmodifieddate="2025-01-22">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="1003" label="1003" />
-      <node id="1039" label="1039" />
-      <node id="1085" label="1085" />
-      <node id="1032" label="1032" />
-      <node id="10177" label="10177" />
-      <node id="1843" label="1843" />
-      <node id="1005" label="1005" />
-      <node id="1033" label="1033" />
-      <node id="4346" label="4346" />
-      <node id="1427" label="1427" />
-      <node id="1939" label="1939" />
-      <node id="1674" label="1674" />
-      <node id="16546" label="16546" />
-      <node id="10803" label="10803" />
-      <node id="1109" label="1109" />
-      <node id="1055" label="1055" />
-      <node id="1004" label="1004" />
+      <node id="lafranceestcharlie" label="lafranceestcharlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="noussommestouscharlie" label="noussommestouscharlie" />
+      <node id="lyonestcharlie" label="lyonestcharlie" />
+      <node id="renne" label="renne" />
+      <node id="parisestcharlie" label="parisestcharlie" />
+      <node id="bordeaux" label="bordeaux" />
+      <node id="11janvier" label="11janvier" />
+      <node id="pari" label="pari" />
+      <node id="marchedu11janvier" label="marchedu11janvier" />
+      <node id="liberte" label="liberte" />
+      <node id="jesuisjuif" label="jesuisjuif" />
+      <node id="france" label="france" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="republique" label="republique" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="jesuispolicier" label="jesuispolicier" />
+      <node id="charlie" label="charlie" />
+      <node id="nation" label="nation" />
+      <node id="jesuischarlie" label="jesuischarlie" />
     </nodes>
     <edges>
-      <edge source="1003" target="1004" id="4" weight="30.0" />
-      <edge source="1003" target="10803" id="10" weight="7.0" />
-      <edge source="1003" target="1005" id="14" weight="7.0" />
-      <edge source="1003" target="1085" id="16" weight="11.0" />
-      <edge source="1039" target="1004" id="178" weight="5.0" />
-      <edge source="1085" target="1004" id="122" weight="85.0" />
-      <edge source="1085" target="10803" id="423" weight="19.0" />
-      <edge source="1085" target="1005" id="428" weight="10.0" />
-      <edge source="1085" target="1033" id="432" weight="10.0" />
-      <edge source="1085" target="4346" id="438" weight="7.0" />
-      <edge source="1032" target="1004" id="151" weight="12.0" />
-      <edge source="1032" target="1033" id="740" weight="5.0" />
-      <edge source="10177" target="1004" id="198" weight="5.0" />
-      <edge source="1843" target="1004" id="196" weight="7.0" />
-      <edge source="1005" target="1004" id="193" weight="22.0" />
-      <edge source="1005" target="10803" id="545" weight="5.0" />
-      <edge source="1033" target="1004" id="128" weight="25.0" />
-      <edge source="1033" target="10803" id="540" weight="6.0" />
-      <edge source="4346" target="1004" id="134" weight="8.0" />
-      <edge source="1427" target="1004" id="248" weight="5.0" />
-      <edge source="1939" target="1004" id="256" weight="6.0" />
-      <edge source="1674" target="1004" id="137" weight="18.0" />
-      <edge source="1674" target="10803" id="535" weight="5.0" />
-      <edge source="16546" target="1004" id="100" weight="5.0" />
-      <edge source="10803" target="1004" id="124" weight="29.0" />
-      <edge source="1109" target="1004" id="226" weight="9.0" />
-      <edge source="1055" target="1004" id="247" weight="6.0" />
+      <edge source="lafranceestcharlie" target="marcherepublicaine" id="113" weight="9.0" />
+      <edge source="lafranceestcharlie" target="jesuischarlie" id="256" weight="8.0" />
+      <edge source="charliehebdo" target="marcherepublicaine" id="1" weight="17.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="4" weight="36.0" />
+      <edge source="charliehebdo" target="marchedu11janvier" id="9" weight="7.0" />
+      <edge source="charliehebdo" target="noussommescharlie" id="13" weight="8.0" />
+      <edge source="charliehebdo" target="pari" id="28" weight="7.0" />
+      <edge source="noussommestouscharlie" target="jesuischarlie" id="331" weight="6.0" />
+      <edge source="lyonestcharlie" target="jesuischarlie" id="320" weight="5.0" />
+      <edge source="renne" target="jesuischarlie" id="300" weight="5.0" />
+      <edge source="parisestcharlie" target="jesuischarlie" id="365" weight="8.0" />
+      <edge source="bordeaux" target="jesuischarlie" id="323" weight="5.0" />
+      <edge source="11janvier" target="marcherepublicaine" id="132" weight="5.0" />
+      <edge source="11janvier" target="jesuischarlie" id="317" weight="9.0" />
+      <edge source="pari" target="marcherepublicaine" id="108" weight="14.0" />
+      <edge source="pari" target="jesuischarlie" id="248" weight="37.0" />
+      <edge source="pari" target="marchedu11janvier" id="504" weight="6.0" />
+      <edge source="pari" target="liberte" id="552" weight="6.0" />
+      <edge source="pari" target="france" id="555" weight="9.0" />
+      <edge source="pari" target="noussommescharlie" id="568" weight="5.0" />
+      <edge source="pari" target="republique" id="569" weight="7.0" />
+      <edge source="marchedu11janvier" target="marcherepublicaine" id="95" weight="25.0" />
+      <edge source="marchedu11janvier" target="jesuischarlie" id="244" weight="30.0" />
+      <edge source="marchedu11janvier" target="noussommescharlie" id="509" weight="5.0" />
+      <edge source="liberte" target="marcherepublicaine" id="114" weight="7.0" />
+      <edge source="liberte" target="jesuischarlie" id="269" weight="12.0" />
+      <edge source="jesuisjuif" target="jesuischarlie" id="261" weight="5.0" />
+      <edge source="france" target="jesuischarlie" id="272" weight="17.0" />
+      <edge source="noussommescharlie" target="marcherepublicaine" id="102" weight="13.0" />
+      <edge source="noussommescharlie" target="jesuischarlie" id="251" weight="25.0" />
+      <edge source="noussommescharlie" target="charlie" id="708" weight="5.0" />
+      <edge source="republique" target="jesuischarlie" id="354" weight="13.0" />
+      <edge source="marcherepublicaine" target="jesuischarlie" id="93" weight="109.0" />
+      <edge source="marcherepublicaine" target="charlie" id="140" weight="6.0" />
+      <edge source="marcherepublicaine" target="nation" id="157" weight="5.0" />
+      <edge source="jesuispolicier" target="jesuischarlie" id="260" weight="5.0" />
+      <edge source="charlie" target="jesuischarlie" id="355" weight="9.0" />
+      <edge source="nation" target="jesuischarlie" id="351" weight="5.0" />
     </edges>
   </graph>
 </gexf>
