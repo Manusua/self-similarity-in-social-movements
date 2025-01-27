@@ -1,22 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="respectformuslims" label="respectformuslims" />
+      <node id="respectformuslim" label="respectformuslim" />
       <node id="jesuischarlie" label="jesuischarlie" />
-      <node id="halo5" label="halo5" />
-      <node id="jesuishumain" label="jesuishumain" />
+      <node id="rungi" label="rungi" />
+      <node id="mondestone" label="mondestone" />
       <node id="charliehebdo" label="charliehebdo" />
       <node id="france" label="france" />
-      <node id="tf1" label="tf1" />
-      <node id="rungis" label="rungis" />
-      <node id="mondestone" label="mondestone" />
+      <node id="lemonde" label="lemonde" />
       <node id="musulman" label="musulman" />
-      <node id="chretiens" label="chretiens" />
-      <node id="juifs" label="juifs" />
+      <node id="chretien" label="chretien" />
+      <node id="juif" label="juif" />
       <node id="mememessage" label="mememessage" />
       <node id="paix" label="paix" />
       <node id="peace" label="peace" />
@@ -27,87 +25,152 @@
       <node id="ss15" label="ss15" />
       <node id="jebaisephiladelphe" label="jebaisephiladelphe" />
       <node id="jebaiseflashinfo" label="jebaiseflashinfo" />
-      <node id="jevousbaises" label="jevousbaises" />
+      <node id="jevousbaise" label="jevousbaise" />
       <node id="jesuisennemy" label="jesuisennemy" />
-      <node id="mauvaises" label="mauvaises" />
-      <node id="paris" label="paris" />
+      <node id="mauvaise" label="mauvaise" />
       <node id="canal" label="canal" />
       <node id="npr" label="npr" />
-      <node id="opcharliehebdo" label="opcharliehebdo" />
-      <node id="ericzemmour" label="ericzemmour" />
-      <node id="hostelproblems" label="hostelproblems" />
+      <node id="pari" label="pari" />
+      <node id="hostelproblem" label="hostelproblem" />
       <node id="iwantmybeautysleep" label="iwantmybeautysleep" />
-      <node id="kundera" label="kundera" />
+      <node id="opcharliehebdo" label="opcharliehebdo" />
+      <node id="anonymou" label="anonymou" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="bourdindirect" label="bourdindirect" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="fn" label="fn" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="uber" label="uber" />
+      <node id="on" label="on" />
+      <node id="journalisteforever" label="journalisteforever" />
+      <node id="police" label="police" />
+      <node id="campu" label="campu" />
+      <node id="universitedelorraine" label="universitedelorraine" />
+      <node id="speedtest" label="speedtest" />
+      <node id="3g" label="3g" />
+      <node id="freemobile" label="freemobile" />
+      <node id="sensorly" label="sensorly" />
+      <node id="strasbourg" label="strasbourg" />
+      <node id="met" label="met" />
+      <node id="britain" label="britain" />
+      <node id="metz" label="metz" />
+      <node id="ff" label="ff" />
+      <node id="knick" label="knick" />
+      <node id="afp" label="afp" />
+      <node id="offagain" label="offagain" />
+      <node id="bringbackourgirl" label="bringbackourgirl" />
+      <node id="sansrancune" label="sansrancune" />
+      <node id="morningdedifool" label="morningdedifool" />
+      <node id="stephanie" label="stephanie" />
+      <node id="skyrock" label="skyrock" />
+      <node id="cabu" label="cabu" />
     </nodes>
     <edges>
-      <edge source="respectformuslims" target="charliehebdo" id="0" weight="1.0" />
-      <edge source="respectformuslims" target="paix" id="1" weight="1.0" />
-      <edge source="respectformuslims" target="peace" id="2" weight="1.0" />
-      <edge source="jesuischarlie" target="charliehebdo" id="3" weight="1.0" />
-      <edge source="jesuischarlie" target="jevousbaises" id="4" weight="1.0" />
-      <edge source="jesuischarlie" target="jesuisennemy" id="5" weight="1.0" />
-      <edge source="jesuischarlie" target="hostelproblems" id="6" weight="1.0" />
-      <edge source="jesuishumain" target="charliehebdo" id="7" weight="1.0" />
-      <edge source="jesuishumain" target="france" id="8" weight="1.0" />
-      <edge source="jesuishumain" target="tf1" id="9" weight="1.0" />
-      <edge source="jesuishumain" target="rungis" id="10" weight="1.0" />
-      <edge source="jesuishumain" target="mondestone" id="11" weight="1.0" />
-      <edge source="jesuishumain" target="musulman" id="12" weight="1.0" />
-      <edge source="jesuishumain" target="chretiens" id="13" weight="1.0" />
-      <edge source="jesuishumain" target="juifs" id="14" weight="1.0" />
-      <edge source="jesuishumain" target="mememessage" id="15" weight="1.0" />
-      <edge source="charliehebdo" target="france" id="16" weight="1.0" />
-      <edge source="charliehebdo" target="tf1" id="17" weight="1.0" />
-      <edge source="charliehebdo" target="rungis" id="18" weight="1.0" />
-      <edge source="charliehebdo" target="mondestone" id="19" weight="1.0" />
-      <edge source="charliehebdo" target="musulman" id="20" weight="1.0" />
-      <edge source="charliehebdo" target="chretiens" id="21" weight="1.0" />
-      <edge source="charliehebdo" target="juifs" id="22" weight="1.0" />
-      <edge source="charliehebdo" target="mememessage" id="23" weight="1.0" />
-      <edge source="france" target="tf1" id="24" weight="1.0" />
-      <edge source="france" target="rungis" id="25" weight="1.0" />
-      <edge source="france" target="mondestone" id="26" weight="1.0" />
-      <edge source="france" target="musulman" id="27" weight="1.0" />
-      <edge source="france" target="chretiens" id="28" weight="1.0" />
-      <edge source="france" target="juifs" id="29" weight="1.0" />
-      <edge source="france" target="mememessage" id="30" weight="1.0" />
-      <edge source="france" target="mauvaises" id="31" weight="1.0" />
-      <edge source="france" target="paris" id="32" weight="1.0" />
-      <edge source="tf1" target="rungis" id="33" weight="1.0" />
-      <edge source="tf1" target="mondestone" id="34" weight="1.0" />
-      <edge source="tf1" target="musulman" id="35" weight="1.0" />
-      <edge source="tf1" target="chretiens" id="36" weight="1.0" />
-      <edge source="tf1" target="juifs" id="37" weight="1.0" />
-      <edge source="tf1" target="mememessage" id="38" weight="1.0" />
-      <edge source="rungis" target="mondestone" id="39" weight="1.0" />
-      <edge source="rungis" target="musulman" id="40" weight="1.0" />
-      <edge source="rungis" target="chretiens" id="41" weight="1.0" />
-      <edge source="rungis" target="juifs" id="42" weight="1.0" />
-      <edge source="rungis" target="mememessage" id="43" weight="1.0" />
-      <edge source="mondestone" target="musulman" id="44" weight="1.0" />
-      <edge source="mondestone" target="chretiens" id="45" weight="1.0" />
-      <edge source="mondestone" target="juifs" id="46" weight="1.0" />
-      <edge source="mondestone" target="mememessage" id="47" weight="1.0" />
-      <edge source="musulman" target="chretiens" id="48" weight="1.0" />
-      <edge source="musulman" target="juifs" id="49" weight="1.0" />
-      <edge source="musulman" target="mememessage" id="50" weight="1.0" />
-      <edge source="chretiens" target="juifs" id="51" weight="1.0" />
-      <edge source="chretiens" target="mememessage" id="52" weight="1.0" />
-      <edge source="juifs" target="mememessage" id="53" weight="1.0" />
-      <edge source="paix" target="peace" id="54" weight="1.0" />
-      <edge source="teammuslim" target="iamcharlie" id="55" weight="1.0" />
-      <edge source="teammuslim" target="pfw" id="56" weight="1.0" />
-      <edge source="iamcharlie" target="pfw" id="57" weight="1.0" />
-      <edge source="women" target="ss15" id="58" weight="1.0" />
-      <edge source="women" target="jebaisephiladelphe" id="59" weight="1.0" />
-      <edge source="women" target="jebaiseflashinfo" id="60" weight="1.0" />
-      <edge source="ss15" target="jebaisephiladelphe" id="61" weight="1.0" />
-      <edge source="ss15" target="jebaiseflashinfo" id="62" weight="1.0" />
-      <edge source="jebaisephiladelphe" target="jebaiseflashinfo" id="63" weight="1.0" />
-      <edge source="jevousbaises" target="jesuisennemy" id="64" weight="1.0" />
-      <edge source="mauvaises" target="paris" id="65" weight="1.0" />
-      <edge source="canal" target="npr" id="66" weight="1.0" />
-      <edge source="opcharliehebdo" target="ericzemmour" id="67" weight="1.0" />
+      <edge source="respectformuslim" target="charliehebdo" id="0" weight="1.0" />
+      <edge source="respectformuslim" target="teammuslim" id="1" weight="1.0" />
+      <edge source="respectformuslim" target="iamcharlie" id="2" weight="1.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="3" weight="5.0" />
+      <edge source="jesuischarlie" target="mauvaise" id="4" weight="1.0" />
+      <edge source="jesuischarlie" target="canal" id="5" weight="1.0" />
+      <edge source="jesuischarlie" target="e1bonjour" id="6" weight="2.0" />
+      <edge source="jesuischarlie" target="fn" id="7" weight="1.0" />
+      <edge source="jesuischarlie" target="chaliehebdo" id="8" weight="1.0" />
+      <edge source="jesuischarlie" target="ff" id="9" weight="2.0" />
+      <edge source="jesuischarlie" target="afp" id="10" weight="1.0" />
+      <edge source="jesuischarlie" target="cabu" id="11" weight="1.0" />
+      <edge source="mondestone" target="charliehebdo" id="12" weight="1.0" />
+      <edge source="mondestone" target="france" id="13" weight="1.0" />
+      <edge source="mondestone" target="lemonde" id="14" weight="1.0" />
+      <edge source="mondestone" target="musulman" id="15" weight="1.0" />
+      <edge source="mondestone" target="chretien" id="16" weight="1.0" />
+      <edge source="mondestone" target="juif" id="17" weight="1.0" />
+      <edge source="mondestone" target="mememessage" id="18" weight="1.0" />
+      <edge source="mondestone" target="paix" id="19" weight="1.0" />
+      <edge source="mondestone" target="peace" id="20" weight="1.0" />
+      <edge source="charliehebdo" target="france" id="21" weight="1.0" />
+      <edge source="charliehebdo" target="lemonde" id="22" weight="1.0" />
+      <edge source="charliehebdo" target="musulman" id="23" weight="1.0" />
+      <edge source="charliehebdo" target="chretien" id="24" weight="1.0" />
+      <edge source="charliehebdo" target="juif" id="25" weight="1.0" />
+      <edge source="charliehebdo" target="mememessage" id="26" weight="1.0" />
+      <edge source="charliehebdo" target="paix" id="27" weight="1.0" />
+      <edge source="charliehebdo" target="peace" id="28" weight="1.0" />
+      <edge source="france" target="lemonde" id="29" weight="1.0" />
+      <edge source="france" target="musulman" id="30" weight="1.0" />
+      <edge source="france" target="chretien" id="31" weight="1.0" />
+      <edge source="france" target="juif" id="32" weight="1.0" />
+      <edge source="france" target="mememessage" id="33" weight="1.0" />
+      <edge source="france" target="paix" id="34" weight="1.0" />
+      <edge source="france" target="peace" id="35" weight="1.0" />
+      <edge source="france" target="npr" id="36" weight="1.0" />
+      <edge source="france" target="pari" id="37" weight="1.0" />
+      <edge source="france" target="britain" id="38" weight="1.0" />
+      <edge source="lemonde" target="musulman" id="39" weight="1.0" />
+      <edge source="lemonde" target="chretien" id="40" weight="1.0" />
+      <edge source="lemonde" target="juif" id="41" weight="1.0" />
+      <edge source="lemonde" target="mememessage" id="42" weight="1.0" />
+      <edge source="lemonde" target="paix" id="43" weight="1.0" />
+      <edge source="lemonde" target="peace" id="44" weight="1.0" />
+      <edge source="musulman" target="chretien" id="45" weight="1.0" />
+      <edge source="musulman" target="juif" id="46" weight="1.0" />
+      <edge source="musulman" target="mememessage" id="47" weight="1.0" />
+      <edge source="musulman" target="paix" id="48" weight="1.0" />
+      <edge source="musulman" target="peace" id="49" weight="1.0" />
+      <edge source="chretien" target="juif" id="50" weight="1.0" />
+      <edge source="chretien" target="mememessage" id="51" weight="1.0" />
+      <edge source="chretien" target="paix" id="52" weight="1.0" />
+      <edge source="chretien" target="peace" id="53" weight="1.0" />
+      <edge source="juif" target="mememessage" id="54" weight="1.0" />
+      <edge source="juif" target="paix" id="55" weight="1.0" />
+      <edge source="juif" target="peace" id="56" weight="1.0" />
+      <edge source="mememessage" target="paix" id="57" weight="1.0" />
+      <edge source="mememessage" target="peace" id="58" weight="1.0" />
+      <edge source="paix" target="peace" id="59" weight="1.0" />
+      <edge source="teammuslim" target="iamcharlie" id="60" weight="1.0" />
+      <edge source="pfw" target="women" id="61" weight="1.0" />
+      <edge source="pfw" target="ss15" id="62" weight="1.0" />
+      <edge source="women" target="ss15" id="63" weight="1.0" />
+      <edge source="jebaisephiladelphe" target="jebaiseflashinfo" id="64" weight="1.0" />
+      <edge source="jebaisephiladelphe" target="jevousbaise" id="65" weight="1.0" />
+      <edge source="jebaisephiladelphe" target="jesuisennemy" id="66" weight="1.0" />
+      <edge source="jebaiseflashinfo" target="jevousbaise" id="67" weight="1.0" />
+      <edge source="jebaiseflashinfo" target="jesuisennemy" id="68" weight="1.0" />
+      <edge source="jevousbaise" target="jesuisennemy" id="69" weight="1.0" />
+      <edge source="mauvaise" target="canal" id="70" weight="1.0" />
+      <edge source="npr" target="pari" id="71" weight="1.0" />
+      <edge source="npr" target="britain" id="72" weight="1.0" />
+      <edge source="pari" target="britain" id="73" weight="1.0" />
+      <edge source="pari" target="police" id="74" weight="1.0" />
+      <edge source="pari" target="campu" id="75" weight="1.0" />
+      <edge source="pari" target="universitedelorraine" id="76" weight="1.0" />
+      <edge source="pari" target="met" id="77" weight="1.0" />
+      <edge source="pari" target="metz" id="78" weight="1.0" />
+      <edge source="hostelproblem" target="iwantmybeautysleep" id="79" weight="1.0" />
+      <edge source="opcharliehebdo" target="anonymou" id="80" weight="1.0" />
+      <edge source="fn" target="chaliehebdo" id="81" weight="1.0" />
+      <edge source="police" target="campu" id="82" weight="1.0" />
+      <edge source="police" target="universitedelorraine" id="83" weight="1.0" />
+      <edge source="police" target="met" id="84" weight="1.0" />
+      <edge source="police" target="metz" id="85" weight="1.0" />
+      <edge source="campu" target="universitedelorraine" id="86" weight="1.0" />
+      <edge source="campu" target="met" id="87" weight="1.0" />
+      <edge source="campu" target="metz" id="88" weight="1.0" />
+      <edge source="universitedelorraine" target="met" id="89" weight="1.0" />
+      <edge source="universitedelorraine" target="metz" id="90" weight="1.0" />
+      <edge source="speedtest" target="3g" id="91" weight="1.0" />
+      <edge source="speedtest" target="freemobile" id="92" weight="1.0" />
+      <edge source="speedtest" target="sensorly" id="93" weight="1.0" />
+      <edge source="speedtest" target="strasbourg" id="94" weight="1.0" />
+      <edge source="3g" target="freemobile" id="95" weight="1.0" />
+      <edge source="3g" target="sensorly" id="96" weight="1.0" />
+      <edge source="3g" target="strasbourg" id="97" weight="1.0" />
+      <edge source="freemobile" target="sensorly" id="98" weight="1.0" />
+      <edge source="freemobile" target="strasbourg" id="99" weight="1.0" />
+      <edge source="sensorly" target="strasbourg" id="100" weight="1.0" />
+      <edge source="met" target="metz" id="101" weight="1.0" />
+      <edge source="morningdedifool" target="stephanie" id="102" weight="1.0" />
+      <edge source="morningdedifool" target="skyrock" id="103" weight="1.0" />
+      <edge source="stephanie" target="skyrock" id="104" weight="1.0" />
     </edges>
   </graph>
 </gexf>

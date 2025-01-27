@@ -1,32 +1,55 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
       <node id="bfmtv" label="bfmtv" />
-      <node id="sedefouler" label="sedefouler" />
-      <node id="ballondor" label="ballondor" />
-      <node id="docesonho" label="docesonho" />
-      <node id="award" label="award" />
+      <node id="terroriste" label="terroriste" />
+      <node id="pittiuomo" label="pittiuomo" />
+      <node id="fw15" label="fw15" />
+      <node id="eddymalou" label="eddymalou" />
       <node id="lrt" label="lrt" />
-      <node id="kundera" label="kundera" />
-      <node id="lts" label="lts" />
-      <node id="payemaviedemerde" label="payemaviedemerde" />
-      <node id="jsc" label="jsc" />
-      <node id="doodlediary" label="doodlediary" />
-      <node id="paroledesportivegourmande" label="paroledesportivegourmande" />
-      <node id="r5family" label="r5family" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="lt" label="lt" />
+      <node id="teambasket" label="teambasket" />
+      <node id="nbaextra" label="nbaextra" />
+      <node id="np" label="np" />
+      <node id="thunderup" label="thunderup" />
+      <node id="jujujul" label="jujujul" />
       <node id="off" label="off" />
-      <node id="littlesister" label="littlesister" />
+      <node id="ultraviolence" label="ultraviolence" />
+      <node id="surnomdemerde" label="surnomdemerde" />
+      <node id="bourre" label="bourre" />
+      <node id="soiree" label="soiree" />
+      <node id="tarn" label="tarn" />
+      <node id="vierge" label="vierge" />
+      <node id="aveyron" label="aveyron" />
+      <node id="ump" label="ump" />
+      <node id="seriepari" label="seriepari" />
+      <node id="sarahjanesauvegrain" label="sarahjanesauvegrain" />
+      <node id="parionssport" label="parionssport" />
+      <node id="mimicomestovega" label="mimicomestovega" />
+      <node id="vegaslambforlife" label="vegaslambforlife" />
+      <node id="belgica" label="belgica" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="redfoo" label="redfoo" />
+      <node id="champagnshower" label="champagnshower" />
     </nodes>
     <edges>
-      <edge source="bfmtv" target="sedefouler" id="0" weight="1.0" />
-      <edge source="ballondor" target="docesonho" id="1" weight="1.0" />
-      <edge source="lrt" target="r5family" id="2" weight="1.0" />
-      <edge source="kundera" target="lts" id="3" weight="1.0" />
-      <edge source="payemaviedemerde" target="jsc" id="4" weight="1.0" />
+      <edge source="bfmtv" target="terroriste" id="0" weight="1.0" />
+      <edge source="pittiuomo" target="fw15" id="1" weight="1.0" />
+      <edge source="lrt" target="jujujul" id="2" weight="2.0" />
+      <edge source="teaminsomniaque" target="lt" id="3" weight="1.0" />
+      <edge source="teambasket" target="nbaextra" id="4" weight="1.0" />
+      <edge source="surnomdemerde" target="bourre" id="5" weight="1.0" />
+      <edge source="surnomdemerde" target="soiree" id="6" weight="1.0" />
+      <edge source="bourre" target="soiree" id="7" weight="1.0" />
+      <edge source="tarn" target="aveyron" id="8" weight="1.0" />
+      <edge source="seriepari" target="sarahjanesauvegrain" id="9" weight="1.0" />
+      <edge source="mimicomestovega" target="vegaslambforlife" id="10" weight="1.0" />
+      <edge source="redfoo" target="champagnshower" id="11" weight="1.0" />
     </edges>
   </graph>
 </gexf>

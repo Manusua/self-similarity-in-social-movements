@@ -1,0 +1,329 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/01/25 3:09 UTC
+# Ended at:              2025/01/25 3:09 UTC
+# Elapsed CPU time:      6.79518 seconds
+# Edgelist file:         /data/422371.edge
+#
+# Parameters
+#   - nb. vertices:      282
+#   - beta:              35.8463
+#   - mu:                0.0868938
+#   - radius_S1:         44.8817
+#   - radius_H2:         15.7828
+#   - kappa_min:         0.621522
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#                     Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+                          8m         1.39311         5.74065         14.1686 
+                          bw         3.36639         2.21713          12.404 
+                          kc         4.09625         5.03381         12.0115 
+                          li         5.28617         2.62728         11.5015 
+                          rp         4.63731         5.09231         11.7634 
+                          uw        0.688546         4.77131          15.578 
+                          ya         4.00324         2.41642         12.0575 
+                         aau         4.69922         1.68172         11.7369 
+                         art          7.5614         2.05257         10.7855 
+                         awp         2.40373         5.43561         13.0776 
+                         bos         4.57701         2.32587         11.7896 
+                         die         4.12477         5.02683         11.9976 
+                         fly         2.40847         5.43786         13.0737 
+                         h20         10.9028         1.34778         10.0536 
+                         ism        0.688546         4.71454          15.578 
+                         iwd         2.41594         3.58311         13.0675 
+                         joy         4.56092         3.20571         11.7966 
+                         nxt         2.81529         5.30497         12.7615 
+                         nyc         22.6308         2.06294         8.59304 
+                         tbt         10.8756         2.15004         10.0586 
+                         thi         4.50866         2.41144         11.8197 
+                         wip         11.0576         1.28201         10.0254 
+                         wwe         1.95229         5.31116         13.4937 
+                         wwf          2.3915         5.30649         13.0878 
+                        afaa         3.82153          1.7041         12.1504 
+                        aola        0.688546         4.91908          15.578 
+                        crew         4.29034         5.04079         11.9189 
+                        elle         6.03247         4.84114         11.2373 
+                        fire         5.47305         4.96977          11.432 
+                        girl         17.0345         2.87202         9.16117 
+                        heat         6.07836          4.9605         11.2222 
+                        life         5.00374         4.86752         11.6113 
+                        live         7.19934         3.33044         10.8837 
+                        love         24.7797         3.29412         8.41161 
+                        md80         1.24757         5.51653         14.3893 
+                        nasm         4.54328         1.68602         11.8044 
+                        ride          4.4762         5.03876         11.8341 
+                        slay         1.99517         5.49461         13.4502 
+                        texa         3.56411         2.56603         12.2898 
+                        time         6.03753         4.83025         11.2357 
+                        wive         6.05817         3.00038         11.2288 
+                       bride        0.688546         4.76478          15.578 
+                       coach         15.8845         1.88874         9.30097 
+                       happy         4.64437          5.1561         11.7603 
+                       heroe         1.54331         5.85852         13.9638 
+                       ladie         5.88188         2.97267         11.2879 
+                       laugh         6.57209         3.30452          11.066 
+                       lunch         3.32951          5.1949          12.426 
+                       power         5.10996          2.6203         11.5693 
+                       queen         3.20876         5.79344         12.4999 
+                       sadie         4.02093          1.8981         12.0486 
+                       sloan         1.10888         2.14063          14.625 
+                       tampa         2.40846         5.43773         13.0737 
+                       teach         6.86373         3.31844         10.9792 
+                       tyson         4.27924         1.89947         11.9241 
+                       vogue         5.21726         4.86229         11.5277 
+                       woman         3.65472         2.35008         12.2396 
+                       women          31.725         2.83531         7.91745 
+                      amazon         5.29505         3.42519         11.4981 
+                      artist         10.8327         1.46172         10.0665 
+                      beauty         5.98712         2.63426         11.2524 
+                      belvie          3.9475          1.8912         12.0855 
+                      boobie         6.31849          3.4749         11.1447 
+                      dancer         5.71716          4.9668         11.3447 
+                      denver         2.09066         2.24391         13.3567 
+                      female         9.64041         2.88482         10.2997 
+                      fierce         8.86246         2.41792          10.468 
+                      forney         4.15011         2.58463         11.9854 
+                      galpal         1.67507         5.70287         13.7999 
+                      getfit         3.80073         2.57884         12.1613 
+                      gogirl          2.4085         5.41808         13.0737 
+                      grlpwr         2.46819         5.70931         13.0247 
+                      igmood         3.76994         2.21937         12.1775 
+                      latina         4.32682         4.98417          11.902 
+                      march8         1.38786         5.72836         14.1761 
+                      mygirl         1.47884         5.80103         14.0491 
+                      pinkie         2.40374         5.47495         13.0776 
+                      poetry         1.51925         5.84442         13.9952 
+                      rachel         1.49874         5.83122         14.0224 
+                      regram         5.63219         2.43621         11.3747 
+                      repost         5.55244         2.28362         11.4032 
+                      reverb          3.3995         5.55361         12.3844 
+                      salute         2.33234         2.97413         13.1379 
+                      selfie        0.688546         4.71071          15.578 
+                      sister         20.8989         3.06285         8.75227 
+                      strong         8.66665         2.34817         10.5127 
+                      vagart          4.7085         2.06823         11.7329 
+                      wisdom         6.48315         3.30063         11.0932 
+                     beyonce         1.41367         5.76704         14.1393 
+                     captain         1.05583         5.51428          14.723 
+                     chelsea         13.6233         1.95115         9.60809 
+                     cupcake         1.36636          5.3309         14.2074 
+                     freedom         2.40854         5.65169         13.0736 
+                     girlbos        0.688546         4.70008          15.578 
+                     igymfit         1.33552          5.6636          14.253 
+                     ipinkie          2.4085         5.47719         13.0737 
+                     iwd2018          7.9796         3.53932         10.6779 
+                     lovethi         3.44387         2.41555         12.3585 
+                     loveyah          2.2219          2.8136         13.2349 
+                     respect         6.76965         3.35206         11.0068 
+                     seattle         5.82698         3.43376         11.3067 
+                     stength         7.16782         3.33099         10.8925 
+                     supreme          4.0894          2.1192         12.0149 
+                     tbt2008        0.688546         4.73879          15.578 
+                     teatime         3.54479         5.26618         12.3007 
+                     textart         10.9052         1.34442         10.0532 
+                     thesisi         1.21535         5.53619         14.4416 
+                     timesup        0.688546          4.6913          15.578 
+                     tonight         1.38727         5.72745          14.177 
+                     toronto        0.866186         4.40825          15.119 
+                     webguru         3.07456         2.25815         12.5853 
+                    bookface         2.04906         2.17481         13.3969 
+                    bossbabe           3.746         5.36036         12.1903 
+                    bossmove        0.722166         4.49905         15.4827 
+                    caliente         6.22057         4.94073         11.1759 
+                    daughter         1.46714         3.54234          14.065 
+                    equality         1.34781         5.66817         14.2347 
+                    feminist        0.688546         4.63139          15.578 
+                    girlgang        0.688664         4.57167         15.5777 
+                    goddesse        0.688546         4.89877          15.578 
+                    goodvibe         3.42291         5.19957         12.3707 
+                    intimate         2.22945         5.38111         13.2282 
+                    madeinla         2.02205         5.39955         13.4234 
+                    march8th         1.51547         5.57328         14.0002 
+                    nofilter         2.94748         2.34896         12.6698 
+                    nomakeup          3.2455         2.36223         12.4771 
+                    painting         10.8993          1.3789         10.0543 
+                    portrait         10.9016         1.37707         10.0538 
+                    rosaleen        0.688546         4.90532          15.578 
+                    strength         10.3542         2.51065         10.1569 
+                    wmursnow         1.50988         5.71516         14.0076 
+                    wordporn         10.9077         1.30745         10.0527 
+                    worth100        0.688546         4.68588          15.578 
+                   ambeetiou         6.72711         2.50037         11.0194 
+                   beautiful         6.77803         2.50999         11.0043 
+                   businesse         4.46361          5.1578         11.8397 
+                   chocolate          2.9352         5.32882         12.6781 
+                   craftbeer         1.17155         3.57082          14.515 
+                   dogwalker         6.18783         1.86089         11.1865 
+                   education         5.79149         2.71595         11.3189 
+                   girlbosse        0.688546         4.90105          15.578 
+                   girlpower         4.67371         5.66036         11.7478 
+                   hello2018         2.44837         5.34558         13.0408 
+                   invention         5.78908          2.7122         11.3197 
+                   jaguarxj6         1.56543         5.87172         13.9353 
+                   justsayin         3.58139         2.28034         12.2802 
+                   likewater         10.9088         1.30373         10.0525 
+                   nashville         3.74589         2.22944         12.1903 
+                   outlander         3.55054         5.23187         12.2975 
+                   timeisnow        0.758545         4.47502         15.3844 
+                   womansart         4.33533         2.04964         11.8981 
+                   womansday         2.88326         5.38542         12.7138 
+                   womensday         1.40182         5.75385         14.1561 
+                  ceeceeking         5.68678         4.85525         11.3554 
+                  engagement        0.688546         5.00669          15.578 
+                  epiphanypr         1.87996         5.53395         13.5692 
+                  eventspace         1.40252         5.75475         14.1551 
+                  focusonyou         4.25084         1.55237         11.9374 
+                  girlfriend         3.99212         2.95907          12.063 
+                  ilovemyjob         4.20398         1.90051         11.9596 
+                  jazzercise         4.00909         2.59218         12.0545 
+                  lamusician         5.78816         2.70366           11.32 
+                  lenawaithe         5.60174         2.70213         11.3855 
+                  loveforsam         2.86617         5.23988         12.7257 
+                  menshealth         4.40784         1.69027         11.8649 
+                  mividababe         4.38307         5.09392         11.8762 
+                  nowplaying         5.79439         2.75252         11.3179 
+                  rubaiesart        0.688546         4.68249          15.578 
+                  samheughan         3.09777         5.22588         12.5703 
+                  slayallday         1.40369          5.4991         14.1535 
+                  superheroe         1.54213         5.85762         13.9653 
+                  taurustwin           1.567         5.36983         13.9333 
+                  wearewomen         3.82928         2.40326         12.1463 
+                  womanpower          3.6727         5.68818         12.2298 
+                  wrenmiller          5.4324         1.75151         11.4469 
+                  wwenetwork         3.48625         5.30182          12.334 
+                 badasswomen         5.13376          5.5912           11.56 
+                 comedygrind        0.688546         4.75271          15.578 
+                 doggyclient         4.24175         1.88744         11.9417 
+                 itsfromkate         1.86173         5.37661         13.5887 
+                 jamiefraser         3.37662         5.23449         12.3979 
+                 paintolathe        0.688546         4.74136          15.578 
+                 parisinacup         3.13926         5.26152         12.5437 
+                 queenjaneen         1.50038         5.83213         14.0202 
+                 songwriting         2.27459         2.18261         13.1881 
+                 space4women        0.690069         4.54459         15.5736 
+                 strongwoman           6.752         2.50496          11.012 
+                 strongwomen         15.0003         1.44313         9.41552 
+                 traininsane         4.30953         1.88829           11.91 
+                 womanstrong         4.72424         5.14844         11.7262 
+                 womenwerise         1.36731         5.80573          14.206 
+                 womenwhowin         2.90118         5.20424         12.7014 
+                artisaweapon        0.688546         5.06144          15.578 
+                chiokedmachi         6.43841         2.73421         11.1071 
+                diadelamujer         1.39435         5.74155         14.1668 
+                entrepreneur         3.12498         5.35492         12.5528 
+                godofthunder        0.805324         4.44693         15.2647 
+                herworld2018         1.92452         2.24491         13.5223 
+                ipinkietrend          2.4083         5.47944         13.0738 
+                mividamarket         3.45443         5.07835         12.3523 
+                notsolongago         1.30072         2.14099         14.3058 
+                pelvichealth         1.66602         3.53501         13.8108 
+                photographer         5.73008         1.74429         11.3402 
+                pinkypromise        0.688546         4.77976          15.578 
+                shewhodazzle         1.42608         5.77893         14.1218 
+                teamnoexcuse         4.03692          1.9013         12.0407 
+                womenshealth         4.58427         1.68487         11.7864 
+                womenwhowerk        0.864037         4.41065         15.1239 
+                womenwhowork         3.16246         5.55586          12.529 
+                yazzledazzle         1.42865         5.78024         14.1182 
+               ameliaearhart         4.14691          5.0993         11.9869 
+               djforeignauto         1.56375         5.87081         13.9375 
+               everybodysfit         4.69685         1.68196         11.7379 
+               femalefounder        0.688609         4.57755         15.5778 
+               mastertrainer         4.25055         1.69448         11.9376 
+               michelleobama         5.86453         2.71961         11.2938 
+               papermagazine         6.39193         4.81686         11.1216 
+               pushboundarie         1.51753         5.49686         13.9975 
+               srrangerstool         1.54775         5.39628         13.9581 
+               stemeducation        0.688546         4.79133          15.578 
+               unspokenangel         3.32087         5.19474         12.4312 
+               womensday2018         2.40348         5.42044         13.0778 
+               wordstoliveby         4.12548         3.51407         11.9973 
+              blackgirlmagic         2.39642          5.6553         13.0837 
+              happywomensday         1.38732         5.57432         14.1769 
+              jenniferfisher         1.07081         3.54531         14.6948 
+              letthemeatcake         3.53333         5.27134         12.3072 
+              lovethemsomuch         4.35446         1.89386         11.8893 
+              oldtowneorange         3.51342         5.26622         12.3185 
+              strongisstrong         3.90935          1.5477         12.1049 
+              togetherwerise         1.45414         5.80664         14.0828 
+              womeninbusines         2.40849         5.41819         13.0737 
+              worldkidneyday          2.4085         5.45753         13.0737 
+             americanairline         2.69357         5.51877         12.8499 
+             bringingtheheat         6.00223          4.9621         11.2474 
+             empoweringwomen         3.91474         3.60175         12.1022 
+             focusonyourself         3.86077         1.54752         12.1299 
+             itwasneveradres         3.43769         2.28871         12.3621 
+             phenomenalwomen        0.688546         4.75539          15.578 
+             pressforprofres        0.927096        0.757846         14.9831 
+             pressforprogres         3.41839        0.755495         12.3733 
+             thursdaythought         2.59613         2.79279         12.9236 
+             whorunstheworld         3.62818         3.51562         12.2542 
+             womensmarch2018        0.688546         4.78699          15.578 
+            eleanorroosevelt        0.688546         4.74776          15.578 
+            girlswritenowday         2.40342         5.45977         13.0779 
+            haydaveartstudio         10.9061         1.33031          10.053 
+            katherinejohnson        0.621522         5.32674         15.7828 
+            madeincalifornia         2.20255         5.40077         13.2524 
+            strengthtraining         4.07387         2.57594         12.0225 
+            thebaylorproject         1.17002         2.24922         14.5176 
+            upperbodyworkout         4.29042         1.91664         11.9189 
+            womenempowerment         2.70437         5.56808         12.8419 
+            womenruntheworld         4.00593         5.02559         12.0561 
+            workhardplayhard         2.62523         5.35025         12.9013 
+           mycapeispurpletho          2.9061         2.27541          12.698 
+           nationalwomensday        0.688546         4.72661          15.578 
+           supportwomanowned         4.79405         5.15082         11.6969 
+           thefutureisbright         1.15647         3.55109         14.5409 
+           thefutureisfemale         3.46969          3.5567         12.3435 
+           thesignaturepearl         1.51217         5.53844         14.0046 
+           throwbackthursday          4.8936         2.11609         11.6558 
+           victorymotorcycle         1.37012         2.14291         14.2019 
+           weareallbeautiful         3.51907         2.42516         12.3153 
+           womenentrepreneur         3.89358         5.13914          12.113 
+          beauthenticallyyou          1.5909         5.58256         13.9031 
+          whoruntheworldgirl         4.18734         5.08533         11.9675 
+          womenshistorymonth        0.718398         4.50315         15.4931 
+         badassbusinesswomen         5.17666         1.76433         11.5433 
+         letterstoablackgirl         1.52255         5.84532         13.9909 
+         polkstreetfloristsf        0.978482         5.50861         14.8752 
+         shineincphotography        0.688546         4.65433          15.578 
+         waitisthatoffensive        0.688546         4.69498          15.578 
+        amazoncompanymeeting         5.90357         3.43196         11.2805 
+        strongisthenewpretty        0.688546         4.66001          15.578 
+        womensupportingwomen         4.56893         2.06319         11.7931 
+       internationalwomenday        0.635182         5.32584         15.7393 
+      internationalwomensday         397.893         4.92517          2.8593 
+     nationalproofreadingday         2.40848         5.45528         13.0737 
+    neverthelessshepersisted        0.688779         4.56485         15.5773 
+   onlyfemaleartistinkitchen          1.4136         5.76795         14.1394 
+ ournextfemalepresidentmaybe          0.8011         0.75694         15.2752 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  true
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /data/422371.edge
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            false
+#     ROOTNAME_OUTPUT:                       /data/422371
+#     SEED                                   1737774573
+#     VALIDATION_MODE                        true
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=

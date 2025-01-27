@@ -1,351 +1,735 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
       <node id="lrt" label="lrt" />
-      <node id="rude" label="rude" />
-      <node id="bale" label="bale" />
-      <node id="attentats" label="attentats" />
-      <node id="pray" label="pray" />
-      <node id="flu" label="flu" />
-      <node id="philippeval" label="philippeval" />
+      <node id="okcvsg" label="okcvsg" />
+      <node id="batb" label="batb" />
+      <node id="tarn" label="tarn" />
+      <node id="photo" label="photo" />
+      <node id="lesnouveauxsauvage" label="lesnouveauxsauvage" />
+      <node id="pcd" label="pcd" />
       <node id="jesuischarlie" label="jesuischarlie" />
       <node id="jenesuispascharlie" label="jenesuispascharlie" />
-      <node id="fontainebleau" label="fontainebleau" />
-      <node id="alerterouge" label="alerterouge" />
-      <node id="warriors" label="warriors" />
-      <node id="bestia" label="bestia" />
+      <node id="libertedexpression" label="libertedexpression" />
+      <node id="region" label="region" />
+      <node id="rhonealpe" label="rhonealpe" />
+      <node id="ilakeannecy" label="ilakeannecy" />
       <node id="france" label="france" />
-      <node id="tlf" label="tlf" />
-      <node id="smsjesuisenceinte" label="smsjesuisenceinte" />
-      <node id="soutenancesescaet" label="soutenancesescaet" />
-      <node id="amazingdurant" label="amazingdurant" />
-      <node id="thunder" label="thunder" />
-      <node id="gtav" label="gtav" />
-      <node id="lossantos" label="lossantos" />
-      <node id="crew" label="crew" />
-      <node id="foxhound" label="foxhound" />
-      <node id="annulationdebillet" label="annulationdebillet" />
-      <node id="wearethunder" label="wearethunder" />
-      <node id="jurycitoyen" label="jurycitoyen" />
-      <node id="exodus" label="exodus" />
-      <node id="habs" label="habs" />
-      <node id="gifts" label="gifts" />
-      <node id="nerdz" label="nerdz" />
-      <node id="saucesamourai" label="saucesamourai" />
-      <node id="africanliterature" label="africanliterature" />
-      <node id="ffspecial" label="ffspecial" />
-      <node id="parlement" label="parlement" />
-      <node id="headhearthandshealth" label="headhearthandshealth" />
-      <node id="ifyoudontknowthenwecantbefriends" label="ifyoudontknowthenwecantbefriends" />
-      <node id="paris" label="paris" />
-      <node id="newworldsound" label="newworldsound" />
-      <node id="highclub" label="highclub" />
-      <node id="pazudora" label="pazudora" />
-      <node id="hdg" label="hdg" />
-      <node id="ballondor2014" label="ballondor2014" />
-      <node id="ballondor" label="ballondor" />
-      <node id="docesonho" label="docesonho" />
-      <node id="divisionpiegeacons" label="divisionpiegeacons" />
-      <node id="jesuisandy" label="jesuisandy" />
-      <node id="cristianoronaldo" label="cristianoronaldo" />
-      <node id="lts" label="lts" />
-      <node id="hypocrite" label="hypocrite" />
-      <node id="ruptly" label="ruptly" />
-      <node id="moi" label="moi" />
+      <node id="non" label="non" />
+      <node id="tag" label="tag" />
+      <node id="malade" label="malade" />
+      <node id="fievre" label="fievre" />
+      <node id="boost" label="boost" />
+      <node id="kusmi" label="kusmi" />
+      <node id="oropoli" label="oropoli" />
+      <node id="humex" label="humex" />
+      <node id="nesquik" label="nesquik" />
+      <node id="m" label="m" />
+      <node id="lastlastrt" label="lastlastrt" />
+      <node id="doctorwho" label="doctorwho" />
+      <node id="starssoushypnose" label="starssoushypnose" />
+      <node id="cherif" label="cherif" />
+      <node id="elementary" label="elementary" />
+      <node id="thalassa" label="thalassa" />
+      <node id="nostalgie" label="nostalgie" />
+      <node id="irremplacable" label="irremplacable" />
+      <node id="concour" label="concour" />
+      <node id="vin" label="vin" />
+      <node id="gamay" label="gamay" />
+      <node id="chateaudeversaille" label="chateaudeversaille" />
+      <node id="pari" label="pari" />
+      <node id="bepositive" label="bepositive" />
+      <node id="schachzug" label="schachzug" />
+      <node id="ye" label="ye" />
+      <node id="vigne" label="vigne" />
+      <node id="rafsimon" label="rafsimon" />
+      <node id="pittiuomo" label="pittiuomo" />
+      <node id="fw15" label="fw15" />
+      <node id="sport" label="sport" />
+      <node id="brevet" label="brevet" />
+      <node id="datagueule" label="datagueule" />
+      <node id="lt" label="lt" />
+      <node id="icc" label="icc" />
+      <node id="israel" label="israel" />
+      <node id="hand" label="hand" />
       <node id="toulouse" label="toulouse" />
-      <node id="nakedsnake" label="nakedsnake" />
-      <node id="polevault" label="polevault" />
-      <node id="bourdindirect" label="bourdindirect" />
-      <node id="compet" label="compet" />
-      <node id="kfc" label="kfc" />
-      <node id="britney" label="britney" />
-      <node id="teamtc" label="teamtc" />
-      <node id="bringtheaction" label="bringtheaction" />
-      <node id="10ans" label="10ans" />
-      <node id="cassecouilledebase" label="cassecouilledebase" />
-      <node id="foliesbergere" label="foliesbergere" />
-      <node id="terrorists" label="terrorists" />
-      <node id="mashallah" label="mashallah" />
-      <node id="opjesuischarlie" label="opjesuischarlie" />
-      <node id="yellowpower" label="yellowpower" />
-      <node id="yellow" label="yellow" />
-      <node id="estensemble" label="estensemble" />
-      <node id="helas" label="helas" />
-      <node id="jaune" label="jaune" />
-      <node id="invinoveritas" label="invinoveritas" />
-      <node id="jessaiedemoccupercommejepeux" label="jessaiedemoccupercommejepeux" />
-      <node id="tgv" label="tgv" />
+      <node id="blue" label="blue" />
+      <node id="sky" label="sky" />
+      <node id="on" label="on" />
+      <node id="fcsmaca" label="fcsmaca" />
+      <node id="victoire" label="victoire" />
+      <node id="teamjauneetbleu" label="teamjauneetbleu" />
+      <node id="laffairesk1" label="laffairesk1" />
+      <node id="postedesurveillance" label="postedesurveillance" />
+      <node id="d8" label="d8" />
+      <node id="tpmp" label="tpmp" />
+      <node id="pakistan" label="pakistan" />
+      <node id="alqaeda" label="alqaeda" />
+      <node id="teamol" label="teamol" />
+      <node id="can2015" label="can2015" />
+      <node id="tagrandmere" label="tagrandmere" />
+      <node id="coeursureux" label="coeursureux" />
+      <node id="fridaynightlight" label="fridaynightlight" />
+      <node id="challengeseries2015" label="challengeseries2015" />
+      <node id="europe2015" label="europe2015" />
+      <node id="archery" label="archery" />
+      <node id="britonedirection" label="britonedirection" />
+      <node id="vscocam" label="vscocam" />
+      <node id="vsco" label="vsco" />
+      <node id="vscophile" label="vscophile" />
+      <node id="ketchup" label="ketchup" />
+      <node id="friend" label="friend" />
+      <node id="asm" label="asm" />
+      <node id="sportpassion" label="sportpassion" />
+      <node id="voltigetime" label="voltigetime" />
+      <node id="horse" label="horse" />
+      <node id="lepostedesurveillance" label="lepostedesurveillance" />
+      <node id="paris10" label="paris10" />
+      <node id="social" label="social" />
+      <node id="hde" label="hde" />
+      <node id="eti" label="eti" />
+      <node id="ambition" label="ambition" />
+      <node id="entrepreneur" label="entrepreneur" />
+      <node id="innovation" label="innovation" />
+      <node id="telaviv" label="telaviv" />
+      <node id="jerusalem" label="jerusalem" />
+      <node id="fcgbogcn" label="fcgbogcn" />
+      <node id="lejusteprix" label="lejusteprix" />
+      <node id="noplp" label="noplp" />
+      <node id="lgj" label="lgj" />
+      <node id="lrd" label="lrd" />
+      <node id="cavou" label="cavou" />
+      <node id="bougezpourlivg" label="bougezpourlivg" />
+      <node id="international" label="international" />
+      <node id="lesvraie" label="lesvraie" />
+      <node id="macron" label="macron" />
+      <node id="teamwinner" label="teamwinner" />
+      <node id="niqab" label="niqab" />
+      <node id="rachidnekkaz" label="rachidnekkaz" />
+      <node id="yemen" label="yemen" />
+      <node id="palestine" label="palestine" />
+      <node id="quenelle" label="quenelle" />
+      <node id="drinkscharityfantasyleague" label="drinkscharityfantasyleague" />
+      <node id="lescoprod" label="lescoprod" />
+      <node id="jehuuuuurle" label="jehuuuuurle" />
+      <node id="pudesouffle" label="pudesouffle" />
+      <node id="wttm" label="wttm" />
+      <node id="harrypotter" label="harrypotter" />
+      <node id="facebook" label="facebook" />
+      <node id="honha" label="honha" />
+      <node id="mobilisation" label="mobilisation" />
+      <node id="logement" label="logement" />
+      <node id="transport" label="transport" />
+      <node id="crise" label="crise" />
+      <node id="k" label="k" />
+      <node id="theweeknd" label="theweeknd" />
+      <node id="freepalestine" label="freepalestine" />
+      <node id="monstre" label="monstre" />
+      <node id="rip" label="rip" />
+      <node id="montpellier" label="montpellier" />
+      <node id="coursdiderot" label="coursdiderot" />
       <node id="love" label="love" />
-      <node id="conforamaetoile" label="conforamaetoile" />
-      <node id="soireelyonnaise" label="soireelyonnaise" />
-      <node id="teamfragileactive" label="teamfragileactive" />
-      <node id="bisouspleins" label="bisouspleins" />
-      <node id="taubirademission" label="taubirademission" />
-      <node id="vallaudbelkacemdemission" label="vallaudbelkacemdemission" />
-      <node id="aaliyahsbirthday" label="aaliyahsbirthday" />
-      <node id="oneinamillion" label="oneinamillion" />
-      <node id="leweekend" label="leweekend" />
-      <node id="alleraurevoir" label="alleraurevoir" />
-      <node id="atlast" label="atlast" />
-      <node id="monochrome" label="monochrome" />
-      <node id="parlonsmode" label="parlonsmode" />
-      <node id="loveudad" label="loveudad" />
-      <node id="rueil" label="rueil" />
-      <node id="instablackandwhite" label="instablackandwhite" />
-      <node id="drome" label="drome" />
-      <node id="ur" label="ur" />
-      <node id="hashtag" label="hashtag" />
-      <node id="bri" label="bri" />
-      <node id="flemme" label="flemme" />
-      <node id="traque" label="traque" />
-      <node id="moneydrop" label="moneydrop" />
-      <node id="toujoursdanslexces" label="toujoursdanslexces" />
-      <node id="jailesboules" label="jailesboules" />
-      <node id="undergroundresistance" label="undergroundresistance" />
-      <node id="travail" label="travail" />
-      <node id="mplant" label="mplant" />
-      <node id="cfl" label="cfl" />
-      <node id="popefrancisph" label="popefrancisph" />
-      <node id="skyrock" label="skyrock" />
-      <node id="atoidechoisir" label="atoidechoisir" />
-      <node id="lesvraiessavent" label="lesvraiessavent" />
-      <node id="fcllosc" label="fcllosc" />
-      <node id="mode" label="mode" />
-      <node id="teamfcl" label="teamfcl" />
-      <node id="investeu" label="investeu" />
-      <node id="bigbrotherbullying" label="bigbrotherbullying" />
-      <node id="caturday" label="caturday" />
-      <node id="fb" label="fb" />
-      <node id="sitisiti" label="sitisiti" />
-      <node id="grenoble" label="grenoble" />
-      <node id="memepaspeurdulundimatin" label="memepaspeurdulundimatin" />
-      <node id="ok" label="ok" />
-      <node id="recrutement" label="recrutement" />
-      <node id="bernardmaris" label="bernardmaris" />
-      <node id="bouhou" label="bouhou" />
-      <node id="memepaspeur" label="memepaspeur" />
-      <node id="blessedbythepope" label="blessedbythepope" />
-      <node id="noamalgame" label="noamalgame" />
-      <node id="pourlesmiens" label="pourlesmiens" />
-      <node id="expertjudiciaire" label="expertjudiciaire" />
-      <node id="instacat" label="instacat" />
-      <node id="endorphins" label="endorphins" />
-      <node id="petition" label="petition" />
-      <node id="expertassurance" label="expertassurance" />
-      <node id="early" label="early" />
-      <node id="dyinglight" label="dyinglight" />
-      <node id="sleepy" label="sleepy" />
-      <node id="etc" label="etc" />
-      <node id="moutons" label="moutons" />
-      <node id="wifi" label="wifi" />
-      <node id="uk" label="uk" />
-      <node id="smash4" label="smash4" />
-      <node id="pasdeconclusionhative" label="pasdeconclusionhative" />
-      <node id="smstesmoncrush" label="smstesmoncrush" />
-      <node id="doodlediary" label="doodlediary" />
-      <node id="allerfcl" label="allerfcl" />
-      <node id="bsaires" label="bsaires" />
-      <node id="platine" label="platine" />
+      <node id="lpj" label="lpj" />
+      <node id="boutin" label="boutin" />
+      <node id="britedsheeran" label="britedsheeran" />
+      <node id="rclol" label="rclol" />
+      <node id="gameday" label="gameday" />
+      <node id="peche" label="peche" />
+      <node id="ffpml" label="ffpml" />
+      <node id="fnpf" label="fnpf" />
+      <node id="cnpl" label="cnpl" />
+      <node id="speakeranimateur" label="speakeranimateur" />
+      <node id="australiaday" label="australiaday" />
+      <node id="australianopen" label="australianopen" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="np" label="np" />
+      <node id="tripledouble" label="tripledouble" />
+      <node id="machine" label="machine" />
+      <node id="takeiteasy" label="takeiteasy" />
       <node id="nice06" label="nice06" />
-      <node id="promo" label="promo" />
-      <node id="vacancesentrefrates2" label="vacancesentrefrates2" />
-      <node id="profs" label="profs" />
-      <node id="rw14" label="rw14" />
-      <node id="dsdemaths" label="dsdemaths" />
-      <node id="yudifox" label="yudifox" />
-      <node id="malakoff" label="malakoff" />
-      <node id="cipfleuret" label="cipfleuret" />
+      <node id="coupeconfluence" label="coupeconfluence" />
+      <node id="mz" label="mz" />
+      <node id="voldemort" label="voldemort" />
+      <node id="freeraif" label="freeraif" />
+      <node id="sgdb" label="sgdb" />
+      <node id="rerc" label="rerc" />
+      <node id="qml" label="qml" />
+      <node id="pointmeteo" label="pointmeteo" />
+      <node id="teamom" label="teamom" />
+      <node id="fcoaw2" label="fcoaw2" />
+      <node id="nostalgique" label="nostalgique" />
+      <node id="ovsg" label="ovsg" />
+      <node id="cdauxgt" label="cdauxgt" />
+      <node id="ibe" label="ibe" />
+      <node id="carambarpourtou" label="carambarpourtou" />
+      <node id="teammaroc" label="teammaroc" />
+      <node id="onnnnnnnn" label="onnnnnnnn" />
+      <node id="wipt" label="wipt" />
+      <node id="gambardella" label="gambardella" />
+      <node id="annecy" label="annecy" />
+      <node id="laplusbelleregion" label="laplusbelleregion" />
+      <node id="home" label="home" />
+      <node id="enterrement" label="enterrement" />
+      <node id="kouachi" label="kouachi" />
+      <node id="googlealert" label="googlealert" />
+      <node id="tumasdonneenviedemojitomalin" label="tumasdonneenviedemojitomalin" />
+      <node id="onrajeunitpa" label="onrajeunitpa" />
+      <node id="emploi" label="emploi" />
+      <node id="pegida" label="pegida" />
+      <node id="remember" label="remember" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="une" label="une" />
+      <node id="pepsi" label="pepsi" />
+      <node id="taubira" label="taubira" />
+      <node id="afp" label="afp" />
+      <node id="yummmm" label="yummmm" />
+      <node id="galerieslafayette" label="galerieslafayette" />
+      <node id="permi" label="permi" />
+      <node id="laflemme" label="laflemme" />
+      <node id="conseilgratuit" label="conseilgratuit" />
+      <node id="madeincatalonia" label="madeincatalonia" />
+      <node id="pardonexcusemoipetitjesusdemafoietdemabonte" label="pardonexcusemoipetitjesusdemafoietdemabonte" />
+      <node id="brest" label="brest" />
+      <node id="kouachibrother" label="kouachibrother" />
+      <node id="reim" label="reim" />
+      <node id="licorne" label="licorne" />
+      <node id="selfi" label="selfi" />
+      <node id="jaimemonprophete" label="jaimemonprophete" />
+      <node id="hipstamatic" label="hipstamatic" />
+      <node id="lowy" label="lowy" />
+      <node id="blankofreedom13" label="blankofreedom13" />
+      <node id="mac" label="mac" />
+      <node id="maccosmetic" label="maccosmetic" />
+      <node id="ral" label="ral" />
+      <node id="makeup" label="makeup" />
+      <node id="lipstick" label="lipstick" />
+      <node id="enpleineforme" label="enpleineforme" />
+      <node id="cabu" label="cabu" />
+      <node id="theoucafe" label="theoucafe" />
+      <node id="moneycat" label="moneycat" />
+      <node id="disney" label="disney" />
+      <node id="ripkatycatmurilo" label="ripkatycatmurilo" />
+      <node id="la3" label="la3" />
+      <node id="jagermaster" label="jagermaster" />
+      <node id="ob" label="ob" />
+      <node id="pelloux" label="pelloux" />
+      <node id="shopping" label="shopping" />
+      <node id="solde" label="solde" />
+      <node id="versaille" label="versaille" />
+      <node id="parigi" label="parigi" />
+      <node id="uk" label="uk" />
+      <node id="giorgiomodorer" label="giorgiomodorer" />
+      <node id="righthererightnow" label="righthererightnow" />
+      <node id="argumentationpolitique" label="argumentationpolitique" />
+      <node id="nba" label="nba" />
+      <node id="falloutboy" label="falloutboy" />
+      <node id="americanbeautyamericanpsycho" label="americanbeautyamericanpsycho" />
+      <node id="thevoice" label="thevoice" />
+      <node id="team82" label="team82" />
+      <node id="en2015jesuislechrist" label="en2015jesuislechrist" />
+      <node id="lepetitprince" label="lepetitprince" />
+      <node id="imagination" label="imagination" />
+      <node id="tdf2015" label="tdf2015" />
+      <node id="bonnesaisonchampion" label="bonnesaisonchampion" />
+      <node id="fiere" label="fiere" />
+      <node id="mga" label="mga" />
+      <node id="vega" label="vega" />
+      <node id="london" label="london" />
+      <node id="ligneh" label="ligneh" />
+      <node id="sncf" label="sncf" />
+      <node id="allezlorient" label="allezlorient" />
+      <node id="crossouestfrance" label="crossouestfrance" />
+      <node id="crossduman" label="crossduman" />
+      <node id="leman" label="leman" />
+      <node id="sarthe" label="sarthe" />
+      <node id="saintdizier" label="saintdizier" />
+      <node id="hautemarne" label="hautemarne" />
+      <node id="preparationdufoi" label="preparationdufoi" />
+      <node id="bienvenuchezleschtitseffect" label="bienvenuchezleschtitseffect" />
+      <node id="lemag" label="lemag" />
+      <node id="alsace" label="alsace" />
+      <node id="nrj12lachaine" label="nrj12lachaine" />
+      <node id="bad" label="bad" />
+      <node id="udi26" label="udi26" />
+      <node id="followtrick" label="followtrick" />
+      <node id="followback" label="followback" />
+      <node id="mgwv" label="mgwv" />
+      <node id="follow" label="follow" />
+      <node id="teamathle" label="teamathle" />
+      <node id="teamfluo" label="teamfluo" />
+      <node id="aaliyahsbirthday" label="aaliyahsbirthday" />
+      <node id="popchoiceaward" label="popchoiceaward" />
+      <node id="weekendparty" label="weekendparty" />
+      <node id="infinity" label="infinity" />
+      <node id="ligue1" label="ligue1" />
+      <node id="perestroika" label="perestroika" />
+      <node id="yankeecandletoulouse" label="yankeecandletoulouse" />
+      <node id="yankeecandle" label="yankeecandle" />
+      <node id="bougie" label="bougie" />
+      <node id="parfum" label="parfum" />
+      <node id="lyon" label="lyon" />
+      <node id="ecolenumerique" label="ecolenumerique" />
+      <node id="provin" label="provin" />
+      <node id="teamcameroun" label="teamcameroun" />
+      <node id="jesuischarliedelta" label="jesuischarliedelta" />
+      <node id="elle" label="elle" />
+      <node id="excellentissime" label="excellentissime" />
+      <node id="charb" label="charb" />
+      <node id="juliette" label="juliette" />
+      <node id="lilou" label="lilou" />
+      <node id="korvau" label="korvau" />
+      <node id="affaireapollonia" label="affaireapollonia" />
+      <node id="lawenforcement" label="lawenforcement" />
+      <node id="marysepose" label="marysepose" />
+      <node id="ff" label="ff" />
+      <node id="weaterforelephant" label="weaterforelephant" />
+      <node id="lovelovelove" label="lovelovelove" />
+      <node id="toureiffel" label="toureiffel" />
+      <node id="effeltower" label="effeltower" />
+      <node id="family" label="family" />
+      <node id="work" label="work" />
+      <node id="gotowork" label="gotowork" />
+      <node id="goodmorning" label="goodmorning" />
+      <node id="lunch" label="lunch" />
+      <node id="trocadero" label="trocadero" />
+      <node id="champsdemar" label="champsdemar" />
+      <node id="ouat" label="ouat" />
+      <node id="mercure" label="mercure" />
+      <node id="gameon" label="gameon" />
+      <node id="topspot" label="topspot" />
+      <node id="newpp" label="newpp" />
+      <node id="teamromano" label="teamromano" />
+      <node id="anger" label="anger" />
+      <node id="seriousgame" label="seriousgame" />
+      <node id="motu" label="motu" />
+      <node id="wolinski" label="wolinski" />
+      <node id="tignou" label="tignou" />
     </nodes>
     <edges>
-      <edge source="rude" target="lts" id="0" weight="1.0" />
-      <edge source="attentats" target="smstesmoncrush" id="1" weight="1.0" />
-      <edge source="philippeval" target="petition" id="2" weight="1.0" />
-      <edge source="jesuischarlie" target="jenesuispascharlie" id="3" weight="1.0" />
-      <edge source="jesuischarlie" target="fontainebleau" id="4" weight="1.0" />
-      <edge source="jesuischarlie" target="foliesbergere" id="5" weight="1.0" />
-      <edge source="jesuischarlie" target="terrorists" id="6" weight="1.0" />
-      <edge source="jesuischarlie" target="cipfleuret" id="7" weight="1.0" />
-      <edge source="jenesuispascharlie" target="fontainebleau" id="8" weight="1.0" />
-      <edge source="alerterouge" target="warriors" id="9" weight="1.0" />
-      <edge source="alerterouge" target="bestia" id="10" weight="1.0" />
-      <edge source="warriors" target="bestia" id="11" weight="1.0" />
-      <edge source="france" target="tlf" id="12" weight="1.0" />
-      <edge source="france" target="smsjesuisenceinte" id="13" weight="1.0" />
-      <edge source="france" target="ifyoudontknowthenwecantbefriends" id="14" weight="1.0" />
-      <edge source="france" target="paris" id="15" weight="1.0" />
-      <edge source="tlf" target="smsjesuisenceinte" id="16" weight="1.0" />
-      <edge source="soutenancesescaet" target="amazingdurant" id="17" weight="1.0" />
-      <edge source="soutenancesescaet" target="thunder" id="18" weight="1.0" />
-      <edge source="soutenancesescaet" target="gtav" id="19" weight="1.0" />
-      <edge source="soutenancesescaet" target="lossantos" id="20" weight="1.0" />
-      <edge source="soutenancesescaet" target="crew" id="21" weight="1.0" />
-      <edge source="soutenancesescaet" target="foxhound" id="22" weight="1.0" />
-      <edge source="amazingdurant" target="thunder" id="23" weight="1.0" />
-      <edge source="amazingdurant" target="gtav" id="24" weight="1.0" />
-      <edge source="amazingdurant" target="lossantos" id="25" weight="1.0" />
-      <edge source="amazingdurant" target="crew" id="26" weight="1.0" />
-      <edge source="amazingdurant" target="foxhound" id="27" weight="1.0" />
-      <edge source="thunder" target="gtav" id="28" weight="1.0" />
-      <edge source="thunder" target="lossantos" id="29" weight="1.0" />
-      <edge source="thunder" target="crew" id="30" weight="1.0" />
-      <edge source="thunder" target="foxhound" id="31" weight="1.0" />
-      <edge source="gtav" target="lossantos" id="32" weight="1.0" />
-      <edge source="gtav" target="crew" id="33" weight="1.0" />
-      <edge source="gtav" target="foxhound" id="34" weight="1.0" />
-      <edge source="lossantos" target="crew" id="35" weight="1.0" />
-      <edge source="lossantos" target="foxhound" id="36" weight="1.0" />
-      <edge source="crew" target="foxhound" id="37" weight="1.0" />
-      <edge source="exodus" target="habs" id="38" weight="1.0" />
-      <edge source="exodus" target="gifts" id="39" weight="1.0" />
-      <edge source="exodus" target="nerdz" id="40" weight="1.0" />
-      <edge source="exodus" target="oneinamillion" id="41" weight="1.0" />
-      <edge source="exodus" target="hashtag" id="42" weight="1.0" />
-      <edge source="exodus" target="bri" id="43" weight="1.0" />
-      <edge source="exodus" target="flemme" id="44" weight="1.0" />
-      <edge source="exodus" target="traque" id="45" weight="1.0" />
-      <edge source="exodus" target="cassecouilledebase" id="46" weight="1.0" />
-      <edge source="exodus" target="moneydrop" id="47" weight="1.0" />
-      <edge source="exodus" target="yellowpower" id="48" weight="1.0" />
-      <edge source="exodus" target="lts" id="49" weight="1.0" />
-      <edge source="habs" target="gifts" id="50" weight="1.0" />
-      <edge source="habs" target="nerdz" id="51" weight="1.0" />
-      <edge source="habs" target="oneinamillion" id="52" weight="1.0" />
-      <edge source="habs" target="hashtag" id="53" weight="1.0" />
-      <edge source="habs" target="bri" id="54" weight="1.0" />
-      <edge source="habs" target="flemme" id="55" weight="1.0" />
-      <edge source="habs" target="traque" id="56" weight="1.0" />
-      <edge source="habs" target="cassecouilledebase" id="57" weight="1.0" />
-      <edge source="habs" target="moneydrop" id="58" weight="1.0" />
-      <edge source="gifts" target="nerdz" id="59" weight="1.0" />
-      <edge source="gifts" target="oneinamillion" id="60" weight="1.0" />
-      <edge source="gifts" target="hashtag" id="61" weight="1.0" />
-      <edge source="gifts" target="bri" id="62" weight="1.0" />
-      <edge source="gifts" target="flemme" id="63" weight="1.0" />
-      <edge source="gifts" target="traque" id="64" weight="1.0" />
-      <edge source="gifts" target="cassecouilledebase" id="65" weight="1.0" />
-      <edge source="gifts" target="moneydrop" id="66" weight="1.0" />
-      <edge source="nerdz" target="oneinamillion" id="67" weight="1.0" />
-      <edge source="nerdz" target="hashtag" id="68" weight="1.0" />
-      <edge source="nerdz" target="bri" id="69" weight="1.0" />
-      <edge source="nerdz" target="flemme" id="70" weight="1.0" />
-      <edge source="nerdz" target="traque" id="71" weight="1.0" />
-      <edge source="nerdz" target="cassecouilledebase" id="72" weight="1.0" />
-      <edge source="nerdz" target="moneydrop" id="73" weight="1.0" />
-      <edge source="saucesamourai" target="africanliterature" id="74" weight="1.0" />
-      <edge source="ffspecial" target="parlement" id="75" weight="1.0" />
-      <edge source="ffspecial" target="headhearthandshealth" id="76" weight="1.0" />
-      <edge source="ffspecial" target="hdg" id="77" weight="1.0" />
-      <edge source="ffspecial" target="jailesboules" id="78" weight="1.0" />
-      <edge source="parlement" target="headhearthandshealth" id="79" weight="1.0" />
-      <edge source="parlement" target="hdg" id="80" weight="1.0" />
-      <edge source="parlement" target="jailesboules" id="81" weight="1.0" />
-      <edge source="headhearthandshealth" target="hdg" id="82" weight="1.0" />
-      <edge source="headhearthandshealth" target="jailesboules" id="83" weight="1.0" />
-      <edge source="ifyoudontknowthenwecantbefriends" target="paris" id="84" weight="1.0" />
-      <edge source="highclub" target="pazudora" id="85" weight="1.0" />
-      <edge source="hdg" target="jailesboules" id="86" weight="1.0" />
-      <edge source="ballondor2014" target="ballondor" id="87" weight="1.0" />
-      <edge source="ballondor2014" target="docesonho" id="88" weight="1.0" />
-      <edge source="ballondor" target="docesonho" id="89" weight="1.0" />
-      <edge source="jesuisandy" target="cristianoronaldo" id="90" weight="1.0" />
-      <edge source="lts" target="yellowpower" id="91" weight="1.0" />
-      <edge source="hypocrite" target="ruptly" id="92" weight="1.0" />
-      <edge source="moi" target="rw14" id="93" weight="1.0" />
-      <edge source="toulouse" target="nakedsnake" id="94" weight="1.0" />
-      <edge source="toulouse" target="polevault" id="95" weight="1.0" />
-      <edge source="toulouse" target="platine" id="96" weight="1.0" />
-      <edge source="nakedsnake" target="polevault" id="97" weight="1.0" />
-      <edge source="nakedsnake" target="platine" id="98" weight="1.0" />
-      <edge source="polevault" target="platine" id="99" weight="1.0" />
-      <edge source="bourdindirect" target="ur" id="100" weight="1.0" />
-      <edge source="bourdindirect" target="memepaspeur" id="101" weight="1.0" />
-      <edge source="compet" target="kfc" id="102" weight="1.0" />
-      <edge source="compet" target="britney" id="103" weight="1.0" />
-      <edge source="kfc" target="britney" id="104" weight="1.0" />
-      <edge source="bringtheaction" target="10ans" id="105" weight="1.0" />
-      <edge source="bringtheaction" target="cassecouilledebase" id="106" weight="1.0" />
-      <edge source="10ans" target="cassecouilledebase" id="107" weight="1.0" />
-      <edge source="cassecouilledebase" target="oneinamillion" id="108" weight="1.0" />
-      <edge source="cassecouilledebase" target="hashtag" id="109" weight="1.0" />
-      <edge source="cassecouilledebase" target="bri" id="110" weight="1.0" />
-      <edge source="cassecouilledebase" target="flemme" id="111" weight="1.0" />
-      <edge source="cassecouilledebase" target="traque" id="112" weight="1.0" />
-      <edge source="cassecouilledebase" target="moneydrop" id="113" weight="1.0" />
-      <edge source="foliesbergere" target="terrorists" id="114" weight="1.0" />
-      <edge source="foliesbergere" target="cipfleuret" id="115" weight="1.0" />
-      <edge source="terrorists" target="cipfleuret" id="116" weight="1.0" />
-      <edge source="mashallah" target="early" id="117" weight="1.0" />
-      <edge source="estensemble" target="helas" id="118" weight="1.0" />
-      <edge source="jaune" target="invinoveritas" id="119" weight="1.0" />
-      <edge source="tgv" target="love" id="120" weight="1.0" />
-      <edge source="tgv" target="conforamaetoile" id="121" weight="1.0" />
-      <edge source="tgv" target="soireelyonnaise" id="122" weight="1.0" />
-      <edge source="tgv" target="teamfragileactive" id="123" weight="1.0" />
-      <edge source="love" target="conforamaetoile" id="124" weight="1.0" />
-      <edge source="love" target="soireelyonnaise" id="125" weight="1.0" />
-      <edge source="love" target="teamfragileactive" id="126" weight="1.0" />
-      <edge source="conforamaetoile" target="soireelyonnaise" id="127" weight="1.0" />
-      <edge source="conforamaetoile" target="teamfragileactive" id="128" weight="1.0" />
-      <edge source="soireelyonnaise" target="teamfragileactive" id="129" weight="1.0" />
-      <edge source="taubirademission" target="vallaudbelkacemdemission" id="130" weight="1.0" />
-      <edge source="taubirademission" target="aaliyahsbirthday" id="131" weight="1.0" />
-      <edge source="vallaudbelkacemdemission" target="aaliyahsbirthday" id="132" weight="1.0" />
-      <edge source="oneinamillion" target="hashtag" id="133" weight="1.0" />
-      <edge source="oneinamillion" target="bri" id="134" weight="1.0" />
-      <edge source="oneinamillion" target="flemme" id="135" weight="1.0" />
-      <edge source="oneinamillion" target="traque" id="136" weight="1.0" />
-      <edge source="oneinamillion" target="moneydrop" id="137" weight="1.0" />
-      <edge source="atlast" target="monochrome" id="138" weight="1.0" />
-      <edge source="atlast" target="parlonsmode" id="139" weight="1.0" />
-      <edge source="atlast" target="loveudad" id="140" weight="1.0" />
-      <edge source="atlast" target="rueil" id="141" weight="1.0" />
-      <edge source="monochrome" target="parlonsmode" id="142" weight="1.0" />
-      <edge source="monochrome" target="loveudad" id="143" weight="1.0" />
-      <edge source="monochrome" target="rueil" id="144" weight="1.0" />
-      <edge source="parlonsmode" target="loveudad" id="145" weight="1.0" />
-      <edge source="parlonsmode" target="rueil" id="146" weight="1.0" />
-      <edge source="loveudad" target="rueil" id="147" weight="1.0" />
-      <edge source="instablackandwhite" target="drome" id="148" weight="1.0" />
-      <edge source="ur" target="memepaspeur" id="149" weight="1.0" />
-      <edge source="hashtag" target="bri" id="150" weight="1.0" />
-      <edge source="hashtag" target="flemme" id="151" weight="1.0" />
-      <edge source="hashtag" target="traque" id="152" weight="1.0" />
-      <edge source="hashtag" target="moneydrop" id="153" weight="1.0" />
-      <edge source="bri" target="flemme" id="154" weight="1.0" />
-      <edge source="bri" target="traque" id="155" weight="1.0" />
-      <edge source="bri" target="moneydrop" id="156" weight="1.0" />
-      <edge source="flemme" target="traque" id="157" weight="1.0" />
-      <edge source="flemme" target="moneydrop" id="158" weight="1.0" />
-      <edge source="traque" target="moneydrop" id="159" weight="1.0" />
-      <edge source="cfl" target="popefrancisph" id="160" weight="1.0" />
-      <edge source="atoidechoisir" target="lesvraiessavent" id="161" weight="1.0" />
-      <edge source="teamfcl" target="investeu" id="162" weight="1.0" />
-      <edge source="bigbrotherbullying" target="caturday" id="163" weight="1.0" />
-      <edge source="fb" target="ok" id="164" weight="1.0" />
-      <edge source="fb" target="recrutement" id="165" weight="1.0" />
-      <edge source="grenoble" target="memepaspeurdulundimatin" id="166" weight="1.0" />
-      <edge source="ok" target="recrutement" id="167" weight="1.0" />
-      <edge source="pourlesmiens" target="expertjudiciaire" id="168" weight="1.0" />
-      <edge source="sleepy" target="etc" id="169" weight="1.0" />
-      <edge source="sleepy" target="moutons" id="170" weight="1.0" />
-      <edge source="sleepy" target="wifi" id="171" weight="1.0" />
-      <edge source="sleepy" target="uk" id="172" weight="1.0" />
-      <edge source="etc" target="moutons" id="173" weight="1.0" />
-      <edge source="etc" target="wifi" id="174" weight="1.0" />
-      <edge source="etc" target="uk" id="175" weight="1.0" />
-      <edge source="moutons" target="wifi" id="176" weight="1.0" />
-      <edge source="moutons" target="uk" id="177" weight="1.0" />
-      <edge source="wifi" target="uk" id="178" weight="1.0" />
-      <edge source="smash4" target="pasdeconclusionhative" id="179" weight="1.0" />
-      <edge source="allerfcl" target="bsaires" id="180" weight="1.0" />
-      <edge source="vacancesentrefrates2" target="profs" id="181" weight="1.0" />
-      <edge source="dsdemaths" target="yudifox" id="182" weight="1.0" />
-      <edge source="dsdemaths" target="malakoff" id="183" weight="1.0" />
-      <edge source="yudifox" target="malakoff" id="184" weight="1.0" />
+      <edge source="lrt" target="on" id="0" weight="1.0" />
+      <edge source="lrt" target="lt" id="1" weight="1.0" />
+      <edge source="okcvsg" target="lt" id="2" weight="1.0" />
+      <edge source="tarn" target="hautegaronne" id="3" weight="1.0" />
+      <edge source="pcd" target="boutin" id="4" weight="1.0" />
+      <edge source="jesuischarlie" target="jenesuispascharlie" id="5" weight="1.0" />
+      <edge source="jesuischarlie" target="libertedexpression" id="6" weight="1.0" />
+      <edge source="jesuischarlie" target="pakistan" id="7" weight="1.0" />
+      <edge source="jesuischarlie" target="alqaeda" id="8" weight="1.0" />
+      <edge source="jesuischarlie" target="pointmeteo" id="9" weight="1.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="10" weight="1.0" />
+      <edge source="jesuischarlie" target="une" id="11" weight="1.0" />
+      <edge source="jesuischarlie" target="nice06" id="12" weight="1.0" />
+      <edge source="jesuischarlie" target="rip" id="13" weight="1.0" />
+      <edge source="jesuischarlie" target="cabu" id="14" weight="1.0" />
+      <edge source="jesuischarlie" target="theoucafe" id="15" weight="2.0" />
+      <edge source="jesuischarlie" target="france" id="16" weight="1.0" />
+      <edge source="jesuischarlie" target="non" id="17" weight="1.0" />
+      <edge source="jesuischarlie" target="tag" id="18" weight="1.0" />
+      <edge source="jesuischarlie" target="excellentissime" id="19" weight="1.0" />
+      <edge source="jesuischarlie" target="charb" id="20" weight="1.0" />
+      <edge source="jesuischarlie" target="conseilgratuit" id="21" weight="1.0" />
+      <edge source="jenesuispascharlie" target="libertedexpression" id="22" weight="1.0" />
+      <edge source="region" target="rhonealpe" id="23" weight="1.0" />
+      <edge source="region" target="ilakeannecy" id="24" weight="1.0" />
+      <edge source="rhonealpe" target="ilakeannecy" id="25" weight="1.0" />
+      <edge source="rhonealpe" target="annecy" id="26" weight="1.0" />
+      <edge source="rhonealpe" target="laplusbelleregion" id="27" weight="1.0" />
+      <edge source="france" target="non" id="28" weight="1.0" />
+      <edge source="france" target="tag" id="29" weight="1.0" />
+      <edge source="france" target="theoucafe" id="30" weight="1.0" />
+      <edge source="france" target="excellentissime" id="31" weight="1.0" />
+      <edge source="france" target="charb" id="32" weight="1.0" />
+      <edge source="france" target="chateaudeversaille" id="33" weight="1.0" />
+      <edge source="france" target="pari" id="34" weight="1.0" />
+      <edge source="non" target="tag" id="35" weight="1.0" />
+      <edge source="non" target="theoucafe" id="36" weight="1.0" />
+      <edge source="non" target="excellentissime" id="37" weight="1.0" />
+      <edge source="non" target="charb" id="38" weight="1.0" />
+      <edge source="tag" target="theoucafe" id="39" weight="1.0" />
+      <edge source="tag" target="excellentissime" id="40" weight="1.0" />
+      <edge source="tag" target="charb" id="41" weight="1.0" />
+      <edge source="malade" target="fievre" id="42" weight="1.0" />
+      <edge source="malade" target="boost" id="43" weight="1.0" />
+      <edge source="malade" target="kusmi" id="44" weight="1.0" />
+      <edge source="malade" target="oropoli" id="45" weight="1.0" />
+      <edge source="malade" target="humex" id="46" weight="1.0" />
+      <edge source="malade" target="nesquik" id="47" weight="1.0" />
+      <edge source="fievre" target="boost" id="48" weight="1.0" />
+      <edge source="fievre" target="kusmi" id="49" weight="1.0" />
+      <edge source="fievre" target="oropoli" id="50" weight="1.0" />
+      <edge source="fievre" target="humex" id="51" weight="1.0" />
+      <edge source="fievre" target="nesquik" id="52" weight="1.0" />
+      <edge source="boost" target="kusmi" id="53" weight="1.0" />
+      <edge source="boost" target="oropoli" id="54" weight="1.0" />
+      <edge source="boost" target="humex" id="55" weight="1.0" />
+      <edge source="boost" target="nesquik" id="56" weight="1.0" />
+      <edge source="kusmi" target="oropoli" id="57" weight="1.0" />
+      <edge source="kusmi" target="humex" id="58" weight="1.0" />
+      <edge source="kusmi" target="nesquik" id="59" weight="1.0" />
+      <edge source="oropoli" target="humex" id="60" weight="1.0" />
+      <edge source="oropoli" target="nesquik" id="61" weight="1.0" />
+      <edge source="humex" target="nesquik" id="62" weight="1.0" />
+      <edge source="starssoushypnose" target="cherif" id="63" weight="1.0" />
+      <edge source="starssoushypnose" target="elementary" id="64" weight="1.0" />
+      <edge source="starssoushypnose" target="thalassa" id="65" weight="1.0" />
+      <edge source="starssoushypnose" target="lepostedesurveillance" id="66" weight="1.0" />
+      <edge source="starssoushypnose" target="lejusteprix" id="67" weight="1.0" />
+      <edge source="starssoushypnose" target="noplp" id="68" weight="1.0" />
+      <edge source="starssoushypnose" target="lgj" id="69" weight="1.0" />
+      <edge source="starssoushypnose" target="lrd" id="70" weight="1.0" />
+      <edge source="starssoushypnose" target="tpmp" id="71" weight="1.0" />
+      <edge source="starssoushypnose" target="cavou" id="72" weight="1.0" />
+      <edge source="starssoushypnose" target="giorgiomodorer" id="73" weight="1.0" />
+      <edge source="starssoushypnose" target="righthererightnow" id="74" weight="1.0" />
+      <edge source="starssoushypnose" target="tagrandmere" id="75" weight="1.0" />
+      <edge source="starssoushypnose" target="lt" id="76" weight="1.0" />
+      <edge source="starssoushypnose" target="teamom" id="77" weight="1.0" />
+      <edge source="starssoushypnose" target="teammaroc" id="78" weight="1.0" />
+      <edge source="cherif" target="elementary" id="79" weight="1.0" />
+      <edge source="cherif" target="thalassa" id="80" weight="1.0" />
+      <edge source="cherif" target="lepostedesurveillance" id="81" weight="1.0" />
+      <edge source="cherif" target="lejusteprix" id="82" weight="1.0" />
+      <edge source="cherif" target="noplp" id="83" weight="1.0" />
+      <edge source="cherif" target="lgj" id="84" weight="1.0" />
+      <edge source="cherif" target="lrd" id="85" weight="1.0" />
+      <edge source="cherif" target="tpmp" id="86" weight="1.0" />
+      <edge source="cherif" target="cavou" id="87" weight="1.0" />
+      <edge source="cherif" target="giorgiomodorer" id="88" weight="1.0" />
+      <edge source="cherif" target="righthererightnow" id="89" weight="1.0" />
+      <edge source="elementary" target="thalassa" id="90" weight="1.0" />
+      <edge source="elementary" target="lepostedesurveillance" id="91" weight="1.0" />
+      <edge source="elementary" target="lejusteprix" id="92" weight="1.0" />
+      <edge source="elementary" target="noplp" id="93" weight="1.0" />
+      <edge source="elementary" target="lgj" id="94" weight="1.0" />
+      <edge source="elementary" target="lrd" id="95" weight="1.0" />
+      <edge source="elementary" target="tpmp" id="96" weight="1.0" />
+      <edge source="elementary" target="cavou" id="97" weight="1.0" />
+      <edge source="elementary" target="giorgiomodorer" id="98" weight="1.0" />
+      <edge source="elementary" target="righthererightnow" id="99" weight="1.0" />
+      <edge source="thalassa" target="lepostedesurveillance" id="100" weight="1.0" />
+      <edge source="thalassa" target="lejusteprix" id="101" weight="1.0" />
+      <edge source="thalassa" target="noplp" id="102" weight="1.0" />
+      <edge source="thalassa" target="lgj" id="103" weight="1.0" />
+      <edge source="thalassa" target="lrd" id="104" weight="1.0" />
+      <edge source="thalassa" target="tpmp" id="105" weight="1.0" />
+      <edge source="thalassa" target="cavou" id="106" weight="1.0" />
+      <edge source="thalassa" target="giorgiomodorer" id="107" weight="1.0" />
+      <edge source="thalassa" target="righthererightnow" id="108" weight="1.0" />
+      <edge source="nostalgie" target="irremplacable" id="109" weight="1.0" />
+      <edge source="concour" target="vin" id="110" weight="1.0" />
+      <edge source="concour" target="gamay" id="111" weight="1.0" />
+      <edge source="concour" target="vigne" id="112" weight="1.0" />
+      <edge source="concour" target="international" id="113" weight="1.0" />
+      <edge source="vin" target="gamay" id="114" weight="1.0" />
+      <edge source="vin" target="vigne" id="115" weight="1.0" />
+      <edge source="vin" target="international" id="116" weight="1.0" />
+      <edge source="gamay" target="vigne" id="117" weight="1.0" />
+      <edge source="gamay" target="international" id="118" weight="1.0" />
+      <edge source="chateaudeversaille" target="pari" id="119" weight="1.0" />
+      <edge source="pari" target="home" id="120" weight="1.0" />
+      <edge source="pari" target="galerieslafayette" id="121" weight="1.0" />
+      <edge source="pari" target="vscocam" id="122" weight="1.0" />
+      <edge source="pari" target="toureiffel" id="123" weight="1.0" />
+      <edge source="pari" target="effeltower" id="124" weight="1.0" />
+      <edge source="pari" target="family" id="125" weight="1.0" />
+      <edge source="pari" target="work" id="126" weight="1.0" />
+      <edge source="pari" target="gotowork" id="127" weight="1.0" />
+      <edge source="pari" target="goodmorning" id="128" weight="1.0" />
+      <edge source="pari" target="lunch" id="129" weight="1.0" />
+      <edge source="pari" target="trocadero" id="130" weight="1.0" />
+      <edge source="pari" target="champsdemar" id="131" weight="1.0" />
+      <edge source="schachzug" target="ye" id="132" weight="1.0" />
+      <edge source="schachzug" target="selfi" id="133" weight="1.0" />
+      <edge source="ye" target="selfi" id="134" weight="1.0" />
+      <edge source="vigne" target="international" id="135" weight="1.0" />
+      <edge source="rafsimon" target="pittiuomo" id="136" weight="1.0" />
+      <edge source="rafsimon" target="fw15" id="137" weight="1.0" />
+      <edge source="pittiuomo" target="fw15" id="138" weight="1.0" />
+      <edge source="brevet" target="datagueule" id="139" weight="1.0" />
+      <edge source="lt" target="tagrandmere" id="140" weight="1.0" />
+      <edge source="lt" target="teamom" id="141" weight="1.0" />
+      <edge source="lt" target="teammaroc" id="142" weight="1.0" />
+      <edge source="lt" target="ob" id="143" weight="1.0" />
+      <edge source="lt" target="on" id="144" weight="1.0" />
+      <edge source="lt" target="np" id="145" weight="1.0" />
+      <edge source="icc" target="israel" id="146" weight="1.0" />
+      <edge source="hand" target="freeraif" id="147" weight="1.0" />
+      <edge source="toulouse" target="blue" id="148" weight="1.0" />
+      <edge source="toulouse" target="sky" id="149" weight="1.0" />
+      <edge source="toulouse" target="takeiteasy" id="150" weight="1.0" />
+      <edge source="toulouse" target="yummmm" id="151" weight="1.0" />
+      <edge source="blue" target="sky" id="152" weight="1.0" />
+      <edge source="blue" target="takeiteasy" id="153" weight="1.0" />
+      <edge source="blue" target="yummmm" id="154" weight="1.0" />
+      <edge source="sky" target="takeiteasy" id="155" weight="1.0" />
+      <edge source="sky" target="yummmm" id="156" weight="1.0" />
+      <edge source="on" target="fcgbogcn" id="157" weight="1.0" />
+      <edge source="on" target="freepalestine" id="158" weight="1.0" />
+      <edge source="on" target="ob" id="159" weight="1.0" />
+      <edge source="on" target="np" id="160" weight="1.0" />
+      <edge source="on" target="shopping" id="161" weight="1.0" />
+      <edge source="on" target="solde" id="162" weight="1.0" />
+      <edge source="fcsmaca" target="victoire" id="163" weight="1.0" />
+      <edge source="fcsmaca" target="teamjauneetbleu" id="164" weight="1.0" />
+      <edge source="victoire" target="teamjauneetbleu" id="165" weight="1.0" />
+      <edge source="victoire" target="lyon" id="166" weight="1.0" />
+      <edge source="postedesurveillance" target="d8" id="167" weight="1.0" />
+      <edge source="postedesurveillance" target="tpmp" id="168" weight="1.0" />
+      <edge source="d8" target="tpmp" id="169" weight="1.0" />
+      <edge source="tpmp" target="lepostedesurveillance" id="170" weight="1.0" />
+      <edge source="tpmp" target="lejusteprix" id="171" weight="1.0" />
+      <edge source="tpmp" target="noplp" id="172" weight="1.0" />
+      <edge source="tpmp" target="lgj" id="173" weight="1.0" />
+      <edge source="tpmp" target="lrd" id="174" weight="1.0" />
+      <edge source="tpmp" target="cavou" id="175" weight="1.0" />
+      <edge source="tpmp" target="giorgiomodorer" id="176" weight="1.0" />
+      <edge source="tpmp" target="righthererightnow" id="177" weight="1.0" />
+      <edge source="pakistan" target="alqaeda" id="178" weight="1.0" />
+      <edge source="pakistan" target="pointmeteo" id="179" weight="1.0" />
+      <edge source="pakistan" target="charliehebdo" id="180" weight="1.0" />
+      <edge source="pakistan" target="une" id="181" weight="1.0" />
+      <edge source="alqaeda" target="pointmeteo" id="182" weight="1.0" />
+      <edge source="alqaeda" target="charliehebdo" id="183" weight="1.0" />
+      <edge source="alqaeda" target="une" id="184" weight="1.0" />
+      <edge source="teamol" target="rclol" id="185" weight="1.0" />
+      <edge source="can2015" target="perestroika" id="186" weight="1.0" />
+      <edge source="tagrandmere" target="teamom" id="187" weight="1.0" />
+      <edge source="tagrandmere" target="teammaroc" id="188" weight="1.0" />
+      <edge source="tagrandmere" target="followtrick" id="189" weight="1.0" />
+      <edge source="tagrandmere" target="followback" id="190" weight="1.0" />
+      <edge source="tagrandmere" target="mgwv" id="191" weight="1.0" />
+      <edge source="tagrandmere" target="follow" id="192" weight="1.0" />
+      <edge source="fridaynightlight" target="challengeseries2015" id="193" weight="4.0" />
+      <edge source="europe2015" target="archery" id="194" weight="1.0" />
+      <edge source="vscocam" target="vsco" id="195" weight="1.0" />
+      <edge source="vscocam" target="vscophile" id="196" weight="1.0" />
+      <edge source="vscocam" target="ketchup" id="197" weight="1.0" />
+      <edge source="vscocam" target="friend" id="198" weight="1.0" />
+      <edge source="vscocam" target="galerieslafayette" id="199" weight="1.0" />
+      <edge source="vsco" target="vscophile" id="200" weight="1.0" />
+      <edge source="vsco" target="ketchup" id="201" weight="1.0" />
+      <edge source="vsco" target="friend" id="202" weight="1.0" />
+      <edge source="vscophile" target="ketchup" id="203" weight="1.0" />
+      <edge source="vscophile" target="friend" id="204" weight="1.0" />
+      <edge source="ketchup" target="friend" id="205" weight="1.0" />
+      <edge source="sportpassion" target="voltigetime" id="206" weight="1.0" />
+      <edge source="sportpassion" target="horse" id="207" weight="1.0" />
+      <edge source="voltigetime" target="horse" id="208" weight="1.0" />
+      <edge source="lepostedesurveillance" target="lejusteprix" id="209" weight="1.0" />
+      <edge source="lepostedesurveillance" target="noplp" id="210" weight="1.0" />
+      <edge source="lepostedesurveillance" target="lgj" id="211" weight="1.0" />
+      <edge source="lepostedesurveillance" target="lrd" id="212" weight="1.0" />
+      <edge source="lepostedesurveillance" target="cavou" id="213" weight="1.0" />
+      <edge source="lepostedesurveillance" target="giorgiomodorer" id="214" weight="1.0" />
+      <edge source="lepostedesurveillance" target="righthererightnow" id="215" weight="1.0" />
+      <edge source="hde" target="eti" id="216" weight="1.0" />
+      <edge source="hde" target="ambition" id="217" weight="1.0" />
+      <edge source="hde" target="entrepreneur" id="218" weight="1.0" />
+      <edge source="hde" target="innovation" id="219" weight="1.0" />
+      <edge source="eti" target="ambition" id="220" weight="1.0" />
+      <edge source="eti" target="entrepreneur" id="221" weight="1.0" />
+      <edge source="eti" target="innovation" id="222" weight="1.0" />
+      <edge source="ambition" target="entrepreneur" id="223" weight="1.0" />
+      <edge source="ambition" target="innovation" id="224" weight="1.0" />
+      <edge source="entrepreneur" target="innovation" id="225" weight="1.0" />
+      <edge source="telaviv" target="jerusalem" id="226" weight="1.0" />
+      <edge source="fcgbogcn" target="freepalestine" id="227" weight="1.0" />
+      <edge source="lejusteprix" target="noplp" id="228" weight="1.0" />
+      <edge source="lejusteprix" target="lgj" id="229" weight="1.0" />
+      <edge source="lejusteprix" target="lrd" id="230" weight="1.0" />
+      <edge source="lejusteprix" target="cavou" id="231" weight="1.0" />
+      <edge source="lejusteprix" target="giorgiomodorer" id="232" weight="1.0" />
+      <edge source="lejusteprix" target="righthererightnow" id="233" weight="1.0" />
+      <edge source="noplp" target="lgj" id="234" weight="1.0" />
+      <edge source="noplp" target="lrd" id="235" weight="1.0" />
+      <edge source="noplp" target="cavou" id="236" weight="1.0" />
+      <edge source="noplp" target="giorgiomodorer" id="237" weight="1.0" />
+      <edge source="noplp" target="righthererightnow" id="238" weight="1.0" />
+      <edge source="lgj" target="lrd" id="239" weight="1.0" />
+      <edge source="lgj" target="cavou" id="240" weight="1.0" />
+      <edge source="lgj" target="giorgiomodorer" id="241" weight="1.0" />
+      <edge source="lgj" target="righthererightnow" id="242" weight="1.0" />
+      <edge source="lrd" target="cavou" id="243" weight="1.0" />
+      <edge source="lrd" target="giorgiomodorer" id="244" weight="1.0" />
+      <edge source="lrd" target="righthererightnow" id="245" weight="1.0" />
+      <edge source="cavou" target="giorgiomodorer" id="246" weight="1.0" />
+      <edge source="cavou" target="righthererightnow" id="247" weight="1.0" />
+      <edge source="niqab" target="rachidnekkaz" id="248" weight="1.0" />
+      <edge source="palestine" target="quenelle" id="249" weight="1.0" />
+      <edge source="lescoprod" target="disney" id="250" weight="1.0" />
+      <edge source="jehuuuuurle" target="pudesouffle" id="251" weight="1.0" />
+      <edge source="wttm" target="harrypotter" id="252" weight="2.0" />
+      <edge source="facebook" target="transport" id="253" weight="1.0" />
+      <edge source="facebook" target="crise" id="254" weight="1.0" />
+      <edge source="mobilisation" target="logement" id="255" weight="1.0" />
+      <edge source="transport" target="crise" id="256" weight="1.0" />
+      <edge source="rip" target="nice06" id="257" weight="1.0" />
+      <edge source="rip" target="cabu" id="258" weight="1.0" />
+      <edge source="rip" target="theoucafe" id="259" weight="1.0" />
+      <edge source="montpellier" target="coursdiderot" id="260" weight="1.0" />
+      <edge source="peche" target="ffpml" id="261" weight="1.0" />
+      <edge source="peche" target="fnpf" id="262" weight="1.0" />
+      <edge source="peche" target="cnpl" id="263" weight="1.0" />
+      <edge source="peche" target="speakeranimateur" id="264" weight="1.0" />
+      <edge source="ffpml" target="fnpf" id="265" weight="1.0" />
+      <edge source="ffpml" target="cnpl" id="266" weight="1.0" />
+      <edge source="ffpml" target="speakeranimateur" id="267" weight="1.0" />
+      <edge source="fnpf" target="cnpl" id="268" weight="1.0" />
+      <edge source="fnpf" target="speakeranimateur" id="269" weight="1.0" />
+      <edge source="cnpl" target="speakeranimateur" id="270" weight="1.0" />
+      <edge source="australiaday" target="australianopen" id="271" weight="1.0" />
+      <edge source="np" target="jesuischarliedelta" id="272" weight="1.0" />
+      <edge source="np" target="ob" id="273" weight="1.0" />
+      <edge source="tripledouble" target="machine" id="274" weight="1.0" />
+      <edge source="tripledouble" target="moneycat" id="275" weight="1.0" />
+      <edge source="machine" target="moneycat" id="276" weight="1.0" />
+      <edge source="takeiteasy" target="yummmm" id="277" weight="1.0" />
+      <edge source="nice06" target="cabu" id="278" weight="1.0" />
+      <edge source="nice06" target="theoucafe" id="279" weight="1.0" />
+      <edge source="mz" target="voldemort" id="280" weight="1.0" />
+      <edge source="sgdb" target="rerc" id="281" weight="4.0" />
+      <edge source="sgdb" target="qml" id="282" weight="4.0" />
+      <edge source="rerc" target="qml" id="283" weight="4.0" />
+      <edge source="pointmeteo" target="charliehebdo" id="284" weight="1.0" />
+      <edge source="pointmeteo" target="une" id="285" weight="1.0" />
+      <edge source="teamom" target="teammaroc" id="286" weight="1.0" />
+      <edge source="nostalgique" target="ovsg" id="287" weight="1.0" />
+      <edge source="nostalgique" target="cdauxgt" id="288" weight="1.0" />
+      <edge source="ovsg" target="cdauxgt" id="289" weight="1.0" />
+      <edge source="carambarpourtou" target="tumasdonneenviedemojitomalin" id="290" weight="1.0" />
+      <edge source="carambarpourtou" target="team82" id="291" weight="1.0" />
+      <edge source="carambarpourtou" target="en2015jesuislechrist" id="292" weight="1.0" />
+      <edge source="carambarpourtou" target="bienvenuchezleschtitseffect" id="293" weight="1.0" />
+      <edge source="carambarpourtou" target="lovelovelove" id="294" weight="1.0" />
+      <edge source="annecy" target="laplusbelleregion" id="295" weight="1.0" />
+      <edge source="enterrement" target="kouachi" id="296" weight="1.0" />
+      <edge source="tumasdonneenviedemojitomalin" target="team82" id="297" weight="1.0" />
+      <edge source="tumasdonneenviedemojitomalin" target="en2015jesuislechrist" id="298" weight="1.0" />
+      <edge source="tumasdonneenviedemojitomalin" target="bienvenuchezleschtitseffect" id="299" weight="1.0" />
+      <edge source="tumasdonneenviedemojitomalin" target="lovelovelove" id="300" weight="1.0" />
+      <edge source="charliehebdo" target="une" id="301" weight="1.0" />
+      <edge source="charliehebdo" target="pelloux" id="302" weight="1.0" />
+      <edge source="charliehebdo" target="elle" id="303" weight="1.0" />
+      <edge source="charliehebdo" target="charb" id="304" weight="1.0" />
+      <edge source="charliehebdo" target="cabu" id="305" weight="1.0" />
+      <edge source="charliehebdo" target="wolinski" id="306" weight="1.0" />
+      <edge source="charliehebdo" target="tignou" id="307" weight="1.0" />
+      <edge source="taubira" target="afp" id="308" weight="1.0" />
+      <edge source="kouachibrother" target="reim" id="309" weight="1.0" />
+      <edge source="kouachibrother" target="licorne" id="310" weight="1.0" />
+      <edge source="reim" target="licorne" id="311" weight="1.0" />
+      <edge source="hipstamatic" target="lowy" id="312" weight="1.0" />
+      <edge source="hipstamatic" target="blankofreedom13" id="313" weight="1.0" />
+      <edge source="lowy" target="blankofreedom13" id="314" weight="1.0" />
+      <edge source="mac" target="maccosmetic" id="315" weight="1.0" />
+      <edge source="mac" target="ral" id="316" weight="1.0" />
+      <edge source="mac" target="makeup" id="317" weight="1.0" />
+      <edge source="mac" target="lipstick" id="318" weight="1.0" />
+      <edge source="maccosmetic" target="ral" id="319" weight="1.0" />
+      <edge source="maccosmetic" target="makeup" id="320" weight="1.0" />
+      <edge source="maccosmetic" target="lipstick" id="321" weight="1.0" />
+      <edge source="ral" target="makeup" id="322" weight="1.0" />
+      <edge source="ral" target="lipstick" id="323" weight="1.0" />
+      <edge source="makeup" target="lipstick" id="324" weight="1.0" />
+      <edge source="cabu" target="theoucafe" id="325" weight="1.0" />
+      <edge source="cabu" target="charb" id="326" weight="1.0" />
+      <edge source="cabu" target="wolinski" id="327" weight="1.0" />
+      <edge source="cabu" target="tignou" id="328" weight="1.0" />
+      <edge source="theoucafe" target="excellentissime" id="329" weight="1.0" />
+      <edge source="theoucafe" target="charb" id="330" weight="1.0" />
+      <edge source="la3" target="jagermaster" id="331" weight="1.0" />
+      <edge source="shopping" target="solde" id="332" weight="1.0" />
+      <edge source="versaille" target="parigi" id="333" weight="2.0" />
+      <edge source="uk" target="mga" id="334" weight="1.0" />
+      <edge source="uk" target="vega" id="335" weight="1.0" />
+      <edge source="uk" target="london" id="336" weight="1.0" />
+      <edge source="giorgiomodorer" target="righthererightnow" id="337" weight="1.0" />
+      <edge source="nba" target="ligue1" id="338" weight="1.0" />
+      <edge source="falloutboy" target="americanbeautyamericanpsycho" id="339" weight="1.0" />
+      <edge source="team82" target="en2015jesuislechrist" id="340" weight="1.0" />
+      <edge source="team82" target="bienvenuchezleschtitseffect" id="341" weight="1.0" />
+      <edge source="team82" target="lovelovelove" id="342" weight="1.0" />
+      <edge source="en2015jesuislechrist" target="bienvenuchezleschtitseffect" id="343" weight="1.0" />
+      <edge source="en2015jesuislechrist" target="lovelovelove" id="344" weight="1.0" />
+      <edge source="lepetitprince" target="imagination" id="345" weight="1.0" />
+      <edge source="tdf2015" target="bonnesaisonchampion" id="346" weight="1.0" />
+      <edge source="mga" target="vega" id="347" weight="1.0" />
+      <edge source="mga" target="london" id="348" weight="1.0" />
+      <edge source="vega" target="london" id="349" weight="1.0" />
+      <edge source="ligneh" target="sncf" id="350" weight="1.0" />
+      <edge source="crossouestfrance" target="crossduman" id="351" weight="1.0" />
+      <edge source="crossouestfrance" target="leman" id="352" weight="1.0" />
+      <edge source="crossouestfrance" target="sarthe" id="353" weight="1.0" />
+      <edge source="crossduman" target="leman" id="354" weight="1.0" />
+      <edge source="crossduman" target="sarthe" id="355" weight="1.0" />
+      <edge source="leman" target="sarthe" id="356" weight="1.0" />
+      <edge source="saintdizier" target="hautemarne" id="357" weight="1.0" />
+      <edge source="bienvenuchezleschtitseffect" target="lovelovelove" id="358" weight="1.0" />
+      <edge source="lemag" target="alsace" id="359" weight="1.0" />
+      <edge source="lemag" target="nrj12lachaine" id="360" weight="1.0" />
+      <edge source="alsace" target="nrj12lachaine" id="361" weight="1.0" />
+      <edge source="followtrick" target="followback" id="362" weight="1.0" />
+      <edge source="followtrick" target="mgwv" id="363" weight="1.0" />
+      <edge source="followtrick" target="follow" id="364" weight="1.0" />
+      <edge source="followback" target="mgwv" id="365" weight="1.0" />
+      <edge source="followback" target="follow" id="366" weight="1.0" />
+      <edge source="mgwv" target="follow" id="367" weight="1.0" />
+      <edge source="yankeecandletoulouse" target="yankeecandle" id="368" weight="1.0" />
+      <edge source="yankeecandletoulouse" target="bougie" id="369" weight="1.0" />
+      <edge source="yankeecandletoulouse" target="parfum" id="370" weight="1.0" />
+      <edge source="yankeecandle" target="bougie" id="371" weight="1.0" />
+      <edge source="yankeecandle" target="parfum" id="372" weight="1.0" />
+      <edge source="bougie" target="parfum" id="373" weight="1.0" />
+      <edge source="ecolenumerique" target="seriousgame" id="374" weight="1.0" />
+      <edge source="excellentissime" target="charb" id="375" weight="1.0" />
+      <edge source="charb" target="wolinski" id="376" weight="1.0" />
+      <edge source="charb" target="tignou" id="377" weight="1.0" />
+      <edge source="juliette" target="lilou" id="378" weight="1.0" />
+      <edge source="ff" target="anger" id="379" weight="1.0" />
+      <edge source="toureiffel" target="effeltower" id="380" weight="1.0" />
+      <edge source="toureiffel" target="family" id="381" weight="1.0" />
+      <edge source="toureiffel" target="work" id="382" weight="1.0" />
+      <edge source="toureiffel" target="gotowork" id="383" weight="1.0" />
+      <edge source="toureiffel" target="goodmorning" id="384" weight="1.0" />
+      <edge source="toureiffel" target="lunch" id="385" weight="1.0" />
+      <edge source="toureiffel" target="trocadero" id="386" weight="1.0" />
+      <edge source="toureiffel" target="champsdemar" id="387" weight="1.0" />
+      <edge source="effeltower" target="family" id="388" weight="1.0" />
+      <edge source="effeltower" target="work" id="389" weight="1.0" />
+      <edge source="effeltower" target="gotowork" id="390" weight="1.0" />
+      <edge source="effeltower" target="goodmorning" id="391" weight="1.0" />
+      <edge source="effeltower" target="lunch" id="392" weight="1.0" />
+      <edge source="effeltower" target="trocadero" id="393" weight="1.0" />
+      <edge source="effeltower" target="champsdemar" id="394" weight="1.0" />
+      <edge source="family" target="work" id="395" weight="1.0" />
+      <edge source="family" target="gotowork" id="396" weight="1.0" />
+      <edge source="family" target="goodmorning" id="397" weight="1.0" />
+      <edge source="family" target="lunch" id="398" weight="1.0" />
+      <edge source="family" target="trocadero" id="399" weight="1.0" />
+      <edge source="family" target="champsdemar" id="400" weight="1.0" />
+      <edge source="work" target="gotowork" id="401" weight="1.0" />
+      <edge source="work" target="goodmorning" id="402" weight="1.0" />
+      <edge source="work" target="lunch" id="403" weight="1.0" />
+      <edge source="work" target="trocadero" id="404" weight="1.0" />
+      <edge source="work" target="champsdemar" id="405" weight="1.0" />
+      <edge source="gotowork" target="goodmorning" id="406" weight="1.0" />
+      <edge source="gotowork" target="lunch" id="407" weight="1.0" />
+      <edge source="gotowork" target="trocadero" id="408" weight="1.0" />
+      <edge source="gotowork" target="champsdemar" id="409" weight="1.0" />
+      <edge source="goodmorning" target="lunch" id="410" weight="1.0" />
+      <edge source="goodmorning" target="trocadero" id="411" weight="1.0" />
+      <edge source="goodmorning" target="champsdemar" id="412" weight="1.0" />
+      <edge source="lunch" target="trocadero" id="413" weight="1.0" />
+      <edge source="lunch" target="champsdemar" id="414" weight="1.0" />
+      <edge source="trocadero" target="champsdemar" id="415" weight="1.0" />
+      <edge source="mercure" target="gameon" id="416" weight="1.0" />
+      <edge source="mercure" target="topspot" id="417" weight="1.0" />
+      <edge source="gameon" target="topspot" id="418" weight="1.0" />
+      <edge source="wolinski" target="tignou" id="419" weight="1.0" />
     </edges>
   </graph>
 </gexf>

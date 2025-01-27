@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -10,11 +10,68 @@
       <node id="publicsleepingday" label="publicsleepingday" />
       <node id="vglsocal" label="vglsocal" />
       <node id="tsyfr18" label="tsyfr18" />
+      <node id="inconvenienceyourselfday" label="inconvenienceyourselfday" />
+      <node id="studio" label="studio" />
+      <node id="fortnite" label="fortnite" />
+      <node id="event" label="event" />
+      <node id="women" label="women" />
+      <node id="hoboken" label="hoboken" />
+      <node id="poem" label="poem" />
+      <node id="poet" label="poet" />
+      <node id="poetry" label="poetry" />
+      <node id="poetrycommunity" label="poetrycommunity" />
+      <node id="life" label="life" />
+      <node id="lesson" label="lesson" />
+      <node id="word" label="word" />
+      <node id="littlepoem" label="littlepoem" />
+      <node id="writ" label="writ" />
+      <node id="headsup" label="headsup" />
     </nodes>
     <edges>
-      <edge source="humpday" target="nationaltoothfairyday" id="0" weight="1.0" />
-      <edge source="humpday" target="publicsleepingday" id="1" weight="1.0" />
-      <edge source="nationaltoothfairyday" target="publicsleepingday" id="2" weight="1.0" />
+      <edge source="humpday" target="nationaltoothfairyday" id="0" weight="2.0" />
+      <edge source="humpday" target="publicsleepingday" id="1" weight="2.0" />
+      <edge source="humpday" target="inconvenienceyourselfday" id="2" weight="2.0" />
+      <edge source="nationaltoothfairyday" target="publicsleepingday" id="3" weight="1.0" />
+      <edge source="nationaltoothfairyday" target="inconvenienceyourselfday" id="4" weight="1.0" />
+      <edge source="publicsleepingday" target="inconvenienceyourselfday" id="5" weight="1.0" />
+      <edge source="studio" target="fortnite" id="6" weight="1.0" />
+      <edge source="event" target="women" id="7" weight="1.0" />
+      <edge source="poem" target="poet" id="8" weight="1.0" />
+      <edge source="poem" target="poetry" id="9" weight="1.0" />
+      <edge source="poem" target="poetrycommunity" id="10" weight="1.0" />
+      <edge source="poem" target="life" id="11" weight="1.0" />
+      <edge source="poem" target="lesson" id="12" weight="1.0" />
+      <edge source="poem" target="word" id="13" weight="1.0" />
+      <edge source="poem" target="littlepoem" id="14" weight="1.0" />
+      <edge source="poem" target="writ" id="15" weight="1.0" />
+      <edge source="poet" target="poetry" id="16" weight="1.0" />
+      <edge source="poet" target="poetrycommunity" id="17" weight="1.0" />
+      <edge source="poet" target="life" id="18" weight="1.0" />
+      <edge source="poet" target="lesson" id="19" weight="1.0" />
+      <edge source="poet" target="word" id="20" weight="1.0" />
+      <edge source="poet" target="littlepoem" id="21" weight="1.0" />
+      <edge source="poet" target="writ" id="22" weight="1.0" />
+      <edge source="poetry" target="poetrycommunity" id="23" weight="1.0" />
+      <edge source="poetry" target="life" id="24" weight="1.0" />
+      <edge source="poetry" target="lesson" id="25" weight="1.0" />
+      <edge source="poetry" target="word" id="26" weight="1.0" />
+      <edge source="poetry" target="littlepoem" id="27" weight="1.0" />
+      <edge source="poetry" target="writ" id="28" weight="1.0" />
+      <edge source="poetrycommunity" target="life" id="29" weight="1.0" />
+      <edge source="poetrycommunity" target="lesson" id="30" weight="1.0" />
+      <edge source="poetrycommunity" target="word" id="31" weight="1.0" />
+      <edge source="poetrycommunity" target="littlepoem" id="32" weight="1.0" />
+      <edge source="poetrycommunity" target="writ" id="33" weight="1.0" />
+      <edge source="life" target="lesson" id="34" weight="1.0" />
+      <edge source="life" target="word" id="35" weight="1.0" />
+      <edge source="life" target="littlepoem" id="36" weight="1.0" />
+      <edge source="life" target="writ" id="37" weight="1.0" />
+      <edge source="lesson" target="word" id="38" weight="1.0" />
+      <edge source="lesson" target="littlepoem" id="39" weight="1.0" />
+      <edge source="lesson" target="writ" id="40" weight="1.0" />
+      <edge source="word" target="littlepoem" id="41" weight="1.0" />
+      <edge source="word" target="writ" id="42" weight="1.0" />
+      <edge source="littlepoem" target="writ" id="43" weight="1.0" />
     </edges>
   </graph>
 </gexf>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
       <node id="balloon" label="balloon" />
-      <node id="ballons" label="ballons" />
+      <node id="ballon" label="ballon" />
       <node id="bro" label="bro" />
       <node id="doyoueven" label="doyoueven" />
       <node id="sopro" label="sopro" />
@@ -26,23 +26,44 @@
       <node id="feelthepower" label="feelthepower" />
       <node id="spirittatstribe" label="spirittatstribe" />
       <node id="thebronx" label="thebronx" />
-      <node id="sobs" label="sobs" />
+      <node id="sob" label="sob" />
       <node id="letsgetit" label="letsgetit" />
       <node id="facesinthecrowd" label="facesinthecrowd" />
       <node id="nomoneynoswag" label="nomoneynoswag" />
-      <node id="gottagetthechicks" label="gottagetthechicks" />
+      <node id="gottagetthechick" label="gottagetthechick" />
       <node id="cheese" label="cheese" />
       <node id="comeup" label="comeup" />
       <node id="makeahaterloveme" label="makeahaterloveme" />
+      <node id="humpday" label="humpday" />
+      <node id="nationaltoothfairyday" label="nationaltoothfairyday" />
+      <node id="publicsleepingday" label="publicsleepingday" />
+      <node id="vglsocal" label="vglsocal" />
+      <node id="tsyfr18" label="tsyfr18" />
+      <node id="inconvenienceyourselfday" label="inconvenienceyourselfday" />
+      <node id="studio" label="studio" />
+      <node id="fortnite" label="fortnite" />
+      <node id="event" label="event" />
+      <node id="women" label="women" />
+      <node id="hoboken" label="hoboken" />
+      <node id="poem" label="poem" />
+      <node id="poet" label="poet" />
+      <node id="poetry" label="poetry" />
+      <node id="poetrycommunity" label="poetrycommunity" />
+      <node id="life" label="life" />
+      <node id="lesson" label="lesson" />
+      <node id="word" label="word" />
+      <node id="littlepoem" label="littlepoem" />
+      <node id="writ" label="writ" />
+      <node id="headsup" label="headsup" />
     </nodes>
     <edges>
-      <edge source="balloon" target="ballons" id="0" weight="1.0" />
+      <edge source="balloon" target="ballon" id="0" weight="1.0" />
       <edge source="balloon" target="bro" id="1" weight="1.0" />
       <edge source="balloon" target="doyoueven" id="2" weight="1.0" />
       <edge source="balloon" target="sopro" id="3" weight="1.0" />
-      <edge source="ballons" target="bro" id="4" weight="1.0" />
-      <edge source="ballons" target="doyoueven" id="5" weight="1.0" />
-      <edge source="ballons" target="sopro" id="6" weight="1.0" />
+      <edge source="ballon" target="bro" id="4" weight="1.0" />
+      <edge source="ballon" target="doyoueven" id="5" weight="1.0" />
+      <edge source="ballon" target="sopro" id="6" weight="1.0" />
       <edge source="bro" target="doyoueven" id="7" weight="1.0" />
       <edge source="bro" target="sopro" id="8" weight="1.0" />
       <edge source="doyoueven" target="sopro" id="9" weight="1.0" />
@@ -58,11 +79,11 @@
       <edge source="moemoney" target="showcase" id="19" weight="1.0" />
       <edge source="moemoney" target="feelthepower" id="20" weight="1.0" />
       <edge source="moemoney" target="thebronx" id="21" weight="1.0" />
-      <edge source="moemoney" target="sobs" id="22" weight="1.0" />
+      <edge source="moemoney" target="sob" id="22" weight="1.0" />
       <edge source="moemoney" target="letsgetit" id="23" weight="1.0" />
       <edge source="moemoney" target="facesinthecrowd" id="24" weight="1.0" />
       <edge source="moemoney" target="nomoneynoswag" id="25" weight="1.0" />
-      <edge source="moemoney" target="gottagetthechicks" id="26" weight="1.0" />
+      <edge source="moemoney" target="gottagetthechick" id="26" weight="1.0" />
       <edge source="moemoney" target="cheese" id="27" weight="1.0" />
       <edge source="moemoney" target="comeup" id="28" weight="1.0" />
       <edge source="moemoney" target="makeahaterloveme" id="29" weight="1.0" />
@@ -77,11 +98,11 @@
       <edge source="loveandhiphop" target="showcase" id="38" weight="1.0" />
       <edge source="loveandhiphop" target="feelthepower" id="39" weight="1.0" />
       <edge source="loveandhiphop" target="thebronx" id="40" weight="1.0" />
-      <edge source="loveandhiphop" target="sobs" id="41" weight="1.0" />
+      <edge source="loveandhiphop" target="sob" id="41" weight="1.0" />
       <edge source="loveandhiphop" target="letsgetit" id="42" weight="1.0" />
       <edge source="loveandhiphop" target="facesinthecrowd" id="43" weight="1.0" />
       <edge source="loveandhiphop" target="nomoneynoswag" id="44" weight="1.0" />
-      <edge source="loveandhiphop" target="gottagetthechicks" id="45" weight="1.0" />
+      <edge source="loveandhiphop" target="gottagetthechick" id="45" weight="1.0" />
       <edge source="loveandhiphop" target="cheese" id="46" weight="1.0" />
       <edge source="loveandhiphop" target="comeup" id="47" weight="1.0" />
       <edge source="loveandhiphop" target="makeahaterloveme" id="48" weight="1.0" />
@@ -95,11 +116,11 @@
       <edge source="nyc" target="showcase" id="56" weight="1.0" />
       <edge source="nyc" target="feelthepower" id="57" weight="1.0" />
       <edge source="nyc" target="thebronx" id="58" weight="1.0" />
-      <edge source="nyc" target="sobs" id="59" weight="1.0" />
+      <edge source="nyc" target="sob" id="59" weight="1.0" />
       <edge source="nyc" target="letsgetit" id="60" weight="1.0" />
       <edge source="nyc" target="facesinthecrowd" id="61" weight="1.0" />
       <edge source="nyc" target="nomoneynoswag" id="62" weight="1.0" />
-      <edge source="nyc" target="gottagetthechicks" id="63" weight="1.0" />
+      <edge source="nyc" target="gottagetthechick" id="63" weight="1.0" />
       <edge source="nyc" target="cheese" id="64" weight="1.0" />
       <edge source="nyc" target="comeup" id="65" weight="1.0" />
       <edge source="nyc" target="makeahaterloveme" id="66" weight="1.0" />
@@ -112,11 +133,11 @@
       <edge source="harlem" target="showcase" id="73" weight="1.0" />
       <edge source="harlem" target="feelthepower" id="74" weight="1.0" />
       <edge source="harlem" target="thebronx" id="75" weight="1.0" />
-      <edge source="harlem" target="sobs" id="76" weight="1.0" />
+      <edge source="harlem" target="sob" id="76" weight="1.0" />
       <edge source="harlem" target="letsgetit" id="77" weight="1.0" />
       <edge source="harlem" target="facesinthecrowd" id="78" weight="1.0" />
       <edge source="harlem" target="nomoneynoswag" id="79" weight="1.0" />
-      <edge source="harlem" target="gottagetthechicks" id="80" weight="1.0" />
+      <edge source="harlem" target="gottagetthechick" id="80" weight="1.0" />
       <edge source="harlem" target="cheese" id="81" weight="1.0" />
       <edge source="harlem" target="comeup" id="82" weight="1.0" />
       <edge source="harlem" target="makeahaterloveme" id="83" weight="1.0" />
@@ -128,11 +149,11 @@
       <edge source="pullupondafbitch" target="showcase" id="89" weight="1.0" />
       <edge source="pullupondafbitch" target="feelthepower" id="90" weight="1.0" />
       <edge source="pullupondafbitch" target="thebronx" id="91" weight="1.0" />
-      <edge source="pullupondafbitch" target="sobs" id="92" weight="1.0" />
+      <edge source="pullupondafbitch" target="sob" id="92" weight="1.0" />
       <edge source="pullupondafbitch" target="letsgetit" id="93" weight="1.0" />
       <edge source="pullupondafbitch" target="facesinthecrowd" id="94" weight="1.0" />
       <edge source="pullupondafbitch" target="nomoneynoswag" id="95" weight="1.0" />
-      <edge source="pullupondafbitch" target="gottagetthechicks" id="96" weight="1.0" />
+      <edge source="pullupondafbitch" target="gottagetthechick" id="96" weight="1.0" />
       <edge source="pullupondafbitch" target="cheese" id="97" weight="1.0" />
       <edge source="pullupondafbitch" target="comeup" id="98" weight="1.0" />
       <edge source="pullupondafbitch" target="makeahaterloveme" id="99" weight="1.0" />
@@ -143,11 +164,11 @@
       <edge source="poundcake" target="showcase" id="104" weight="1.0" />
       <edge source="poundcake" target="feelthepower" id="105" weight="1.0" />
       <edge source="poundcake" target="thebronx" id="106" weight="1.0" />
-      <edge source="poundcake" target="sobs" id="107" weight="1.0" />
+      <edge source="poundcake" target="sob" id="107" weight="1.0" />
       <edge source="poundcake" target="letsgetit" id="108" weight="1.0" />
       <edge source="poundcake" target="facesinthecrowd" id="109" weight="1.0" />
       <edge source="poundcake" target="nomoneynoswag" id="110" weight="1.0" />
-      <edge source="poundcake" target="gottagetthechicks" id="111" weight="1.0" />
+      <edge source="poundcake" target="gottagetthechick" id="111" weight="1.0" />
       <edge source="poundcake" target="cheese" id="112" weight="1.0" />
       <edge source="poundcake" target="comeup" id="113" weight="1.0" />
       <edge source="poundcake" target="makeahaterloveme" id="114" weight="1.0" />
@@ -158,11 +179,11 @@
       <edge source="coney" target="showcase" id="119" weight="1.0" />
       <edge source="coney" target="feelthepower" id="120" weight="1.0" />
       <edge source="coney" target="thebronx" id="121" weight="1.0" />
-      <edge source="coney" target="sobs" id="122" weight="1.0" />
+      <edge source="coney" target="sob" id="122" weight="1.0" />
       <edge source="coney" target="letsgetit" id="123" weight="1.0" />
       <edge source="coney" target="facesinthecrowd" id="124" weight="1.0" />
       <edge source="coney" target="nomoneynoswag" id="125" weight="1.0" />
-      <edge source="coney" target="gottagetthechicks" id="126" weight="1.0" />
+      <edge source="coney" target="gottagetthechick" id="126" weight="1.0" />
       <edge source="coney" target="cheese" id="127" weight="1.0" />
       <edge source="coney" target="comeup" id="128" weight="1.0" />
       <edge source="coney" target="makeahaterloveme" id="129" weight="1.0" />
@@ -171,11 +192,11 @@
       <edge source="brooklyn" target="showcase" id="132" weight="1.0" />
       <edge source="brooklyn" target="feelthepower" id="133" weight="1.0" />
       <edge source="brooklyn" target="thebronx" id="134" weight="1.0" />
-      <edge source="brooklyn" target="sobs" id="135" weight="1.0" />
+      <edge source="brooklyn" target="sob" id="135" weight="1.0" />
       <edge source="brooklyn" target="letsgetit" id="136" weight="1.0" />
       <edge source="brooklyn" target="facesinthecrowd" id="137" weight="1.0" />
       <edge source="brooklyn" target="nomoneynoswag" id="138" weight="1.0" />
-      <edge source="brooklyn" target="gottagetthechicks" id="139" weight="1.0" />
+      <edge source="brooklyn" target="gottagetthechick" id="139" weight="1.0" />
       <edge source="brooklyn" target="cheese" id="140" weight="1.0" />
       <edge source="brooklyn" target="comeup" id="141" weight="1.0" />
       <edge source="brooklyn" target="makeahaterloveme" id="142" weight="1.0" />
@@ -183,80 +204,124 @@
       <edge source="theblackout" target="showcase" id="144" weight="1.0" />
       <edge source="theblackout" target="feelthepower" id="145" weight="1.0" />
       <edge source="theblackout" target="thebronx" id="146" weight="1.0" />
-      <edge source="theblackout" target="sobs" id="147" weight="1.0" />
+      <edge source="theblackout" target="sob" id="147" weight="1.0" />
       <edge source="theblackout" target="letsgetit" id="148" weight="1.0" />
       <edge source="theblackout" target="facesinthecrowd" id="149" weight="1.0" />
       <edge source="theblackout" target="nomoneynoswag" id="150" weight="1.0" />
-      <edge source="theblackout" target="gottagetthechicks" id="151" weight="1.0" />
+      <edge source="theblackout" target="gottagetthechick" id="151" weight="1.0" />
       <edge source="theblackout" target="cheese" id="152" weight="1.0" />
       <edge source="theblackout" target="comeup" id="153" weight="1.0" />
       <edge source="theblackout" target="makeahaterloveme" id="154" weight="1.0" />
       <edge source="black" target="showcase" id="155" weight="1.0" />
       <edge source="black" target="feelthepower" id="156" weight="1.0" />
       <edge source="black" target="thebronx" id="157" weight="1.0" />
-      <edge source="black" target="sobs" id="158" weight="1.0" />
+      <edge source="black" target="sob" id="158" weight="1.0" />
       <edge source="black" target="letsgetit" id="159" weight="1.0" />
       <edge source="black" target="facesinthecrowd" id="160" weight="1.0" />
       <edge source="black" target="nomoneynoswag" id="161" weight="1.0" />
-      <edge source="black" target="gottagetthechicks" id="162" weight="1.0" />
+      <edge source="black" target="gottagetthechick" id="162" weight="1.0" />
       <edge source="black" target="cheese" id="163" weight="1.0" />
       <edge source="black" target="comeup" id="164" weight="1.0" />
       <edge source="black" target="makeahaterloveme" id="165" weight="1.0" />
       <edge source="showcase" target="feelthepower" id="166" weight="1.0" />
       <edge source="showcase" target="thebronx" id="167" weight="1.0" />
-      <edge source="showcase" target="sobs" id="168" weight="1.0" />
+      <edge source="showcase" target="sob" id="168" weight="1.0" />
       <edge source="showcase" target="letsgetit" id="169" weight="1.0" />
       <edge source="showcase" target="facesinthecrowd" id="170" weight="1.0" />
       <edge source="showcase" target="nomoneynoswag" id="171" weight="1.0" />
-      <edge source="showcase" target="gottagetthechicks" id="172" weight="1.0" />
+      <edge source="showcase" target="gottagetthechick" id="172" weight="1.0" />
       <edge source="showcase" target="cheese" id="173" weight="1.0" />
       <edge source="showcase" target="comeup" id="174" weight="1.0" />
       <edge source="showcase" target="makeahaterloveme" id="175" weight="1.0" />
       <edge source="feelthepower" target="thebronx" id="176" weight="1.0" />
-      <edge source="feelthepower" target="sobs" id="177" weight="1.0" />
+      <edge source="feelthepower" target="sob" id="177" weight="1.0" />
       <edge source="feelthepower" target="letsgetit" id="178" weight="1.0" />
       <edge source="feelthepower" target="facesinthecrowd" id="179" weight="1.0" />
       <edge source="feelthepower" target="nomoneynoswag" id="180" weight="1.0" />
-      <edge source="feelthepower" target="gottagetthechicks" id="181" weight="1.0" />
+      <edge source="feelthepower" target="gottagetthechick" id="181" weight="1.0" />
       <edge source="feelthepower" target="cheese" id="182" weight="1.0" />
       <edge source="feelthepower" target="comeup" id="183" weight="1.0" />
       <edge source="feelthepower" target="makeahaterloveme" id="184" weight="1.0" />
-      <edge source="thebronx" target="sobs" id="185" weight="1.0" />
+      <edge source="thebronx" target="sob" id="185" weight="1.0" />
       <edge source="thebronx" target="letsgetit" id="186" weight="1.0" />
       <edge source="thebronx" target="facesinthecrowd" id="187" weight="1.0" />
       <edge source="thebronx" target="nomoneynoswag" id="188" weight="1.0" />
-      <edge source="thebronx" target="gottagetthechicks" id="189" weight="1.0" />
+      <edge source="thebronx" target="gottagetthechick" id="189" weight="1.0" />
       <edge source="thebronx" target="cheese" id="190" weight="1.0" />
       <edge source="thebronx" target="comeup" id="191" weight="1.0" />
       <edge source="thebronx" target="makeahaterloveme" id="192" weight="1.0" />
-      <edge source="sobs" target="letsgetit" id="193" weight="1.0" />
-      <edge source="sobs" target="facesinthecrowd" id="194" weight="1.0" />
-      <edge source="sobs" target="nomoneynoswag" id="195" weight="1.0" />
-      <edge source="sobs" target="gottagetthechicks" id="196" weight="1.0" />
-      <edge source="sobs" target="cheese" id="197" weight="1.0" />
-      <edge source="sobs" target="comeup" id="198" weight="1.0" />
-      <edge source="sobs" target="makeahaterloveme" id="199" weight="1.0" />
+      <edge source="sob" target="letsgetit" id="193" weight="1.0" />
+      <edge source="sob" target="facesinthecrowd" id="194" weight="1.0" />
+      <edge source="sob" target="nomoneynoswag" id="195" weight="1.0" />
+      <edge source="sob" target="gottagetthechick" id="196" weight="1.0" />
+      <edge source="sob" target="cheese" id="197" weight="1.0" />
+      <edge source="sob" target="comeup" id="198" weight="1.0" />
+      <edge source="sob" target="makeahaterloveme" id="199" weight="1.0" />
       <edge source="letsgetit" target="facesinthecrowd" id="200" weight="1.0" />
       <edge source="letsgetit" target="nomoneynoswag" id="201" weight="1.0" />
-      <edge source="letsgetit" target="gottagetthechicks" id="202" weight="1.0" />
+      <edge source="letsgetit" target="gottagetthechick" id="202" weight="1.0" />
       <edge source="letsgetit" target="cheese" id="203" weight="1.0" />
       <edge source="letsgetit" target="comeup" id="204" weight="1.0" />
       <edge source="letsgetit" target="makeahaterloveme" id="205" weight="1.0" />
       <edge source="facesinthecrowd" target="nomoneynoswag" id="206" weight="1.0" />
-      <edge source="facesinthecrowd" target="gottagetthechicks" id="207" weight="1.0" />
+      <edge source="facesinthecrowd" target="gottagetthechick" id="207" weight="1.0" />
       <edge source="facesinthecrowd" target="cheese" id="208" weight="1.0" />
       <edge source="facesinthecrowd" target="comeup" id="209" weight="1.0" />
       <edge source="facesinthecrowd" target="makeahaterloveme" id="210" weight="1.0" />
-      <edge source="nomoneynoswag" target="gottagetthechicks" id="211" weight="1.0" />
+      <edge source="nomoneynoswag" target="gottagetthechick" id="211" weight="1.0" />
       <edge source="nomoneynoswag" target="cheese" id="212" weight="1.0" />
       <edge source="nomoneynoswag" target="comeup" id="213" weight="1.0" />
       <edge source="nomoneynoswag" target="makeahaterloveme" id="214" weight="1.0" />
-      <edge source="gottagetthechicks" target="cheese" id="215" weight="1.0" />
-      <edge source="gottagetthechicks" target="comeup" id="216" weight="1.0" />
-      <edge source="gottagetthechicks" target="makeahaterloveme" id="217" weight="1.0" />
+      <edge source="gottagetthechick" target="cheese" id="215" weight="1.0" />
+      <edge source="gottagetthechick" target="comeup" id="216" weight="1.0" />
+      <edge source="gottagetthechick" target="makeahaterloveme" id="217" weight="1.0" />
       <edge source="cheese" target="comeup" id="218" weight="1.0" />
       <edge source="cheese" target="makeahaterloveme" id="219" weight="1.0" />
       <edge source="comeup" target="makeahaterloveme" id="220" weight="1.0" />
+      <edge source="humpday" target="nationaltoothfairyday" id="221" weight="2.0" />
+      <edge source="humpday" target="publicsleepingday" id="222" weight="2.0" />
+      <edge source="humpday" target="inconvenienceyourselfday" id="223" weight="2.0" />
+      <edge source="nationaltoothfairyday" target="publicsleepingday" id="224" weight="1.0" />
+      <edge source="nationaltoothfairyday" target="inconvenienceyourselfday" id="225" weight="1.0" />
+      <edge source="publicsleepingday" target="inconvenienceyourselfday" id="226" weight="1.0" />
+      <edge source="studio" target="fortnite" id="227" weight="1.0" />
+      <edge source="event" target="women" id="228" weight="1.0" />
+      <edge source="poem" target="poet" id="229" weight="1.0" />
+      <edge source="poem" target="poetry" id="230" weight="1.0" />
+      <edge source="poem" target="poetrycommunity" id="231" weight="1.0" />
+      <edge source="poem" target="life" id="232" weight="1.0" />
+      <edge source="poem" target="lesson" id="233" weight="1.0" />
+      <edge source="poem" target="word" id="234" weight="1.0" />
+      <edge source="poem" target="littlepoem" id="235" weight="1.0" />
+      <edge source="poem" target="writ" id="236" weight="1.0" />
+      <edge source="poet" target="poetry" id="237" weight="1.0" />
+      <edge source="poet" target="poetrycommunity" id="238" weight="1.0" />
+      <edge source="poet" target="life" id="239" weight="1.0" />
+      <edge source="poet" target="lesson" id="240" weight="1.0" />
+      <edge source="poet" target="word" id="241" weight="1.0" />
+      <edge source="poet" target="littlepoem" id="242" weight="1.0" />
+      <edge source="poet" target="writ" id="243" weight="1.0" />
+      <edge source="poetry" target="poetrycommunity" id="244" weight="1.0" />
+      <edge source="poetry" target="life" id="245" weight="1.0" />
+      <edge source="poetry" target="lesson" id="246" weight="1.0" />
+      <edge source="poetry" target="word" id="247" weight="1.0" />
+      <edge source="poetry" target="littlepoem" id="248" weight="1.0" />
+      <edge source="poetry" target="writ" id="249" weight="1.0" />
+      <edge source="poetrycommunity" target="life" id="250" weight="1.0" />
+      <edge source="poetrycommunity" target="lesson" id="251" weight="1.0" />
+      <edge source="poetrycommunity" target="word" id="252" weight="1.0" />
+      <edge source="poetrycommunity" target="littlepoem" id="253" weight="1.0" />
+      <edge source="poetrycommunity" target="writ" id="254" weight="1.0" />
+      <edge source="life" target="lesson" id="255" weight="1.0" />
+      <edge source="life" target="word" id="256" weight="1.0" />
+      <edge source="life" target="littlepoem" id="257" weight="1.0" />
+      <edge source="life" target="writ" id="258" weight="1.0" />
+      <edge source="lesson" target="word" id="259" weight="1.0" />
+      <edge source="lesson" target="littlepoem" id="260" weight="1.0" />
+      <edge source="lesson" target="writ" id="261" weight="1.0" />
+      <edge source="word" target="littlepoem" id="262" weight="1.0" />
+      <edge source="word" target="writ" id="263" weight="1.0" />
+      <edge source="littlepoem" target="writ" id="264" weight="1.0" />
     </edges>
   </graph>
 </gexf>

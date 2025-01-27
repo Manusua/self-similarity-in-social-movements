@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -9,20 +9,143 @@
       <node id="dressinblueday" label="dressinblueday" />
       <node id="worlddayofprayer" label="worlddayofprayer" />
       <node id="vinclancy" label="vinclancy" />
-      <node id="kiss" label="kiss" />
+      <node id="kis" label="kis" />
       <node id="tolvic" label="tolvic" />
       <node id="weho" label="weho" />
       <node id="california" label="california" />
-      <node id="losangeles" label="losangeles" />
+      <node id="losangele" label="losangele" />
+      <node id="flinnfluence" label="flinnfluence" />
+      <node id="bfd" label="bfd" />
+      <node id="aramyote" label="aramyote" />
+      <node id="aarinasker" label="aarinasker" />
+      <node id="revolverbarweho" label="revolverbarweho" />
+      <node id="peachpop" label="peachpop" />
+      <node id="dragqueen" label="dragqueen" />
+      <node id="gettogether" label="gettogether" />
+      <node id="allusiatogo" label="allusiatogo" />
+      <node id="mickysweho" label="mickysweho" />
+      <node id="kingcharles5" label="kingcharles5" />
+      <node id="employeeappreciationday" label="employeeappreciationday" />
+      <node id="fridayvibe" label="fridayvibe" />
+      <node id="fridayallweek" label="fridayallweek" />
+      <node id="friday" label="friday" />
+      <node id="fridayfeeling" label="fridayfeeling" />
+      <node id="stunning" label="stunning" />
+      <node id="stylish" label="stylish" />
+      <node id="kinggypsy" label="kinggypsy" />
+      <node id="morelove" label="morelove" />
+      <node id="cultivatehappines" label="cultivatehappines" />
     </nodes>
     <edges>
-      <edge source="drseussday" target="dressinblueday" id="0" weight="1.0" />
-      <edge source="drseussday" target="worlddayofprayer" id="1" weight="1.0" />
-      <edge source="dressinblueday" target="worlddayofprayer" id="2" weight="1.0" />
-      <edge source="vinclancy" target="kiss" id="3" weight="1.0" />
-      <edge source="weho" target="california" id="4" weight="1.0" />
-      <edge source="weho" target="losangeles" id="5" weight="1.0" />
-      <edge source="california" target="losangeles" id="6" weight="1.0" />
+      <edge source="drseussday" target="dressinblueday" id="0" weight="2.0" />
+      <edge source="drseussday" target="worlddayofprayer" id="1" weight="2.0" />
+      <edge source="drseussday" target="employeeappreciationday" id="2" weight="1.0" />
+      <edge source="dressinblueday" target="worlddayofprayer" id="3" weight="4.0" />
+      <edge source="dressinblueday" target="employeeappreciationday" id="4" weight="2.0" />
+      <edge source="worlddayofprayer" target="employeeappreciationday" id="5" weight="2.0" />
+      <edge source="vinclancy" target="kis" id="6" weight="1.0" />
+      <edge source="weho" target="california" id="7" weight="1.0" />
+      <edge source="weho" target="losangele" id="8" weight="1.0" />
+      <edge source="weho" target="flinnfluence" id="9" weight="1.0" />
+      <edge source="weho" target="bfd" id="10" weight="1.0" />
+      <edge source="weho" target="aramyote" id="11" weight="1.0" />
+      <edge source="weho" target="aarinasker" id="12" weight="1.0" />
+      <edge source="weho" target="revolverbarweho" id="13" weight="1.0" />
+      <edge source="weho" target="peachpop" id="14" weight="1.0" />
+      <edge source="weho" target="dragqueen" id="15" weight="1.0" />
+      <edge source="weho" target="gettogether" id="16" weight="1.0" />
+      <edge source="weho" target="allusiatogo" id="17" weight="1.0" />
+      <edge source="weho" target="mickysweho" id="18" weight="1.0" />
+      <edge source="weho" target="kingcharles5" id="19" weight="1.0" />
+      <edge source="california" target="losangele" id="20" weight="1.0" />
+      <edge source="california" target="flinnfluence" id="21" weight="1.0" />
+      <edge source="california" target="bfd" id="22" weight="1.0" />
+      <edge source="california" target="aramyote" id="23" weight="1.0" />
+      <edge source="california" target="aarinasker" id="24" weight="1.0" />
+      <edge source="california" target="revolverbarweho" id="25" weight="1.0" />
+      <edge source="california" target="peachpop" id="26" weight="1.0" />
+      <edge source="california" target="dragqueen" id="27" weight="1.0" />
+      <edge source="california" target="gettogether" id="28" weight="1.0" />
+      <edge source="california" target="allusiatogo" id="29" weight="1.0" />
+      <edge source="california" target="mickysweho" id="30" weight="1.0" />
+      <edge source="california" target="kingcharles5" id="31" weight="1.0" />
+      <edge source="losangele" target="flinnfluence" id="32" weight="1.0" />
+      <edge source="losangele" target="bfd" id="33" weight="1.0" />
+      <edge source="losangele" target="aramyote" id="34" weight="1.0" />
+      <edge source="losangele" target="aarinasker" id="35" weight="1.0" />
+      <edge source="losangele" target="revolverbarweho" id="36" weight="1.0" />
+      <edge source="losangele" target="peachpop" id="37" weight="1.0" />
+      <edge source="losangele" target="dragqueen" id="38" weight="1.0" />
+      <edge source="losangele" target="gettogether" id="39" weight="1.0" />
+      <edge source="losangele" target="allusiatogo" id="40" weight="1.0" />
+      <edge source="losangele" target="mickysweho" id="41" weight="1.0" />
+      <edge source="losangele" target="kingcharles5" id="42" weight="1.0" />
+      <edge source="flinnfluence" target="bfd" id="43" weight="1.0" />
+      <edge source="flinnfluence" target="aramyote" id="44" weight="1.0" />
+      <edge source="flinnfluence" target="aarinasker" id="45" weight="1.0" />
+      <edge source="flinnfluence" target="revolverbarweho" id="46" weight="1.0" />
+      <edge source="flinnfluence" target="peachpop" id="47" weight="1.0" />
+      <edge source="flinnfluence" target="dragqueen" id="48" weight="1.0" />
+      <edge source="flinnfluence" target="gettogether" id="49" weight="1.0" />
+      <edge source="flinnfluence" target="allusiatogo" id="50" weight="1.0" />
+      <edge source="flinnfluence" target="mickysweho" id="51" weight="1.0" />
+      <edge source="flinnfluence" target="kingcharles5" id="52" weight="1.0" />
+      <edge source="bfd" target="aramyote" id="53" weight="1.0" />
+      <edge source="bfd" target="aarinasker" id="54" weight="1.0" />
+      <edge source="bfd" target="revolverbarweho" id="55" weight="1.0" />
+      <edge source="bfd" target="peachpop" id="56" weight="1.0" />
+      <edge source="bfd" target="dragqueen" id="57" weight="1.0" />
+      <edge source="bfd" target="gettogether" id="58" weight="1.0" />
+      <edge source="bfd" target="allusiatogo" id="59" weight="1.0" />
+      <edge source="bfd" target="mickysweho" id="60" weight="1.0" />
+      <edge source="bfd" target="kingcharles5" id="61" weight="1.0" />
+      <edge source="aramyote" target="aarinasker" id="62" weight="1.0" />
+      <edge source="aramyote" target="revolverbarweho" id="63" weight="1.0" />
+      <edge source="aramyote" target="peachpop" id="64" weight="1.0" />
+      <edge source="aramyote" target="dragqueen" id="65" weight="1.0" />
+      <edge source="aramyote" target="gettogether" id="66" weight="1.0" />
+      <edge source="aramyote" target="allusiatogo" id="67" weight="1.0" />
+      <edge source="aramyote" target="mickysweho" id="68" weight="1.0" />
+      <edge source="aramyote" target="kingcharles5" id="69" weight="1.0" />
+      <edge source="aarinasker" target="revolverbarweho" id="70" weight="1.0" />
+      <edge source="aarinasker" target="peachpop" id="71" weight="1.0" />
+      <edge source="aarinasker" target="dragqueen" id="72" weight="1.0" />
+      <edge source="aarinasker" target="gettogether" id="73" weight="1.0" />
+      <edge source="aarinasker" target="allusiatogo" id="74" weight="1.0" />
+      <edge source="aarinasker" target="mickysweho" id="75" weight="1.0" />
+      <edge source="aarinasker" target="kingcharles5" id="76" weight="1.0" />
+      <edge source="revolverbarweho" target="peachpop" id="77" weight="1.0" />
+      <edge source="revolverbarweho" target="dragqueen" id="78" weight="1.0" />
+      <edge source="revolverbarweho" target="gettogether" id="79" weight="1.0" />
+      <edge source="revolverbarweho" target="allusiatogo" id="80" weight="1.0" />
+      <edge source="revolverbarweho" target="mickysweho" id="81" weight="1.0" />
+      <edge source="revolverbarweho" target="kingcharles5" id="82" weight="1.0" />
+      <edge source="peachpop" target="dragqueen" id="83" weight="1.0" />
+      <edge source="peachpop" target="gettogether" id="84" weight="1.0" />
+      <edge source="peachpop" target="allusiatogo" id="85" weight="1.0" />
+      <edge source="peachpop" target="mickysweho" id="86" weight="1.0" />
+      <edge source="peachpop" target="kingcharles5" id="87" weight="1.0" />
+      <edge source="dragqueen" target="gettogether" id="88" weight="1.0" />
+      <edge source="dragqueen" target="allusiatogo" id="89" weight="1.0" />
+      <edge source="dragqueen" target="mickysweho" id="90" weight="1.0" />
+      <edge source="dragqueen" target="kingcharles5" id="91" weight="1.0" />
+      <edge source="gettogether" target="allusiatogo" id="92" weight="1.0" />
+      <edge source="gettogether" target="mickysweho" id="93" weight="1.0" />
+      <edge source="gettogether" target="kingcharles5" id="94" weight="1.0" />
+      <edge source="allusiatogo" target="mickysweho" id="95" weight="1.0" />
+      <edge source="allusiatogo" target="kingcharles5" id="96" weight="1.0" />
+      <edge source="mickysweho" target="kingcharles5" id="97" weight="1.0" />
+      <edge source="fridayallweek" target="friday" id="98" weight="1.0" />
+      <edge source="fridayallweek" target="fridayfeeling" id="99" weight="1.0" />
+      <edge source="fridayallweek" target="stunning" id="100" weight="1.0" />
+      <edge source="fridayallweek" target="stylish" id="101" weight="1.0" />
+      <edge source="friday" target="fridayfeeling" id="102" weight="1.0" />
+      <edge source="friday" target="stunning" id="103" weight="1.0" />
+      <edge source="friday" target="stylish" id="104" weight="1.0" />
+      <edge source="fridayfeeling" target="stunning" id="105" weight="1.0" />
+      <edge source="fridayfeeling" target="stylish" id="106" weight="1.0" />
+      <edge source="stunning" target="stylish" id="107" weight="1.0" />
+      <edge source="kinggypsy" target="morelove" id="108" weight="1.0" />
     </edges>
   </graph>
 </gexf>

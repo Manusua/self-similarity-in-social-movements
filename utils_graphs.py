@@ -59,7 +59,7 @@ def read_data(manifestacion, datasets_folder = "datasets/"):
     """
     return pd.read_csv(datasets_folder + manifestacion + ".csv", sep= ',')
 
-def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/"):
+def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/", hour_window=1):
     """
     Crea y guarda grafos bipartitos basados en las relaciones entre usuarios y hashtags, 
     segmentados por hora, a partir de un DataFrame dado.
@@ -89,14 +89,17 @@ def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/"):
     """
     graphs_folder = graphs_folder + 'bipartite/' + manifestacion + '/'
     df_h = df["hour"].unique()
-    print("Creando redes bipartitas, manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h))
+    print("Creando redes bipartitas, manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
     G = nx.Graph()
-    for hour in df_h:
-        df_hour = df[(df["hour"] == hour)]
+    for hour in tqdm(df_h[::hour_window]):
+        conditions = (df["hour"] == hour)
+        for step in range(1, hour_window):
+            conditions |= (df["hour"]  == hour + step)
+        df_hour = df[conditions]
         G = nx.from_pandas_edgelist(df_hour, source="user", target="hashtag", edge_attr="weight")
         nx.write_gexf(G, graphs_folder + str(hour) + ".gexf")
 
-def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder="graphs/", labels=False):
+def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder="graphs/", labels=False, hour_window=1):
     """
     Genera y almacena grafos basados en las relaciones entre nodos, que pueden ser usuarios o hashtags, según 
     el criterio especificado. Los grafos se crean para cada hora distinta en el DataFrame, y pueden incluir una 
@@ -134,10 +137,13 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
     """
     graphs_folder = graphs_folder + 'nodes_' + node_criteria + '/'+ manifestacion + '/'
     df_h = df["hour"].unique()
-    print("Creando redes de", node_criteria, "unidos si comparten uno o más", edge_criteria, ", manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h))
-    for hour in df_h:
+    print("Creando redes de", node_criteria, "unidos si comparten uno o más", edge_criteria, ", manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
+    for hour in tqdm(df_h[::hour_window]):
         G = nx.Graph()
-        df_hour = df[(df["hour"] == hour)]
+        conditions = (df["hour"] == hour)
+        for step in range(1, hour_window):
+            conditions |= (df["hour"]  == hour + step)
+        df_hour = df[conditions]
         df_nodes = df_hour[node_criteria].unique()
         G.add_nodes_from(df_nodes)
         for node in df_nodes:
@@ -446,7 +452,7 @@ def calc_nestedness(G):
     nodf_score = NestednessCalculator(mat).nodf(mat)
     return nodf_score
 
-def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures/", datasets_foler="datasets/", graphs_folder="graphs/", write=True, read=True):
+def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures/", datasets_foler="datasets/", graphs_folder="graphs/", write=True, read=True, hour_window=1):
     """
     Calcula y devuelve el coeficiente de clustering y el coeficiente de anidamiento para cada hora de una manifestación 
     dada, en función del tipo de red especificado. Los resultados se pueden guardar en un archivo JSON para su reutilización.
@@ -512,7 +518,7 @@ def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures
     horas = df["hour"].unique()
 
     # Se ve que infomación del grafo está ya calculada y, si no, se calcula
-    for hora in tqdm(horas):
+    for hora in tqdm(horas[::hour_window]):
         hora = int(hora)
 
         if not hora in dict_manif.keys():

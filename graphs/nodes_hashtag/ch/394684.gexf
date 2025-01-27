@@ -1,121 +1,180 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
       <node id="france" label="france" />
-      <node id="lamagiedesturc" label="lamagiedesturc" />
+      <node id="emu" label="emu" />
       <node id="charliehebdo" label="charliehebdo" />
-      <node id="metz" label="metz" />
-      <node id="qcrzoo" label="qcrzoo" />
-      <node id="lucon" label="lucon" />
+      <node id="afp" label="afp" />
+      <node id="jessuischarlie" label="jessuischarlie" />
+      <node id="pauvrefrance" label="pauvrefrance" />
       <node id="jesuischarlie" label="jesuischarlie" />
-      <node id="sheerios" label="sheerios" />
-      <node id="twittos" label="twittos" />
-      <node id="votezwendy" label="votezwendy" />
-      <node id="dammartinengoel" label="dammartinengoel" />
-      <node id="bordeaux" label="bordeaux" />
-      <node id="afidaturner" label="afidaturner" />
-      <node id="primetimefut" label="primetimefut" />
-      <node id="bourdindirect" label="bourdindirect" />
-      <node id="testino" label="testino" />
-      <node id="apicube" label="apicube" />
-      <node id="communication" label="communication" />
-      <node id="fontainebleau" label="fontainebleau" />
-      <node id="wearestrong" label="wearestrong" />
-      <node id="sophiedavant" label="sophiedavant" />
-      <node id="selfieforseb" label="selfieforseb" />
-      <node id="tousdescharlie" label="tousdescharlie" />
-      <node id="coeurdetatie" label="coeurdetatie" />
-      <node id="dropdeaddiva" label="dropdeaddiva" />
-      <node id="yas" label="yas" />
-      <node id="monpere" label="monpere" />
-      <node id="maris" label="maris" />
-      <node id="bringit" label="bringit" />
-      <node id="soulsisters" label="soulsisters" />
-      <node id="votezpouroim" label="votezpouroim" />
+      <node id="jeune" label="jeune" />
+      <node id="n2" label="n2" />
+      <node id="pornicbasket" label="pornicbasket" />
+      <node id="solde" label="solde" />
+      <node id="franceattack" label="franceattack" />
+      <node id="dangerzone" label="dangerzone" />
+      <node id="vigipirateattentat" label="vigipirateattentat" />
+      <node id="on" label="on" />
+      <node id="cod" label="cod" />
+      <node id="minutedesilence" label="minutedesilence" />
+      <node id="libertedelapresse" label="libertedelapresse" />
+      <node id="libertedexpression" label="libertedexpression" />
+      <node id="memepaspeur" label="memepaspeur" />
+      <node id="koffivoice" label="koffivoice" />
+      <node id="phaseur" label="phaseur" />
+      <node id="toujoursdebout" label="toujoursdebout" />
+      <node id="lavalbaby" label="lavalbaby" />
+      <node id="thechosenone" label="thechosenone" />
+      <node id="kouachi" label="kouachi" />
+      <node id="hayatboumeddiene" label="hayatboumeddiene" />
+      <node id="disneylandpari" label="disneylandpari" />
+      <node id="raph" label="raph" />
+      <node id="sarah" label="sarah" />
+      <node id="arretezdemeregarder" label="arretezdemeregarder" />
       <node id="off" label="off" />
-      <node id="blog" label="blog" />
+      <node id="prisedotage" label="prisedotage" />
+      <node id="tmym" label="tmym" />
+      <node id="lswdy" label="lswdy" />
+      <node id="bry" label="bry" />
+      <node id="frn" label="frn" />
+      <node id="wzrlkhrjy" label="wzrlkhrjy" />
+      <node id="wzrltlymlly" label="wzrltlymlly" />
+      <node id="alqaida" label="alqaida" />
+      <node id="yemen" label="yemen" />
+      <node id="stres" label="stres" />
+      <node id="pari" label="pari" />
+      <node id="fury" label="fury" />
+      <node id="online" label="online" />
+      <node id="lt" label="lt" />
+      <node id="twitter" label="twitter" />
+      <node id="natureisspeaking" label="natureisspeaking" />
+      <node id="stage" label="stage" />
+      <node id="arbitre" label="arbitre" />
+      <node id="opcharliehebdo" label="opcharliehebdo" />
+      <node id="socialmedia" label="socialmedia" />
+      <node id="gign" label="gign" />
+      <node id="raid" label="raid" />
+      <node id="bri" label="bri" />
+      <node id="amourdemoi" label="amourdemoi" />
+      <node id="legionhonneur" label="legionhonneur" />
+      <node id="lrt" label="lrt" />
+      <node id="racism" label="racism" />
+      <node id="frontnational" label="frontnational" />
     </nodes>
     <edges>
-      <edge source="france" target="lamagiedesturc" id="0" weight="1.0" />
+      <edge source="france" target="emu" id="0" weight="1.0" />
       <edge source="france" target="charliehebdo" id="1" weight="1.0" />
-      <edge source="france" target="metz" id="2" weight="1.0" />
-      <edge source="france" target="qcrzoo" id="3" weight="1.0" />
-      <edge source="france" target="lucon" id="4" weight="1.0" />
-      <edge source="france" target="bordeaux" id="5" weight="1.0" />
-      <edge source="france" target="afidaturner" id="6" weight="1.0" />
-      <edge source="france" target="primetimefut" id="7" weight="1.0" />
-      <edge source="france" target="apicube" id="8" weight="1.0" />
-      <edge source="france" target="communication" id="9" weight="1.0" />
-      <edge source="france" target="fontainebleau" id="10" weight="1.0" />
-      <edge source="lamagiedesturc" target="charliehebdo" id="11" weight="1.0" />
-      <edge source="lamagiedesturc" target="metz" id="12" weight="1.0" />
-      <edge source="lamagiedesturc" target="qcrzoo" id="13" weight="1.0" />
-      <edge source="lamagiedesturc" target="lucon" id="14" weight="1.0" />
-      <edge source="lamagiedesturc" target="bordeaux" id="15" weight="1.0" />
-      <edge source="lamagiedesturc" target="afidaturner" id="16" weight="1.0" />
-      <edge source="lamagiedesturc" target="primetimefut" id="17" weight="1.0" />
-      <edge source="lamagiedesturc" target="apicube" id="18" weight="1.0" />
-      <edge source="lamagiedesturc" target="communication" id="19" weight="1.0" />
-      <edge source="lamagiedesturc" target="fontainebleau" id="20" weight="1.0" />
-      <edge source="charliehebdo" target="metz" id="21" weight="1.0" />
-      <edge source="charliehebdo" target="qcrzoo" id="22" weight="1.0" />
-      <edge source="charliehebdo" target="lucon" id="23" weight="1.0" />
-      <edge source="charliehebdo" target="bordeaux" id="24" weight="1.0" />
-      <edge source="charliehebdo" target="afidaturner" id="25" weight="1.0" />
-      <edge source="charliehebdo" target="primetimefut" id="26" weight="1.0" />
-      <edge source="charliehebdo" target="apicube" id="27" weight="1.0" />
-      <edge source="charliehebdo" target="communication" id="28" weight="1.0" />
-      <edge source="charliehebdo" target="fontainebleau" id="29" weight="1.0" />
-      <edge source="metz" target="qcrzoo" id="30" weight="1.0" />
-      <edge source="metz" target="lucon" id="31" weight="1.0" />
-      <edge source="metz" target="bordeaux" id="32" weight="1.0" />
-      <edge source="metz" target="afidaturner" id="33" weight="1.0" />
-      <edge source="metz" target="primetimefut" id="34" weight="1.0" />
-      <edge source="metz" target="apicube" id="35" weight="1.0" />
-      <edge source="metz" target="communication" id="36" weight="1.0" />
-      <edge source="metz" target="fontainebleau" id="37" weight="1.0" />
-      <edge source="qcrzoo" target="lucon" id="38" weight="1.0" />
-      <edge source="qcrzoo" target="bordeaux" id="39" weight="1.0" />
-      <edge source="qcrzoo" target="afidaturner" id="40" weight="1.0" />
-      <edge source="qcrzoo" target="primetimefut" id="41" weight="1.0" />
-      <edge source="qcrzoo" target="apicube" id="42" weight="1.0" />
-      <edge source="qcrzoo" target="communication" id="43" weight="1.0" />
-      <edge source="qcrzoo" target="fontainebleau" id="44" weight="1.0" />
-      <edge source="lucon" target="bordeaux" id="45" weight="1.0" />
-      <edge source="lucon" target="afidaturner" id="46" weight="1.0" />
-      <edge source="lucon" target="primetimefut" id="47" weight="1.0" />
-      <edge source="lucon" target="apicube" id="48" weight="1.0" />
-      <edge source="lucon" target="communication" id="49" weight="1.0" />
-      <edge source="lucon" target="fontainebleau" id="50" weight="1.0" />
-      <edge source="jesuischarlie" target="sheerios" id="51" weight="1.0" />
-      <edge source="jesuischarlie" target="twittos" id="52" weight="1.0" />
-      <edge source="jesuischarlie" target="votezwendy" id="53" weight="1.0" />
-      <edge source="sheerios" target="twittos" id="54" weight="1.0" />
-      <edge source="sheerios" target="votezwendy" id="55" weight="1.0" />
-      <edge source="twittos" target="votezwendy" id="56" weight="1.0" />
-      <edge source="bordeaux" target="afidaturner" id="57" weight="1.0" />
-      <edge source="bordeaux" target="primetimefut" id="58" weight="1.0" />
-      <edge source="bordeaux" target="apicube" id="59" weight="1.0" />
-      <edge source="bordeaux" target="communication" id="60" weight="1.0" />
-      <edge source="bordeaux" target="fontainebleau" id="61" weight="1.0" />
-      <edge source="afidaturner" target="primetimefut" id="62" weight="1.0" />
-      <edge source="afidaturner" target="apicube" id="63" weight="1.0" />
-      <edge source="afidaturner" target="communication" id="64" weight="1.0" />
-      <edge source="afidaturner" target="fontainebleau" id="65" weight="1.0" />
-      <edge source="primetimefut" target="apicube" id="66" weight="1.0" />
-      <edge source="primetimefut" target="communication" id="67" weight="1.0" />
-      <edge source="primetimefut" target="fontainebleau" id="68" weight="1.0" />
-      <edge source="apicube" target="communication" id="69" weight="1.0" />
-      <edge source="apicube" target="fontainebleau" id="70" weight="1.0" />
-      <edge source="communication" target="fontainebleau" id="71" weight="1.0" />
-      <edge source="sophiedavant" target="selfieforseb" id="72" weight="1.0" />
-      <edge source="tousdescharlie" target="off" id="73" weight="1.0" />
-      <edge source="yas" target="monpere" id="74" weight="1.0" />
-      <edge source="bringit" target="soulsisters" id="75" weight="1.0" />
+      <edge source="france" target="afp" id="2" weight="1.0" />
+      <edge source="france" target="jessuischarlie" id="3" weight="1.0" />
+      <edge source="france" target="pauvrefrance" id="4" weight="1.0" />
+      <edge source="france" target="franceattack" id="5" weight="1.0" />
+      <edge source="france" target="dangerzone" id="6" weight="1.0" />
+      <edge source="france" target="vigipirateattentat" id="7" weight="1.0" />
+      <edge source="france" target="minutedesilence" id="8" weight="1.0" />
+      <edge source="france" target="libertedelapresse" id="9" weight="1.0" />
+      <edge source="france" target="libertedexpression" id="10" weight="1.0" />
+      <edge source="france" target="opcharliehebdo" id="11" weight="1.0" />
+      <edge source="france" target="yemen" id="12" weight="1.0" />
+      <edge source="emu" target="charliehebdo" id="13" weight="1.0" />
+      <edge source="emu" target="afp" id="14" weight="1.0" />
+      <edge source="emu" target="jessuischarlie" id="15" weight="1.0" />
+      <edge source="emu" target="pauvrefrance" id="16" weight="1.0" />
+      <edge source="emu" target="franceattack" id="17" weight="1.0" />
+      <edge source="emu" target="dangerzone" id="18" weight="1.0" />
+      <edge source="emu" target="vigipirateattentat" id="19" weight="1.0" />
+      <edge source="emu" target="minutedesilence" id="20" weight="1.0" />
+      <edge source="emu" target="libertedelapresse" id="21" weight="1.0" />
+      <edge source="emu" target="libertedexpression" id="22" weight="1.0" />
+      <edge source="charliehebdo" target="afp" id="23" weight="1.0" />
+      <edge source="charliehebdo" target="jessuischarlie" id="24" weight="1.0" />
+      <edge source="charliehebdo" target="pauvrefrance" id="25" weight="1.0" />
+      <edge source="charliehebdo" target="franceattack" id="26" weight="1.0" />
+      <edge source="charliehebdo" target="dangerzone" id="27" weight="1.0" />
+      <edge source="charliehebdo" target="vigipirateattentat" id="28" weight="1.0" />
+      <edge source="charliehebdo" target="minutedesilence" id="29" weight="1.0" />
+      <edge source="charliehebdo" target="libertedelapresse" id="30" weight="1.0" />
+      <edge source="charliehebdo" target="libertedexpression" id="31" weight="1.0" />
+      <edge source="afp" target="jessuischarlie" id="32" weight="1.0" />
+      <edge source="afp" target="pauvrefrance" id="33" weight="1.0" />
+      <edge source="afp" target="franceattack" id="34" weight="1.0" />
+      <edge source="afp" target="dangerzone" id="35" weight="1.0" />
+      <edge source="afp" target="vigipirateattentat" id="36" weight="1.0" />
+      <edge source="afp" target="minutedesilence" id="37" weight="1.0" />
+      <edge source="afp" target="libertedelapresse" id="38" weight="1.0" />
+      <edge source="afp" target="libertedexpression" id="39" weight="1.0" />
+      <edge source="jessuischarlie" target="pauvrefrance" id="40" weight="1.0" />
+      <edge source="jessuischarlie" target="franceattack" id="41" weight="1.0" />
+      <edge source="jessuischarlie" target="dangerzone" id="42" weight="1.0" />
+      <edge source="jessuischarlie" target="vigipirateattentat" id="43" weight="1.0" />
+      <edge source="jessuischarlie" target="minutedesilence" id="44" weight="1.0" />
+      <edge source="jessuischarlie" target="libertedelapresse" id="45" weight="1.0" />
+      <edge source="jessuischarlie" target="libertedexpression" id="46" weight="1.0" />
+      <edge source="pauvrefrance" target="franceattack" id="47" weight="1.0" />
+      <edge source="pauvrefrance" target="dangerzone" id="48" weight="1.0" />
+      <edge source="pauvrefrance" target="vigipirateattentat" id="49" weight="1.0" />
+      <edge source="pauvrefrance" target="minutedesilence" id="50" weight="1.0" />
+      <edge source="pauvrefrance" target="libertedelapresse" id="51" weight="1.0" />
+      <edge source="pauvrefrance" target="libertedexpression" id="52" weight="1.0" />
+      <edge source="jesuischarlie" target="jeune" id="53" weight="2.0" />
+      <edge source="jesuischarlie" target="n2" id="54" weight="2.0" />
+      <edge source="jesuischarlie" target="pornicbasket" id="55" weight="2.0" />
+      <edge source="jeune" target="n2" id="56" weight="4.0" />
+      <edge source="jeune" target="pornicbasket" id="57" weight="4.0" />
+      <edge source="n2" target="pornicbasket" id="58" weight="4.0" />
+      <edge source="franceattack" target="dangerzone" id="59" weight="1.0" />
+      <edge source="franceattack" target="vigipirateattentat" id="60" weight="1.0" />
+      <edge source="franceattack" target="minutedesilence" id="61" weight="1.0" />
+      <edge source="franceattack" target="libertedelapresse" id="62" weight="1.0" />
+      <edge source="franceattack" target="libertedexpression" id="63" weight="1.0" />
+      <edge source="dangerzone" target="vigipirateattentat" id="64" weight="1.0" />
+      <edge source="dangerzone" target="minutedesilence" id="65" weight="1.0" />
+      <edge source="dangerzone" target="libertedelapresse" id="66" weight="1.0" />
+      <edge source="dangerzone" target="libertedexpression" id="67" weight="1.0" />
+      <edge source="vigipirateattentat" target="minutedesilence" id="68" weight="1.0" />
+      <edge source="vigipirateattentat" target="libertedelapresse" id="69" weight="1.0" />
+      <edge source="vigipirateattentat" target="libertedexpression" id="70" weight="1.0" />
+      <edge source="minutedesilence" target="libertedelapresse" id="71" weight="1.0" />
+      <edge source="minutedesilence" target="libertedexpression" id="72" weight="1.0" />
+      <edge source="libertedelapresse" target="libertedexpression" id="73" weight="1.0" />
+      <edge source="koffivoice" target="phaseur" id="74" weight="1.0" />
+      <edge source="toujoursdebout" target="off" id="75" weight="1.0" />
+      <edge source="kouachi" target="hayatboumeddiene" id="76" weight="1.0" />
+      <edge source="kouachi" target="alqaida" id="77" weight="1.0" />
+      <edge source="kouachi" target="yemen" id="78" weight="1.0" />
+      <edge source="hayatboumeddiene" target="alqaida" id="79" weight="1.0" />
+      <edge source="hayatboumeddiene" target="yemen" id="80" weight="1.0" />
+      <edge source="raph" target="sarah" id="81" weight="1.0" />
+      <edge source="tmym" target="lswdy" id="82" weight="1.0" />
+      <edge source="tmym" target="bry" id="83" weight="1.0" />
+      <edge source="tmym" target="frn" id="84" weight="1.0" />
+      <edge source="tmym" target="wzrlkhrjy" id="85" weight="1.0" />
+      <edge source="tmym" target="wzrltlymlly" id="86" weight="1.0" />
+      <edge source="lswdy" target="bry" id="87" weight="1.0" />
+      <edge source="lswdy" target="frn" id="88" weight="1.0" />
+      <edge source="lswdy" target="wzrlkhrjy" id="89" weight="1.0" />
+      <edge source="lswdy" target="wzrltlymlly" id="90" weight="1.0" />
+      <edge source="bry" target="frn" id="91" weight="1.0" />
+      <edge source="bry" target="wzrlkhrjy" id="92" weight="1.0" />
+      <edge source="bry" target="wzrltlymlly" id="93" weight="1.0" />
+      <edge source="frn" target="wzrlkhrjy" id="94" weight="1.0" />
+      <edge source="frn" target="wzrltlymlly" id="95" weight="1.0" />
+      <edge source="wzrlkhrjy" target="wzrltlymlly" id="96" weight="1.0" />
+      <edge source="alqaida" target="yemen" id="97" weight="1.0" />
+      <edge source="yemen" target="opcharliehebdo" id="98" weight="1.0" />
+      <edge source="lt" target="frontnational" id="99" weight="1.0" />
+      <edge source="stage" target="arbitre" id="100" weight="1.0" />
+      <edge source="gign" target="raid" id="101" weight="2.0" />
+      <edge source="gign" target="bri" id="102" weight="2.0" />
+      <edge source="gign" target="legionhonneur" id="103" weight="1.0" />
+      <edge source="raid" target="bri" id="104" weight="2.0" />
+      <edge source="raid" target="legionhonneur" id="105" weight="1.0" />
+      <edge source="bri" target="legionhonneur" id="106" weight="1.0" />
+      <edge source="lrt" target="racism" id="107" weight="1.0" />
     </edges>
   </graph>
 </gexf>

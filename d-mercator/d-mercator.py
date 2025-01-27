@@ -1,5 +1,5 @@
 
-import dmercator
+#import dmercator
 
 # Packages
 import matplotlib
@@ -520,7 +520,7 @@ if len(sys.argv) > 3:
 else:
     v = True
 
-dmercator.embed(os.getcwd() + '/' + path, dimension=dim, validation_mode=v)   
+#dmercator.embed(os.getcwd() + '/' + path, dimension=dim, validation_mode=v)   
 
 # Imprime un pdf con el resumen de la información
 
@@ -580,7 +580,17 @@ if os.path.isfile(coord_original):
     plot_inferred_theta_vs_original_theta()"""
 
 # Adds figure title.
-plt.suptitle("No al Tarifazo", y=0.99, va="top", ha="center")
+if "nat" in name1:
+  title = "No al Tarifazo"
+elif "9n" in name1:
+   title = "9 Noviembre"
+elif "ch" in name1:
+   title = "Charlie Hebdo"
+elif "wd" in name1:
+   title = "Womanday"
+else:
+   title= "Not detected"
+plt.suptitle(title, y=0.99, va="top", ha="center")
 
 # Save to file.
 plt.tight_layout(rect=[-0.012, -0.012, 1.012, 0.988])

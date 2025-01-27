@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -14,7 +14,7 @@
       <node id="honest" label="honest" />
       <node id="kind" label="kind" />
       <node id="havefun" label="havefun" />
-      <node id="quotes" label="quotes" />
+      <node id="quote" label="quote" />
       <node id="inspiration" label="inspiration" />
       <node id="permissiontoplay" label="permissiontoplay" />
       <node id="hockeyismyreligion" label="hockeyismyreligion" />
@@ -26,40 +26,76 @@
       <node id="noyouare" label="noyouare" />
       <node id="dirtmovie" label="dirtmovie" />
       <node id="sunset" label="sunset" />
-      <node id="sunsets" label="sunsets" />
       <node id="marinadeley" label="marinadeley" />
-      <node id="losangeles" label="losangeles" />
+      <node id="losangele" label="losangele" />
       <node id="hollywood" label="hollywood" />
       <node id="california" label="california" />
       <node id="marinadelrey" label="marinadelrey" />
       <node id="eventsofalifetime" label="eventsofalifetime" />
       <node id="jimshaw" label="jimshaw" />
+      <node id="sandiego" label="sandiego" />
+      <node id="sandiegoca" label="sandiegoca" />
+      <node id="sdlife" label="sdlife" />
+      <node id="sdlifestyle" label="sdlifestyle" />
+      <node id="10new" label="10new" />
+      <node id="nyc" label="nyc" />
+      <node id="timessquare" label="timessquare" />
+      <node id="broadway" label="broadway" />
+      <node id="author" label="author" />
+      <node id="instagay" label="instagay" />
+      <node id="gay" label="gay" />
+      <node id="pug" label="pug" />
+      <node id="pugsofinstagram" label="pugsofinstagram" />
+      <node id="blackpug" label="blackpug" />
+      <node id="speakpug" label="speakpug" />
+      <node id="rescue" label="rescue" />
+      <node id="adoptdontshop" label="adoptdontshop" />
+      <node id="poem" label="poem" />
+      <node id="poet" label="poet" />
+      <node id="writ" label="writ" />
+      <node id="poetry" label="poetry" />
+      <node id="tumblrpoet" label="tumblrpoet" />
+      <node id="writer" label="writer" />
+      <node id="lol" label="lol" />
+      <node id="worstrejectionever" label="worstrejectionever" />
+      <node id="imessage" label="imessage" />
+      <node id="comedian" label="comedian" />
+      <node id="seansavoy" label="seansavoy" />
+      <node id="the" label="the" />
+      <node id="thegaydonatella" label="thegaydonatella" />
+      <node id="rickylamhawaii" label="rickylamhawaii" />
+      <node id="leomadrid037" label="leomadrid037" />
+      <node id="thehole" label="thehole" />
+      <node id="motherlode" label="motherlode" />
+      <node id="gayboy" label="gayboy" />
+      <node id="gayla" label="gayla" />
+      <node id="motherlodeweho" label="motherlodeweho" />
     </nodes>
     <edges>
-      <edge source="nationalbeheardday" target="cerealday" id="0" weight="1.0" />
-      <edge source="nationalbeheardday" target="humpday" id="1" weight="1.0" />
-      <edge source="cerealday" target="humpday" id="2" weight="1.0" />
+      <edge source="nationalbeheardday" target="cerealday" id="0" weight="4.0" />
+      <edge source="nationalbeheardday" target="humpday" id="1" weight="4.0" />
+      <edge source="cerealday" target="humpday" id="2" weight="4.0" />
       <edge source="wcw" target="boulder" id="3" weight="1.0" />
       <edge source="silly" target="honest" id="4" weight="1.0" />
       <edge source="silly" target="kind" id="5" weight="1.0" />
       <edge source="silly" target="havefun" id="6" weight="1.0" />
-      <edge source="silly" target="quotes" id="7" weight="1.0" />
+      <edge source="silly" target="quote" id="7" weight="1.0" />
       <edge source="silly" target="inspiration" id="8" weight="1.0" />
       <edge source="silly" target="permissiontoplay" id="9" weight="1.0" />
       <edge source="honest" target="kind" id="10" weight="1.0" />
       <edge source="honest" target="havefun" id="11" weight="1.0" />
-      <edge source="honest" target="quotes" id="12" weight="1.0" />
+      <edge source="honest" target="quote" id="12" weight="1.0" />
       <edge source="honest" target="inspiration" id="13" weight="1.0" />
       <edge source="honest" target="permissiontoplay" id="14" weight="1.0" />
       <edge source="kind" target="havefun" id="15" weight="1.0" />
-      <edge source="kind" target="quotes" id="16" weight="1.0" />
+      <edge source="kind" target="quote" id="16" weight="1.0" />
       <edge source="kind" target="inspiration" id="17" weight="1.0" />
       <edge source="kind" target="permissiontoplay" id="18" weight="1.0" />
-      <edge source="havefun" target="quotes" id="19" weight="1.0" />
+      <edge source="havefun" target="quote" id="19" weight="1.0" />
       <edge source="havefun" target="inspiration" id="20" weight="1.0" />
       <edge source="havefun" target="permissiontoplay" id="21" weight="1.0" />
-      <edge source="quotes" target="inspiration" id="22" weight="1.0" />
-      <edge source="quotes" target="permissiontoplay" id="23" weight="1.0" />
+      <edge source="quote" target="inspiration" id="22" weight="1.0" />
+      <edge source="quote" target="permissiontoplay" id="23" weight="1.0" />
       <edge source="inspiration" target="permissiontoplay" id="24" weight="1.0" />
       <edge source="hockeyismyreligion" target="molsonoriginalsix" id="25" weight="1.0" />
       <edge source="hockeyismyreligion" target="iamcanadian" id="26" weight="1.0" />
@@ -70,27 +106,141 @@
       <edge source="joyaudefrance" target="kickmyfeetup" id="31" weight="1.0" />
       <edge source="joyaudefrance" target="noyouare" id="32" weight="1.0" />
       <edge source="kickmyfeetup" target="noyouare" id="33" weight="1.0" />
-      <edge source="sunset" target="sunsets" id="34" weight="1.0" />
-      <edge source="sunset" target="marinadeley" id="35" weight="1.0" />
-      <edge source="sunset" target="losangeles" id="36" weight="1.0" />
-      <edge source="sunset" target="hollywood" id="37" weight="1.0" />
-      <edge source="sunset" target="california" id="38" weight="1.0" />
-      <edge source="sunset" target="marinadelrey" id="39" weight="1.0" />
-      <edge source="sunsets" target="marinadeley" id="40" weight="1.0" />
-      <edge source="sunsets" target="losangeles" id="41" weight="1.0" />
-      <edge source="sunsets" target="hollywood" id="42" weight="1.0" />
-      <edge source="sunsets" target="california" id="43" weight="1.0" />
-      <edge source="sunsets" target="marinadelrey" id="44" weight="1.0" />
-      <edge source="marinadeley" target="losangeles" id="45" weight="1.0" />
-      <edge source="marinadeley" target="hollywood" id="46" weight="1.0" />
-      <edge source="marinadeley" target="california" id="47" weight="1.0" />
-      <edge source="marinadeley" target="marinadelrey" id="48" weight="1.0" />
-      <edge source="losangeles" target="hollywood" id="49" weight="1.0" />
-      <edge source="losangeles" target="california" id="50" weight="1.0" />
-      <edge source="losangeles" target="marinadelrey" id="51" weight="1.0" />
-      <edge source="hollywood" target="california" id="52" weight="1.0" />
-      <edge source="hollywood" target="marinadelrey" id="53" weight="1.0" />
-      <edge source="california" target="marinadelrey" id="54" weight="1.0" />
+      <edge source="sunset" target="marinadeley" id="34" weight="1.0" />
+      <edge source="sunset" target="losangele" id="35" weight="1.0" />
+      <edge source="sunset" target="hollywood" id="36" weight="1.0" />
+      <edge source="sunset" target="california" id="37" weight="1.0" />
+      <edge source="sunset" target="marinadelrey" id="38" weight="1.0" />
+      <edge source="sunset" target="nyc" id="39" weight="1.0" />
+      <edge source="sunset" target="timessquare" id="40" weight="1.0" />
+      <edge source="sunset" target="broadway" id="41" weight="1.0" />
+      <edge source="sunset" target="author" id="42" weight="1.0" />
+      <edge source="marinadeley" target="losangele" id="43" weight="1.0" />
+      <edge source="marinadeley" target="hollywood" id="44" weight="1.0" />
+      <edge source="marinadeley" target="california" id="45" weight="1.0" />
+      <edge source="marinadeley" target="marinadelrey" id="46" weight="1.0" />
+      <edge source="marinadeley" target="nyc" id="47" weight="1.0" />
+      <edge source="marinadeley" target="timessquare" id="48" weight="1.0" />
+      <edge source="marinadeley" target="broadway" id="49" weight="1.0" />
+      <edge source="marinadeley" target="author" id="50" weight="1.0" />
+      <edge source="losangele" target="hollywood" id="51" weight="1.0" />
+      <edge source="losangele" target="california" id="52" weight="1.0" />
+      <edge source="losangele" target="marinadelrey" id="53" weight="1.0" />
+      <edge source="losangele" target="nyc" id="54" weight="1.0" />
+      <edge source="losangele" target="timessquare" id="55" weight="1.0" />
+      <edge source="losangele" target="broadway" id="56" weight="1.0" />
+      <edge source="losangele" target="author" id="57" weight="1.0" />
+      <edge source="hollywood" target="california" id="58" weight="1.0" />
+      <edge source="hollywood" target="marinadelrey" id="59" weight="1.0" />
+      <edge source="hollywood" target="nyc" id="60" weight="1.0" />
+      <edge source="hollywood" target="timessquare" id="61" weight="1.0" />
+      <edge source="hollywood" target="broadway" id="62" weight="1.0" />
+      <edge source="hollywood" target="author" id="63" weight="1.0" />
+      <edge source="california" target="marinadelrey" id="64" weight="1.0" />
+      <edge source="california" target="nyc" id="65" weight="1.0" />
+      <edge source="california" target="timessquare" id="66" weight="1.0" />
+      <edge source="california" target="broadway" id="67" weight="1.0" />
+      <edge source="california" target="author" id="68" weight="1.0" />
+      <edge source="marinadelrey" target="nyc" id="69" weight="1.0" />
+      <edge source="marinadelrey" target="timessquare" id="70" weight="1.0" />
+      <edge source="marinadelrey" target="broadway" id="71" weight="1.0" />
+      <edge source="marinadelrey" target="author" id="72" weight="1.0" />
+      <edge source="sandiego" target="sandiegoca" id="73" weight="1.0" />
+      <edge source="sandiego" target="sdlife" id="74" weight="1.0" />
+      <edge source="sandiego" target="sdlifestyle" id="75" weight="1.0" />
+      <edge source="sandiego" target="10new" id="76" weight="1.0" />
+      <edge source="sandiegoca" target="sdlife" id="77" weight="1.0" />
+      <edge source="sandiegoca" target="sdlifestyle" id="78" weight="1.0" />
+      <edge source="sandiegoca" target="10new" id="79" weight="1.0" />
+      <edge source="sdlife" target="sdlifestyle" id="80" weight="1.0" />
+      <edge source="sdlife" target="10new" id="81" weight="1.0" />
+      <edge source="sdlifestyle" target="10new" id="82" weight="1.0" />
+      <edge source="nyc" target="timessquare" id="83" weight="1.0" />
+      <edge source="nyc" target="broadway" id="84" weight="1.0" />
+      <edge source="nyc" target="author" id="85" weight="1.0" />
+      <edge source="timessquare" target="broadway" id="86" weight="1.0" />
+      <edge source="timessquare" target="author" id="87" weight="1.0" />
+      <edge source="broadway" target="author" id="88" weight="1.0" />
+      <edge source="instagay" target="gay" id="89" weight="1.0" />
+      <edge source="instagay" target="the" id="90" weight="1.0" />
+      <edge source="instagay" target="thegaydonatella" id="91" weight="1.0" />
+      <edge source="instagay" target="rickylamhawaii" id="92" weight="1.0" />
+      <edge source="instagay" target="leomadrid037" id="93" weight="1.0" />
+      <edge source="instagay" target="thehole" id="94" weight="1.0" />
+      <edge source="instagay" target="motherlode" id="95" weight="1.0" />
+      <edge source="instagay" target="gayboy" id="96" weight="1.0" />
+      <edge source="instagay" target="gayla" id="97" weight="1.0" />
+      <edge source="instagay" target="motherlodeweho" id="98" weight="1.0" />
+      <edge source="pug" target="pugsofinstagram" id="99" weight="1.0" />
+      <edge source="pug" target="blackpug" id="100" weight="1.0" />
+      <edge source="pug" target="speakpug" id="101" weight="1.0" />
+      <edge source="pug" target="rescue" id="102" weight="1.0" />
+      <edge source="pug" target="adoptdontshop" id="103" weight="1.0" />
+      <edge source="pugsofinstagram" target="blackpug" id="104" weight="1.0" />
+      <edge source="pugsofinstagram" target="speakpug" id="105" weight="1.0" />
+      <edge source="pugsofinstagram" target="rescue" id="106" weight="1.0" />
+      <edge source="pugsofinstagram" target="adoptdontshop" id="107" weight="1.0" />
+      <edge source="blackpug" target="speakpug" id="108" weight="1.0" />
+      <edge source="blackpug" target="rescue" id="109" weight="1.0" />
+      <edge source="blackpug" target="adoptdontshop" id="110" weight="1.0" />
+      <edge source="speakpug" target="rescue" id="111" weight="1.0" />
+      <edge source="speakpug" target="adoptdontshop" id="112" weight="1.0" />
+      <edge source="rescue" target="adoptdontshop" id="113" weight="1.0" />
+      <edge source="poem" target="poet" id="114" weight="1.0" />
+      <edge source="poem" target="writ" id="115" weight="1.0" />
+      <edge source="poem" target="poetry" id="116" weight="1.0" />
+      <edge source="poem" target="tumblrpoet" id="117" weight="1.0" />
+      <edge source="poem" target="writer" id="118" weight="1.0" />
+      <edge source="poet" target="writ" id="119" weight="1.0" />
+      <edge source="poet" target="poetry" id="120" weight="1.0" />
+      <edge source="poet" target="tumblrpoet" id="121" weight="1.0" />
+      <edge source="poet" target="writer" id="122" weight="1.0" />
+      <edge source="writ" target="poetry" id="123" weight="1.0" />
+      <edge source="writ" target="tumblrpoet" id="124" weight="1.0" />
+      <edge source="writ" target="writer" id="125" weight="1.0" />
+      <edge source="poetry" target="tumblrpoet" id="126" weight="1.0" />
+      <edge source="poetry" target="writer" id="127" weight="1.0" />
+      <edge source="tumblrpoet" target="writer" id="128" weight="1.0" />
+      <edge source="lol" target="worstrejectionever" id="129" weight="1.0" />
+      <edge source="lol" target="imessage" id="130" weight="1.0" />
+      <edge source="worstrejectionever" target="imessage" id="131" weight="1.0" />
+      <edge source="comedian" target="seansavoy" id="132" weight="1.0" />
+      <edge source="the" target="thegaydonatella" id="133" weight="1.0" />
+      <edge source="the" target="rickylamhawaii" id="134" weight="1.0" />
+      <edge source="the" target="leomadrid037" id="135" weight="1.0" />
+      <edge source="the" target="thehole" id="136" weight="1.0" />
+      <edge source="the" target="motherlode" id="137" weight="1.0" />
+      <edge source="the" target="gayboy" id="138" weight="1.0" />
+      <edge source="the" target="gayla" id="139" weight="1.0" />
+      <edge source="the" target="motherlodeweho" id="140" weight="1.0" />
+      <edge source="thegaydonatella" target="rickylamhawaii" id="141" weight="1.0" />
+      <edge source="thegaydonatella" target="leomadrid037" id="142" weight="1.0" />
+      <edge source="thegaydonatella" target="thehole" id="143" weight="1.0" />
+      <edge source="thegaydonatella" target="motherlode" id="144" weight="1.0" />
+      <edge source="thegaydonatella" target="gayboy" id="145" weight="1.0" />
+      <edge source="thegaydonatella" target="gayla" id="146" weight="1.0" />
+      <edge source="thegaydonatella" target="motherlodeweho" id="147" weight="1.0" />
+      <edge source="rickylamhawaii" target="leomadrid037" id="148" weight="1.0" />
+      <edge source="rickylamhawaii" target="thehole" id="149" weight="1.0" />
+      <edge source="rickylamhawaii" target="motherlode" id="150" weight="1.0" />
+      <edge source="rickylamhawaii" target="gayboy" id="151" weight="1.0" />
+      <edge source="rickylamhawaii" target="gayla" id="152" weight="1.0" />
+      <edge source="rickylamhawaii" target="motherlodeweho" id="153" weight="1.0" />
+      <edge source="leomadrid037" target="thehole" id="154" weight="1.0" />
+      <edge source="leomadrid037" target="motherlode" id="155" weight="1.0" />
+      <edge source="leomadrid037" target="gayboy" id="156" weight="1.0" />
+      <edge source="leomadrid037" target="gayla" id="157" weight="1.0" />
+      <edge source="leomadrid037" target="motherlodeweho" id="158" weight="1.0" />
+      <edge source="thehole" target="motherlode" id="159" weight="1.0" />
+      <edge source="thehole" target="gayboy" id="160" weight="1.0" />
+      <edge source="thehole" target="gayla" id="161" weight="1.0" />
+      <edge source="thehole" target="motherlodeweho" id="162" weight="1.0" />
+      <edge source="motherlode" target="gayboy" id="163" weight="1.0" />
+      <edge source="motherlode" target="gayla" id="164" weight="1.0" />
+      <edge source="motherlode" target="motherlodeweho" id="165" weight="1.0" />
+      <edge source="gayboy" target="gayla" id="166" weight="1.0" />
+      <edge source="gayboy" target="motherlodeweho" id="167" weight="1.0" />
+      <edge source="gayla" target="motherlodeweho" id="168" weight="1.0" />
     </edges>
   </graph>
 </gexf>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -12,7 +12,7 @@
       <node id="sandiegoca" label="sandiegoca" />
       <node id="sdlife" label="sdlife" />
       <node id="sdlifestyle" label="sdlifestyle" />
-      <node id="10news" label="10news" />
+      <node id="10new" label="10new" />
       <node id="nyc" label="nyc" />
       <node id="timessquare" label="timessquare" />
       <node id="broadway" label="broadway" />
@@ -21,20 +21,16 @@
       <node id="gay" label="gay" />
       <node id="pug" label="pug" />
       <node id="pugsofinstagram" label="pugsofinstagram" />
-      <node id="pugs" label="pugs" />
       <node id="blackpug" label="blackpug" />
       <node id="speakpug" label="speakpug" />
       <node id="rescue" label="rescue" />
       <node id="adoptdontshop" label="adoptdontshop" />
       <node id="poem" label="poem" />
-      <node id="poems" label="poems" />
       <node id="poet" label="poet" />
-      <node id="poets" label="poets" />
       <node id="writ" label="writ" />
       <node id="poetry" label="poetry" />
       <node id="tumblrpoet" label="tumblrpoet" />
       <node id="writer" label="writer" />
-      <node id="writs" label="writs" />
       <node id="lol" label="lol" />
       <node id="worstrejectionever" label="worstrejectionever" />
       <node id="imessage" label="imessage" />
@@ -49,21 +45,27 @@
       <node id="gayboy" label="gayboy" />
       <node id="gayla" label="gayla" />
       <node id="motherlodeweho" label="motherlodeweho" />
+      <node id="internationalwomensday" label="internationalwomensday" />
+      <node id="bipolar" label="bipolar" />
+      <node id="bipolardisorder" label="bipolardisorder" />
+      <node id="did" label="did" />
+      <node id="ptsd" label="ptsd" />
+      <node id="instalove" label="instalove" />
     </nodes>
     <edges>
-      <edge source="nationalbeheardday" target="cerealday" id="0" weight="1.0" />
-      <edge source="nationalbeheardday" target="humpday" id="1" weight="1.0" />
-      <edge source="cerealday" target="humpday" id="2" weight="1.0" />
+      <edge source="nationalbeheardday" target="cerealday" id="0" weight="4.0" />
+      <edge source="nationalbeheardday" target="humpday" id="1" weight="4.0" />
+      <edge source="cerealday" target="humpday" id="2" weight="4.0" />
       <edge source="sandiego" target="sandiegoca" id="3" weight="1.0" />
       <edge source="sandiego" target="sdlife" id="4" weight="1.0" />
       <edge source="sandiego" target="sdlifestyle" id="5" weight="1.0" />
-      <edge source="sandiego" target="10news" id="6" weight="1.0" />
+      <edge source="sandiego" target="10new" id="6" weight="1.0" />
       <edge source="sandiegoca" target="sdlife" id="7" weight="1.0" />
       <edge source="sandiegoca" target="sdlifestyle" id="8" weight="1.0" />
-      <edge source="sandiegoca" target="10news" id="9" weight="1.0" />
+      <edge source="sandiegoca" target="10new" id="9" weight="1.0" />
       <edge source="sdlife" target="sdlifestyle" id="10" weight="1.0" />
-      <edge source="sdlife" target="10news" id="11" weight="1.0" />
-      <edge source="sdlifestyle" target="10news" id="12" weight="1.0" />
+      <edge source="sdlife" target="10new" id="11" weight="1.0" />
+      <edge source="sdlifestyle" target="10new" id="12" weight="1.0" />
       <edge source="nyc" target="timessquare" id="13" weight="1.0" />
       <edge source="nyc" target="broadway" id="14" weight="1.0" />
       <edge source="nyc" target="author" id="15" weight="1.0" />
@@ -81,102 +83,82 @@
       <edge source="instagay" target="gayla" id="27" weight="1.0" />
       <edge source="instagay" target="motherlodeweho" id="28" weight="1.0" />
       <edge source="pug" target="pugsofinstagram" id="29" weight="1.0" />
-      <edge source="pug" target="pugs" id="30" weight="1.0" />
-      <edge source="pug" target="blackpug" id="31" weight="1.0" />
-      <edge source="pug" target="speakpug" id="32" weight="1.0" />
-      <edge source="pug" target="rescue" id="33" weight="1.0" />
-      <edge source="pug" target="adoptdontshop" id="34" weight="1.0" />
-      <edge source="pugsofinstagram" target="pugs" id="35" weight="1.0" />
-      <edge source="pugsofinstagram" target="blackpug" id="36" weight="1.0" />
-      <edge source="pugsofinstagram" target="speakpug" id="37" weight="1.0" />
-      <edge source="pugsofinstagram" target="rescue" id="38" weight="1.0" />
-      <edge source="pugsofinstagram" target="adoptdontshop" id="39" weight="1.0" />
-      <edge source="pugs" target="blackpug" id="40" weight="1.0" />
-      <edge source="pugs" target="speakpug" id="41" weight="1.0" />
-      <edge source="pugs" target="rescue" id="42" weight="1.0" />
-      <edge source="pugs" target="adoptdontshop" id="43" weight="1.0" />
-      <edge source="blackpug" target="speakpug" id="44" weight="1.0" />
-      <edge source="blackpug" target="rescue" id="45" weight="1.0" />
-      <edge source="blackpug" target="adoptdontshop" id="46" weight="1.0" />
-      <edge source="speakpug" target="rescue" id="47" weight="1.0" />
-      <edge source="speakpug" target="adoptdontshop" id="48" weight="1.0" />
-      <edge source="rescue" target="adoptdontshop" id="49" weight="1.0" />
-      <edge source="poem" target="poems" id="50" weight="1.0" />
-      <edge source="poem" target="poet" id="51" weight="1.0" />
-      <edge source="poem" target="poets" id="52" weight="1.0" />
-      <edge source="poem" target="writ" id="53" weight="1.0" />
-      <edge source="poem" target="poetry" id="54" weight="1.0" />
-      <edge source="poem" target="tumblrpoet" id="55" weight="1.0" />
-      <edge source="poem" target="writer" id="56" weight="1.0" />
-      <edge source="poem" target="writs" id="57" weight="1.0" />
-      <edge source="poems" target="poet" id="58" weight="1.0" />
-      <edge source="poems" target="poets" id="59" weight="1.0" />
-      <edge source="poems" target="writ" id="60" weight="1.0" />
-      <edge source="poems" target="poetry" id="61" weight="1.0" />
-      <edge source="poems" target="tumblrpoet" id="62" weight="1.0" />
-      <edge source="poems" target="writer" id="63" weight="1.0" />
-      <edge source="poems" target="writs" id="64" weight="1.0" />
-      <edge source="poet" target="poets" id="65" weight="1.0" />
-      <edge source="poet" target="writ" id="66" weight="1.0" />
-      <edge source="poet" target="poetry" id="67" weight="1.0" />
-      <edge source="poet" target="tumblrpoet" id="68" weight="1.0" />
-      <edge source="poet" target="writer" id="69" weight="1.0" />
-      <edge source="poet" target="writs" id="70" weight="1.0" />
-      <edge source="poets" target="writ" id="71" weight="1.0" />
-      <edge source="poets" target="poetry" id="72" weight="1.0" />
-      <edge source="poets" target="tumblrpoet" id="73" weight="1.0" />
-      <edge source="poets" target="writer" id="74" weight="1.0" />
-      <edge source="poets" target="writs" id="75" weight="1.0" />
-      <edge source="writ" target="poetry" id="76" weight="1.0" />
-      <edge source="writ" target="tumblrpoet" id="77" weight="1.0" />
-      <edge source="writ" target="writer" id="78" weight="1.0" />
-      <edge source="writ" target="writs" id="79" weight="1.0" />
-      <edge source="poetry" target="tumblrpoet" id="80" weight="1.0" />
-      <edge source="poetry" target="writer" id="81" weight="1.0" />
-      <edge source="poetry" target="writs" id="82" weight="1.0" />
-      <edge source="tumblrpoet" target="writer" id="83" weight="1.0" />
-      <edge source="tumblrpoet" target="writs" id="84" weight="1.0" />
-      <edge source="writer" target="writs" id="85" weight="1.0" />
-      <edge source="lol" target="worstrejectionever" id="86" weight="1.0" />
-      <edge source="lol" target="imessage" id="87" weight="1.0" />
-      <edge source="worstrejectionever" target="imessage" id="88" weight="1.0" />
-      <edge source="comedian" target="seansavoy" id="89" weight="1.0" />
-      <edge source="the" target="thegaydonatella" id="90" weight="1.0" />
-      <edge source="the" target="rickylamhawaii" id="91" weight="1.0" />
-      <edge source="the" target="leomadrid037" id="92" weight="1.0" />
-      <edge source="the" target="thehole" id="93" weight="1.0" />
-      <edge source="the" target="motherlode" id="94" weight="1.0" />
-      <edge source="the" target="gayboy" id="95" weight="1.0" />
-      <edge source="the" target="gayla" id="96" weight="1.0" />
-      <edge source="the" target="motherlodeweho" id="97" weight="1.0" />
-      <edge source="thegaydonatella" target="rickylamhawaii" id="98" weight="1.0" />
-      <edge source="thegaydonatella" target="leomadrid037" id="99" weight="1.0" />
-      <edge source="thegaydonatella" target="thehole" id="100" weight="1.0" />
-      <edge source="thegaydonatella" target="motherlode" id="101" weight="1.0" />
-      <edge source="thegaydonatella" target="gayboy" id="102" weight="1.0" />
-      <edge source="thegaydonatella" target="gayla" id="103" weight="1.0" />
-      <edge source="thegaydonatella" target="motherlodeweho" id="104" weight="1.0" />
-      <edge source="rickylamhawaii" target="leomadrid037" id="105" weight="1.0" />
-      <edge source="rickylamhawaii" target="thehole" id="106" weight="1.0" />
-      <edge source="rickylamhawaii" target="motherlode" id="107" weight="1.0" />
-      <edge source="rickylamhawaii" target="gayboy" id="108" weight="1.0" />
-      <edge source="rickylamhawaii" target="gayla" id="109" weight="1.0" />
-      <edge source="rickylamhawaii" target="motherlodeweho" id="110" weight="1.0" />
-      <edge source="leomadrid037" target="thehole" id="111" weight="1.0" />
-      <edge source="leomadrid037" target="motherlode" id="112" weight="1.0" />
-      <edge source="leomadrid037" target="gayboy" id="113" weight="1.0" />
-      <edge source="leomadrid037" target="gayla" id="114" weight="1.0" />
-      <edge source="leomadrid037" target="motherlodeweho" id="115" weight="1.0" />
-      <edge source="thehole" target="motherlode" id="116" weight="1.0" />
-      <edge source="thehole" target="gayboy" id="117" weight="1.0" />
-      <edge source="thehole" target="gayla" id="118" weight="1.0" />
-      <edge source="thehole" target="motherlodeweho" id="119" weight="1.0" />
-      <edge source="motherlode" target="gayboy" id="120" weight="1.0" />
-      <edge source="motherlode" target="gayla" id="121" weight="1.0" />
-      <edge source="motherlode" target="motherlodeweho" id="122" weight="1.0" />
-      <edge source="gayboy" target="gayla" id="123" weight="1.0" />
-      <edge source="gayboy" target="motherlodeweho" id="124" weight="1.0" />
-      <edge source="gayla" target="motherlodeweho" id="125" weight="1.0" />
+      <edge source="pug" target="blackpug" id="30" weight="1.0" />
+      <edge source="pug" target="speakpug" id="31" weight="1.0" />
+      <edge source="pug" target="rescue" id="32" weight="1.0" />
+      <edge source="pug" target="adoptdontshop" id="33" weight="1.0" />
+      <edge source="pugsofinstagram" target="blackpug" id="34" weight="1.0" />
+      <edge source="pugsofinstagram" target="speakpug" id="35" weight="1.0" />
+      <edge source="pugsofinstagram" target="rescue" id="36" weight="1.0" />
+      <edge source="pugsofinstagram" target="adoptdontshop" id="37" weight="1.0" />
+      <edge source="blackpug" target="speakpug" id="38" weight="1.0" />
+      <edge source="blackpug" target="rescue" id="39" weight="1.0" />
+      <edge source="blackpug" target="adoptdontshop" id="40" weight="1.0" />
+      <edge source="speakpug" target="rescue" id="41" weight="1.0" />
+      <edge source="speakpug" target="adoptdontshop" id="42" weight="1.0" />
+      <edge source="rescue" target="adoptdontshop" id="43" weight="1.0" />
+      <edge source="poem" target="poet" id="44" weight="1.0" />
+      <edge source="poem" target="writ" id="45" weight="1.0" />
+      <edge source="poem" target="poetry" id="46" weight="1.0" />
+      <edge source="poem" target="tumblrpoet" id="47" weight="1.0" />
+      <edge source="poem" target="writer" id="48" weight="1.0" />
+      <edge source="poet" target="writ" id="49" weight="1.0" />
+      <edge source="poet" target="poetry" id="50" weight="1.0" />
+      <edge source="poet" target="tumblrpoet" id="51" weight="1.0" />
+      <edge source="poet" target="writer" id="52" weight="1.0" />
+      <edge source="writ" target="poetry" id="53" weight="1.0" />
+      <edge source="writ" target="tumblrpoet" id="54" weight="1.0" />
+      <edge source="writ" target="writer" id="55" weight="1.0" />
+      <edge source="poetry" target="tumblrpoet" id="56" weight="1.0" />
+      <edge source="poetry" target="writer" id="57" weight="1.0" />
+      <edge source="tumblrpoet" target="writer" id="58" weight="1.0" />
+      <edge source="lol" target="worstrejectionever" id="59" weight="1.0" />
+      <edge source="lol" target="imessage" id="60" weight="1.0" />
+      <edge source="worstrejectionever" target="imessage" id="61" weight="1.0" />
+      <edge source="comedian" target="seansavoy" id="62" weight="2.0" />
+      <edge source="the" target="thegaydonatella" id="63" weight="1.0" />
+      <edge source="the" target="rickylamhawaii" id="64" weight="1.0" />
+      <edge source="the" target="leomadrid037" id="65" weight="1.0" />
+      <edge source="the" target="thehole" id="66" weight="1.0" />
+      <edge source="the" target="motherlode" id="67" weight="1.0" />
+      <edge source="the" target="gayboy" id="68" weight="1.0" />
+      <edge source="the" target="gayla" id="69" weight="1.0" />
+      <edge source="the" target="motherlodeweho" id="70" weight="1.0" />
+      <edge source="thegaydonatella" target="rickylamhawaii" id="71" weight="1.0" />
+      <edge source="thegaydonatella" target="leomadrid037" id="72" weight="1.0" />
+      <edge source="thegaydonatella" target="thehole" id="73" weight="1.0" />
+      <edge source="thegaydonatella" target="motherlode" id="74" weight="1.0" />
+      <edge source="thegaydonatella" target="gayboy" id="75" weight="1.0" />
+      <edge source="thegaydonatella" target="gayla" id="76" weight="1.0" />
+      <edge source="thegaydonatella" target="motherlodeweho" id="77" weight="1.0" />
+      <edge source="rickylamhawaii" target="leomadrid037" id="78" weight="1.0" />
+      <edge source="rickylamhawaii" target="thehole" id="79" weight="1.0" />
+      <edge source="rickylamhawaii" target="motherlode" id="80" weight="1.0" />
+      <edge source="rickylamhawaii" target="gayboy" id="81" weight="1.0" />
+      <edge source="rickylamhawaii" target="gayla" id="82" weight="1.0" />
+      <edge source="rickylamhawaii" target="motherlodeweho" id="83" weight="1.0" />
+      <edge source="leomadrid037" target="thehole" id="84" weight="1.0" />
+      <edge source="leomadrid037" target="motherlode" id="85" weight="1.0" />
+      <edge source="leomadrid037" target="gayboy" id="86" weight="1.0" />
+      <edge source="leomadrid037" target="gayla" id="87" weight="1.0" />
+      <edge source="leomadrid037" target="motherlodeweho" id="88" weight="1.0" />
+      <edge source="thehole" target="motherlode" id="89" weight="1.0" />
+      <edge source="thehole" target="gayboy" id="90" weight="1.0" />
+      <edge source="thehole" target="gayla" id="91" weight="1.0" />
+      <edge source="thehole" target="motherlodeweho" id="92" weight="1.0" />
+      <edge source="motherlode" target="gayboy" id="93" weight="1.0" />
+      <edge source="motherlode" target="gayla" id="94" weight="1.0" />
+      <edge source="motherlode" target="motherlodeweho" id="95" weight="1.0" />
+      <edge source="gayboy" target="gayla" id="96" weight="1.0" />
+      <edge source="gayboy" target="motherlodeweho" id="97" weight="1.0" />
+      <edge source="gayla" target="motherlodeweho" id="98" weight="1.0" />
+      <edge source="internationalwomensday" target="instalove" id="99" weight="1.0" />
+      <edge source="bipolar" target="bipolardisorder" id="100" weight="1.0" />
+      <edge source="bipolar" target="did" id="101" weight="1.0" />
+      <edge source="bipolar" target="ptsd" id="102" weight="1.0" />
+      <edge source="bipolardisorder" target="did" id="103" weight="1.0" />
+      <edge source="bipolardisorder" target="ptsd" id="104" weight="1.0" />
+      <edge source="did" target="ptsd" id="105" weight="1.0" />
     </edges>
   </graph>
 </gexf>

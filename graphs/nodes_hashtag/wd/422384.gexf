@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -9,14 +9,14 @@
       <node id="skipoc" label="skipoc" />
       <node id="beachesweho" label="beachesweho" />
       <node id="doubletrouble" label="doubletrouble" />
-      <node id="hours" label="hours" />
+      <node id="hour" label="hour" />
       <node id="now" label="now" />
       <node id="all" label="all" />
       <node id="double" label="double" />
-      <node id="drinks" label="drinks" />
+      <node id="drink" label="drink" />
       <node id="single" label="single" />
-      <node id="prices" label="prices" />
-      <node id="draftbeers" label="draftbeers" />
+      <node id="price" label="price" />
+      <node id="draftbeer" label="draftbeer" />
       <node id="panicday" label="panicday" />
       <node id="joefranklinday" label="joefranklinday" />
       <node id="getoveritday" label="getoveritday" />
@@ -28,16 +28,16 @@
       <node id="rupaulsdragrace" label="rupaulsdragrace" />
       <node id="drrwel" label="drrwel" />
       <node id="htgawm" label="htgawm" />
-      <node id="ruinmydayin5words" label="ruinmydayin5words" />
+      <node id="ruinmydayin5word" label="ruinmydayin5word" />
       <node id="scandal" label="scandal" />
       <node id="criticalrole" label="criticalrole" />
-      <node id="bootsandcats" label="bootsandcats" />
+      <node id="bootsandcat" label="bootsandcat" />
       <node id="siri" label="siri" />
       <node id="beatbox" label="beatbox" />
       <node id="joke" label="joke" />
-      <node id="mrpickles" label="mrpickles" />
+      <node id="mrpickle" label="mrpickle" />
       <node id="internationalwomensday" label="internationalwomensday" />
-      <node id="top3apps" label="top3apps" />
+      <node id="top3app" label="top3app" />
       <node id="imhere" label="imhere" />
       <node id="capable" label="capable" />
       <node id="smart" label="smart" />
@@ -50,10 +50,10 @@
       <node id="beauty" label="beauty" />
       <node id="ledisi" label="ledisi" />
       <node id="power" label="power" />
-      <node id="dailylightsavings" label="dailylightsavings" />
+      <node id="dailylightsaving" label="dailylightsaving" />
       <node id="simple" label="simple" />
       <node id="vivicafox" label="vivicafox" />
-      <node id="pressforprogress" label="pressforprogress" />
+      <node id="pressforprogres" label="pressforprogres" />
       <node id="bowling" label="bowling" />
       <node id="aonikalaurent" label="aonikalaurent" />
       <node id="burnitdowngroup" label="burnitdowngroup" />
@@ -62,248 +62,648 @@
       <node id="bipolardisorder" label="bipolardisorder" />
       <node id="did" label="did" />
       <node id="ptsd" label="ptsd" />
-      <node id="garcellebeauvais" label="garcellebeauvais" />
+      <node id="garcellebeauvai" label="garcellebeauvai" />
       <node id="her" label="her" />
       <node id="trndnl" label="trndnl" />
+      <node id="essencemagazine" label="essencemagazine" />
+      <node id="melanin" label="melanin" />
+      <node id="selflove" label="selflove" />
+      <node id="nintendodirect" label="nintendodirect" />
+      <node id="bobbytarantino2" label="bobbytarantino2" />
+      <node id="finepeoplefromtexa" label="finepeoplefromtexa" />
+      <node id="sxsw" label="sxsw" />
+      <node id="atlantafx" label="atlantafx" />
+      <node id="naisac" label="naisac" />
+      <node id="healthymindandbody" label="healthymindandbody" />
+      <node id="layman" label="layman" />
+      <node id="interationalwomensday" label="interationalwomensday" />
+      <node id="menofsapphire" label="menofsapphire" />
+      <node id="khristinebognot" label="khristinebognot" />
+      <node id="lifecoach" label="lifecoach" />
+      <node id="reikimaster" label="reikimaster" />
+      <node id="reikihealing" label="reikihealing" />
+      <node id="columbusindiana" label="columbusindiana" />
+      <node id="skysportfitnes" label="skysportfitnes" />
+      <node id="tip" label="tip" />
+      <node id="adviceoftheday" label="adviceoftheday" />
+      <node id="tipoftheday" label="tipoftheday" />
+      <node id="advice" label="advice" />
+      <node id="revolverbarweho" label="revolverbarweho" />
+      <node id="peachpop" label="peachpop" />
+      <node id="weho" label="weho" />
+      <node id="westhollywood" label="westhollywood" />
+      <node id="gayweho" label="gayweho" />
+      <node id="drag" label="drag" />
+      <node id="dragqueen" label="dragqueen" />
+      <node id="bar10weho" label="bar10weho" />
+      <node id="bobmelrose" label="bobmelrose" />
+      <node id="halleloo" label="halleloo" />
+      <node id="rpdrallstars3" label="rpdrallstars3" />
+      <node id="la" label="la" />
+      <node id="makesmemagical" label="makesmemagical" />
+      <node id="kaialce" label="kaialce" />
     </nodes>
     <edges>
       <edge source="zephyrtheatr" target="skipoc" id="0" weight="1.0" />
       <edge source="zephyrtheatr" target="beachesweho" id="1" weight="1.0" />
       <edge source="zephyrtheatr" target="doubletrouble" id="2" weight="1.0" />
-      <edge source="zephyrtheatr" target="hours" id="3" weight="1.0" />
+      <edge source="zephyrtheatr" target="hour" id="3" weight="1.0" />
       <edge source="zephyrtheatr" target="now" id="4" weight="1.0" />
       <edge source="zephyrtheatr" target="all" id="5" weight="1.0" />
       <edge source="zephyrtheatr" target="double" id="6" weight="1.0" />
-      <edge source="zephyrtheatr" target="drinks" id="7" weight="1.0" />
+      <edge source="zephyrtheatr" target="drink" id="7" weight="1.0" />
       <edge source="zephyrtheatr" target="single" id="8" weight="1.0" />
-      <edge source="zephyrtheatr" target="prices" id="9" weight="1.0" />
-      <edge source="zephyrtheatr" target="draftbeers" id="10" weight="1.0" />
-      <edge source="zephyrtheatr" target="itsshangela" id="11" weight="1.0" />
+      <edge source="zephyrtheatr" target="price" id="9" weight="1.0" />
+      <edge source="zephyrtheatr" target="draftbeer" id="10" weight="1.0" />
+      <edge source="zephyrtheatr" target="itsshangela" id="11" weight="2.0" />
       <edge source="zephyrtheatr" target="mickysweho" id="12" weight="1.0" />
-      <edge source="zephyrtheatr" target="teamshangela" id="13" weight="1.0" />
+      <edge source="zephyrtheatr" target="teamshangela" id="13" weight="2.0" />
       <edge source="zephyrtheatr" target="rupaulsdragrace" id="14" weight="1.0" />
       <edge source="zephyrtheatr" target="drrwel" id="15" weight="1.0" />
-      <edge source="skipoc" target="beachesweho" id="16" weight="1.0" />
-      <edge source="skipoc" target="doubletrouble" id="17" weight="1.0" />
-      <edge source="skipoc" target="hours" id="18" weight="1.0" />
-      <edge source="skipoc" target="now" id="19" weight="1.0" />
-      <edge source="skipoc" target="all" id="20" weight="1.0" />
-      <edge source="skipoc" target="double" id="21" weight="1.0" />
-      <edge source="skipoc" target="drinks" id="22" weight="1.0" />
-      <edge source="skipoc" target="single" id="23" weight="1.0" />
-      <edge source="skipoc" target="prices" id="24" weight="1.0" />
-      <edge source="skipoc" target="draftbeers" id="25" weight="1.0" />
-      <edge source="skipoc" target="itsshangela" id="26" weight="1.0" />
-      <edge source="skipoc" target="mickysweho" id="27" weight="1.0" />
-      <edge source="skipoc" target="teamshangela" id="28" weight="1.0" />
-      <edge source="skipoc" target="rupaulsdragrace" id="29" weight="1.0" />
-      <edge source="skipoc" target="drrwel" id="30" weight="1.0" />
-      <edge source="beachesweho" target="doubletrouble" id="31" weight="1.0" />
-      <edge source="beachesweho" target="hours" id="32" weight="1.0" />
-      <edge source="beachesweho" target="now" id="33" weight="1.0" />
-      <edge source="beachesweho" target="all" id="34" weight="1.0" />
-      <edge source="beachesweho" target="double" id="35" weight="1.0" />
-      <edge source="beachesweho" target="drinks" id="36" weight="1.0" />
-      <edge source="beachesweho" target="single" id="37" weight="1.0" />
-      <edge source="beachesweho" target="prices" id="38" weight="1.0" />
-      <edge source="beachesweho" target="draftbeers" id="39" weight="1.0" />
-      <edge source="beachesweho" target="itsshangela" id="40" weight="1.0" />
-      <edge source="beachesweho" target="mickysweho" id="41" weight="1.0" />
-      <edge source="beachesweho" target="teamshangela" id="42" weight="1.0" />
-      <edge source="beachesweho" target="rupaulsdragrace" id="43" weight="1.0" />
-      <edge source="beachesweho" target="drrwel" id="44" weight="1.0" />
-      <edge source="doubletrouble" target="hours" id="45" weight="1.0" />
-      <edge source="doubletrouble" target="now" id="46" weight="1.0" />
-      <edge source="doubletrouble" target="all" id="47" weight="1.0" />
-      <edge source="doubletrouble" target="double" id="48" weight="1.0" />
-      <edge source="doubletrouble" target="drinks" id="49" weight="1.0" />
-      <edge source="doubletrouble" target="single" id="50" weight="1.0" />
-      <edge source="doubletrouble" target="prices" id="51" weight="1.0" />
-      <edge source="doubletrouble" target="draftbeers" id="52" weight="1.0" />
-      <edge source="doubletrouble" target="itsshangela" id="53" weight="1.0" />
-      <edge source="doubletrouble" target="mickysweho" id="54" weight="1.0" />
-      <edge source="doubletrouble" target="teamshangela" id="55" weight="1.0" />
-      <edge source="doubletrouble" target="rupaulsdragrace" id="56" weight="1.0" />
-      <edge source="doubletrouble" target="drrwel" id="57" weight="1.0" />
-      <edge source="hours" target="now" id="58" weight="1.0" />
-      <edge source="hours" target="all" id="59" weight="1.0" />
-      <edge source="hours" target="double" id="60" weight="1.0" />
-      <edge source="hours" target="drinks" id="61" weight="1.0" />
-      <edge source="hours" target="single" id="62" weight="1.0" />
-      <edge source="hours" target="prices" id="63" weight="1.0" />
-      <edge source="hours" target="draftbeers" id="64" weight="1.0" />
-      <edge source="hours" target="itsshangela" id="65" weight="1.0" />
-      <edge source="hours" target="mickysweho" id="66" weight="1.0" />
-      <edge source="hours" target="teamshangela" id="67" weight="1.0" />
-      <edge source="hours" target="rupaulsdragrace" id="68" weight="1.0" />
-      <edge source="hours" target="drrwel" id="69" weight="1.0" />
-      <edge source="now" target="all" id="70" weight="1.0" />
-      <edge source="now" target="double" id="71" weight="1.0" />
-      <edge source="now" target="drinks" id="72" weight="1.0" />
-      <edge source="now" target="single" id="73" weight="1.0" />
-      <edge source="now" target="prices" id="74" weight="1.0" />
-      <edge source="now" target="draftbeers" id="75" weight="1.0" />
-      <edge source="now" target="itsshangela" id="76" weight="1.0" />
-      <edge source="now" target="mickysweho" id="77" weight="1.0" />
-      <edge source="now" target="teamshangela" id="78" weight="1.0" />
-      <edge source="now" target="rupaulsdragrace" id="79" weight="1.0" />
-      <edge source="now" target="drrwel" id="80" weight="1.0" />
-      <edge source="all" target="double" id="81" weight="1.0" />
-      <edge source="all" target="drinks" id="82" weight="1.0" />
-      <edge source="all" target="single" id="83" weight="1.0" />
-      <edge source="all" target="prices" id="84" weight="1.0" />
-      <edge source="all" target="draftbeers" id="85" weight="1.0" />
-      <edge source="all" target="itsshangela" id="86" weight="1.0" />
-      <edge source="all" target="mickysweho" id="87" weight="1.0" />
-      <edge source="all" target="teamshangela" id="88" weight="1.0" />
-      <edge source="all" target="rupaulsdragrace" id="89" weight="1.0" />
-      <edge source="all" target="drrwel" id="90" weight="1.0" />
-      <edge source="double" target="drinks" id="91" weight="1.0" />
-      <edge source="double" target="single" id="92" weight="1.0" />
-      <edge source="double" target="prices" id="93" weight="1.0" />
-      <edge source="double" target="draftbeers" id="94" weight="1.0" />
-      <edge source="double" target="itsshangela" id="95" weight="1.0" />
-      <edge source="double" target="mickysweho" id="96" weight="1.0" />
-      <edge source="double" target="teamshangela" id="97" weight="1.0" />
-      <edge source="double" target="rupaulsdragrace" id="98" weight="1.0" />
-      <edge source="double" target="drrwel" id="99" weight="1.0" />
-      <edge source="drinks" target="single" id="100" weight="1.0" />
-      <edge source="drinks" target="prices" id="101" weight="1.0" />
-      <edge source="drinks" target="draftbeers" id="102" weight="1.0" />
-      <edge source="drinks" target="itsshangela" id="103" weight="1.0" />
-      <edge source="drinks" target="mickysweho" id="104" weight="1.0" />
-      <edge source="drinks" target="teamshangela" id="105" weight="1.0" />
-      <edge source="drinks" target="rupaulsdragrace" id="106" weight="1.0" />
-      <edge source="drinks" target="drrwel" id="107" weight="1.0" />
-      <edge source="single" target="prices" id="108" weight="1.0" />
-      <edge source="single" target="draftbeers" id="109" weight="1.0" />
-      <edge source="single" target="itsshangela" id="110" weight="1.0" />
-      <edge source="single" target="mickysweho" id="111" weight="1.0" />
-      <edge source="single" target="teamshangela" id="112" weight="1.0" />
-      <edge source="single" target="rupaulsdragrace" id="113" weight="1.0" />
-      <edge source="single" target="drrwel" id="114" weight="1.0" />
-      <edge source="prices" target="draftbeers" id="115" weight="1.0" />
-      <edge source="prices" target="itsshangela" id="116" weight="1.0" />
-      <edge source="prices" target="mickysweho" id="117" weight="1.0" />
-      <edge source="prices" target="teamshangela" id="118" weight="1.0" />
-      <edge source="prices" target="rupaulsdragrace" id="119" weight="1.0" />
-      <edge source="prices" target="drrwel" id="120" weight="1.0" />
-      <edge source="draftbeers" target="itsshangela" id="121" weight="1.0" />
-      <edge source="draftbeers" target="mickysweho" id="122" weight="1.0" />
-      <edge source="draftbeers" target="teamshangela" id="123" weight="1.0" />
-      <edge source="draftbeers" target="rupaulsdragrace" id="124" weight="1.0" />
-      <edge source="draftbeers" target="drrwel" id="125" weight="1.0" />
-      <edge source="panicday" target="joefranklinday" id="126" weight="1.0" />
-      <edge source="panicday" target="getoveritday" id="127" weight="1.0" />
-      <edge source="panicday" target="barbieday" id="128" weight="1.0" />
-      <edge source="panicday" target="worldsleepday" id="129" weight="1.0" />
-      <edge source="joefranklinday" target="getoveritday" id="130" weight="1.0" />
-      <edge source="joefranklinday" target="barbieday" id="131" weight="1.0" />
-      <edge source="joefranklinday" target="worldsleepday" id="132" weight="1.0" />
-      <edge source="getoveritday" target="barbieday" id="133" weight="1.0" />
-      <edge source="getoveritday" target="worldsleepday" id="134" weight="1.0" />
-      <edge source="barbieday" target="worldsleepday" id="135" weight="1.0" />
-      <edge source="itsshangela" target="mickysweho" id="136" weight="1.0" />
-      <edge source="itsshangela" target="teamshangela" id="137" weight="1.0" />
-      <edge source="itsshangela" target="rupaulsdragrace" id="138" weight="1.0" />
-      <edge source="itsshangela" target="drrwel" id="139" weight="1.0" />
-      <edge source="mickysweho" target="teamshangela" id="140" weight="1.0" />
-      <edge source="mickysweho" target="rupaulsdragrace" id="141" weight="1.0" />
-      <edge source="mickysweho" target="drrwel" id="142" weight="1.0" />
-      <edge source="teamshangela" target="rupaulsdragrace" id="143" weight="1.0" />
-      <edge source="teamshangela" target="drrwel" id="144" weight="1.0" />
-      <edge source="rupaulsdragrace" target="drrwel" id="145" weight="1.0" />
-      <edge source="htgawm" target="ruinmydayin5words" id="146" weight="1.0" />
-      <edge source="htgawm" target="scandal" id="147" weight="1.0" />
-      <edge source="htgawm" target="criticalrole" id="148" weight="1.0" />
-      <edge source="htgawm" target="top3apps" id="149" weight="1.0" />
-      <edge source="htgawm" target="pressforprogress" id="150" weight="1.0" />
-      <edge source="htgawm" target="trndnl" id="151" weight="1.0" />
-      <edge source="ruinmydayin5words" target="scandal" id="152" weight="1.0" />
-      <edge source="ruinmydayin5words" target="criticalrole" id="153" weight="1.0" />
-      <edge source="ruinmydayin5words" target="top3apps" id="154" weight="1.0" />
-      <edge source="ruinmydayin5words" target="pressforprogress" id="155" weight="1.0" />
-      <edge source="ruinmydayin5words" target="trndnl" id="156" weight="1.0" />
-      <edge source="scandal" target="criticalrole" id="157" weight="1.0" />
-      <edge source="scandal" target="top3apps" id="158" weight="1.0" />
-      <edge source="scandal" target="pressforprogress" id="159" weight="1.0" />
-      <edge source="scandal" target="trndnl" id="160" weight="1.0" />
-      <edge source="criticalrole" target="top3apps" id="161" weight="1.0" />
-      <edge source="criticalrole" target="pressforprogress" id="162" weight="1.0" />
-      <edge source="criticalrole" target="trndnl" id="163" weight="1.0" />
-      <edge source="bootsandcats" target="siri" id="164" weight="1.0" />
-      <edge source="bootsandcats" target="beatbox" id="165" weight="1.0" />
-      <edge source="bootsandcats" target="joke" id="166" weight="1.0" />
-      <edge source="bootsandcats" target="mrpickles" id="167" weight="1.0" />
-      <edge source="siri" target="beatbox" id="168" weight="1.0" />
-      <edge source="siri" target="joke" id="169" weight="1.0" />
-      <edge source="siri" target="mrpickles" id="170" weight="1.0" />
-      <edge source="beatbox" target="joke" id="171" weight="1.0" />
-      <edge source="beatbox" target="mrpickles" id="172" weight="1.0" />
-      <edge source="joke" target="mrpickles" id="173" weight="1.0" />
-      <edge source="internationalwomensday" target="imhere" id="174" weight="1.0" />
-      <edge source="internationalwomensday" target="capable" id="175" weight="1.0" />
-      <edge source="internationalwomensday" target="smart" id="176" weight="1.0" />
-      <edge source="internationalwomensday" target="brilliant" id="177" weight="1.0" />
-      <edge source="internationalwomensday" target="kimkimble" id="178" weight="1.0" />
-      <edge source="internationalwomensday" target="beauty" id="179" weight="1.0" />
-      <edge source="internationalwomensday" target="ledisi" id="180" weight="1.0" />
-      <edge source="internationalwomensday" target="power" id="181" weight="1.0" />
-      <edge source="internationalwomensday" target="vivicafox" id="182" weight="1.0" />
-      <edge source="internationalwomensday" target="aonikalaurent" id="183" weight="1.0" />
-      <edge source="internationalwomensday" target="garcellebeauvais" id="184" weight="1.0" />
-      <edge source="internationalwomensday" target="pressforprogress" id="185" weight="1.0" />
-      <edge source="internationalwomensday" target="bowling" id="186" weight="1.0" />
-      <edge source="internationalwomensday" target="burnitdowngroup" id="187" weight="1.0" />
-      <edge source="internationalwomensday" target="her" id="188" weight="1.0" />
-      <edge source="top3apps" target="pressforprogress" id="189" weight="1.0" />
-      <edge source="top3apps" target="trndnl" id="190" weight="1.0" />
-      <edge source="imhere" target="capable" id="191" weight="1.0" />
-      <edge source="imhere" target="smart" id="192" weight="1.0" />
-      <edge source="imhere" target="brilliant" id="193" weight="1.0" />
-      <edge source="capable" target="smart" id="194" weight="1.0" />
-      <edge source="capable" target="brilliant" id="195" weight="1.0" />
-      <edge source="smart" target="brilliant" id="196" weight="1.0" />
-      <edge source="sommlife" target="bonsai" id="197" weight="1.0" />
-      <edge source="sommlife" target="alexanderssteakhouse" id="198" weight="1.0" />
-      <edge source="sommlife" target="sf" id="199" weight="1.0" />
-      <edge source="bonsai" target="alexanderssteakhouse" id="200" weight="1.0" />
-      <edge source="bonsai" target="sf" id="201" weight="1.0" />
-      <edge source="alexanderssteakhouse" target="sf" id="202" weight="1.0" />
-      <edge source="kimkimble" target="beauty" id="203" weight="1.0" />
-      <edge source="kimkimble" target="ledisi" id="204" weight="1.0" />
-      <edge source="kimkimble" target="power" id="205" weight="1.0" />
-      <edge source="kimkimble" target="vivicafox" id="206" weight="1.0" />
-      <edge source="kimkimble" target="aonikalaurent" id="207" weight="1.0" />
-      <edge source="kimkimble" target="garcellebeauvais" id="208" weight="1.0" />
-      <edge source="beauty" target="ledisi" id="209" weight="1.0" />
-      <edge source="beauty" target="power" id="210" weight="1.0" />
-      <edge source="beauty" target="vivicafox" id="211" weight="1.0" />
-      <edge source="beauty" target="aonikalaurent" id="212" weight="1.0" />
-      <edge source="beauty" target="garcellebeauvais" id="213" weight="1.0" />
-      <edge source="ledisi" target="power" id="214" weight="1.0" />
-      <edge source="ledisi" target="vivicafox" id="215" weight="1.0" />
-      <edge source="ledisi" target="aonikalaurent" id="216" weight="1.0" />
-      <edge source="ledisi" target="garcellebeauvais" id="217" weight="1.0" />
-      <edge source="power" target="vivicafox" id="218" weight="1.0" />
-      <edge source="power" target="aonikalaurent" id="219" weight="1.0" />
-      <edge source="power" target="garcellebeauvais" id="220" weight="1.0" />
-      <edge source="dailylightsavings" target="simple" id="221" weight="1.0" />
-      <edge source="vivicafox" target="aonikalaurent" id="222" weight="1.0" />
-      <edge source="vivicafox" target="garcellebeauvais" id="223" weight="1.0" />
-      <edge source="pressforprogress" target="trndnl" id="224" weight="1.0" />
-      <edge source="aonikalaurent" target="garcellebeauvais" id="225" weight="1.0" />
-      <edge source="burnitdowngroup" target="her" id="226" weight="1.0" />
-      <edge source="tgif" target="bipolar" id="227" weight="1.0" />
-      <edge source="tgif" target="bipolardisorder" id="228" weight="1.0" />
-      <edge source="tgif" target="did" id="229" weight="1.0" />
-      <edge source="tgif" target="ptsd" id="230" weight="1.0" />
-      <edge source="bipolar" target="bipolardisorder" id="231" weight="1.0" />
-      <edge source="bipolar" target="did" id="232" weight="1.0" />
-      <edge source="bipolar" target="ptsd" id="233" weight="1.0" />
-      <edge source="bipolardisorder" target="did" id="234" weight="1.0" />
-      <edge source="bipolardisorder" target="ptsd" id="235" weight="1.0" />
-      <edge source="did" target="ptsd" id="236" weight="1.0" />
+      <edge source="zephyrtheatr" target="revolverbarweho" id="16" weight="1.0" />
+      <edge source="zephyrtheatr" target="peachpop" id="17" weight="1.0" />
+      <edge source="zephyrtheatr" target="weho" id="18" weight="1.0" />
+      <edge source="zephyrtheatr" target="westhollywood" id="19" weight="1.0" />
+      <edge source="zephyrtheatr" target="gayweho" id="20" weight="1.0" />
+      <edge source="zephyrtheatr" target="drag" id="21" weight="1.0" />
+      <edge source="zephyrtheatr" target="dragqueen" id="22" weight="1.0" />
+      <edge source="zephyrtheatr" target="bar10weho" id="23" weight="1.0" />
+      <edge source="zephyrtheatr" target="bobmelrose" id="24" weight="1.0" />
+      <edge source="zephyrtheatr" target="halleloo" id="25" weight="1.0" />
+      <edge source="zephyrtheatr" target="rpdrallstars3" id="26" weight="1.0" />
+      <edge source="zephyrtheatr" target="la" id="27" weight="1.0" />
+      <edge source="skipoc" target="beachesweho" id="28" weight="1.0" />
+      <edge source="skipoc" target="doubletrouble" id="29" weight="1.0" />
+      <edge source="skipoc" target="hour" id="30" weight="1.0" />
+      <edge source="skipoc" target="now" id="31" weight="1.0" />
+      <edge source="skipoc" target="all" id="32" weight="1.0" />
+      <edge source="skipoc" target="double" id="33" weight="1.0" />
+      <edge source="skipoc" target="drink" id="34" weight="1.0" />
+      <edge source="skipoc" target="single" id="35" weight="1.0" />
+      <edge source="skipoc" target="price" id="36" weight="1.0" />
+      <edge source="skipoc" target="draftbeer" id="37" weight="1.0" />
+      <edge source="skipoc" target="itsshangela" id="38" weight="2.0" />
+      <edge source="skipoc" target="mickysweho" id="39" weight="1.0" />
+      <edge source="skipoc" target="teamshangela" id="40" weight="2.0" />
+      <edge source="skipoc" target="rupaulsdragrace" id="41" weight="1.0" />
+      <edge source="skipoc" target="drrwel" id="42" weight="1.0" />
+      <edge source="skipoc" target="revolverbarweho" id="43" weight="1.0" />
+      <edge source="skipoc" target="peachpop" id="44" weight="1.0" />
+      <edge source="skipoc" target="weho" id="45" weight="1.0" />
+      <edge source="skipoc" target="westhollywood" id="46" weight="1.0" />
+      <edge source="skipoc" target="gayweho" id="47" weight="1.0" />
+      <edge source="skipoc" target="drag" id="48" weight="1.0" />
+      <edge source="skipoc" target="dragqueen" id="49" weight="1.0" />
+      <edge source="skipoc" target="bar10weho" id="50" weight="1.0" />
+      <edge source="skipoc" target="bobmelrose" id="51" weight="1.0" />
+      <edge source="skipoc" target="halleloo" id="52" weight="1.0" />
+      <edge source="skipoc" target="rpdrallstars3" id="53" weight="1.0" />
+      <edge source="skipoc" target="la" id="54" weight="1.0" />
+      <edge source="beachesweho" target="doubletrouble" id="55" weight="1.0" />
+      <edge source="beachesweho" target="hour" id="56" weight="1.0" />
+      <edge source="beachesweho" target="now" id="57" weight="1.0" />
+      <edge source="beachesweho" target="all" id="58" weight="1.0" />
+      <edge source="beachesweho" target="double" id="59" weight="1.0" />
+      <edge source="beachesweho" target="drink" id="60" weight="1.0" />
+      <edge source="beachesweho" target="single" id="61" weight="1.0" />
+      <edge source="beachesweho" target="price" id="62" weight="1.0" />
+      <edge source="beachesweho" target="draftbeer" id="63" weight="1.0" />
+      <edge source="beachesweho" target="itsshangela" id="64" weight="2.0" />
+      <edge source="beachesweho" target="mickysweho" id="65" weight="1.0" />
+      <edge source="beachesweho" target="teamshangela" id="66" weight="2.0" />
+      <edge source="beachesweho" target="rupaulsdragrace" id="67" weight="1.0" />
+      <edge source="beachesweho" target="drrwel" id="68" weight="1.0" />
+      <edge source="beachesweho" target="revolverbarweho" id="69" weight="1.0" />
+      <edge source="beachesweho" target="peachpop" id="70" weight="1.0" />
+      <edge source="beachesweho" target="weho" id="71" weight="1.0" />
+      <edge source="beachesweho" target="westhollywood" id="72" weight="1.0" />
+      <edge source="beachesweho" target="gayweho" id="73" weight="1.0" />
+      <edge source="beachesweho" target="drag" id="74" weight="1.0" />
+      <edge source="beachesweho" target="dragqueen" id="75" weight="1.0" />
+      <edge source="beachesweho" target="bar10weho" id="76" weight="1.0" />
+      <edge source="beachesweho" target="bobmelrose" id="77" weight="1.0" />
+      <edge source="beachesweho" target="halleloo" id="78" weight="1.0" />
+      <edge source="beachesweho" target="rpdrallstars3" id="79" weight="1.0" />
+      <edge source="beachesweho" target="la" id="80" weight="1.0" />
+      <edge source="doubletrouble" target="hour" id="81" weight="1.0" />
+      <edge source="doubletrouble" target="now" id="82" weight="1.0" />
+      <edge source="doubletrouble" target="all" id="83" weight="1.0" />
+      <edge source="doubletrouble" target="double" id="84" weight="1.0" />
+      <edge source="doubletrouble" target="drink" id="85" weight="1.0" />
+      <edge source="doubletrouble" target="single" id="86" weight="1.0" />
+      <edge source="doubletrouble" target="price" id="87" weight="1.0" />
+      <edge source="doubletrouble" target="draftbeer" id="88" weight="1.0" />
+      <edge source="doubletrouble" target="itsshangela" id="89" weight="2.0" />
+      <edge source="doubletrouble" target="mickysweho" id="90" weight="1.0" />
+      <edge source="doubletrouble" target="teamshangela" id="91" weight="2.0" />
+      <edge source="doubletrouble" target="rupaulsdragrace" id="92" weight="1.0" />
+      <edge source="doubletrouble" target="drrwel" id="93" weight="1.0" />
+      <edge source="doubletrouble" target="revolverbarweho" id="94" weight="1.0" />
+      <edge source="doubletrouble" target="peachpop" id="95" weight="1.0" />
+      <edge source="doubletrouble" target="weho" id="96" weight="1.0" />
+      <edge source="doubletrouble" target="westhollywood" id="97" weight="1.0" />
+      <edge source="doubletrouble" target="gayweho" id="98" weight="1.0" />
+      <edge source="doubletrouble" target="drag" id="99" weight="1.0" />
+      <edge source="doubletrouble" target="dragqueen" id="100" weight="1.0" />
+      <edge source="doubletrouble" target="bar10weho" id="101" weight="1.0" />
+      <edge source="doubletrouble" target="bobmelrose" id="102" weight="1.0" />
+      <edge source="doubletrouble" target="halleloo" id="103" weight="1.0" />
+      <edge source="doubletrouble" target="rpdrallstars3" id="104" weight="1.0" />
+      <edge source="doubletrouble" target="la" id="105" weight="1.0" />
+      <edge source="hour" target="now" id="106" weight="1.0" />
+      <edge source="hour" target="all" id="107" weight="1.0" />
+      <edge source="hour" target="double" id="108" weight="1.0" />
+      <edge source="hour" target="drink" id="109" weight="1.0" />
+      <edge source="hour" target="single" id="110" weight="1.0" />
+      <edge source="hour" target="price" id="111" weight="1.0" />
+      <edge source="hour" target="draftbeer" id="112" weight="1.0" />
+      <edge source="hour" target="itsshangela" id="113" weight="2.0" />
+      <edge source="hour" target="mickysweho" id="114" weight="1.0" />
+      <edge source="hour" target="teamshangela" id="115" weight="2.0" />
+      <edge source="hour" target="rupaulsdragrace" id="116" weight="1.0" />
+      <edge source="hour" target="drrwel" id="117" weight="1.0" />
+      <edge source="hour" target="revolverbarweho" id="118" weight="1.0" />
+      <edge source="hour" target="peachpop" id="119" weight="1.0" />
+      <edge source="hour" target="weho" id="120" weight="1.0" />
+      <edge source="hour" target="westhollywood" id="121" weight="1.0" />
+      <edge source="hour" target="gayweho" id="122" weight="1.0" />
+      <edge source="hour" target="drag" id="123" weight="1.0" />
+      <edge source="hour" target="dragqueen" id="124" weight="1.0" />
+      <edge source="hour" target="bar10weho" id="125" weight="1.0" />
+      <edge source="hour" target="bobmelrose" id="126" weight="1.0" />
+      <edge source="hour" target="halleloo" id="127" weight="1.0" />
+      <edge source="hour" target="rpdrallstars3" id="128" weight="1.0" />
+      <edge source="hour" target="la" id="129" weight="1.0" />
+      <edge source="now" target="all" id="130" weight="1.0" />
+      <edge source="now" target="double" id="131" weight="1.0" />
+      <edge source="now" target="drink" id="132" weight="1.0" />
+      <edge source="now" target="single" id="133" weight="1.0" />
+      <edge source="now" target="price" id="134" weight="1.0" />
+      <edge source="now" target="draftbeer" id="135" weight="1.0" />
+      <edge source="now" target="itsshangela" id="136" weight="2.0" />
+      <edge source="now" target="mickysweho" id="137" weight="1.0" />
+      <edge source="now" target="teamshangela" id="138" weight="2.0" />
+      <edge source="now" target="rupaulsdragrace" id="139" weight="1.0" />
+      <edge source="now" target="drrwel" id="140" weight="1.0" />
+      <edge source="now" target="revolverbarweho" id="141" weight="1.0" />
+      <edge source="now" target="peachpop" id="142" weight="1.0" />
+      <edge source="now" target="weho" id="143" weight="1.0" />
+      <edge source="now" target="westhollywood" id="144" weight="1.0" />
+      <edge source="now" target="gayweho" id="145" weight="1.0" />
+      <edge source="now" target="drag" id="146" weight="1.0" />
+      <edge source="now" target="dragqueen" id="147" weight="1.0" />
+      <edge source="now" target="bar10weho" id="148" weight="1.0" />
+      <edge source="now" target="bobmelrose" id="149" weight="1.0" />
+      <edge source="now" target="halleloo" id="150" weight="1.0" />
+      <edge source="now" target="rpdrallstars3" id="151" weight="1.0" />
+      <edge source="now" target="la" id="152" weight="1.0" />
+      <edge source="all" target="double" id="153" weight="1.0" />
+      <edge source="all" target="drink" id="154" weight="1.0" />
+      <edge source="all" target="single" id="155" weight="1.0" />
+      <edge source="all" target="price" id="156" weight="1.0" />
+      <edge source="all" target="draftbeer" id="157" weight="1.0" />
+      <edge source="all" target="itsshangela" id="158" weight="2.0" />
+      <edge source="all" target="mickysweho" id="159" weight="1.0" />
+      <edge source="all" target="teamshangela" id="160" weight="2.0" />
+      <edge source="all" target="rupaulsdragrace" id="161" weight="1.0" />
+      <edge source="all" target="drrwel" id="162" weight="1.0" />
+      <edge source="all" target="revolverbarweho" id="163" weight="1.0" />
+      <edge source="all" target="peachpop" id="164" weight="1.0" />
+      <edge source="all" target="weho" id="165" weight="1.0" />
+      <edge source="all" target="westhollywood" id="166" weight="1.0" />
+      <edge source="all" target="gayweho" id="167" weight="1.0" />
+      <edge source="all" target="drag" id="168" weight="1.0" />
+      <edge source="all" target="dragqueen" id="169" weight="1.0" />
+      <edge source="all" target="bar10weho" id="170" weight="1.0" />
+      <edge source="all" target="bobmelrose" id="171" weight="1.0" />
+      <edge source="all" target="halleloo" id="172" weight="1.0" />
+      <edge source="all" target="rpdrallstars3" id="173" weight="1.0" />
+      <edge source="all" target="la" id="174" weight="1.0" />
+      <edge source="double" target="drink" id="175" weight="1.0" />
+      <edge source="double" target="single" id="176" weight="1.0" />
+      <edge source="double" target="price" id="177" weight="1.0" />
+      <edge source="double" target="draftbeer" id="178" weight="1.0" />
+      <edge source="double" target="itsshangela" id="179" weight="2.0" />
+      <edge source="double" target="mickysweho" id="180" weight="1.0" />
+      <edge source="double" target="teamshangela" id="181" weight="2.0" />
+      <edge source="double" target="rupaulsdragrace" id="182" weight="1.0" />
+      <edge source="double" target="drrwel" id="183" weight="1.0" />
+      <edge source="double" target="revolverbarweho" id="184" weight="1.0" />
+      <edge source="double" target="peachpop" id="185" weight="1.0" />
+      <edge source="double" target="weho" id="186" weight="1.0" />
+      <edge source="double" target="westhollywood" id="187" weight="1.0" />
+      <edge source="double" target="gayweho" id="188" weight="1.0" />
+      <edge source="double" target="drag" id="189" weight="1.0" />
+      <edge source="double" target="dragqueen" id="190" weight="1.0" />
+      <edge source="double" target="bar10weho" id="191" weight="1.0" />
+      <edge source="double" target="bobmelrose" id="192" weight="1.0" />
+      <edge source="double" target="halleloo" id="193" weight="1.0" />
+      <edge source="double" target="rpdrallstars3" id="194" weight="1.0" />
+      <edge source="double" target="la" id="195" weight="1.0" />
+      <edge source="drink" target="single" id="196" weight="1.0" />
+      <edge source="drink" target="price" id="197" weight="1.0" />
+      <edge source="drink" target="draftbeer" id="198" weight="1.0" />
+      <edge source="drink" target="itsshangela" id="199" weight="2.0" />
+      <edge source="drink" target="mickysweho" id="200" weight="1.0" />
+      <edge source="drink" target="teamshangela" id="201" weight="2.0" />
+      <edge source="drink" target="rupaulsdragrace" id="202" weight="1.0" />
+      <edge source="drink" target="drrwel" id="203" weight="1.0" />
+      <edge source="drink" target="revolverbarweho" id="204" weight="1.0" />
+      <edge source="drink" target="peachpop" id="205" weight="1.0" />
+      <edge source="drink" target="weho" id="206" weight="1.0" />
+      <edge source="drink" target="westhollywood" id="207" weight="1.0" />
+      <edge source="drink" target="gayweho" id="208" weight="1.0" />
+      <edge source="drink" target="drag" id="209" weight="1.0" />
+      <edge source="drink" target="dragqueen" id="210" weight="1.0" />
+      <edge source="drink" target="bar10weho" id="211" weight="1.0" />
+      <edge source="drink" target="bobmelrose" id="212" weight="1.0" />
+      <edge source="drink" target="halleloo" id="213" weight="1.0" />
+      <edge source="drink" target="rpdrallstars3" id="214" weight="1.0" />
+      <edge source="drink" target="la" id="215" weight="1.0" />
+      <edge source="single" target="price" id="216" weight="1.0" />
+      <edge source="single" target="draftbeer" id="217" weight="1.0" />
+      <edge source="single" target="itsshangela" id="218" weight="2.0" />
+      <edge source="single" target="mickysweho" id="219" weight="1.0" />
+      <edge source="single" target="teamshangela" id="220" weight="2.0" />
+      <edge source="single" target="rupaulsdragrace" id="221" weight="1.0" />
+      <edge source="single" target="drrwel" id="222" weight="1.0" />
+      <edge source="single" target="revolverbarweho" id="223" weight="1.0" />
+      <edge source="single" target="peachpop" id="224" weight="1.0" />
+      <edge source="single" target="weho" id="225" weight="1.0" />
+      <edge source="single" target="westhollywood" id="226" weight="1.0" />
+      <edge source="single" target="gayweho" id="227" weight="1.0" />
+      <edge source="single" target="drag" id="228" weight="1.0" />
+      <edge source="single" target="dragqueen" id="229" weight="1.0" />
+      <edge source="single" target="bar10weho" id="230" weight="1.0" />
+      <edge source="single" target="bobmelrose" id="231" weight="1.0" />
+      <edge source="single" target="halleloo" id="232" weight="1.0" />
+      <edge source="single" target="rpdrallstars3" id="233" weight="1.0" />
+      <edge source="single" target="la" id="234" weight="1.0" />
+      <edge source="price" target="draftbeer" id="235" weight="1.0" />
+      <edge source="price" target="itsshangela" id="236" weight="2.0" />
+      <edge source="price" target="mickysweho" id="237" weight="1.0" />
+      <edge source="price" target="teamshangela" id="238" weight="2.0" />
+      <edge source="price" target="rupaulsdragrace" id="239" weight="1.0" />
+      <edge source="price" target="drrwel" id="240" weight="1.0" />
+      <edge source="price" target="revolverbarweho" id="241" weight="1.0" />
+      <edge source="price" target="peachpop" id="242" weight="1.0" />
+      <edge source="price" target="weho" id="243" weight="1.0" />
+      <edge source="price" target="westhollywood" id="244" weight="1.0" />
+      <edge source="price" target="gayweho" id="245" weight="1.0" />
+      <edge source="price" target="drag" id="246" weight="1.0" />
+      <edge source="price" target="dragqueen" id="247" weight="1.0" />
+      <edge source="price" target="bar10weho" id="248" weight="1.0" />
+      <edge source="price" target="bobmelrose" id="249" weight="1.0" />
+      <edge source="price" target="halleloo" id="250" weight="1.0" />
+      <edge source="price" target="rpdrallstars3" id="251" weight="1.0" />
+      <edge source="price" target="la" id="252" weight="1.0" />
+      <edge source="draftbeer" target="itsshangela" id="253" weight="2.0" />
+      <edge source="draftbeer" target="mickysweho" id="254" weight="1.0" />
+      <edge source="draftbeer" target="teamshangela" id="255" weight="2.0" />
+      <edge source="draftbeer" target="rupaulsdragrace" id="256" weight="1.0" />
+      <edge source="draftbeer" target="drrwel" id="257" weight="1.0" />
+      <edge source="draftbeer" target="revolverbarweho" id="258" weight="1.0" />
+      <edge source="draftbeer" target="peachpop" id="259" weight="1.0" />
+      <edge source="draftbeer" target="weho" id="260" weight="1.0" />
+      <edge source="draftbeer" target="westhollywood" id="261" weight="1.0" />
+      <edge source="draftbeer" target="gayweho" id="262" weight="1.0" />
+      <edge source="draftbeer" target="drag" id="263" weight="1.0" />
+      <edge source="draftbeer" target="dragqueen" id="264" weight="1.0" />
+      <edge source="draftbeer" target="bar10weho" id="265" weight="1.0" />
+      <edge source="draftbeer" target="bobmelrose" id="266" weight="1.0" />
+      <edge source="draftbeer" target="halleloo" id="267" weight="1.0" />
+      <edge source="draftbeer" target="rpdrallstars3" id="268" weight="1.0" />
+      <edge source="draftbeer" target="la" id="269" weight="1.0" />
+      <edge source="panicday" target="joefranklinday" id="270" weight="9.0" />
+      <edge source="panicday" target="getoveritday" id="271" weight="6.0" />
+      <edge source="panicday" target="barbieday" id="272" weight="9.0" />
+      <edge source="panicday" target="worldsleepday" id="273" weight="9.0" />
+      <edge source="joefranklinday" target="getoveritday" id="274" weight="6.0" />
+      <edge source="joefranklinday" target="barbieday" id="275" weight="9.0" />
+      <edge source="joefranklinday" target="worldsleepday" id="276" weight="9.0" />
+      <edge source="getoveritday" target="barbieday" id="277" weight="6.0" />
+      <edge source="getoveritday" target="worldsleepday" id="278" weight="6.0" />
+      <edge source="barbieday" target="worldsleepday" id="279" weight="9.0" />
+      <edge source="itsshangela" target="mickysweho" id="280" weight="2.0" />
+      <edge source="itsshangela" target="teamshangela" id="281" weight="4.0" />
+      <edge source="itsshangela" target="rupaulsdragrace" id="282" weight="2.0" />
+      <edge source="itsshangela" target="drrwel" id="283" weight="2.0" />
+      <edge source="itsshangela" target="revolverbarweho" id="284" weight="2.0" />
+      <edge source="itsshangela" target="peachpop" id="285" weight="2.0" />
+      <edge source="itsshangela" target="weho" id="286" weight="2.0" />
+      <edge source="itsshangela" target="westhollywood" id="287" weight="2.0" />
+      <edge source="itsshangela" target="gayweho" id="288" weight="2.0" />
+      <edge source="itsshangela" target="drag" id="289" weight="2.0" />
+      <edge source="itsshangela" target="dragqueen" id="290" weight="2.0" />
+      <edge source="itsshangela" target="bar10weho" id="291" weight="2.0" />
+      <edge source="itsshangela" target="bobmelrose" id="292" weight="2.0" />
+      <edge source="itsshangela" target="halleloo" id="293" weight="2.0" />
+      <edge source="itsshangela" target="rpdrallstars3" id="294" weight="2.0" />
+      <edge source="itsshangela" target="la" id="295" weight="2.0" />
+      <edge source="mickysweho" target="teamshangela" id="296" weight="2.0" />
+      <edge source="mickysweho" target="rupaulsdragrace" id="297" weight="1.0" />
+      <edge source="mickysweho" target="drrwel" id="298" weight="1.0" />
+      <edge source="mickysweho" target="revolverbarweho" id="299" weight="1.0" />
+      <edge source="mickysweho" target="peachpop" id="300" weight="1.0" />
+      <edge source="mickysweho" target="weho" id="301" weight="1.0" />
+      <edge source="mickysweho" target="westhollywood" id="302" weight="1.0" />
+      <edge source="mickysweho" target="gayweho" id="303" weight="1.0" />
+      <edge source="mickysweho" target="drag" id="304" weight="1.0" />
+      <edge source="mickysweho" target="dragqueen" id="305" weight="1.0" />
+      <edge source="mickysweho" target="bar10weho" id="306" weight="1.0" />
+      <edge source="mickysweho" target="bobmelrose" id="307" weight="1.0" />
+      <edge source="mickysweho" target="halleloo" id="308" weight="1.0" />
+      <edge source="mickysweho" target="rpdrallstars3" id="309" weight="1.0" />
+      <edge source="mickysweho" target="la" id="310" weight="1.0" />
+      <edge source="teamshangela" target="rupaulsdragrace" id="311" weight="2.0" />
+      <edge source="teamshangela" target="drrwel" id="312" weight="2.0" />
+      <edge source="teamshangela" target="revolverbarweho" id="313" weight="2.0" />
+      <edge source="teamshangela" target="peachpop" id="314" weight="2.0" />
+      <edge source="teamshangela" target="weho" id="315" weight="2.0" />
+      <edge source="teamshangela" target="westhollywood" id="316" weight="2.0" />
+      <edge source="teamshangela" target="gayweho" id="317" weight="2.0" />
+      <edge source="teamshangela" target="drag" id="318" weight="2.0" />
+      <edge source="teamshangela" target="dragqueen" id="319" weight="2.0" />
+      <edge source="teamshangela" target="bar10weho" id="320" weight="2.0" />
+      <edge source="teamshangela" target="bobmelrose" id="321" weight="2.0" />
+      <edge source="teamshangela" target="halleloo" id="322" weight="2.0" />
+      <edge source="teamshangela" target="rpdrallstars3" id="323" weight="2.0" />
+      <edge source="teamshangela" target="la" id="324" weight="2.0" />
+      <edge source="rupaulsdragrace" target="drrwel" id="325" weight="1.0" />
+      <edge source="rupaulsdragrace" target="revolverbarweho" id="326" weight="1.0" />
+      <edge source="rupaulsdragrace" target="peachpop" id="327" weight="1.0" />
+      <edge source="rupaulsdragrace" target="weho" id="328" weight="1.0" />
+      <edge source="rupaulsdragrace" target="westhollywood" id="329" weight="1.0" />
+      <edge source="rupaulsdragrace" target="gayweho" id="330" weight="1.0" />
+      <edge source="rupaulsdragrace" target="drag" id="331" weight="1.0" />
+      <edge source="rupaulsdragrace" target="dragqueen" id="332" weight="1.0" />
+      <edge source="rupaulsdragrace" target="bar10weho" id="333" weight="1.0" />
+      <edge source="rupaulsdragrace" target="bobmelrose" id="334" weight="1.0" />
+      <edge source="rupaulsdragrace" target="halleloo" id="335" weight="1.0" />
+      <edge source="rupaulsdragrace" target="rpdrallstars3" id="336" weight="1.0" />
+      <edge source="rupaulsdragrace" target="la" id="337" weight="1.0" />
+      <edge source="drrwel" target="revolverbarweho" id="338" weight="1.0" />
+      <edge source="drrwel" target="peachpop" id="339" weight="1.0" />
+      <edge source="drrwel" target="weho" id="340" weight="1.0" />
+      <edge source="drrwel" target="westhollywood" id="341" weight="1.0" />
+      <edge source="drrwel" target="gayweho" id="342" weight="1.0" />
+      <edge source="drrwel" target="drag" id="343" weight="1.0" />
+      <edge source="drrwel" target="dragqueen" id="344" weight="1.0" />
+      <edge source="drrwel" target="bar10weho" id="345" weight="1.0" />
+      <edge source="drrwel" target="bobmelrose" id="346" weight="1.0" />
+      <edge source="drrwel" target="halleloo" id="347" weight="1.0" />
+      <edge source="drrwel" target="rpdrallstars3" id="348" weight="1.0" />
+      <edge source="drrwel" target="la" id="349" weight="1.0" />
+      <edge source="htgawm" target="ruinmydayin5word" id="350" weight="6.0" />
+      <edge source="htgawm" target="scandal" id="351" weight="6.0" />
+      <edge source="htgawm" target="criticalrole" id="352" weight="3.0" />
+      <edge source="htgawm" target="top3app" id="353" weight="6.0" />
+      <edge source="htgawm" target="pressforprogres" id="354" weight="3.0" />
+      <edge source="htgawm" target="trndnl" id="355" weight="9.0" />
+      <edge source="htgawm" target="nintendodirect" id="356" weight="3.0" />
+      <edge source="htgawm" target="bobbytarantino2" id="357" weight="3.0" />
+      <edge source="htgawm" target="finepeoplefromtexa" id="358" weight="3.0" />
+      <edge source="htgawm" target="sxsw" id="359" weight="3.0" />
+      <edge source="htgawm" target="atlantafx" id="360" weight="3.0" />
+      <edge source="htgawm" target="interationalwomensday" id="361" weight="3.0" />
+      <edge source="htgawm" target="makesmemagical" id="362" weight="3.0" />
+      <edge source="ruinmydayin5word" target="scandal" id="363" weight="4.0" />
+      <edge source="ruinmydayin5word" target="criticalrole" id="364" weight="2.0" />
+      <edge source="ruinmydayin5word" target="top3app" id="365" weight="4.0" />
+      <edge source="ruinmydayin5word" target="pressforprogres" id="366" weight="2.0" />
+      <edge source="ruinmydayin5word" target="trndnl" id="367" weight="6.0" />
+      <edge source="ruinmydayin5word" target="nintendodirect" id="368" weight="2.0" />
+      <edge source="ruinmydayin5word" target="bobbytarantino2" id="369" weight="2.0" />
+      <edge source="ruinmydayin5word" target="finepeoplefromtexa" id="370" weight="2.0" />
+      <edge source="ruinmydayin5word" target="sxsw" id="371" weight="2.0" />
+      <edge source="ruinmydayin5word" target="atlantafx" id="372" weight="2.0" />
+      <edge source="ruinmydayin5word" target="interationalwomensday" id="373" weight="2.0" />
+      <edge source="ruinmydayin5word" target="makesmemagical" id="374" weight="2.0" />
+      <edge source="scandal" target="criticalrole" id="375" weight="2.0" />
+      <edge source="scandal" target="top3app" id="376" weight="4.0" />
+      <edge source="scandal" target="pressforprogres" id="377" weight="2.0" />
+      <edge source="scandal" target="trndnl" id="378" weight="6.0" />
+      <edge source="scandal" target="nintendodirect" id="379" weight="2.0" />
+      <edge source="scandal" target="bobbytarantino2" id="380" weight="2.0" />
+      <edge source="scandal" target="finepeoplefromtexa" id="381" weight="2.0" />
+      <edge source="scandal" target="sxsw" id="382" weight="2.0" />
+      <edge source="scandal" target="atlantafx" id="383" weight="2.0" />
+      <edge source="scandal" target="interationalwomensday" id="384" weight="2.0" />
+      <edge source="scandal" target="makesmemagical" id="385" weight="2.0" />
+      <edge source="criticalrole" target="top3app" id="386" weight="2.0" />
+      <edge source="criticalrole" target="pressforprogres" id="387" weight="1.0" />
+      <edge source="criticalrole" target="trndnl" id="388" weight="3.0" />
+      <edge source="criticalrole" target="nintendodirect" id="389" weight="1.0" />
+      <edge source="criticalrole" target="bobbytarantino2" id="390" weight="1.0" />
+      <edge source="criticalrole" target="finepeoplefromtexa" id="391" weight="1.0" />
+      <edge source="criticalrole" target="sxsw" id="392" weight="1.0" />
+      <edge source="criticalrole" target="atlantafx" id="393" weight="1.0" />
+      <edge source="criticalrole" target="interationalwomensday" id="394" weight="1.0" />
+      <edge source="criticalrole" target="makesmemagical" id="395" weight="1.0" />
+      <edge source="bootsandcat" target="siri" id="396" weight="1.0" />
+      <edge source="bootsandcat" target="beatbox" id="397" weight="1.0" />
+      <edge source="bootsandcat" target="joke" id="398" weight="1.0" />
+      <edge source="bootsandcat" target="mrpickle" id="399" weight="1.0" />
+      <edge source="siri" target="beatbox" id="400" weight="1.0" />
+      <edge source="siri" target="joke" id="401" weight="1.0" />
+      <edge source="siri" target="mrpickle" id="402" weight="1.0" />
+      <edge source="beatbox" target="joke" id="403" weight="1.0" />
+      <edge source="beatbox" target="mrpickle" id="404" weight="1.0" />
+      <edge source="joke" target="mrpickle" id="405" weight="1.0" />
+      <edge source="internationalwomensday" target="imhere" id="406" weight="1.0" />
+      <edge source="internationalwomensday" target="capable" id="407" weight="1.0" />
+      <edge source="internationalwomensday" target="smart" id="408" weight="1.0" />
+      <edge source="internationalwomensday" target="brilliant" id="409" weight="1.0" />
+      <edge source="internationalwomensday" target="kimkimble" id="410" weight="1.0" />
+      <edge source="internationalwomensday" target="beauty" id="411" weight="1.0" />
+      <edge source="internationalwomensday" target="ledisi" id="412" weight="1.0" />
+      <edge source="internationalwomensday" target="power" id="413" weight="1.0" />
+      <edge source="internationalwomensday" target="vivicafox" id="414" weight="1.0" />
+      <edge source="internationalwomensday" target="aonikalaurent" id="415" weight="1.0" />
+      <edge source="internationalwomensday" target="garcellebeauvai" id="416" weight="1.0" />
+      <edge source="internationalwomensday" target="pressforprogres" id="417" weight="1.0" />
+      <edge source="internationalwomensday" target="bowling" id="418" weight="1.0" />
+      <edge source="internationalwomensday" target="burnitdowngroup" id="419" weight="1.0" />
+      <edge source="internationalwomensday" target="her" id="420" weight="1.0" />
+      <edge source="internationalwomensday" target="essencemagazine" id="421" weight="1.0" />
+      <edge source="internationalwomensday" target="melanin" id="422" weight="1.0" />
+      <edge source="internationalwomensday" target="layman" id="423" weight="1.0" />
+      <edge source="internationalwomensday" target="menofsapphire" id="424" weight="1.0" />
+      <edge source="top3app" target="pressforprogres" id="425" weight="2.0" />
+      <edge source="top3app" target="trndnl" id="426" weight="6.0" />
+      <edge source="top3app" target="nintendodirect" id="427" weight="2.0" />
+      <edge source="top3app" target="bobbytarantino2" id="428" weight="2.0" />
+      <edge source="top3app" target="finepeoplefromtexa" id="429" weight="2.0" />
+      <edge source="top3app" target="sxsw" id="430" weight="2.0" />
+      <edge source="top3app" target="atlantafx" id="431" weight="2.0" />
+      <edge source="top3app" target="interationalwomensday" id="432" weight="2.0" />
+      <edge source="top3app" target="makesmemagical" id="433" weight="2.0" />
+      <edge source="imhere" target="capable" id="434" weight="1.0" />
+      <edge source="imhere" target="smart" id="435" weight="1.0" />
+      <edge source="imhere" target="brilliant" id="436" weight="1.0" />
+      <edge source="capable" target="smart" id="437" weight="1.0" />
+      <edge source="capable" target="brilliant" id="438" weight="1.0" />
+      <edge source="smart" target="brilliant" id="439" weight="1.0" />
+      <edge source="sommlife" target="bonsai" id="440" weight="1.0" />
+      <edge source="sommlife" target="alexanderssteakhouse" id="441" weight="1.0" />
+      <edge source="sommlife" target="sf" id="442" weight="1.0" />
+      <edge source="bonsai" target="alexanderssteakhouse" id="443" weight="1.0" />
+      <edge source="bonsai" target="sf" id="444" weight="1.0" />
+      <edge source="alexanderssteakhouse" target="sf" id="445" weight="1.0" />
+      <edge source="kimkimble" target="beauty" id="446" weight="1.0" />
+      <edge source="kimkimble" target="ledisi" id="447" weight="1.0" />
+      <edge source="kimkimble" target="power" id="448" weight="1.0" />
+      <edge source="kimkimble" target="vivicafox" id="449" weight="1.0" />
+      <edge source="kimkimble" target="aonikalaurent" id="450" weight="1.0" />
+      <edge source="kimkimble" target="garcellebeauvai" id="451" weight="1.0" />
+      <edge source="beauty" target="ledisi" id="452" weight="1.0" />
+      <edge source="beauty" target="power" id="453" weight="1.0" />
+      <edge source="beauty" target="vivicafox" id="454" weight="1.0" />
+      <edge source="beauty" target="aonikalaurent" id="455" weight="1.0" />
+      <edge source="beauty" target="garcellebeauvai" id="456" weight="1.0" />
+      <edge source="ledisi" target="power" id="457" weight="1.0" />
+      <edge source="ledisi" target="vivicafox" id="458" weight="1.0" />
+      <edge source="ledisi" target="aonikalaurent" id="459" weight="1.0" />
+      <edge source="ledisi" target="garcellebeauvai" id="460" weight="1.0" />
+      <edge source="power" target="vivicafox" id="461" weight="1.0" />
+      <edge source="power" target="aonikalaurent" id="462" weight="1.0" />
+      <edge source="power" target="garcellebeauvai" id="463" weight="1.0" />
+      <edge source="dailylightsaving" target="simple" id="464" weight="1.0" />
+      <edge source="vivicafox" target="aonikalaurent" id="465" weight="1.0" />
+      <edge source="vivicafox" target="garcellebeauvai" id="466" weight="1.0" />
+      <edge source="pressforprogres" target="trndnl" id="467" weight="3.0" />
+      <edge source="pressforprogres" target="nintendodirect" id="468" weight="1.0" />
+      <edge source="pressforprogres" target="bobbytarantino2" id="469" weight="1.0" />
+      <edge source="pressforprogres" target="finepeoplefromtexa" id="470" weight="1.0" />
+      <edge source="pressforprogres" target="sxsw" id="471" weight="1.0" />
+      <edge source="pressforprogres" target="atlantafx" id="472" weight="1.0" />
+      <edge source="pressforprogres" target="interationalwomensday" id="473" weight="1.0" />
+      <edge source="pressforprogres" target="makesmemagical" id="474" weight="1.0" />
+      <edge source="aonikalaurent" target="garcellebeauvai" id="475" weight="1.0" />
+      <edge source="burnitdowngroup" target="her" id="476" weight="1.0" />
+      <edge source="tgif" target="bipolar" id="477" weight="1.0" />
+      <edge source="tgif" target="bipolardisorder" id="478" weight="1.0" />
+      <edge source="tgif" target="did" id="479" weight="1.0" />
+      <edge source="tgif" target="ptsd" id="480" weight="1.0" />
+      <edge source="bipolar" target="bipolardisorder" id="481" weight="1.0" />
+      <edge source="bipolar" target="did" id="482" weight="1.0" />
+      <edge source="bipolar" target="ptsd" id="483" weight="1.0" />
+      <edge source="bipolardisorder" target="did" id="484" weight="1.0" />
+      <edge source="bipolardisorder" target="ptsd" id="485" weight="1.0" />
+      <edge source="did" target="ptsd" id="486" weight="1.0" />
+      <edge source="trndnl" target="nintendodirect" id="487" weight="3.0" />
+      <edge source="trndnl" target="bobbytarantino2" id="488" weight="3.0" />
+      <edge source="trndnl" target="finepeoplefromtexa" id="489" weight="3.0" />
+      <edge source="trndnl" target="sxsw" id="490" weight="3.0" />
+      <edge source="trndnl" target="atlantafx" id="491" weight="3.0" />
+      <edge source="trndnl" target="interationalwomensday" id="492" weight="3.0" />
+      <edge source="trndnl" target="makesmemagical" id="493" weight="3.0" />
+      <edge source="essencemagazine" target="melanin" id="494" weight="1.0" />
+      <edge source="selflove" target="khristinebognot" id="495" weight="1.0" />
+      <edge source="selflove" target="lifecoach" id="496" weight="1.0" />
+      <edge source="selflove" target="reikimaster" id="497" weight="1.0" />
+      <edge source="selflove" target="reikihealing" id="498" weight="1.0" />
+      <edge source="nintendodirect" target="bobbytarantino2" id="499" weight="1.0" />
+      <edge source="nintendodirect" target="finepeoplefromtexa" id="500" weight="1.0" />
+      <edge source="nintendodirect" target="sxsw" id="501" weight="1.0" />
+      <edge source="nintendodirect" target="atlantafx" id="502" weight="1.0" />
+      <edge source="nintendodirect" target="interationalwomensday" id="503" weight="1.0" />
+      <edge source="nintendodirect" target="makesmemagical" id="504" weight="1.0" />
+      <edge source="bobbytarantino2" target="finepeoplefromtexa" id="505" weight="1.0" />
+      <edge source="bobbytarantino2" target="sxsw" id="506" weight="1.0" />
+      <edge source="bobbytarantino2" target="atlantafx" id="507" weight="1.0" />
+      <edge source="bobbytarantino2" target="interationalwomensday" id="508" weight="1.0" />
+      <edge source="bobbytarantino2" target="makesmemagical" id="509" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="sxsw" id="510" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="atlantafx" id="511" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="interationalwomensday" id="512" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="makesmemagical" id="513" weight="1.0" />
+      <edge source="sxsw" target="atlantafx" id="514" weight="1.0" />
+      <edge source="sxsw" target="interationalwomensday" id="515" weight="1.0" />
+      <edge source="sxsw" target="makesmemagical" id="516" weight="1.0" />
+      <edge source="atlantafx" target="interationalwomensday" id="517" weight="1.0" />
+      <edge source="atlantafx" target="makesmemagical" id="518" weight="1.0" />
+      <edge source="naisac" target="healthymindandbody" id="519" weight="1.0" />
+      <edge source="interationalwomensday" target="makesmemagical" id="520" weight="1.0" />
+      <edge source="khristinebognot" target="lifecoach" id="521" weight="1.0" />
+      <edge source="khristinebognot" target="reikimaster" id="522" weight="1.0" />
+      <edge source="khristinebognot" target="reikihealing" id="523" weight="1.0" />
+      <edge source="lifecoach" target="reikimaster" id="524" weight="1.0" />
+      <edge source="lifecoach" target="reikihealing" id="525" weight="1.0" />
+      <edge source="reikimaster" target="reikihealing" id="526" weight="1.0" />
+      <edge source="columbusindiana" target="skysportfitnes" id="527" weight="1.0" />
+      <edge source="tip" target="adviceoftheday" id="528" weight="1.0" />
+      <edge source="tip" target="tipoftheday" id="529" weight="1.0" />
+      <edge source="tip" target="advice" id="530" weight="1.0" />
+      <edge source="adviceoftheday" target="tipoftheday" id="531" weight="1.0" />
+      <edge source="adviceoftheday" target="advice" id="532" weight="1.0" />
+      <edge source="tipoftheday" target="advice" id="533" weight="1.0" />
+      <edge source="revolverbarweho" target="peachpop" id="534" weight="1.0" />
+      <edge source="revolverbarweho" target="weho" id="535" weight="1.0" />
+      <edge source="revolverbarweho" target="westhollywood" id="536" weight="1.0" />
+      <edge source="revolverbarweho" target="gayweho" id="537" weight="1.0" />
+      <edge source="revolverbarweho" target="drag" id="538" weight="1.0" />
+      <edge source="revolverbarweho" target="dragqueen" id="539" weight="1.0" />
+      <edge source="revolverbarweho" target="bar10weho" id="540" weight="1.0" />
+      <edge source="revolverbarweho" target="bobmelrose" id="541" weight="1.0" />
+      <edge source="revolverbarweho" target="halleloo" id="542" weight="1.0" />
+      <edge source="revolverbarweho" target="rpdrallstars3" id="543" weight="1.0" />
+      <edge source="revolverbarweho" target="la" id="544" weight="1.0" />
+      <edge source="peachpop" target="weho" id="545" weight="1.0" />
+      <edge source="peachpop" target="westhollywood" id="546" weight="1.0" />
+      <edge source="peachpop" target="gayweho" id="547" weight="1.0" />
+      <edge source="peachpop" target="drag" id="548" weight="1.0" />
+      <edge source="peachpop" target="dragqueen" id="549" weight="1.0" />
+      <edge source="peachpop" target="bar10weho" id="550" weight="1.0" />
+      <edge source="peachpop" target="bobmelrose" id="551" weight="1.0" />
+      <edge source="peachpop" target="halleloo" id="552" weight="1.0" />
+      <edge source="peachpop" target="rpdrallstars3" id="553" weight="1.0" />
+      <edge source="peachpop" target="la" id="554" weight="1.0" />
+      <edge source="weho" target="westhollywood" id="555" weight="1.0" />
+      <edge source="weho" target="gayweho" id="556" weight="1.0" />
+      <edge source="weho" target="drag" id="557" weight="1.0" />
+      <edge source="weho" target="dragqueen" id="558" weight="1.0" />
+      <edge source="weho" target="bar10weho" id="559" weight="1.0" />
+      <edge source="weho" target="bobmelrose" id="560" weight="1.0" />
+      <edge source="weho" target="halleloo" id="561" weight="1.0" />
+      <edge source="weho" target="rpdrallstars3" id="562" weight="1.0" />
+      <edge source="weho" target="la" id="563" weight="1.0" />
+      <edge source="westhollywood" target="gayweho" id="564" weight="1.0" />
+      <edge source="westhollywood" target="drag" id="565" weight="1.0" />
+      <edge source="westhollywood" target="dragqueen" id="566" weight="1.0" />
+      <edge source="westhollywood" target="bar10weho" id="567" weight="1.0" />
+      <edge source="westhollywood" target="bobmelrose" id="568" weight="1.0" />
+      <edge source="westhollywood" target="halleloo" id="569" weight="1.0" />
+      <edge source="westhollywood" target="rpdrallstars3" id="570" weight="1.0" />
+      <edge source="westhollywood" target="la" id="571" weight="1.0" />
+      <edge source="gayweho" target="drag" id="572" weight="1.0" />
+      <edge source="gayweho" target="dragqueen" id="573" weight="1.0" />
+      <edge source="gayweho" target="bar10weho" id="574" weight="1.0" />
+      <edge source="gayweho" target="bobmelrose" id="575" weight="1.0" />
+      <edge source="gayweho" target="halleloo" id="576" weight="1.0" />
+      <edge source="gayweho" target="rpdrallstars3" id="577" weight="1.0" />
+      <edge source="gayweho" target="la" id="578" weight="1.0" />
+      <edge source="drag" target="dragqueen" id="579" weight="1.0" />
+      <edge source="drag" target="bar10weho" id="580" weight="1.0" />
+      <edge source="drag" target="bobmelrose" id="581" weight="1.0" />
+      <edge source="drag" target="halleloo" id="582" weight="1.0" />
+      <edge source="drag" target="rpdrallstars3" id="583" weight="1.0" />
+      <edge source="drag" target="la" id="584" weight="1.0" />
+      <edge source="dragqueen" target="bar10weho" id="585" weight="1.0" />
+      <edge source="dragqueen" target="bobmelrose" id="586" weight="1.0" />
+      <edge source="dragqueen" target="halleloo" id="587" weight="1.0" />
+      <edge source="dragqueen" target="rpdrallstars3" id="588" weight="1.0" />
+      <edge source="dragqueen" target="la" id="589" weight="1.0" />
+      <edge source="bar10weho" target="bobmelrose" id="590" weight="1.0" />
+      <edge source="bar10weho" target="halleloo" id="591" weight="1.0" />
+      <edge source="bar10weho" target="rpdrallstars3" id="592" weight="1.0" />
+      <edge source="bar10weho" target="la" id="593" weight="1.0" />
+      <edge source="bobmelrose" target="halleloo" id="594" weight="1.0" />
+      <edge source="bobmelrose" target="rpdrallstars3" id="595" weight="1.0" />
+      <edge source="bobmelrose" target="la" id="596" weight="1.0" />
+      <edge source="halleloo" target="rpdrallstars3" id="597" weight="1.0" />
+      <edge source="halleloo" target="la" id="598" weight="1.0" />
+      <edge source="rpdrallstars3" target="la" id="599" weight="1.0" />
     </edges>
   </graph>
 </gexf>

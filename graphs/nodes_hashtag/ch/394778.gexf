@@ -1,38 +1,78 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="jecommence" label="jecommence" />
+      <node id="thatjusthappened" label="thatjusthappened" />
       <node id="jesuischarlie" label="jesuischarlie" />
-      <node id="kundera" label="kundera" />
-      <node id="boanoite" label="boanoite" />
-      <node id="aucalme" label="aucalme" />
-      <node id="jsc" label="jsc" />
-      <node id="tahiadjazair" label="tahiadjazair" />
-      <node id="doodlediary" label="doodlediary" />
-      <node id="cahierpourlesenfants" label="cahierpourlesenfants" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="bonnenuit" label="bonnenuit" />
+      <node id="marre" label="marre" />
+      <node id="nbaextra" label="nbaextra" />
+      <node id="nw" label="nw" />
+      <node id="np" label="np" />
+      <node id="albumdanslesbacfrancai" label="albumdanslesbacfrancai" />
       <node id="charliehebdo" label="charliehebdo" />
-      <node id="afligeant" label="afligeant" />
-      <node id="2chainz" label="2chainz" />
-      <node id="teamkendji" label="teamkendji" />
-      <node id="depuisontetrompe" label="depuisontetrompe" />
-      <node id="mercipourletaff" label="mercipourletaff" />
-      <node id="ontaquitter" label="ontaquitter" />
-      <node id="sheslikethewind" label="sheslikethewind" />
-      <node id="cavaaller" label="cavaaller" />
+      <node id="maischberger" label="maischberger" />
+      <node id="priscilla" label="priscilla" />
+      <node id="kis" label="kis" />
+      <node id="loveine" label="loveine" />
+      <node id="contribuez" label="contribuez" />
+      <node id="arna" label="arna" />
+      <node id="blackcaviar" label="blackcaviar" />
+      <node id="duysiduy" label="duysiduy" />
+      <node id="coulibaly" label="coulibaly" />
+      <node id="lookgood" label="lookgood" />
+      <node id="goodvibe" label="goodvibe" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="servicemilitaire" label="servicemilitaire" />
+      <node id="jeunesse" label="jeunesse" />
+      <node id="encadrement" label="encadrement" />
+      <node id="france" label="france" />
+      <node id="harlow" label="harlow" />
+      <node id="complot" label="complot" />
+      <node id="desinformation" label="desinformation" />
+      <node id="aveyron" label="aveyron" />
+      <node id="tarn" label="tarn" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="charlie" label="charlie" />
     </nodes>
     <edges>
-      <edge source="jsc" target="tahiadjazair" id="0" weight="1.0" />
-      <edge source="charliehebdo" target="afligeant" id="1" weight="1.0" />
-      <edge source="teamkendji" target="depuisontetrompe" id="2" weight="1.0" />
-      <edge source="teamkendji" target="sheslikethewind" id="3" weight="1.0" />
-      <edge source="teamkendji" target="cavaaller" id="4" weight="1.0" />
-      <edge source="depuisontetrompe" target="sheslikethewind" id="5" weight="1.0" />
-      <edge source="depuisontetrompe" target="cavaaller" id="6" weight="1.0" />
-      <edge source="sheslikethewind" target="cavaaller" id="7" weight="1.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="0" weight="1.0" />
+      <edge source="nbaextra" target="nw" id="1" weight="1.0" />
+      <edge source="charliehebdo" target="maischberger" id="2" weight="1.0" />
+      <edge source="charliehebdo" target="coulibaly" id="3" weight="1.0" />
+      <edge source="kis" target="loveine" id="4" weight="1.0" />
+      <edge source="kis" target="blackcaviar" id="5" weight="1.0" />
+      <edge source="kis" target="duysiduy" id="6" weight="2.0" />
+      <edge source="kis" target="lookgood" id="7" weight="1.0" />
+      <edge source="kis" target="goodvibe" id="8" weight="1.0" />
+      <edge source="loveine" target="blackcaviar" id="9" weight="1.0" />
+      <edge source="loveine" target="duysiduy" id="10" weight="2.0" />
+      <edge source="loveine" target="lookgood" id="11" weight="1.0" />
+      <edge source="loveine" target="goodvibe" id="12" weight="1.0" />
+      <edge source="blackcaviar" target="duysiduy" id="13" weight="2.0" />
+      <edge source="blackcaviar" target="lookgood" id="14" weight="1.0" />
+      <edge source="blackcaviar" target="goodvibe" id="15" weight="1.0" />
+      <edge source="duysiduy" target="lookgood" id="16" weight="2.0" />
+      <edge source="duysiduy" target="goodvibe" id="17" weight="2.0" />
+      <edge source="lookgood" target="goodvibe" id="18" weight="1.0" />
+      <edge source="hautegaronne" target="aveyron" id="19" weight="1.0" />
+      <edge source="hautegaronne" target="tarn" id="20" weight="1.0" />
+      <edge source="servicemilitaire" target="jeunesse" id="21" weight="1.0" />
+      <edge source="servicemilitaire" target="encadrement" id="22" weight="1.0" />
+      <edge source="servicemilitaire" target="complot" id="23" weight="1.0" />
+      <edge source="servicemilitaire" target="desinformation" id="24" weight="1.0" />
+      <edge source="jeunesse" target="encadrement" id="25" weight="1.0" />
+      <edge source="jeunesse" target="complot" id="26" weight="1.0" />
+      <edge source="jeunesse" target="desinformation" id="27" weight="1.0" />
+      <edge source="encadrement" target="complot" id="28" weight="1.0" />
+      <edge source="encadrement" target="desinformation" id="29" weight="1.0" />
+      <edge source="france" target="harlow" id="30" weight="1.0" />
+      <edge source="complot" target="desinformation" id="31" weight="1.0" />
+      <edge source="aveyron" target="tarn" id="32" weight="1.0" />
     </edges>
   </graph>
 </gexf>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -8,11 +8,11 @@
       <node id="nationalpistachioday" label="nationalpistachioday" />
       <node id="nationalbaconday" label="nationalbaconday" />
       <node id="forpetessakeday" label="forpetessakeday" />
-      <node id="hiddenfigures" label="hiddenfigures" />
+      <node id="hiddenfigure" label="hiddenfigure" />
       <node id="loveit" label="loveit" />
       <node id="edpalabra" label="edpalabra" />
       <node id="beachesweho" label="beachesweho" />
-      <node id="greginlosangeles" label="greginlosangeles" />
+      <node id="greginlosangele" label="greginlosangele" />
       <node id="djroland001" label="djroland001" />
       <node id="black" label="black" />
       <node id="hozzaye" label="hozzaye" />
@@ -21,29 +21,118 @@
       <node id="blackhistorymonthprofile" label="blackhistorymonthprofile" />
       <node id="wakandaforever" label="wakandaforever" />
       <node id="flashlift" label="flashlift" />
-      <node id="hennessyvs" label="hennessyvs" />
+      <node id="hennessyv" label="hennessyv" />
+      <node id="carnivalday" label="carnivalday" />
+      <node id="levistraussday" label="levistraussday" />
+      <node id="tellafairytaleday" label="tellafairytaleday" />
+      <node id="nationalpersonalchefsday" label="nationalpersonalchefsday" />
+      <node id="wrexhamroadreadingserie" label="wrexhamroadreadingserie" />
+      <node id="icecream" label="icecream" />
+      <node id="kickas" label="kickas" />
+      <node id="rustic" label="rustic" />
+      <node id="candybar" label="candybar" />
+      <node id="tomyson" label="tomyson" />
+      <node id="iloveyou" label="iloveyou" />
+      <node id="beproud" label="beproud" />
+      <node id="youareloved" label="youareloved" />
+      <node id="myson" label="myson" />
+      <node id="winner" label="winner" />
+      <node id="positive" label="positive" />
+      <node id="goodvibe" label="goodvibe" />
+      <node id="mom" label="mom" />
+      <node id="create" label="create" />
+      <node id="mondaymotivation" label="mondaymotivation" />
     </nodes>
     <edges>
-      <edge source="nationalpistachioday" target="nationalbaconday" id="0" weight="1.0" />
-      <edge source="nationalpistachioday" target="forpetessakeday" id="1" weight="1.0" />
-      <edge source="nationalbaconday" target="forpetessakeday" id="2" weight="1.0" />
-      <edge source="hiddenfigures" target="loveit" id="3" weight="1.0" />
-      <edge source="edpalabra" target="beachesweho" id="4" weight="1.0" />
-      <edge source="edpalabra" target="greginlosangeles" id="5" weight="1.0" />
-      <edge source="edpalabra" target="djroland001" id="6" weight="1.0" />
-      <edge source="edpalabra" target="hozzaye" id="7" weight="1.0" />
-      <edge source="edpalabra" target="mylesmatisse" id="8" weight="1.0" />
-      <edge source="beachesweho" target="greginlosangeles" id="9" weight="1.0" />
-      <edge source="beachesweho" target="djroland001" id="10" weight="1.0" />
-      <edge source="beachesweho" target="hozzaye" id="11" weight="1.0" />
-      <edge source="beachesweho" target="mylesmatisse" id="12" weight="1.0" />
-      <edge source="greginlosangeles" target="djroland001" id="13" weight="1.0" />
-      <edge source="greginlosangeles" target="hozzaye" id="14" weight="1.0" />
-      <edge source="greginlosangeles" target="mylesmatisse" id="15" weight="1.0" />
-      <edge source="djroland001" target="hozzaye" id="16" weight="1.0" />
-      <edge source="djroland001" target="mylesmatisse" id="17" weight="1.0" />
-      <edge source="black" target="blackhistorymonthprofile" id="18" weight="1.0" />
-      <edge source="hozzaye" target="mylesmatisse" id="19" weight="1.0" />
+      <edge source="nationalpistachioday" target="nationalbaconday" id="0" weight="4.0" />
+      <edge source="nationalpistachioday" target="forpetessakeday" id="1" weight="4.0" />
+      <edge source="nationalpistachioday" target="carnivalday" id="2" weight="2.0" />
+      <edge source="nationalpistachioday" target="levistraussday" id="3" weight="2.0" />
+      <edge source="nationalpistachioday" target="tellafairytaleday" id="4" weight="2.0" />
+      <edge source="nationalpistachioday" target="nationalpersonalchefsday" id="5" weight="2.0" />
+      <edge source="nationalbaconday" target="forpetessakeday" id="6" weight="4.0" />
+      <edge source="nationalbaconday" target="carnivalday" id="7" weight="2.0" />
+      <edge source="nationalbaconday" target="levistraussday" id="8" weight="2.0" />
+      <edge source="nationalbaconday" target="tellafairytaleday" id="9" weight="2.0" />
+      <edge source="nationalbaconday" target="nationalpersonalchefsday" id="10" weight="2.0" />
+      <edge source="forpetessakeday" target="carnivalday" id="11" weight="2.0" />
+      <edge source="forpetessakeday" target="levistraussday" id="12" weight="2.0" />
+      <edge source="forpetessakeday" target="tellafairytaleday" id="13" weight="2.0" />
+      <edge source="forpetessakeday" target="nationalpersonalchefsday" id="14" weight="2.0" />
+      <edge source="hiddenfigure" target="loveit" id="15" weight="1.0" />
+      <edge source="edpalabra" target="beachesweho" id="16" weight="1.0" />
+      <edge source="edpalabra" target="greginlosangele" id="17" weight="1.0" />
+      <edge source="edpalabra" target="djroland001" id="18" weight="1.0" />
+      <edge source="edpalabra" target="hozzaye" id="19" weight="1.0" />
+      <edge source="edpalabra" target="mylesmatisse" id="20" weight="1.0" />
+      <edge source="beachesweho" target="greginlosangele" id="21" weight="1.0" />
+      <edge source="beachesweho" target="djroland001" id="22" weight="1.0" />
+      <edge source="beachesweho" target="hozzaye" id="23" weight="1.0" />
+      <edge source="beachesweho" target="mylesmatisse" id="24" weight="1.0" />
+      <edge source="greginlosangele" target="djroland001" id="25" weight="1.0" />
+      <edge source="greginlosangele" target="hozzaye" id="26" weight="1.0" />
+      <edge source="greginlosangele" target="mylesmatisse" id="27" weight="1.0" />
+      <edge source="djroland001" target="hozzaye" id="28" weight="1.0" />
+      <edge source="djroland001" target="mylesmatisse" id="29" weight="1.0" />
+      <edge source="black" target="blackhistorymonthprofile" id="30" weight="1.0" />
+      <edge source="hozzaye" target="mylesmatisse" id="31" weight="1.0" />
+      <edge source="carnivalday" target="levistraussday" id="32" weight="1.0" />
+      <edge source="carnivalday" target="tellafairytaleday" id="33" weight="1.0" />
+      <edge source="carnivalday" target="nationalpersonalchefsday" id="34" weight="1.0" />
+      <edge source="levistraussday" target="tellafairytaleday" id="35" weight="1.0" />
+      <edge source="levistraussday" target="nationalpersonalchefsday" id="36" weight="1.0" />
+      <edge source="tellafairytaleday" target="nationalpersonalchefsday" id="37" weight="1.0" />
+      <edge source="icecream" target="kickas" id="38" weight="1.0" />
+      <edge source="icecream" target="rustic" id="39" weight="1.0" />
+      <edge source="icecream" target="candybar" id="40" weight="1.0" />
+      <edge source="kickas" target="rustic" id="41" weight="1.0" />
+      <edge source="kickas" target="candybar" id="42" weight="1.0" />
+      <edge source="rustic" target="candybar" id="43" weight="1.0" />
+      <edge source="tomyson" target="iloveyou" id="44" weight="1.0" />
+      <edge source="tomyson" target="beproud" id="45" weight="1.0" />
+      <edge source="tomyson" target="youareloved" id="46" weight="1.0" />
+      <edge source="tomyson" target="myson" id="47" weight="1.0" />
+      <edge source="tomyson" target="winner" id="48" weight="1.0" />
+      <edge source="tomyson" target="positive" id="49" weight="1.0" />
+      <edge source="tomyson" target="goodvibe" id="50" weight="1.0" />
+      <edge source="tomyson" target="mom" id="51" weight="1.0" />
+      <edge source="tomyson" target="create" id="52" weight="1.0" />
+      <edge source="iloveyou" target="beproud" id="53" weight="1.0" />
+      <edge source="iloveyou" target="youareloved" id="54" weight="1.0" />
+      <edge source="iloveyou" target="myson" id="55" weight="1.0" />
+      <edge source="iloveyou" target="winner" id="56" weight="1.0" />
+      <edge source="iloveyou" target="positive" id="57" weight="1.0" />
+      <edge source="iloveyou" target="goodvibe" id="58" weight="1.0" />
+      <edge source="iloveyou" target="mom" id="59" weight="1.0" />
+      <edge source="iloveyou" target="create" id="60" weight="1.0" />
+      <edge source="beproud" target="youareloved" id="61" weight="1.0" />
+      <edge source="beproud" target="myson" id="62" weight="1.0" />
+      <edge source="beproud" target="winner" id="63" weight="1.0" />
+      <edge source="beproud" target="positive" id="64" weight="1.0" />
+      <edge source="beproud" target="goodvibe" id="65" weight="1.0" />
+      <edge source="beproud" target="mom" id="66" weight="1.0" />
+      <edge source="beproud" target="create" id="67" weight="1.0" />
+      <edge source="youareloved" target="myson" id="68" weight="1.0" />
+      <edge source="youareloved" target="winner" id="69" weight="1.0" />
+      <edge source="youareloved" target="positive" id="70" weight="1.0" />
+      <edge source="youareloved" target="goodvibe" id="71" weight="1.0" />
+      <edge source="youareloved" target="mom" id="72" weight="1.0" />
+      <edge source="youareloved" target="create" id="73" weight="1.0" />
+      <edge source="myson" target="winner" id="74" weight="1.0" />
+      <edge source="myson" target="positive" id="75" weight="1.0" />
+      <edge source="myson" target="goodvibe" id="76" weight="1.0" />
+      <edge source="myson" target="mom" id="77" weight="1.0" />
+      <edge source="myson" target="create" id="78" weight="1.0" />
+      <edge source="winner" target="positive" id="79" weight="1.0" />
+      <edge source="winner" target="goodvibe" id="80" weight="1.0" />
+      <edge source="winner" target="mom" id="81" weight="1.0" />
+      <edge source="winner" target="create" id="82" weight="1.0" />
+      <edge source="positive" target="goodvibe" id="83" weight="1.0" />
+      <edge source="positive" target="mom" id="84" weight="1.0" />
+      <edge source="positive" target="create" id="85" weight="1.0" />
+      <edge source="goodvibe" target="mom" id="86" weight="1.0" />
+      <edge source="goodvibe" target="create" id="87" weight="1.0" />
+      <edge source="mom" target="create" id="88" weight="1.0" />
     </edges>
   </graph>
 </gexf>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -18,16 +18,16 @@
       <node id="sip" label="sip" />
       <node id="read" label="read" />
       <node id="taketimeforyourself" label="taketimeforyourself" />
-      <node id="priceless" label="priceless" />
+      <node id="priceles" label="priceles" />
       <node id="love" label="love" />
       <node id="wine" label="wine" />
       <node id="reggae" label="reggae" />
-      <node id="drseuss" label="drseuss" />
+      <node id="drseus" label="drseus" />
       <node id="drsuessbirthday" label="drsuessbirthday" />
       <node id="drseussweek" label="drseussweek" />
       <node id="babyboy" label="babyboy" />
       <node id="babygirl" label="babygirl" />
-      <node id="nashvillenights" label="nashvillenights" />
+      <node id="nashvillenight" label="nashvillenight" />
       <node id="sandiegosunset" label="sandiegosunset" />
       <node id="ultimatecapture" label="ultimatecapture" />
       <node id="postcardsfromtheworld" label="postcardsfromtheworld" />
@@ -44,12 +44,12 @@
       <node id="gratitude" label="gratitude" />
       <node id="spanishamericancenter" label="spanishamericancenter" />
       <node id="leominster" label="leominster" />
-      <node id="massachusetts" label="massachusetts" />
+      <node id="massachusett" label="massachusett" />
       <node id="becomeashewinker" label="becomeashewinker" />
       <node id="lashlife" label="lashlife" />
-      <node id="nyclashes" label="nyclashes" />
-      <node id="joinus" label="joinus" />
-      <node id="shewinks" label="shewinks" />
+      <node id="nyclashe" label="nyclashe" />
+      <node id="joinu" label="joinu" />
+      <node id="shewink" label="shewink" />
       <node id="outlander" label="outlander" />
       <node id="loveforsam" label="loveforsam" />
       <node id="samheughan" label="samheughan" />
@@ -67,7 +67,7 @@
       <node id="allthingsny" label="allthingsny" />
       <node id="newyorkcity" label="newyorkcity" />
       <node id="eatingdisorderdietitian" label="eatingdisorderdietitian" />
-      <node id="mobilbartenders" label="mobilbartenders" />
+      <node id="mobilbartender" label="mobilbartender" />
       <node id="bartenderservice" label="bartenderservice" />
       <node id="march" label="march" />
       <node id="ddom2018" label="ddom2018" />
@@ -77,146 +77,405 @@
       <node id="3yrold" label="3yrold" />
       <node id="3yroldbeast" label="3yroldbeast" />
       <node id="sled" label="sled" />
-      <node id="87pounds" label="87pounds" />
+      <node id="87pound" label="87pound" />
       <node id="87lbssled" label="87lbssled" />
       <node id="trainersdaughter" label="trainersdaughter" />
+      <node id="bride" label="bride" />
+      <node id="ab" label="ab" />
+      <node id="muscle" label="muscle" />
+      <node id="gunshow" label="gunshow" />
+      <node id="faithfullyfashionable" label="faithfullyfashionable" />
+      <node id="donnaroland" label="donnaroland" />
+      <node id="view" label="view" />
+      <node id="aspencolorado" label="aspencolorado" />
+      <node id="aspen" label="aspen" />
+      <node id="forum" label="forum" />
+      <node id="phi" label="phi" />
+      <node id="forumphi" label="forumphi" />
+      <node id="roomwithaview" label="roomwithaview" />
+      <node id="teamdh" label="teamdh" />
+      <node id="eccc" label="eccc" />
+      <node id="etsy" label="etsy" />
+      <node id="blackhistorymonth" label="blackhistorymonth" />
+      <node id="byanymeansnecessary" label="byanymeansnecessary" />
+      <node id="djlord" label="djlord" />
+      <node id="malcolmx" label="malcolmx" />
+      <node id="worldbookday" label="worldbookday" />
+      <node id="healthychurch" label="healthychurch" />
+      <node id="challenge" label="challenge" />
+      <node id="issa" label="issa" />
+      <node id="revivall" label="revivall" />
+      <node id="champagnebrunch" label="champagnebrunch" />
+      <node id="buffet" label="buffet" />
+      <node id="jansenclineram" label="jansenclineram" />
+      <node id="nofilterneeded" label="nofilterneeded" />
+      <node id="morningwakeup" label="morningwakeup" />
+      <node id="welcometoourworld" label="welcometoourworld" />
+      <node id="iloveher" label="iloveher" />
+      <node id="muse" label="muse" />
+      <node id="beer" label="beer" />
+      <node id="fun" label="fun" />
+      <node id="fitnes" label="fitnes" />
+      <node id="kent" label="kent" />
+      <node id="ohio" label="ohio" />
+      <node id="crystal" label="crystal" />
+      <node id="crystalhealing" label="crystalhealing" />
+      <node id="metaphysical" label="metaphysical" />
+      <node id="energy" label="energy" />
+      <node id="tbt" label="tbt" />
+      <node id="womenshistorymonth" label="womenshistorymonth" />
+      <node id="womensmarch" label="womensmarch" />
+      <node id="whyimarch" label="whyimarch" />
+      <node id="nowall" label="nowall" />
+      <node id="sleekdasongtres" label="sleekdasongtres" />
+      <node id="strikingapose" label="strikingapose" />
+      <node id="ynot" label="ynot" />
+      <node id="sleekinthecity" label="sleekinthecity" />
+      <node id="alleyesonme" label="alleyesonme" />
+      <node id="stressrelief" label="stressrelief" />
+      <node id="ilovestarbuck" label="ilovestarbuck" />
+      <node id="heartbroken" label="heartbroken" />
+      <node id="alcoholismhurtseveryone" label="alcoholismhurtseveryone" />
+      <node id="holi" label="holi" />
+      <node id="spring" label="spring" />
+      <node id="indianholiday" label="indianholiday" />
+      <node id="vibrant" label="vibrant" />
+      <node id="vibrantliving" label="vibrantliving" />
+      <node id="holifight" label="holifight" />
+      <node id="repost" label="repost" />
+      <node id="flower" label="flower" />
+      <node id="beautiful" label="beautiful" />
+      <node id="cardio" label="cardio" />
+      <node id="ajjacksoncoaching" label="ajjacksoncoaching" />
+      <node id="fearlessfocu" label="fearlessfocu" />
+      <node id="favorite" label="favorite" />
+      <node id="coffee" label="coffee" />
+      <node id="shopsmall" label="shopsmall" />
+      <node id="shoplocal" label="shoplocal" />
+      <node id="shopwindow" label="shopwindow" />
+      <node id="shopscene" label="shopscene" />
+      <node id="cocomomyrescuedog" label="cocomomyrescuedog" />
+      <node id="checkupday" label="checkupday" />
+      <node id="culvercity" label="culvercity" />
+      <node id="mybff" label="mybff" />
+      <node id="megaship" label="megaship" />
+      <node id="lola76" label="lola76" />
+      <node id="resort" label="resort" />
+      <node id="leathergood" label="leathergood" />
+      <node id="handbag" label="handbag" />
+      <node id="tote" label="tote" />
+      <node id="tjazelle" label="tjazelle" />
+      <node id="oatmilk" label="oatmilk" />
+      <node id="flatwhite" label="flatwhite" />
+      <node id="uw" label="uw" />
+      <node id="westisbest" label="westisbest" />
+      <node id="journalsquare" label="journalsquare" />
+      <node id="pathstation" label="pathstation" />
+      <node id="jerseycity" label="jerseycity" />
+      <node id="nj" label="nj" />
+      <node id="kimpetra" label="kimpetra" />
+      <node id="charlixcx" label="charlixcx" />
+      <node id="soposh" label="soposh" />
+      <node id="fashionblog" label="fashionblog" />
     </nodes>
     <edges>
       <edge source="zerodiscriminationday" target="pigday" id="0" weight="1.0" />
       <edge source="zerodiscriminationday" target="planasolovacationday" id="1" weight="1.0" />
       <edge source="pigday" target="planasolovacationday" id="2" weight="1.0" />
-      <edge source="bepolished" target="beyourbest" id="3" weight="1.0" />
-      <edge source="bepolished" target="nailswag" id="4" weight="1.0" />
-      <edge source="bepolished" target="nailart" id="5" weight="1.0" />
-      <edge source="beyourbest" target="nailswag" id="6" weight="1.0" />
-      <edge source="beyourbest" target="nailart" id="7" weight="1.0" />
-      <edge source="nailswag" target="nailart" id="8" weight="1.0" />
+      <edge source="bepolished" target="beyourbest" id="3" weight="4.0" />
+      <edge source="bepolished" target="nailswag" id="4" weight="4.0" />
+      <edge source="bepolished" target="nailart" id="5" weight="2.0" />
+      <edge source="beyourbest" target="nailswag" id="6" weight="4.0" />
+      <edge source="beyourbest" target="nailart" id="7" weight="2.0" />
+      <edge source="nailswag" target="nailart" id="8" weight="2.0" />
       <edge source="video" target="courage" id="9" weight="1.0" />
-      <edge source="soak" target="sip" id="10" weight="1.0" />
-      <edge source="soak" target="read" id="11" weight="1.0" />
-      <edge source="soak" target="taketimeforyourself" id="12" weight="1.0" />
-      <edge source="soak" target="priceless" id="13" weight="1.0" />
-      <edge source="soak" target="love" id="14" weight="1.0" />
-      <edge source="soak" target="wine" id="15" weight="1.0" />
-      <edge source="sip" target="read" id="16" weight="1.0" />
-      <edge source="sip" target="taketimeforyourself" id="17" weight="1.0" />
-      <edge source="sip" target="priceless" id="18" weight="1.0" />
-      <edge source="sip" target="love" id="19" weight="1.0" />
-      <edge source="sip" target="wine" id="20" weight="1.0" />
-      <edge source="read" target="taketimeforyourself" id="21" weight="1.0" />
-      <edge source="read" target="priceless" id="22" weight="1.0" />
-      <edge source="read" target="love" id="23" weight="1.0" />
-      <edge source="read" target="wine" id="24" weight="1.0" />
-      <edge source="taketimeforyourself" target="priceless" id="25" weight="1.0" />
-      <edge source="taketimeforyourself" target="love" id="26" weight="1.0" />
-      <edge source="taketimeforyourself" target="wine" id="27" weight="1.0" />
-      <edge source="priceless" target="love" id="28" weight="1.0" />
-      <edge source="priceless" target="wine" id="29" weight="1.0" />
-      <edge source="love" target="wine" id="30" weight="1.0" />
-      <edge source="drseuss" target="drsuessbirthday" id="31" weight="1.0" />
-      <edge source="drseuss" target="drseussweek" id="32" weight="1.0" />
-      <edge source="drseuss" target="babyboy" id="33" weight="1.0" />
-      <edge source="drseuss" target="babygirl" id="34" weight="1.0" />
-      <edge source="drsuessbirthday" target="drseussweek" id="35" weight="1.0" />
-      <edge source="drsuessbirthday" target="babyboy" id="36" weight="1.0" />
-      <edge source="drsuessbirthday" target="babygirl" id="37" weight="1.0" />
-      <edge source="drseussweek" target="babyboy" id="38" weight="1.0" />
-      <edge source="drseussweek" target="babygirl" id="39" weight="1.0" />
-      <edge source="babyboy" target="babygirl" id="40" weight="1.0" />
-      <edge source="sandiegosunset" target="ultimatecapture" id="41" weight="1.0" />
-      <edge source="sandiegosunset" target="postcardsfromtheworld" id="42" weight="1.0" />
-      <edge source="ultimatecapture" target="postcardsfromtheworld" id="43" weight="1.0" />
-      <edge source="everybodysfit" target="mastertrainer" id="44" weight="1.0" />
-      <edge source="everybodysfit" target="aau" id="45" weight="1.0" />
-      <edge source="everybodysfit" target="afaa" id="46" weight="1.0" />
-      <edge source="everybodysfit" target="menshealth" id="47" weight="1.0" />
-      <edge source="everybodysfit" target="womenshealth" id="48" weight="1.0" />
-      <edge source="mastertrainer" target="aau" id="49" weight="1.0" />
-      <edge source="mastertrainer" target="afaa" id="50" weight="1.0" />
-      <edge source="mastertrainer" target="menshealth" id="51" weight="1.0" />
-      <edge source="mastertrainer" target="womenshealth" id="52" weight="1.0" />
-      <edge source="aau" target="afaa" id="53" weight="1.0" />
-      <edge source="aau" target="menshealth" id="54" weight="1.0" />
-      <edge source="aau" target="womenshealth" id="55" weight="1.0" />
-      <edge source="afaa" target="menshealth" id="56" weight="1.0" />
-      <edge source="afaa" target="womenshealth" id="57" weight="1.0" />
-      <edge source="menshealth" target="womenshealth" id="58" weight="1.0" />
-      <edge source="btconeshotbraids18" target="btconeshotupstyling18" id="59" weight="1.0" />
-      <edge source="btconeshotbraids18" target="behindthechair" id="60" weight="1.0" />
-      <edge source="btconeshotbraids18" target="jamiewileyhair" id="61" weight="1.0" />
-      <edge source="btconeshotupstyling18" target="behindthechair" id="62" weight="1.0" />
-      <edge source="btconeshotupstyling18" target="jamiewileyhair" id="63" weight="1.0" />
-      <edge source="behindthechair" target="jamiewileyhair" id="64" weight="1.0" />
-      <edge source="spanishamericancenter" target="leominster" id="65" weight="1.0" />
-      <edge source="spanishamericancenter" target="massachusetts" id="66" weight="1.0" />
-      <edge source="leominster" target="massachusetts" id="67" weight="1.0" />
-      <edge source="becomeashewinker" target="lashlife" id="68" weight="1.0" />
-      <edge source="becomeashewinker" target="nyclashes" id="69" weight="1.0" />
-      <edge source="becomeashewinker" target="joinus" id="70" weight="1.0" />
-      <edge source="becomeashewinker" target="shewinks" id="71" weight="1.0" />
-      <edge source="lashlife" target="nyclashes" id="72" weight="1.0" />
-      <edge source="lashlife" target="joinus" id="73" weight="1.0" />
-      <edge source="lashlife" target="shewinks" id="74" weight="1.0" />
-      <edge source="nyclashes" target="joinus" id="75" weight="1.0" />
-      <edge source="nyclashes" target="shewinks" id="76" weight="1.0" />
-      <edge source="joinus" target="shewinks" id="77" weight="1.0" />
-      <edge source="outlander" target="loveforsam" id="78" weight="1.0" />
-      <edge source="outlander" target="samheughan" id="79" weight="1.0" />
-      <edge source="loveforsam" target="samheughan" id="80" weight="1.0" />
-      <edge source="rompn" target="local" id="81" weight="1.0" />
-      <edge source="rompn" target="frown" id="82" weight="1.0" />
-      <edge source="local" target="frown" id="83" weight="1.0" />
-      <edge source="sourdough" target="breadporn" id="84" weight="1.0" />
-      <edge source="bestcity" target="nyc" id="85" weight="1.0" />
-      <edge source="bestcity" target="newyork" id="86" weight="1.0" />
-      <edge source="bestcity" target="grittycity" id="87" weight="1.0" />
-      <edge source="bestcity" target="manhattan" id="88" weight="1.0" />
-      <edge source="bestcity" target="allthingsny" id="89" weight="1.0" />
-      <edge source="bestcity" target="newyorkcity" id="90" weight="1.0" />
-      <edge source="nyc" target="newyork" id="91" weight="1.0" />
-      <edge source="nyc" target="grittycity" id="92" weight="1.0" />
-      <edge source="nyc" target="manhattan" id="93" weight="1.0" />
-      <edge source="nyc" target="allthingsny" id="94" weight="1.0" />
-      <edge source="nyc" target="newyorkcity" id="95" weight="1.0" />
-      <edge source="newyork" target="grittycity" id="96" weight="1.0" />
-      <edge source="newyork" target="manhattan" id="97" weight="1.0" />
-      <edge source="newyork" target="allthingsny" id="98" weight="1.0" />
-      <edge source="newyork" target="newyorkcity" id="99" weight="1.0" />
-      <edge source="grittycity" target="manhattan" id="100" weight="1.0" />
-      <edge source="grittycity" target="allthingsny" id="101" weight="1.0" />
-      <edge source="grittycity" target="newyorkcity" id="102" weight="1.0" />
-      <edge source="manhattan" target="allthingsny" id="103" weight="1.0" />
-      <edge source="manhattan" target="newyorkcity" id="104" weight="1.0" />
-      <edge source="allthingsny" target="newyorkcity" id="105" weight="1.0" />
-      <edge source="mobilbartenders" target="bartenderservice" id="106" weight="1.0" />
-      <edge source="beast" target="itrunsinthefamily" id="107" weight="1.0" />
-      <edge source="beast" target="3yrold" id="108" weight="1.0" />
-      <edge source="beast" target="3yroldbeast" id="109" weight="1.0" />
-      <edge source="beast" target="sled" id="110" weight="1.0" />
-      <edge source="beast" target="87pounds" id="111" weight="1.0" />
-      <edge source="beast" target="87lbssled" id="112" weight="1.0" />
-      <edge source="beast" target="trainersdaughter" id="113" weight="1.0" />
-      <edge source="itrunsinthefamily" target="3yrold" id="114" weight="1.0" />
-      <edge source="itrunsinthefamily" target="3yroldbeast" id="115" weight="1.0" />
-      <edge source="itrunsinthefamily" target="sled" id="116" weight="1.0" />
-      <edge source="itrunsinthefamily" target="87pounds" id="117" weight="1.0" />
-      <edge source="itrunsinthefamily" target="87lbssled" id="118" weight="1.0" />
-      <edge source="itrunsinthefamily" target="trainersdaughter" id="119" weight="1.0" />
-      <edge source="3yrold" target="3yroldbeast" id="120" weight="1.0" />
-      <edge source="3yrold" target="sled" id="121" weight="1.0" />
-      <edge source="3yrold" target="87pounds" id="122" weight="1.0" />
-      <edge source="3yrold" target="87lbssled" id="123" weight="1.0" />
-      <edge source="3yrold" target="trainersdaughter" id="124" weight="1.0" />
-      <edge source="3yroldbeast" target="sled" id="125" weight="1.0" />
-      <edge source="3yroldbeast" target="87pounds" id="126" weight="1.0" />
-      <edge source="3yroldbeast" target="87lbssled" id="127" weight="1.0" />
-      <edge source="3yroldbeast" target="trainersdaughter" id="128" weight="1.0" />
-      <edge source="sled" target="87pounds" id="129" weight="1.0" />
-      <edge source="sled" target="87lbssled" id="130" weight="1.0" />
-      <edge source="sled" target="trainersdaughter" id="131" weight="1.0" />
-      <edge source="87pounds" target="87lbssled" id="132" weight="1.0" />
-      <edge source="87pounds" target="trainersdaughter" id="133" weight="1.0" />
-      <edge source="87lbssled" target="trainersdaughter" id="134" weight="1.0" />
+      <edge source="video" target="cardio" id="10" weight="1.0" />
+      <edge source="video" target="ajjacksoncoaching" id="11" weight="1.0" />
+      <edge source="video" target="fearlessfocu" id="12" weight="1.0" />
+      <edge source="courage" target="cardio" id="13" weight="1.0" />
+      <edge source="courage" target="ajjacksoncoaching" id="14" weight="1.0" />
+      <edge source="courage" target="fearlessfocu" id="15" weight="1.0" />
+      <edge source="soak" target="sip" id="16" weight="1.0" />
+      <edge source="soak" target="read" id="17" weight="1.0" />
+      <edge source="soak" target="taketimeforyourself" id="18" weight="1.0" />
+      <edge source="soak" target="priceles" id="19" weight="1.0" />
+      <edge source="soak" target="love" id="20" weight="1.0" />
+      <edge source="soak" target="wine" id="21" weight="1.0" />
+      <edge source="sip" target="read" id="22" weight="1.0" />
+      <edge source="sip" target="taketimeforyourself" id="23" weight="1.0" />
+      <edge source="sip" target="priceles" id="24" weight="1.0" />
+      <edge source="sip" target="love" id="25" weight="1.0" />
+      <edge source="sip" target="wine" id="26" weight="1.0" />
+      <edge source="read" target="taketimeforyourself" id="27" weight="1.0" />
+      <edge source="read" target="priceles" id="28" weight="1.0" />
+      <edge source="read" target="love" id="29" weight="1.0" />
+      <edge source="read" target="wine" id="30" weight="1.0" />
+      <edge source="taketimeforyourself" target="priceles" id="31" weight="1.0" />
+      <edge source="taketimeforyourself" target="love" id="32" weight="1.0" />
+      <edge source="taketimeforyourself" target="wine" id="33" weight="1.0" />
+      <edge source="priceles" target="love" id="34" weight="1.0" />
+      <edge source="priceles" target="wine" id="35" weight="1.0" />
+      <edge source="love" target="wine" id="36" weight="1.0" />
+      <edge source="drseus" target="drsuessbirthday" id="37" weight="1.0" />
+      <edge source="drseus" target="drseussweek" id="38" weight="1.0" />
+      <edge source="drseus" target="babyboy" id="39" weight="1.0" />
+      <edge source="drseus" target="babygirl" id="40" weight="1.0" />
+      <edge source="drsuessbirthday" target="drseussweek" id="41" weight="1.0" />
+      <edge source="drsuessbirthday" target="babyboy" id="42" weight="1.0" />
+      <edge source="drsuessbirthday" target="babygirl" id="43" weight="1.0" />
+      <edge source="drseussweek" target="babyboy" id="44" weight="1.0" />
+      <edge source="drseussweek" target="babygirl" id="45" weight="1.0" />
+      <edge source="babyboy" target="babygirl" id="46" weight="1.0" />
+      <edge source="sandiegosunset" target="ultimatecapture" id="47" weight="1.0" />
+      <edge source="sandiegosunset" target="postcardsfromtheworld" id="48" weight="1.0" />
+      <edge source="ultimatecapture" target="postcardsfromtheworld" id="49" weight="1.0" />
+      <edge source="everybodysfit" target="mastertrainer" id="50" weight="1.0" />
+      <edge source="everybodysfit" target="aau" id="51" weight="1.0" />
+      <edge source="everybodysfit" target="afaa" id="52" weight="1.0" />
+      <edge source="everybodysfit" target="menshealth" id="53" weight="1.0" />
+      <edge source="everybodysfit" target="womenshealth" id="54" weight="1.0" />
+      <edge source="mastertrainer" target="aau" id="55" weight="1.0" />
+      <edge source="mastertrainer" target="afaa" id="56" weight="1.0" />
+      <edge source="mastertrainer" target="menshealth" id="57" weight="1.0" />
+      <edge source="mastertrainer" target="womenshealth" id="58" weight="1.0" />
+      <edge source="aau" target="afaa" id="59" weight="1.0" />
+      <edge source="aau" target="menshealth" id="60" weight="1.0" />
+      <edge source="aau" target="womenshealth" id="61" weight="1.0" />
+      <edge source="afaa" target="menshealth" id="62" weight="1.0" />
+      <edge source="afaa" target="womenshealth" id="63" weight="1.0" />
+      <edge source="menshealth" target="womenshealth" id="64" weight="1.0" />
+      <edge source="btconeshotbraids18" target="btconeshotupstyling18" id="65" weight="1.0" />
+      <edge source="btconeshotbraids18" target="behindthechair" id="66" weight="1.0" />
+      <edge source="btconeshotbraids18" target="jamiewileyhair" id="67" weight="1.0" />
+      <edge source="btconeshotupstyling18" target="behindthechair" id="68" weight="1.0" />
+      <edge source="btconeshotupstyling18" target="jamiewileyhair" id="69" weight="1.0" />
+      <edge source="behindthechair" target="jamiewileyhair" id="70" weight="1.0" />
+      <edge source="spanishamericancenter" target="leominster" id="71" weight="1.0" />
+      <edge source="spanishamericancenter" target="massachusett" id="72" weight="1.0" />
+      <edge source="leominster" target="massachusett" id="73" weight="1.0" />
+      <edge source="becomeashewinker" target="lashlife" id="74" weight="1.0" />
+      <edge source="becomeashewinker" target="nyclashe" id="75" weight="1.0" />
+      <edge source="becomeashewinker" target="joinu" id="76" weight="1.0" />
+      <edge source="becomeashewinker" target="shewink" id="77" weight="1.0" />
+      <edge source="lashlife" target="nyclashe" id="78" weight="1.0" />
+      <edge source="lashlife" target="joinu" id="79" weight="1.0" />
+      <edge source="lashlife" target="shewink" id="80" weight="1.0" />
+      <edge source="nyclashe" target="joinu" id="81" weight="1.0" />
+      <edge source="nyclashe" target="shewink" id="82" weight="1.0" />
+      <edge source="joinu" target="shewink" id="83" weight="1.0" />
+      <edge source="outlander" target="loveforsam" id="84" weight="1.0" />
+      <edge source="outlander" target="samheughan" id="85" weight="1.0" />
+      <edge source="loveforsam" target="samheughan" id="86" weight="1.0" />
+      <edge source="rompn" target="local" id="87" weight="1.0" />
+      <edge source="rompn" target="frown" id="88" weight="1.0" />
+      <edge source="local" target="frown" id="89" weight="1.0" />
+      <edge source="sourdough" target="breadporn" id="90" weight="1.0" />
+      <edge source="bestcity" target="nyc" id="91" weight="1.0" />
+      <edge source="bestcity" target="newyork" id="92" weight="1.0" />
+      <edge source="bestcity" target="grittycity" id="93" weight="1.0" />
+      <edge source="bestcity" target="manhattan" id="94" weight="1.0" />
+      <edge source="bestcity" target="allthingsny" id="95" weight="1.0" />
+      <edge source="bestcity" target="newyorkcity" id="96" weight="1.0" />
+      <edge source="nyc" target="newyork" id="97" weight="2.0" />
+      <edge source="nyc" target="grittycity" id="98" weight="1.0" />
+      <edge source="nyc" target="manhattan" id="99" weight="1.0" />
+      <edge source="nyc" target="allthingsny" id="100" weight="1.0" />
+      <edge source="nyc" target="newyorkcity" id="101" weight="1.0" />
+      <edge source="nyc" target="oatmilk" id="102" weight="1.0" />
+      <edge source="nyc" target="flatwhite" id="103" weight="1.0" />
+      <edge source="nyc" target="uw" id="104" weight="1.0" />
+      <edge source="nyc" target="westisbest" id="105" weight="1.0" />
+      <edge source="newyork" target="grittycity" id="106" weight="1.0" />
+      <edge source="newyork" target="manhattan" id="107" weight="1.0" />
+      <edge source="newyork" target="allthingsny" id="108" weight="1.0" />
+      <edge source="newyork" target="newyorkcity" id="109" weight="1.0" />
+      <edge source="newyork" target="oatmilk" id="110" weight="1.0" />
+      <edge source="newyork" target="flatwhite" id="111" weight="1.0" />
+      <edge source="newyork" target="uw" id="112" weight="1.0" />
+      <edge source="newyork" target="westisbest" id="113" weight="1.0" />
+      <edge source="grittycity" target="manhattan" id="114" weight="1.0" />
+      <edge source="grittycity" target="allthingsny" id="115" weight="1.0" />
+      <edge source="grittycity" target="newyorkcity" id="116" weight="1.0" />
+      <edge source="manhattan" target="allthingsny" id="117" weight="1.0" />
+      <edge source="manhattan" target="newyorkcity" id="118" weight="1.0" />
+      <edge source="allthingsny" target="newyorkcity" id="119" weight="1.0" />
+      <edge source="newyorkcity" target="megaship" id="120" weight="1.0" />
+      <edge source="mobilbartender" target="bartenderservice" id="121" weight="1.0" />
+      <edge source="march" target="flower" id="122" weight="1.0" />
+      <edge source="march" target="beautiful" id="123" weight="1.0" />
+      <edge source="beast" target="itrunsinthefamily" id="124" weight="1.0" />
+      <edge source="beast" target="3yrold" id="125" weight="1.0" />
+      <edge source="beast" target="3yroldbeast" id="126" weight="1.0" />
+      <edge source="beast" target="sled" id="127" weight="1.0" />
+      <edge source="beast" target="87pound" id="128" weight="1.0" />
+      <edge source="beast" target="87lbssled" id="129" weight="1.0" />
+      <edge source="beast" target="trainersdaughter" id="130" weight="1.0" />
+      <edge source="itrunsinthefamily" target="3yrold" id="131" weight="1.0" />
+      <edge source="itrunsinthefamily" target="3yroldbeast" id="132" weight="1.0" />
+      <edge source="itrunsinthefamily" target="sled" id="133" weight="1.0" />
+      <edge source="itrunsinthefamily" target="87pound" id="134" weight="1.0" />
+      <edge source="itrunsinthefamily" target="87lbssled" id="135" weight="1.0" />
+      <edge source="itrunsinthefamily" target="trainersdaughter" id="136" weight="1.0" />
+      <edge source="3yrold" target="3yroldbeast" id="137" weight="1.0" />
+      <edge source="3yrold" target="sled" id="138" weight="1.0" />
+      <edge source="3yrold" target="87pound" id="139" weight="1.0" />
+      <edge source="3yrold" target="87lbssled" id="140" weight="1.0" />
+      <edge source="3yrold" target="trainersdaughter" id="141" weight="1.0" />
+      <edge source="3yroldbeast" target="sled" id="142" weight="1.0" />
+      <edge source="3yroldbeast" target="87pound" id="143" weight="1.0" />
+      <edge source="3yroldbeast" target="87lbssled" id="144" weight="1.0" />
+      <edge source="3yroldbeast" target="trainersdaughter" id="145" weight="1.0" />
+      <edge source="sled" target="87pound" id="146" weight="1.0" />
+      <edge source="sled" target="87lbssled" id="147" weight="1.0" />
+      <edge source="sled" target="trainersdaughter" id="148" weight="1.0" />
+      <edge source="87pound" target="87lbssled" id="149" weight="1.0" />
+      <edge source="87pound" target="trainersdaughter" id="150" weight="1.0" />
+      <edge source="87lbssled" target="trainersdaughter" id="151" weight="1.0" />
+      <edge source="ab" target="muscle" id="152" weight="1.0" />
+      <edge source="ab" target="gunshow" id="153" weight="1.0" />
+      <edge source="muscle" target="gunshow" id="154" weight="1.0" />
+      <edge source="faithfullyfashionable" target="donnaroland" id="155" weight="1.0" />
+      <edge source="view" target="aspencolorado" id="156" weight="1.0" />
+      <edge source="view" target="aspen" id="157" weight="1.0" />
+      <edge source="view" target="forum" id="158" weight="1.0" />
+      <edge source="view" target="phi" id="159" weight="1.0" />
+      <edge source="view" target="forumphi" id="160" weight="1.0" />
+      <edge source="view" target="roomwithaview" id="161" weight="1.0" />
+      <edge source="aspencolorado" target="aspen" id="162" weight="1.0" />
+      <edge source="aspencolorado" target="forum" id="163" weight="1.0" />
+      <edge source="aspencolorado" target="phi" id="164" weight="1.0" />
+      <edge source="aspencolorado" target="forumphi" id="165" weight="1.0" />
+      <edge source="aspencolorado" target="roomwithaview" id="166" weight="1.0" />
+      <edge source="aspen" target="forum" id="167" weight="1.0" />
+      <edge source="aspen" target="phi" id="168" weight="1.0" />
+      <edge source="aspen" target="forumphi" id="169" weight="1.0" />
+      <edge source="aspen" target="roomwithaview" id="170" weight="1.0" />
+      <edge source="forum" target="phi" id="171" weight="1.0" />
+      <edge source="forum" target="forumphi" id="172" weight="1.0" />
+      <edge source="forum" target="roomwithaview" id="173" weight="1.0" />
+      <edge source="phi" target="forumphi" id="174" weight="1.0" />
+      <edge source="phi" target="roomwithaview" id="175" weight="1.0" />
+      <edge source="forumphi" target="roomwithaview" id="176" weight="1.0" />
+      <edge source="teamdh" target="eccc" id="177" weight="1.0" />
+      <edge source="blackhistorymonth" target="byanymeansnecessary" id="178" weight="1.0" />
+      <edge source="blackhistorymonth" target="djlord" id="179" weight="1.0" />
+      <edge source="blackhistorymonth" target="malcolmx" id="180" weight="1.0" />
+      <edge source="byanymeansnecessary" target="djlord" id="181" weight="1.0" />
+      <edge source="byanymeansnecessary" target="malcolmx" id="182" weight="1.0" />
+      <edge source="djlord" target="malcolmx" id="183" weight="1.0" />
+      <edge source="healthychurch" target="challenge" id="184" weight="1.0" />
+      <edge source="healthychurch" target="issa" id="185" weight="1.0" />
+      <edge source="healthychurch" target="revivall" id="186" weight="1.0" />
+      <edge source="challenge" target="issa" id="187" weight="1.0" />
+      <edge source="challenge" target="revivall" id="188" weight="1.0" />
+      <edge source="issa" target="revivall" id="189" weight="1.0" />
+      <edge source="champagnebrunch" target="buffet" id="190" weight="1.0" />
+      <edge source="jansenclineram" target="nofilterneeded" id="191" weight="1.0" />
+      <edge source="jansenclineram" target="morningwakeup" id="192" weight="1.0" />
+      <edge source="jansenclineram" target="welcometoourworld" id="193" weight="1.0" />
+      <edge source="jansenclineram" target="iloveher" id="194" weight="1.0" />
+      <edge source="nofilterneeded" target="morningwakeup" id="195" weight="1.0" />
+      <edge source="nofilterneeded" target="welcometoourworld" id="196" weight="1.0" />
+      <edge source="nofilterneeded" target="iloveher" id="197" weight="1.0" />
+      <edge source="morningwakeup" target="welcometoourworld" id="198" weight="1.0" />
+      <edge source="morningwakeup" target="iloveher" id="199" weight="1.0" />
+      <edge source="welcometoourworld" target="iloveher" id="200" weight="1.0" />
+      <edge source="beer" target="fun" id="201" weight="1.0" />
+      <edge source="beer" target="fitnes" id="202" weight="1.0" />
+      <edge source="fun" target="fitnes" id="203" weight="1.0" />
+      <edge source="kent" target="ohio" id="204" weight="1.0" />
+      <edge source="kent" target="favorite" id="205" weight="1.0" />
+      <edge source="kent" target="coffee" id="206" weight="1.0" />
+      <edge source="ohio" target="favorite" id="207" weight="1.0" />
+      <edge source="ohio" target="coffee" id="208" weight="1.0" />
+      <edge source="crystal" target="crystalhealing" id="209" weight="1.0" />
+      <edge source="crystal" target="metaphysical" id="210" weight="1.0" />
+      <edge source="crystal" target="energy" id="211" weight="1.0" />
+      <edge source="crystalhealing" target="metaphysical" id="212" weight="1.0" />
+      <edge source="crystalhealing" target="energy" id="213" weight="1.0" />
+      <edge source="metaphysical" target="energy" id="214" weight="1.0" />
+      <edge source="tbt" target="womenshistorymonth" id="215" weight="1.0" />
+      <edge source="womensmarch" target="whyimarch" id="216" weight="1.0" />
+      <edge source="womensmarch" target="nowall" id="217" weight="1.0" />
+      <edge source="whyimarch" target="nowall" id="218" weight="1.0" />
+      <edge source="sleekdasongtres" target="strikingapose" id="219" weight="1.0" />
+      <edge source="sleekdasongtres" target="ynot" id="220" weight="1.0" />
+      <edge source="sleekdasongtres" target="sleekinthecity" id="221" weight="1.0" />
+      <edge source="sleekdasongtres" target="alleyesonme" id="222" weight="1.0" />
+      <edge source="strikingapose" target="ynot" id="223" weight="1.0" />
+      <edge source="strikingapose" target="sleekinthecity" id="224" weight="1.0" />
+      <edge source="strikingapose" target="alleyesonme" id="225" weight="1.0" />
+      <edge source="ynot" target="sleekinthecity" id="226" weight="1.0" />
+      <edge source="ynot" target="alleyesonme" id="227" weight="1.0" />
+      <edge source="sleekinthecity" target="alleyesonme" id="228" weight="1.0" />
+      <edge source="stressrelief" target="ilovestarbuck" id="229" weight="1.0" />
+      <edge source="stressrelief" target="heartbroken" id="230" weight="1.0" />
+      <edge source="stressrelief" target="alcoholismhurtseveryone" id="231" weight="1.0" />
+      <edge source="ilovestarbuck" target="heartbroken" id="232" weight="1.0" />
+      <edge source="ilovestarbuck" target="alcoholismhurtseveryone" id="233" weight="1.0" />
+      <edge source="heartbroken" target="alcoholismhurtseveryone" id="234" weight="1.0" />
+      <edge source="holi" target="spring" id="235" weight="1.0" />
+      <edge source="holi" target="indianholiday" id="236" weight="1.0" />
+      <edge source="holi" target="vibrant" id="237" weight="1.0" />
+      <edge source="holi" target="vibrantliving" id="238" weight="1.0" />
+      <edge source="holi" target="holifight" id="239" weight="1.0" />
+      <edge source="spring" target="indianholiday" id="240" weight="1.0" />
+      <edge source="spring" target="vibrant" id="241" weight="1.0" />
+      <edge source="spring" target="vibrantliving" id="242" weight="1.0" />
+      <edge source="spring" target="holifight" id="243" weight="1.0" />
+      <edge source="spring" target="lola76" id="244" weight="1.0" />
+      <edge source="spring" target="resort" id="245" weight="1.0" />
+      <edge source="spring" target="leathergood" id="246" weight="1.0" />
+      <edge source="spring" target="handbag" id="247" weight="1.0" />
+      <edge source="spring" target="tote" id="248" weight="1.0" />
+      <edge source="indianholiday" target="vibrant" id="249" weight="1.0" />
+      <edge source="indianholiday" target="vibrantliving" id="250" weight="1.0" />
+      <edge source="indianholiday" target="holifight" id="251" weight="1.0" />
+      <edge source="vibrant" target="vibrantliving" id="252" weight="1.0" />
+      <edge source="vibrant" target="holifight" id="253" weight="1.0" />
+      <edge source="vibrantliving" target="holifight" id="254" weight="1.0" />
+      <edge source="flower" target="beautiful" id="255" weight="1.0" />
+      <edge source="cardio" target="ajjacksoncoaching" id="256" weight="1.0" />
+      <edge source="cardio" target="fearlessfocu" id="257" weight="1.0" />
+      <edge source="ajjacksoncoaching" target="fearlessfocu" id="258" weight="1.0" />
+      <edge source="favorite" target="coffee" id="259" weight="1.0" />
+      <edge source="shopsmall" target="shoplocal" id="260" weight="1.0" />
+      <edge source="shopsmall" target="shopwindow" id="261" weight="1.0" />
+      <edge source="shopsmall" target="shopscene" id="262" weight="1.0" />
+      <edge source="shoplocal" target="shopwindow" id="263" weight="1.0" />
+      <edge source="shoplocal" target="shopscene" id="264" weight="1.0" />
+      <edge source="shopwindow" target="shopscene" id="265" weight="1.0" />
+      <edge source="cocomomyrescuedog" target="checkupday" id="266" weight="1.0" />
+      <edge source="cocomomyrescuedog" target="culvercity" id="267" weight="1.0" />
+      <edge source="cocomomyrescuedog" target="mybff" id="268" weight="1.0" />
+      <edge source="checkupday" target="culvercity" id="269" weight="1.0" />
+      <edge source="checkupday" target="mybff" id="270" weight="1.0" />
+      <edge source="culvercity" target="mybff" id="271" weight="1.0" />
+      <edge source="lola76" target="resort" id="272" weight="1.0" />
+      <edge source="lola76" target="leathergood" id="273" weight="1.0" />
+      <edge source="lola76" target="handbag" id="274" weight="1.0" />
+      <edge source="lola76" target="tote" id="275" weight="1.0" />
+      <edge source="resort" target="leathergood" id="276" weight="1.0" />
+      <edge source="resort" target="handbag" id="277" weight="1.0" />
+      <edge source="resort" target="tote" id="278" weight="1.0" />
+      <edge source="leathergood" target="handbag" id="279" weight="1.0" />
+      <edge source="leathergood" target="tote" id="280" weight="1.0" />
+      <edge source="handbag" target="tote" id="281" weight="1.0" />
+      <edge source="oatmilk" target="flatwhite" id="282" weight="1.0" />
+      <edge source="oatmilk" target="uw" id="283" weight="1.0" />
+      <edge source="oatmilk" target="westisbest" id="284" weight="1.0" />
+      <edge source="flatwhite" target="uw" id="285" weight="1.0" />
+      <edge source="flatwhite" target="westisbest" id="286" weight="1.0" />
+      <edge source="uw" target="westisbest" id="287" weight="1.0" />
+      <edge source="journalsquare" target="pathstation" id="288" weight="1.0" />
+      <edge source="journalsquare" target="jerseycity" id="289" weight="1.0" />
+      <edge source="journalsquare" target="nj" id="290" weight="1.0" />
+      <edge source="pathstation" target="jerseycity" id="291" weight="1.0" />
+      <edge source="pathstation" target="nj" id="292" weight="1.0" />
+      <edge source="jerseycity" target="nj" id="293" weight="1.0" />
+      <edge source="kimpetra" target="charlixcx" id="294" weight="1.0" />
+      <edge source="kimpetra" target="soposh" id="295" weight="1.0" />
+      <edge source="charlixcx" target="soposh" id="296" weight="1.0" />
     </edges>
   </graph>
 </gexf>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
-      <node id="nationalmaplesyrupdays" label="nationalmaplesyrupdays" />
+      <node id="nationalmaplesyrupday" label="nationalmaplesyrupday" />
       <node id="nationalabsintheday" label="nationalabsintheday" />
       <node id="sundayfunday" label="sundayfunday" />
       <node id="coneja" label="coneja" />
@@ -18,27 +18,65 @@
       <node id="sacredstar" label="sacredstar" />
       <node id="scorpio" label="scorpio" />
       <node id="repost" label="repost" />
+      <node id="saintpiransday" label="saintpiransday" />
+      <node id="oscar" label="oscar" />
+      <node id="ejaf" label="ejaf" />
+      <node id="ejafoscar" label="ejafoscar" />
+      <node id="oscars2018" label="oscars2018" />
+      <node id="academyaward" label="academyaward" />
+      <node id="halubooo" label="halubooo" />
+      <node id="battlearmour" label="battlearmour" />
+      <node id="accessorie" label="accessorie" />
+      <node id="ivegotthi" label="ivegotthi" />
+      <node id="happymonday" label="happymonday" />
+      <node id="prioritize" label="prioritize" />
     </nodes>
     <edges>
-      <edge source="nationalmaplesyrupdays" target="nationalabsintheday" id="0" weight="1.0" />
-      <edge source="sundayfunday" target="coneja" id="1" weight="1.0" />
-      <edge source="sundayfunday" target="tochtligang" id="2" weight="1.0" />
-      <edge source="sundayfunday" target="bangbang" id="3" weight="1.0" />
-      <edge source="sundayfunday" target="fly" id="4" weight="1.0" />
-      <edge source="sundayfunday" target="carrotlife" id="5" weight="1.0" />
-      <edge source="coneja" target="tochtligang" id="6" weight="1.0" />
-      <edge source="coneja" target="bangbang" id="7" weight="1.0" />
-      <edge source="coneja" target="fly" id="8" weight="1.0" />
-      <edge source="coneja" target="carrotlife" id="9" weight="1.0" />
-      <edge source="tochtligang" target="bangbang" id="10" weight="1.0" />
-      <edge source="tochtligang" target="fly" id="11" weight="1.0" />
-      <edge source="tochtligang" target="carrotlife" id="12" weight="1.0" />
-      <edge source="bangbang" target="fly" id="13" weight="1.0" />
-      <edge source="bangbang" target="carrotlife" id="14" weight="1.0" />
-      <edge source="fly" target="carrotlife" id="15" weight="1.0" />
-      <edge source="earliertoday" target="sacredstar" id="16" weight="1.0" />
-      <edge source="earliertoday" target="scorpio" id="17" weight="1.0" />
-      <edge source="sacredstar" target="scorpio" id="18" weight="1.0" />
+      <edge source="nationalmaplesyrupday" target="nationalabsintheday" id="0" weight="9.0" />
+      <edge source="nationalmaplesyrupday" target="saintpiransday" id="1" weight="3.0" />
+      <edge source="nationalabsintheday" target="saintpiransday" id="2" weight="3.0" />
+      <edge source="sundayfunday" target="coneja" id="3" weight="1.0" />
+      <edge source="sundayfunday" target="tochtligang" id="4" weight="1.0" />
+      <edge source="sundayfunday" target="bangbang" id="5" weight="1.0" />
+      <edge source="sundayfunday" target="fly" id="6" weight="1.0" />
+      <edge source="sundayfunday" target="carrotlife" id="7" weight="1.0" />
+      <edge source="sundayfunday" target="oscar" id="8" weight="1.0" />
+      <edge source="sundayfunday" target="ejaf" id="9" weight="1.0" />
+      <edge source="sundayfunday" target="ejafoscar" id="10" weight="1.0" />
+      <edge source="sundayfunday" target="oscars2018" id="11" weight="1.0" />
+      <edge source="sundayfunday" target="academyaward" id="12" weight="1.0" />
+      <edge source="sundayfunday" target="halubooo" id="13" weight="1.0" />
+      <edge source="coneja" target="tochtligang" id="14" weight="1.0" />
+      <edge source="coneja" target="bangbang" id="15" weight="1.0" />
+      <edge source="coneja" target="fly" id="16" weight="1.0" />
+      <edge source="coneja" target="carrotlife" id="17" weight="1.0" />
+      <edge source="tochtligang" target="bangbang" id="18" weight="1.0" />
+      <edge source="tochtligang" target="fly" id="19" weight="1.0" />
+      <edge source="tochtligang" target="carrotlife" id="20" weight="1.0" />
+      <edge source="bangbang" target="fly" id="21" weight="1.0" />
+      <edge source="bangbang" target="carrotlife" id="22" weight="1.0" />
+      <edge source="fly" target="carrotlife" id="23" weight="1.0" />
+      <edge source="earliertoday" target="sacredstar" id="24" weight="1.0" />
+      <edge source="earliertoday" target="scorpio" id="25" weight="1.0" />
+      <edge source="sacredstar" target="scorpio" id="26" weight="1.0" />
+      <edge source="oscar" target="ejaf" id="27" weight="1.0" />
+      <edge source="oscar" target="ejafoscar" id="28" weight="1.0" />
+      <edge source="oscar" target="oscars2018" id="29" weight="1.0" />
+      <edge source="oscar" target="academyaward" id="30" weight="1.0" />
+      <edge source="oscar" target="halubooo" id="31" weight="1.0" />
+      <edge source="ejaf" target="ejafoscar" id="32" weight="1.0" />
+      <edge source="ejaf" target="oscars2018" id="33" weight="1.0" />
+      <edge source="ejaf" target="academyaward" id="34" weight="1.0" />
+      <edge source="ejaf" target="halubooo" id="35" weight="1.0" />
+      <edge source="ejafoscar" target="oscars2018" id="36" weight="1.0" />
+      <edge source="ejafoscar" target="academyaward" id="37" weight="1.0" />
+      <edge source="ejafoscar" target="halubooo" id="38" weight="1.0" />
+      <edge source="oscars2018" target="academyaward" id="39" weight="1.0" />
+      <edge source="oscars2018" target="halubooo" id="40" weight="1.0" />
+      <edge source="academyaward" target="halubooo" id="41" weight="1.0" />
+      <edge source="battlearmour" target="accessorie" id="42" weight="1.0" />
+      <edge source="battlearmour" target="ivegotthi" id="43" weight="1.0" />
+      <edge source="accessorie" target="ivegotthi" id="44" weight="1.0" />
     </edges>
   </graph>
 </gexf>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -9,7 +9,7 @@
       <node id="motheringsunday" label="motheringsunday" />
       <node id="sofiakovalevskayamathday" label="sofiakovalevskayamathday" />
       <node id="azn" label="azn" />
-      <node id="latinos" label="latinos" />
+      <node id="latino" label="latino" />
       <node id="freestyle" label="freestyle" />
       <node id="throwback" label="throwback" />
       <node id="concert" label="concert" />
@@ -24,31 +24,139 @@
       <node id="podpischiki" label="podpischiki" />
       <node id="eugenehutz" label="eugenehutz" />
       <node id="gogolbordello" label="gogolbordello" />
+      <node id="dayofthedude" label="dayofthedude" />
+      <node id="nationalmaplesyrupday" label="nationalmaplesyrupday" />
+      <node id="peacecorpsday" label="peacecorpsday" />
+      <node id="bipolar" label="bipolar" />
+      <node id="bipolardisorder" label="bipolardisorder" />
+      <node id="did" label="did" />
+      <node id="ptsd" label="ptsd" />
+      <node id="bride" label="bride" />
+      <node id="bride2018" label="bride2018" />
+      <node id="sexybride" label="sexybride" />
+      <node id="mickysweho" label="mickysweho" />
+      <node id="gatorosso" label="gatorosso" />
+      <node id="gymtherapy" label="gymtherapy" />
+      <node id="northwest" label="northwest" />
+      <node id="mood" label="mood" />
+      <node id="vzaimnaiapodpiska" label="vzaimnaiapodpiska" />
+      <node id="laik" label="laik" />
+      <node id="laiktaim" label="laiktaim" />
+      <node id="ovp" label="ovp" />
+      <node id="vzaimnyepodpiski" label="vzaimnyepodpiski" />
+      <node id="relentles" label="relentles" />
     </nodes>
     <edges>
-      <edge source="oreocookieday" target="motheringsunday" id="0" weight="1.0" />
+      <edge source="oreocookieday" target="motheringsunday" id="0" weight="2.0" />
       <edge source="oreocookieday" target="sofiakovalevskayamathday" id="1" weight="1.0" />
-      <edge source="motheringsunday" target="sofiakovalevskayamathday" id="2" weight="1.0" />
-      <edge source="azn" target="latinos" id="3" weight="1.0" />
-      <edge source="freestyle" target="throwback" id="4" weight="1.0" />
-      <edge source="freestyle" target="concert" id="5" weight="1.0" />
-      <edge source="throwback" target="concert" id="6" weight="1.0" />
-      <edge source="clickthelinkinmybio" target="music" id="7" weight="1.0" />
-      <edge source="clickthelinkinmybio" target="lb" id="8" weight="1.0" />
-      <edge source="clickthelinkinmybio" target="piar" id="9" weight="1.0" />
-      <edge source="clickthelinkinmybio" target="piarigra" id="10" weight="1.0" />
-      <edge source="clickthelinkinmybio" target="podpischiki" id="11" weight="1.0" />
-      <edge source="music" target="lb" id="12" weight="1.0" />
-      <edge source="music" target="piar" id="13" weight="1.0" />
-      <edge source="music" target="piarigra" id="14" weight="1.0" />
-      <edge source="music" target="podpischiki" id="15" weight="1.0" />
-      <edge source="lb" target="piar" id="16" weight="1.0" />
-      <edge source="lb" target="piarigra" id="17" weight="1.0" />
-      <edge source="lb" target="podpischiki" id="18" weight="1.0" />
-      <edge source="piar" target="piarigra" id="19" weight="1.0" />
-      <edge source="piar" target="podpischiki" id="20" weight="1.0" />
-      <edge source="piarigra" target="podpischiki" id="21" weight="1.0" />
-      <edge source="eugenehutz" target="gogolbordello" id="22" weight="1.0" />
+      <edge source="oreocookieday" target="dayofthedude" id="2" weight="1.0" />
+      <edge source="oreocookieday" target="nationalmaplesyrupday" id="3" weight="1.0" />
+      <edge source="oreocookieday" target="peacecorpsday" id="4" weight="1.0" />
+      <edge source="motheringsunday" target="sofiakovalevskayamathday" id="5" weight="2.0" />
+      <edge source="motheringsunday" target="dayofthedude" id="6" weight="2.0" />
+      <edge source="motheringsunday" target="nationalmaplesyrupday" id="7" weight="2.0" />
+      <edge source="motheringsunday" target="peacecorpsday" id="8" weight="2.0" />
+      <edge source="sofiakovalevskayamathday" target="dayofthedude" id="9" weight="1.0" />
+      <edge source="sofiakovalevskayamathday" target="nationalmaplesyrupday" id="10" weight="1.0" />
+      <edge source="sofiakovalevskayamathday" target="peacecorpsday" id="11" weight="1.0" />
+      <edge source="azn" target="latino" id="12" weight="1.0" />
+      <edge source="latino" target="mickysweho" id="13" weight="1.0" />
+      <edge source="latino" target="gatorosso" id="14" weight="1.0" />
+      <edge source="freestyle" target="throwback" id="15" weight="1.0" />
+      <edge source="freestyle" target="concert" id="16" weight="1.0" />
+      <edge source="throwback" target="concert" id="17" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="music" id="18" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="lb" id="19" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="piar" id="20" weight="2.0" />
+      <edge source="clickthelinkinmybio" target="piarigra" id="21" weight="2.0" />
+      <edge source="clickthelinkinmybio" target="podpischiki" id="22" weight="2.0" />
+      <edge source="clickthelinkinmybio" target="northwest" id="23" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="mood" id="24" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="vzaimnaiapodpiska" id="25" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="laik" id="26" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="laiktaim" id="27" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="ovp" id="28" weight="1.0" />
+      <edge source="clickthelinkinmybio" target="vzaimnyepodpiski" id="29" weight="1.0" />
+      <edge source="music" target="lb" id="30" weight="1.0" />
+      <edge source="music" target="piar" id="31" weight="2.0" />
+      <edge source="music" target="piarigra" id="32" weight="2.0" />
+      <edge source="music" target="podpischiki" id="33" weight="2.0" />
+      <edge source="music" target="northwest" id="34" weight="1.0" />
+      <edge source="music" target="mood" id="35" weight="1.0" />
+      <edge source="music" target="vzaimnaiapodpiska" id="36" weight="1.0" />
+      <edge source="music" target="laik" id="37" weight="1.0" />
+      <edge source="music" target="laiktaim" id="38" weight="1.0" />
+      <edge source="music" target="ovp" id="39" weight="1.0" />
+      <edge source="music" target="vzaimnyepodpiski" id="40" weight="1.0" />
+      <edge source="lb" target="piar" id="41" weight="2.0" />
+      <edge source="lb" target="piarigra" id="42" weight="2.0" />
+      <edge source="lb" target="podpischiki" id="43" weight="2.0" />
+      <edge source="lb" target="northwest" id="44" weight="1.0" />
+      <edge source="lb" target="mood" id="45" weight="1.0" />
+      <edge source="lb" target="vzaimnaiapodpiska" id="46" weight="1.0" />
+      <edge source="lb" target="laik" id="47" weight="1.0" />
+      <edge source="lb" target="laiktaim" id="48" weight="1.0" />
+      <edge source="lb" target="ovp" id="49" weight="1.0" />
+      <edge source="lb" target="vzaimnyepodpiski" id="50" weight="1.0" />
+      <edge source="piar" target="piarigra" id="51" weight="4.0" />
+      <edge source="piar" target="podpischiki" id="52" weight="4.0" />
+      <edge source="piar" target="northwest" id="53" weight="2.0" />
+      <edge source="piar" target="mood" id="54" weight="2.0" />
+      <edge source="piar" target="vzaimnaiapodpiska" id="55" weight="2.0" />
+      <edge source="piar" target="laik" id="56" weight="2.0" />
+      <edge source="piar" target="laiktaim" id="57" weight="2.0" />
+      <edge source="piar" target="ovp" id="58" weight="2.0" />
+      <edge source="piar" target="vzaimnyepodpiski" id="59" weight="2.0" />
+      <edge source="piarigra" target="podpischiki" id="60" weight="4.0" />
+      <edge source="piarigra" target="northwest" id="61" weight="2.0" />
+      <edge source="piarigra" target="mood" id="62" weight="2.0" />
+      <edge source="piarigra" target="vzaimnaiapodpiska" id="63" weight="2.0" />
+      <edge source="piarigra" target="laik" id="64" weight="2.0" />
+      <edge source="piarigra" target="laiktaim" id="65" weight="2.0" />
+      <edge source="piarigra" target="ovp" id="66" weight="2.0" />
+      <edge source="piarigra" target="vzaimnyepodpiski" id="67" weight="2.0" />
+      <edge source="podpischiki" target="northwest" id="68" weight="2.0" />
+      <edge source="podpischiki" target="mood" id="69" weight="2.0" />
+      <edge source="podpischiki" target="vzaimnaiapodpiska" id="70" weight="2.0" />
+      <edge source="podpischiki" target="laik" id="71" weight="2.0" />
+      <edge source="podpischiki" target="laiktaim" id="72" weight="2.0" />
+      <edge source="podpischiki" target="ovp" id="73" weight="2.0" />
+      <edge source="podpischiki" target="vzaimnyepodpiski" id="74" weight="2.0" />
+      <edge source="eugenehutz" target="gogolbordello" id="75" weight="1.0" />
+      <edge source="dayofthedude" target="nationalmaplesyrupday" id="76" weight="1.0" />
+      <edge source="dayofthedude" target="peacecorpsday" id="77" weight="1.0" />
+      <edge source="nationalmaplesyrupday" target="peacecorpsday" id="78" weight="1.0" />
+      <edge source="bipolar" target="bipolardisorder" id="79" weight="1.0" />
+      <edge source="bipolar" target="did" id="80" weight="1.0" />
+      <edge source="bipolar" target="ptsd" id="81" weight="1.0" />
+      <edge source="bipolardisorder" target="did" id="82" weight="1.0" />
+      <edge source="bipolardisorder" target="ptsd" id="83" weight="1.0" />
+      <edge source="did" target="ptsd" id="84" weight="1.0" />
+      <edge source="bride" target="bride2018" id="85" weight="1.0" />
+      <edge source="bride" target="sexybride" id="86" weight="1.0" />
+      <edge source="bride2018" target="sexybride" id="87" weight="1.0" />
+      <edge source="mickysweho" target="gatorosso" id="88" weight="1.0" />
+      <edge source="northwest" target="mood" id="89" weight="1.0" />
+      <edge source="northwest" target="vzaimnaiapodpiska" id="90" weight="1.0" />
+      <edge source="northwest" target="laik" id="91" weight="1.0" />
+      <edge source="northwest" target="laiktaim" id="92" weight="1.0" />
+      <edge source="northwest" target="ovp" id="93" weight="1.0" />
+      <edge source="northwest" target="vzaimnyepodpiski" id="94" weight="1.0" />
+      <edge source="mood" target="vzaimnaiapodpiska" id="95" weight="1.0" />
+      <edge source="mood" target="laik" id="96" weight="1.0" />
+      <edge source="mood" target="laiktaim" id="97" weight="1.0" />
+      <edge source="mood" target="ovp" id="98" weight="1.0" />
+      <edge source="mood" target="vzaimnyepodpiski" id="99" weight="1.0" />
+      <edge source="vzaimnaiapodpiska" target="laik" id="100" weight="1.0" />
+      <edge source="vzaimnaiapodpiska" target="laiktaim" id="101" weight="1.0" />
+      <edge source="vzaimnaiapodpiska" target="ovp" id="102" weight="1.0" />
+      <edge source="vzaimnaiapodpiska" target="vzaimnyepodpiski" id="103" weight="1.0" />
+      <edge source="laik" target="laiktaim" id="104" weight="1.0" />
+      <edge source="laik" target="ovp" id="105" weight="1.0" />
+      <edge source="laik" target="vzaimnyepodpiski" id="106" weight="1.0" />
+      <edge source="laiktaim" target="ovp" id="107" weight="1.0" />
+      <edge source="laiktaim" target="vzaimnyepodpiski" id="108" weight="1.0" />
+      <edge source="ovp" target="vzaimnyepodpiski" id="109" weight="1.0" />
     </edges>
   </graph>
 </gexf>

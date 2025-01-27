@@ -1,82 +1,182 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-01-22">
+  <meta lastmodifieddate="2025-01-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <nodes>
       <node id="lrt" label="lrt" />
-      <node id="jsc" label="jsc" />
-      <node id="pianiste" label="pianiste" />
-      <node id="baruchgoldstein" label="baruchgoldstein" />
-      <node id="aucalme" label="aucalme" />
-      <node id="schubert" label="schubert" />
-      <node id="anepasmanquer" label="anepasmanquer" />
-      <node id="serenade" label="serenade" />
-      <node id="ps3" label="ps3" />
-      <node id="ado" label="ado" />
-      <node id="talkshoam" label="talkshoam" />
-      <node id="paroledesportivegourmande" label="paroledesportivegourmande" />
-      <node id="jimmyfallonmcm" label="jimmyfallonmcm" />
-      <node id="jesuisdieudonne" label="jesuisdieudonne" />
-      <node id="pascoordonnee" label="pascoordonnee" />
-      <node id="alexis" label="alexis" />
-      <node id="sanchez" label="sanchez" />
-      <node id="coyg" label="coyg" />
-      <node id="mal" label="mal" />
-      <node id="soir" label="soir" />
-      <node id="chile" label="chile" />
-      <node id="viteff" label="viteff" />
-      <node id="monster" label="monster" />
-      <node id="thewalkingdeadgame" label="thewalkingdeadgame" />
+      <node id="nbaextra" label="nbaextra" />
+      <node id="klaine" label="klaine" />
+      <node id="ibtissamtiskat" label="ibtissamtiskat" />
+      <node id="marre" label="marre" />
+      <node id="oscars2015" label="oscars2015" />
+      <node id="oscar" label="oscar" />
+      <node id="birdmanmovie" label="birdmanmovie" />
+      <node id="tgbh" label="tgbh" />
+      <node id="qotd" label="qotd" />
+      <node id="showtime" label="showtime" />
+      <node id="thunderup" label="thunderup" />
+      <node id="newteam" label="newteam" />
+      <node id="nancy" label="nancy" />
+      <node id="doesn" label="doesn" />
+      <node id="sleep" label="sleep" />
+      <node id="mybeloved" label="mybeloved" />
+      <node id="one" label="one" />
+      <node id="merci" label="merci" />
+      <node id="soiree" label="soiree" />
+      <node id="deouff" label="deouff" />
+      <node id="cheri" label="cheri" />
+      <node id="so" label="so" />
+      <node id="fav" label="fav" />
       <node id="off" label="off" />
-      <node id="fatkiller" label="fatkiller" />
-      <node id="machine" label="machine" />
+      <node id="e" label="e" />
+      <node id="coac2015p1" label="coac2015p1" />
+      <node id="gothunder" label="gothunder" />
+      <node id="britneyspear" label="britneyspear" />
+      <node id="golf" label="golf" />
+      <node id="piston" label="piston" />
+      <node id="rude" label="rude" />
+      <node id="philippeval" label="philippeval" />
+      <node id="pari" label="pari" />
+      <node id="warrior" label="warrior" />
+      <node id="tarn" label="tarn" />
+      <node id="aveyron" label="aveyron" />
+      <node id="team974" label="team974" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="thundernation" label="thundernation" />
+      <node id="smsjesuisenceinte" label="smsjesuisenceinte" />
+      <node id="malade" label="malade" />
+      <node id="mvp" label="mvp" />
+      <node id="amazingdurant" label="amazingdurant" />
+      <node id="thunder" label="thunder" />
+      <node id="gta" label="gta" />
+      <node id="gtav" label="gtav" />
+      <node id="gtaonline" label="gtaonline" />
+      <node id="lossanto" label="lossanto" />
+      <node id="selfie" label="selfie" />
+      <node id="friendship" label="friendship" />
+      <node id="crew" label="crew" />
+      <node id="foxhound" label="foxhound" />
+      <node id="wearethunder" label="wearethunder" />
+      <node id="wtf" label="wtf" />
+      <node id="torchwood" label="torchwood" />
+      <node id="nerdz" label="nerdz" />
+      <node id="africanliterature" label="africanliterature" />
+      <node id="rt" label="rt" />
+      <node id="tl" label="tl" />
     </nodes>
     <edges>
-      <edge source="schubert" target="anepasmanquer" id="0" weight="1.0" />
-      <edge source="schubert" target="serenade" id="1" weight="1.0" />
-      <edge source="schubert" target="ps3" id="2" weight="1.0" />
-      <edge source="anepasmanquer" target="serenade" id="3" weight="1.0" />
-      <edge source="anepasmanquer" target="ps3" id="4" weight="1.0" />
-      <edge source="serenade" target="ps3" id="5" weight="1.0" />
-      <edge source="talkshoam" target="paroledesportivegourmande" id="6" weight="1.0" />
-      <edge source="jesuisdieudonne" target="pascoordonnee" id="7" weight="1.0" />
-      <edge source="jesuisdieudonne" target="alexis" id="8" weight="1.0" />
-      <edge source="jesuisdieudonne" target="sanchez" id="9" weight="1.0" />
-      <edge source="jesuisdieudonne" target="coyg" id="10" weight="1.0" />
-      <edge source="jesuisdieudonne" target="mal" id="11" weight="1.0" />
-      <edge source="jesuisdieudonne" target="soir" id="12" weight="1.0" />
-      <edge source="jesuisdieudonne" target="chile" id="13" weight="1.0" />
-      <edge source="jesuisdieudonne" target="viteff" id="14" weight="1.0" />
-      <edge source="pascoordonnee" target="alexis" id="15" weight="1.0" />
-      <edge source="pascoordonnee" target="sanchez" id="16" weight="1.0" />
-      <edge source="pascoordonnee" target="coyg" id="17" weight="1.0" />
-      <edge source="pascoordonnee" target="mal" id="18" weight="1.0" />
-      <edge source="pascoordonnee" target="soir" id="19" weight="1.0" />
-      <edge source="pascoordonnee" target="chile" id="20" weight="1.0" />
-      <edge source="pascoordonnee" target="viteff" id="21" weight="1.0" />
-      <edge source="alexis" target="sanchez" id="22" weight="1.0" />
-      <edge source="alexis" target="coyg" id="23" weight="1.0" />
-      <edge source="alexis" target="mal" id="24" weight="1.0" />
-      <edge source="alexis" target="soir" id="25" weight="1.0" />
-      <edge source="alexis" target="chile" id="26" weight="1.0" />
-      <edge source="alexis" target="viteff" id="27" weight="1.0" />
-      <edge source="sanchez" target="coyg" id="28" weight="1.0" />
-      <edge source="sanchez" target="mal" id="29" weight="1.0" />
-      <edge source="sanchez" target="soir" id="30" weight="1.0" />
-      <edge source="sanchez" target="chile" id="31" weight="1.0" />
-      <edge source="sanchez" target="viteff" id="32" weight="1.0" />
-      <edge source="coyg" target="mal" id="33" weight="1.0" />
-      <edge source="coyg" target="soir" id="34" weight="1.0" />
-      <edge source="coyg" target="chile" id="35" weight="1.0" />
-      <edge source="coyg" target="viteff" id="36" weight="1.0" />
-      <edge source="mal" target="soir" id="37" weight="1.0" />
-      <edge source="mal" target="chile" id="38" weight="1.0" />
-      <edge source="mal" target="viteff" id="39" weight="1.0" />
-      <edge source="soir" target="chile" id="40" weight="1.0" />
-      <edge source="soir" target="viteff" id="41" weight="1.0" />
-      <edge source="chile" target="viteff" id="42" weight="1.0" />
+      <edge source="lrt" target="fav" id="0" weight="1.0" />
+      <edge source="nbaextra" target="piston" id="1" weight="1.0" />
+      <edge source="nbaextra" target="warrior" id="2" weight="1.0" />
+      <edge source="nbaextra" target="thunder" id="3" weight="1.0" />
+      <edge source="oscars2015" target="oscar" id="4" weight="1.0" />
+      <edge source="oscars2015" target="birdmanmovie" id="5" weight="1.0" />
+      <edge source="oscars2015" target="tgbh" id="6" weight="1.0" />
+      <edge source="oscar" target="birdmanmovie" id="7" weight="1.0" />
+      <edge source="oscar" target="tgbh" id="8" weight="1.0" />
+      <edge source="birdmanmovie" target="tgbh" id="9" weight="1.0" />
+      <edge source="showtime" target="thunderup" id="10" weight="2.0" />
+      <edge source="showtime" target="gothunder" id="11" weight="1.0" />
+      <edge source="showtime" target="thundernation" id="12" weight="1.0" />
+      <edge source="showtime" target="mvp" id="13" weight="1.0" />
+      <edge source="showtime" target="amazingdurant" id="14" weight="1.0" />
+      <edge source="showtime" target="wearethunder" id="15" weight="1.0" />
+      <edge source="thunderup" target="gothunder" id="16" weight="2.0" />
+      <edge source="thunderup" target="thundernation" id="17" weight="2.0" />
+      <edge source="thunderup" target="mvp" id="18" weight="2.0" />
+      <edge source="thunderup" target="amazingdurant" id="19" weight="2.0" />
+      <edge source="thunderup" target="wearethunder" id="20" weight="2.0" />
+      <edge source="newteam" target="off" id="21" weight="1.0" />
+      <edge source="nancy" target="doesn" id="22" weight="1.0" />
+      <edge source="nancy" target="sleep" id="23" weight="1.0" />
+      <edge source="nancy" target="mybeloved" id="24" weight="1.0" />
+      <edge source="nancy" target="one" id="25" weight="1.0" />
+      <edge source="nancy" target="merci" id="26" weight="1.0" />
+      <edge source="nancy" target="soiree" id="27" weight="1.0" />
+      <edge source="nancy" target="deouff" id="28" weight="1.0" />
+      <edge source="nancy" target="cheri" id="29" weight="1.0" />
+      <edge source="doesn" target="sleep" id="30" weight="1.0" />
+      <edge source="doesn" target="mybeloved" id="31" weight="1.0" />
+      <edge source="doesn" target="one" id="32" weight="1.0" />
+      <edge source="doesn" target="merci" id="33" weight="1.0" />
+      <edge source="doesn" target="soiree" id="34" weight="1.0" />
+      <edge source="doesn" target="deouff" id="35" weight="1.0" />
+      <edge source="doesn" target="cheri" id="36" weight="1.0" />
+      <edge source="sleep" target="mybeloved" id="37" weight="1.0" />
+      <edge source="sleep" target="one" id="38" weight="1.0" />
+      <edge source="sleep" target="merci" id="39" weight="1.0" />
+      <edge source="sleep" target="soiree" id="40" weight="1.0" />
+      <edge source="sleep" target="deouff" id="41" weight="1.0" />
+      <edge source="sleep" target="cheri" id="42" weight="1.0" />
+      <edge source="mybeloved" target="one" id="43" weight="1.0" />
+      <edge source="mybeloved" target="merci" id="44" weight="1.0" />
+      <edge source="mybeloved" target="soiree" id="45" weight="1.0" />
+      <edge source="mybeloved" target="deouff" id="46" weight="1.0" />
+      <edge source="mybeloved" target="cheri" id="47" weight="1.0" />
+      <edge source="one" target="merci" id="48" weight="1.0" />
+      <edge source="one" target="soiree" id="49" weight="1.0" />
+      <edge source="one" target="deouff" id="50" weight="1.0" />
+      <edge source="one" target="cheri" id="51" weight="1.0" />
+      <edge source="merci" target="soiree" id="52" weight="1.0" />
+      <edge source="merci" target="deouff" id="53" weight="1.0" />
+      <edge source="merci" target="cheri" id="54" weight="1.0" />
+      <edge source="soiree" target="deouff" id="55" weight="1.0" />
+      <edge source="soiree" target="cheri" id="56" weight="1.0" />
+      <edge source="deouff" target="cheri" id="57" weight="1.0" />
+      <edge source="fav" target="team974" id="58" weight="1.0" />
+      <edge source="fav" target="rt" id="59" weight="1.0" />
+      <edge source="fav" target="tl" id="60" weight="1.0" />
+      <edge source="gothunder" target="thundernation" id="61" weight="1.0" />
+      <edge source="gothunder" target="mvp" id="62" weight="1.0" />
+      <edge source="gothunder" target="amazingdurant" id="63" weight="1.0" />
+      <edge source="gothunder" target="wearethunder" id="64" weight="1.0" />
+      <edge source="golf" target="rude" id="65" weight="1.0" />
+      <edge source="piston" target="warrior" id="66" weight="1.0" />
+      <edge source="piston" target="thunder" id="67" weight="1.0" />
+      <edge source="philippeval" target="pari" id="68" weight="1.0" />
+      <edge source="warrior" target="thunder" id="69" weight="1.0" />
+      <edge source="tarn" target="aveyron" id="70" weight="1.0" />
+      <edge source="tarn" target="hautegaronne" id="71" weight="1.0" />
+      <edge source="aveyron" target="hautegaronne" id="72" weight="1.0" />
+      <edge source="team974" target="rt" id="73" weight="1.0" />
+      <edge source="team974" target="tl" id="74" weight="1.0" />
+      <edge source="thundernation" target="mvp" id="75" weight="1.0" />
+      <edge source="thundernation" target="amazingdurant" id="76" weight="1.0" />
+      <edge source="thundernation" target="wearethunder" id="77" weight="1.0" />
+      <edge source="mvp" target="amazingdurant" id="78" weight="1.0" />
+      <edge source="mvp" target="wearethunder" id="79" weight="1.0" />
+      <edge source="amazingdurant" target="wearethunder" id="80" weight="1.0" />
+      <edge source="gta" target="gtav" id="81" weight="1.0" />
+      <edge source="gta" target="gtaonline" id="82" weight="1.0" />
+      <edge source="gta" target="lossanto" id="83" weight="1.0" />
+      <edge source="gta" target="selfie" id="84" weight="1.0" />
+      <edge source="gta" target="friendship" id="85" weight="1.0" />
+      <edge source="gta" target="crew" id="86" weight="1.0" />
+      <edge source="gta" target="foxhound" id="87" weight="1.0" />
+      <edge source="gtav" target="gtaonline" id="88" weight="1.0" />
+      <edge source="gtav" target="lossanto" id="89" weight="1.0" />
+      <edge source="gtav" target="selfie" id="90" weight="1.0" />
+      <edge source="gtav" target="friendship" id="91" weight="1.0" />
+      <edge source="gtav" target="crew" id="92" weight="1.0" />
+      <edge source="gtav" target="foxhound" id="93" weight="1.0" />
+      <edge source="gtaonline" target="lossanto" id="94" weight="1.0" />
+      <edge source="gtaonline" target="selfie" id="95" weight="1.0" />
+      <edge source="gtaonline" target="friendship" id="96" weight="1.0" />
+      <edge source="gtaonline" target="crew" id="97" weight="1.0" />
+      <edge source="gtaonline" target="foxhound" id="98" weight="1.0" />
+      <edge source="lossanto" target="selfie" id="99" weight="1.0" />
+      <edge source="lossanto" target="friendship" id="100" weight="1.0" />
+      <edge source="lossanto" target="crew" id="101" weight="1.0" />
+      <edge source="lossanto" target="foxhound" id="102" weight="1.0" />
+      <edge source="selfie" target="friendship" id="103" weight="1.0" />
+      <edge source="selfie" target="crew" id="104" weight="1.0" />
+      <edge source="selfie" target="foxhound" id="105" weight="1.0" />
+      <edge source="friendship" target="crew" id="106" weight="1.0" />
+      <edge source="friendship" target="foxhound" id="107" weight="1.0" />
+      <edge source="crew" target="foxhound" id="108" weight="1.0" />
+      <edge source="rt" target="tl" id="109" weight="1.0" />
     </edges>
   </graph>
 </gexf>
