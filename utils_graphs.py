@@ -87,7 +87,7 @@ def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/", hour_wind
     --------
     create_bipartite_graph(df, "protesta_2024")
     """
-    graphs_folder = graphs_folder + 'bipartite/' + manifestacion + '/'
+    graphs_folder = graphs_folder + 'bipartite/' + manifestacion + '/' + hour_window + '/'
     df_h = df["hour"].unique()
     print("Creando redes bipartitas, manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
     G = nx.Graph()
@@ -135,7 +135,7 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
     --------------
     create_graphs("user", "hashtag", df, "protesta_2024")
     """
-    graphs_folder = graphs_folder + 'nodes_' + node_criteria + '/'+ manifestacion + '/'
+    graphs_folder = graphs_folder + 'nodes_' + node_criteria + '/'+ manifestacion + '/' + hour_window + '/'
     df_h = df["hour"].unique()
     print("Creando redes de", node_criteria, "unidos si comparten uno o más", edge_criteria, ", manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
     for hour in tqdm(df_h[::hour_window]):
@@ -502,7 +502,7 @@ def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures
         name_path = "user"
 
     dict_manif = {}
-    path_file = measures_foler + manifestacion + '_' + criterio + '.json'
+    path_file = measures_foler + manifestacion + '_' + hour_window + '_' + criterio + '.json'
 
     if read:
     # Intentamos cargar el archivo que contenga los datos (si existe) si está activa la flag de lectura
@@ -526,9 +526,9 @@ def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures
 
         if not ("nestedness" in dict_manif[hora].keys() and "modularity" in dict_manif[hora].keys()):
             if criterio != "b":
-                G = nx.read_gexf(graphs_folder + 'nodes_' + name_path + '/' + manifestacion + '/' + str(hora) + '.gexf')
+                G = nx.read_gexf(graphs_folder + 'nodes_' + name_path + '/' + manifestacion + '/' + hour_window + '/' + str(hora) + '.gexf')
             else:
-                G = nx.read_gexf(graphs_folder + 'bipartite/' + manifestacion + '/' + str(hora) + '.gexf')
+                G = nx.read_gexf(graphs_folder + 'bipartite/' + manifestacion + '/' + hour_window + '/' + str(hora) + '.gexf')
             if not "nestedness" in dict_manif[hora].keys():
                 if G.number_of_edges() > 0:
                     nestedness = calc_nestedness(G)
