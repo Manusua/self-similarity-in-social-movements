@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="drseussday" label="drseussday" />
+      <node id="dressinblueday" label="dressinblueday" />
+      <node id="worlddayofprayer" label="worlddayofprayer" />
+      <node id="vinclancy" label="vinclancy" />
+      <node id="kis" label="kis" />
+      <node id="tolvic" label="tolvic" />
+      <node id="weho" label="weho" />
+      <node id="california" label="california" />
+      <node id="losangele" label="losangele" />
+    </nodes>
+    <edges>
+      <edge source="drseussday" target="dressinblueday" id="0" weight="1.0" />
+      <edge source="drseussday" target="worlddayofprayer" id="1" weight="1.0" />
+      <edge source="dressinblueday" target="worlddayofprayer" id="2" weight="1.0" />
+      <edge source="vinclancy" target="kis" id="3" weight="1.0" />
+      <edge source="weho" target="california" id="4" weight="1.0" />
+      <edge source="weho" target="losangele" id="5" weight="1.0" />
+      <edge source="california" target="losangele" id="6" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

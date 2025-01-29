@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="thatjusthappened" label="thatjusthappened" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="bonnenuit" label="bonnenuit" />
+      <node id="marre" label="marre" />
+      <node id="nbaextra" label="nbaextra" />
+      <node id="nw" label="nw" />
+      <node id="np" label="np" />
+      <node id="albumdanslesbacfrancai" label="albumdanslesbacfrancai" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="maischberger" label="maischberger" />
+      <node id="priscilla" label="priscilla" />
+      <node id="kis" label="kis" />
+      <node id="loveine" label="loveine" />
+      <node id="contribuez" label="contribuez" />
+      <node id="arna" label="arna" />
+      <node id="blackcaviar" label="blackcaviar" />
+      <node id="duysiduy" label="duysiduy" />
+    </nodes>
+    <edges>
+      <edge source="nbaextra" target="nw" id="0" weight="1.0" />
+      <edge source="charliehebdo" target="maischberger" id="1" weight="1.0" />
+      <edge source="kis" target="loveine" id="2" weight="1.0" />
+      <edge source="kis" target="blackcaviar" id="3" weight="1.0" />
+      <edge source="kis" target="duysiduy" id="4" weight="1.0" />
+      <edge source="loveine" target="blackcaviar" id="5" weight="1.0" />
+      <edge source="loveine" target="duysiduy" id="6" weight="1.0" />
+      <edge source="blackcaviar" target="duysiduy" id="7" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

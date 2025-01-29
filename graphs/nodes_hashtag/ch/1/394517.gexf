@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="off" label="off" />
+      <node id="meadel" label="meadel" />
+      <node id="languedeboi" label="languedeboi" />
+      <node id="ubersurgepricing" label="ubersurgepricing" />
+      <node id="nuitdemerde" label="nuitdemerde" />
+      <node id="on" label="on" />
+      <node id="bonjour" label="bonjour" />
+      <node id="lrt" label="lrt" />
+      <node id="pari" label="pari" />
+      <node id="amour" label="amour" />
+      <node id="apple" label="apple" />
+      <node id="teamjul" label="teamjul" />
+      <node id="disneylandpari" label="disneylandpari" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="lejuge" label="lejuge" />
+      <node id="theburdenbearer" label="theburdenbearer" />
+    </nodes>
+    <edges>
+      <edge source="meadel" target="languedeboi" id="0" weight="1.0" />
+      <edge source="nuitdemerde" target="on" id="1" weight="1.0" />
+      <edge source="nuitdemerde" target="bonjour" id="2" weight="1.0" />
+      <edge source="on" target="bonjour" id="3" weight="1.0" />
+      <edge source="lrt" target="teamjul" id="4" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

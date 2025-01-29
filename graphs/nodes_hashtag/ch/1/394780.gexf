@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="freemobile" label="freemobile" />
+      <node id="toulouse" label="toulouse" />
+      <node id="bonplan" label="bonplan" />
+      <node id="cashback" label="cashback" />
+      <node id="philip" label="philip" />
+      <node id="achatmalin" label="achatmalin" />
+      <node id="solde" label="solde" />
+      <node id="ao" label="ao" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="batb" label="batb" />
+      <node id="lfw" label="lfw" />
+      <node id="men" label="men" />
+      <node id="fw14" label="fw14" />
+      <node id="pari" label="pari" />
+      <node id="courchevel" label="courchevel" />
+      <node id="bougezvert" label="bougezvert" />
+      <node id="lequipeduchef" label="lequipeduchef" />
+      <node id="depression" label="depression" />
+      <node id="np" label="np" />
+      <node id="free" label="free" />
+      <node id="4g" label="4g" />
+      <node id="pasenviedeselever" label="pasenviedeselever" />
+      <node id="enkagadezot" label="enkagadezot" />
+      <node id="enkabrillezot" label="enkabrillezot" />
+      <node id="pigeon" label="pigeon" />
+    </nodes>
+    <edges>
+      <edge source="freemobile" target="bonplan" id="0" weight="1.0" />
+      <edge source="freemobile" target="cashback" id="1" weight="1.0" />
+      <edge source="freemobile" target="philip" id="2" weight="1.0" />
+      <edge source="freemobile" target="achatmalin" id="3" weight="1.0" />
+      <edge source="freemobile" target="solde" id="4" weight="1.0" />
+      <edge source="freemobile" target="free" id="5" weight="1.0" />
+      <edge source="freemobile" target="4g" id="6" weight="1.0" />
+      <edge source="bonplan" target="cashback" id="7" weight="1.0" />
+      <edge source="bonplan" target="philip" id="8" weight="1.0" />
+      <edge source="bonplan" target="achatmalin" id="9" weight="1.0" />
+      <edge source="bonplan" target="solde" id="10" weight="1.0" />
+      <edge source="bonplan" target="free" id="11" weight="1.0" />
+      <edge source="bonplan" target="4g" id="12" weight="1.0" />
+      <edge source="cashback" target="philip" id="13" weight="1.0" />
+      <edge source="cashback" target="achatmalin" id="14" weight="1.0" />
+      <edge source="cashback" target="solde" id="15" weight="1.0" />
+      <edge source="cashback" target="free" id="16" weight="1.0" />
+      <edge source="cashback" target="4g" id="17" weight="1.0" />
+      <edge source="philip" target="achatmalin" id="18" weight="1.0" />
+      <edge source="philip" target="solde" id="19" weight="1.0" />
+      <edge source="philip" target="free" id="20" weight="1.0" />
+      <edge source="philip" target="4g" id="21" weight="1.0" />
+      <edge source="achatmalin" target="solde" id="22" weight="1.0" />
+      <edge source="achatmalin" target="free" id="23" weight="1.0" />
+      <edge source="achatmalin" target="4g" id="24" weight="1.0" />
+      <edge source="solde" target="free" id="25" weight="1.0" />
+      <edge source="solde" target="4g" id="26" weight="1.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="27" weight="1.0" />
+      <edge source="jesuischarlie" target="pari" id="28" weight="1.0" />
+      <edge source="jesuischarlie" target="courchevel" id="29" weight="1.0" />
+      <edge source="jesuischarlie" target="bougezvert" id="30" weight="1.0" />
+      <edge source="jesuischarlie" target="depression" id="31" weight="1.0" />
+      <edge source="lfw" target="men" id="32" weight="1.0" />
+      <edge source="lfw" target="fw14" id="33" weight="1.0" />
+      <edge source="men" target="fw14" id="34" weight="1.0" />
+      <edge source="pari" target="courchevel" id="35" weight="1.0" />
+      <edge source="pari" target="bougezvert" id="36" weight="1.0" />
+      <edge source="courchevel" target="bougezvert" id="37" weight="1.0" />
+      <edge source="np" target="enkagadezot" id="38" weight="1.0" />
+      <edge source="np" target="enkabrillezot" id="39" weight="1.0" />
+      <edge source="np" target="pigeon" id="40" weight="1.0" />
+      <edge source="free" target="4g" id="41" weight="1.0" />
+      <edge source="enkagadezot" target="enkabrillezot" id="42" weight="1.0" />
+      <edge source="enkagadezot" target="pigeon" id="43" weight="1.0" />
+      <edge source="enkabrillezot" target="pigeon" id="44" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

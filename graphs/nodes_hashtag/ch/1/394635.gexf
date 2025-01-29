@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="lt" label="lt" />
+      <node id="humour" label="humour" />
+      <node id="thankstheworldfromfrance" label="thankstheworldfromfrance" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="ripahmedmerabet" label="ripahmedmerabet" />
+      <node id="ch" label="ch" />
+      <node id="charleshebdo" label="charleshebdo" />
+      <node id="jessuischarlie" label="jessuischarlie" />
+      <node id="off" label="off" />
+      <node id="palestine" label="palestine" />
+    </nodes>
+    <edges>
+      <edge source="charliehebdo" target="jesuischarlie" id="0" weight="6.0" />
+      <edge source="charliehebdo" target="ripahmedmerabet" id="1" weight="1.0" />
+      <edge source="charliehebdo" target="charleshebdo" id="2" weight="1.0" />
+      <edge source="charliehebdo" target="jessuischarlie" id="3" weight="1.0" />
+      <edge source="charliehebdo" target="palestine" id="4" weight="1.0" />
+      <edge source="jesuischarlie" target="thankstheworldfromfrance" id="5" weight="1.0" />
+      <edge source="jesuischarlie" target="e1bonjour" id="6" weight="1.0" />
+      <edge source="jesuischarlie" target="ripahmedmerabet" id="7" weight="1.0" />
+      <edge source="jesuischarlie" target="charleshebdo" id="8" weight="1.0" />
+      <edge source="jesuischarlie" target="jessuischarlie" id="9" weight="1.0" />
+      <edge source="jesuischarlie" target="palestine" id="10" weight="1.0" />
+      <edge source="lt" target="off" id="11" weight="1.0" />
+      <edge source="humour" target="ch" id="12" weight="1.0" />
+      <edge source="ripahmedmerabet" target="charleshebdo" id="13" weight="1.0" />
+      <edge source="ripahmedmerabet" target="jessuischarlie" id="14" weight="1.0" />
+      <edge source="ripahmedmerabet" target="palestine" id="15" weight="1.0" />
+      <edge source="charleshebdo" target="jessuischarlie" id="16" weight="1.0" />
+      <edge source="charleshebdo" target="palestine" id="17" weight="1.0" />
+      <edge source="jessuischarlie" target="palestine" id="18" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

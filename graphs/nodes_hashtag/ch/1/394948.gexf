@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="freecongo" label="freecongo" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="vdm" label="vdm" />
+      <node id="rdc" label="rdc" />
+      <node id="prettylittleliar" label="prettylittleliar" />
+      <node id="mali" label="mali" />
+      <node id="laicite" label="laicite" />
+      <node id="observatoirelaicite" label="observatoirelaicite" />
+      <node id="on" label="on" />
+      <node id="bonjour" label="bonjour" />
+      <node id="bonplan" label="bonplan" />
+      <node id="swaroski" label="swaroski" />
+      <node id="shopping" label="shopping" />
+      <node id="auchandrive" label="auchandrive" />
+      <node id="fatigue" label="fatigue" />
+    </nodes>
+    <edges>
+      <edge source="laicite" target="observatoirelaicite" id="0" weight="1.0" />
+      <edge source="on" target="bonjour" id="1" weight="1.0" />
+      <edge source="bonplan" target="swaroski" id="2" weight="1.0" />
+      <edge source="bonplan" target="shopping" id="3" weight="1.0" />
+      <edge source="bonplan" target="auchandrive" id="4" weight="1.0" />
+      <edge source="swaroski" target="shopping" id="5" weight="1.0" />
+      <edge source="swaroski" target="auchandrive" id="6" weight="1.0" />
+      <edge source="shopping" target="auchandrive" id="7" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

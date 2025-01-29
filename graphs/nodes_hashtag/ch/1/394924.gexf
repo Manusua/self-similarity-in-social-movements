@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="speedtest" label="speedtest" />
+      <node id="freemobile" label="freemobile" />
+      <node id="3g" label="3g" />
+      <node id="4g" label="4g" />
+      <node id="strasbourg" label="strasbourg" />
+      <node id="sensorly" label="sensorly" />
+      <node id="australianopen" label="australianopen" />
+      <node id="vin" label="vin" />
+      <node id="wine" label="wine" />
+      <node id="rvf" label="rvf" />
+      <node id="bringbackourgirl" label="bringbackourgirl" />
+      <node id="greveroutier" label="greveroutier" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="fivewordstoruinajobinterview" label="fivewordstoruinajobinterview" />
+    </nodes>
+    <edges>
+      <edge source="speedtest" target="freemobile" id="0" weight="1.0" />
+      <edge source="speedtest" target="3g" id="1" weight="1.0" />
+      <edge source="speedtest" target="4g" id="2" weight="1.0" />
+      <edge source="speedtest" target="strasbourg" id="3" weight="1.0" />
+      <edge source="speedtest" target="sensorly" id="4" weight="1.0" />
+      <edge source="freemobile" target="3g" id="5" weight="1.0" />
+      <edge source="freemobile" target="4g" id="6" weight="1.0" />
+      <edge source="freemobile" target="strasbourg" id="7" weight="1.0" />
+      <edge source="freemobile" target="sensorly" id="8" weight="1.0" />
+      <edge source="3g" target="4g" id="9" weight="1.0" />
+      <edge source="3g" target="strasbourg" id="10" weight="1.0" />
+      <edge source="3g" target="sensorly" id="11" weight="1.0" />
+      <edge source="4g" target="strasbourg" id="12" weight="1.0" />
+      <edge source="4g" target="sensorly" id="13" weight="1.0" />
+      <edge source="strasbourg" target="sensorly" id="14" weight="1.0" />
+      <edge source="vin" target="wine" id="15" weight="1.0" />
+      <edge source="vin" target="rvf" id="16" weight="1.0" />
+      <edge source="wine" target="rvf" id="17" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

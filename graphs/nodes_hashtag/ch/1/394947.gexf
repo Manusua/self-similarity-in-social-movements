@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="elephantinroom" label="elephantinroom" />
+      <node id="readwritebuysellcookcleanfix" label="readwritebuysellcookcleanfix" />
+      <node id="np" label="np" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="findetoi" label="findetoi" />
+      <node id="toulouse" label="toulouse" />
+      <node id="lechamgementcestmaintenant" label="lechamgementcestmaintenant" />
+      <node id="off" label="off" />
+      <node id="ibtissamtiskat" label="ibtissamtiskat" />
+      <node id="pp" label="pp" />
+      <node id="tarn" label="tarn" />
+      <node id="aveyron" label="aveyron" />
+      <node id="driesvannoten" label="driesvannoten" />
+      <node id="mfw" label="mfw" />
+      <node id="men" label="men" />
+      <node id="fw15" label="fw15" />
+    </nodes>
+    <edges>
+      <edge source="elephantinroom" target="readwritebuysellcookcleanfix" id="0" weight="1.0" />
+      <edge source="hautegaronne" target="toulouse" id="1" weight="1.0" />
+      <edge source="hautegaronne" target="tarn" id="2" weight="1.0" />
+      <edge source="hautegaronne" target="aveyron" id="3" weight="1.0" />
+      <edge source="findetoi" target="lechamgementcestmaintenant" id="4" weight="1.0" />
+      <edge source="findetoi" target="off" id="5" weight="1.0" />
+      <edge source="toulouse" target="tarn" id="6" weight="1.0" />
+      <edge source="toulouse" target="aveyron" id="7" weight="1.0" />
+      <edge source="lechamgementcestmaintenant" target="off" id="8" weight="1.0" />
+      <edge source="tarn" target="aveyron" id="9" weight="1.0" />
+      <edge source="driesvannoten" target="mfw" id="10" weight="1.0" />
+      <edge source="driesvannoten" target="men" id="11" weight="1.0" />
+      <edge source="driesvannoten" target="fw15" id="12" weight="1.0" />
+      <edge source="mfw" target="men" id="13" weight="1.0" />
+      <edge source="mfw" target="fw15" id="14" weight="1.0" />
+      <edge source="men" target="fw15" id="15" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

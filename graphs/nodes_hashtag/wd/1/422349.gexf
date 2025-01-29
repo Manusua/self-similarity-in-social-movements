@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="politicalevent" label="politicalevent" />
+      <node id="pressforprogres" label="pressforprogres" />
+      <node id="featured" label="featured" />
+      <node id="chocolate" label="chocolate" />
+      <node id="chocolatelover" label="chocolatelover" />
+      <node id="photooftheday" label="photooftheday" />
+      <node id="4th" label="4th" />
+      <node id="new" label="new" />
+      <node id="billboard" label="billboard" />
+      <node id="media" label="media" />
+      <node id="trivianight" label="trivianight" />
+      <node id="ralphlauren" label="ralphlauren" />
+      <node id="yleo" label="yleo" />
+      <node id="vintagevibe" label="vintagevibe" />
+      <node id="pbb2018" label="pbb2018" />
+      <node id="freetailbrewing" label="freetailbrewing" />
+      <node id="drivesafe" label="drivesafe" />
+      <node id="winewednesday" label="winewednesday" />
+      <node id="fearlessfocu" label="fearlessfocu" />
+      <node id="train" label="train" />
+      <node id="amazing" label="amazing" />
+      <node id="coach" label="coach" />
+      <node id="nyc" label="nyc" />
+      <node id="noreaster" label="noreaster" />
+      <node id="teamnoexcuse" label="teamnoexcuse" />
+      <node id="traininsane" label="traininsane" />
+      <node id="weddingdres" label="weddingdres" />
+      <node id="getwiththeprogramme" label="getwiththeprogramme" />
+      <node id="nomorewinter" label="nomorewinter" />
+      <node id="snowday" label="snowday" />
+      <node id="uw" label="uw" />
+      <node id="ginstagramnyc" label="ginstagramnyc" />
+      <node id="oneminutemotivation" label="oneminutemotivation" />
+      <node id="internationalwomensday" label="internationalwomensday" />
+      <node id="freedomtrail" label="freedomtrail" />
+      <node id="merdoesnohashtag" label="merdoesnohashtag" />
+      <node id="newyorkcity" label="newyorkcity" />
+      <node id="flatirondistrict" label="flatirondistrict" />
+      <node id="manhattan" label="manhattan" />
+      <node id="bunnybomb" label="bunnybomb" />
+      <node id="giftgivingsimplified" label="giftgivingsimplified" />
+      <node id="badmadge" label="badmadge" />
+      <node id="badmadgeandcompany" label="badmadgeandcompany" />
+      <node id="shoplocal" label="shoplocal" />
+      <node id="shopsmall" label="shopsmall" />
+      <node id="fortyninepalmsoasi" label="fortyninepalmsoasi" />
+      <node id="california" label="california" />
+      <node id="rumpday" label="rumpday" />
+      <node id="ilikebutt" label="ilikebutt" />
+      <node id="trndnl" label="trndnl" />
+      <node id="setmedic" label="setmedic" />
+      <node id="setlife" label="setlife" />
+      <node id="teamdjg121" label="teamdjg121" />
+      <node id="drainspotting" label="drainspotting" />
+      <node id="amazon" label="amazon" />
+      <node id="chihuahuasofinstagram" label="chihuahuasofinstagram" />
+      <node id="perrhijo" label="perrhijo" />
+    </nodes>
+    <edges>
+      <edge source="politicalevent" target="pressforprogres" id="0" weight="1.0" />
+      <edge source="politicalevent" target="featured" id="1" weight="1.0" />
+      <edge source="politicalevent" target="internationalwomensday" id="2" weight="1.0" />
+      <edge source="pressforprogres" target="featured" id="3" weight="1.0" />
+      <edge source="pressforprogres" target="internationalwomensday" id="4" weight="1.0" />
+      <edge source="featured" target="internationalwomensday" id="5" weight="1.0" />
+      <edge source="chocolate" target="chocolatelover" id="6" weight="1.0" />
+      <edge source="photooftheday" target="4th" id="7" weight="1.0" />
+      <edge source="photooftheday" target="new" id="8" weight="1.0" />
+      <edge source="photooftheday" target="billboard" id="9" weight="1.0" />
+      <edge source="photooftheday" target="media" id="10" weight="1.0" />
+      <edge source="4th" target="new" id="11" weight="1.0" />
+      <edge source="4th" target="billboard" id="12" weight="1.0" />
+      <edge source="4th" target="media" id="13" weight="1.0" />
+      <edge source="new" target="billboard" id="14" weight="1.0" />
+      <edge source="new" target="media" id="15" weight="1.0" />
+      <edge source="billboard" target="media" id="16" weight="1.0" />
+      <edge source="pbb2018" target="freetailbrewing" id="17" weight="1.0" />
+      <edge source="fearlessfocu" target="oneminutemotivation" id="18" weight="1.0" />
+      <edge source="train" target="amazing" id="19" weight="1.0" />
+      <edge source="train" target="coach" id="20" weight="1.0" />
+      <edge source="train" target="nyc" id="21" weight="1.0" />
+      <edge source="train" target="noreaster" id="22" weight="1.0" />
+      <edge source="train" target="teamnoexcuse" id="23" weight="1.0" />
+      <edge source="train" target="traininsane" id="24" weight="1.0" />
+      <edge source="train" target="flatirondistrict" id="25" weight="1.0" />
+      <edge source="train" target="manhattan" id="26" weight="1.0" />
+      <edge source="train" target="snowday" id="27" weight="1.0" />
+      <edge source="amazing" target="coach" id="28" weight="1.0" />
+      <edge source="amazing" target="nyc" id="29" weight="1.0" />
+      <edge source="amazing" target="noreaster" id="30" weight="1.0" />
+      <edge source="amazing" target="teamnoexcuse" id="31" weight="1.0" />
+      <edge source="amazing" target="traininsane" id="32" weight="1.0" />
+      <edge source="amazing" target="flatirondistrict" id="33" weight="1.0" />
+      <edge source="amazing" target="manhattan" id="34" weight="1.0" />
+      <edge source="amazing" target="snowday" id="35" weight="1.0" />
+      <edge source="coach" target="nyc" id="36" weight="1.0" />
+      <edge source="coach" target="noreaster" id="37" weight="1.0" />
+      <edge source="coach" target="teamnoexcuse" id="38" weight="1.0" />
+      <edge source="coach" target="traininsane" id="39" weight="1.0" />
+      <edge source="coach" target="flatirondistrict" id="40" weight="1.0" />
+      <edge source="coach" target="manhattan" id="41" weight="1.0" />
+      <edge source="coach" target="snowday" id="42" weight="1.0" />
+      <edge source="nyc" target="noreaster" id="43" weight="1.0" />
+      <edge source="nyc" target="teamnoexcuse" id="44" weight="1.0" />
+      <edge source="nyc" target="traininsane" id="45" weight="1.0" />
+      <edge source="nyc" target="flatirondistrict" id="46" weight="1.0" />
+      <edge source="nyc" target="manhattan" id="47" weight="1.0" />
+      <edge source="nyc" target="snowday" id="48" weight="2.0" />
+      <edge source="nyc" target="newyorkcity" id="49" weight="1.0" />
+      <edge source="noreaster" target="teamnoexcuse" id="50" weight="1.0" />
+      <edge source="noreaster" target="traininsane" id="51" weight="1.0" />
+      <edge source="noreaster" target="flatirondistrict" id="52" weight="1.0" />
+      <edge source="noreaster" target="manhattan" id="53" weight="1.0" />
+      <edge source="noreaster" target="snowday" id="54" weight="1.0" />
+      <edge source="teamnoexcuse" target="traininsane" id="55" weight="1.0" />
+      <edge source="teamnoexcuse" target="flatirondistrict" id="56" weight="1.0" />
+      <edge source="teamnoexcuse" target="manhattan" id="57" weight="1.0" />
+      <edge source="teamnoexcuse" target="snowday" id="58" weight="1.0" />
+      <edge source="traininsane" target="flatirondistrict" id="59" weight="1.0" />
+      <edge source="traininsane" target="manhattan" id="60" weight="1.0" />
+      <edge source="traininsane" target="snowday" id="61" weight="1.0" />
+      <edge source="nomorewinter" target="snowday" id="62" weight="1.0" />
+      <edge source="nomorewinter" target="uw" id="63" weight="1.0" />
+      <edge source="nomorewinter" target="ginstagramnyc" id="64" weight="1.0" />
+      <edge source="snowday" target="uw" id="65" weight="1.0" />
+      <edge source="snowday" target="ginstagramnyc" id="66" weight="1.0" />
+      <edge source="snowday" target="newyorkcity" id="67" weight="1.0" />
+      <edge source="snowday" target="flatirondistrict" id="68" weight="1.0" />
+      <edge source="snowday" target="manhattan" id="69" weight="1.0" />
+      <edge source="uw" target="ginstagramnyc" id="70" weight="1.0" />
+      <edge source="flatirondistrict" target="manhattan" id="71" weight="1.0" />
+      <edge source="badmadge" target="badmadgeandcompany" id="72" weight="1.0" />
+      <edge source="badmadge" target="shoplocal" id="73" weight="1.0" />
+      <edge source="badmadge" target="shopsmall" id="74" weight="1.0" />
+      <edge source="badmadgeandcompany" target="shoplocal" id="75" weight="1.0" />
+      <edge source="badmadgeandcompany" target="shopsmall" id="76" weight="1.0" />
+      <edge source="shoplocal" target="shopsmall" id="77" weight="1.0" />
+      <edge source="fortyninepalmsoasi" target="california" id="78" weight="1.0" />
+      <edge source="rumpday" target="ilikebutt" id="79" weight="1.0" />
+      <edge source="setmedic" target="setlife" id="80" weight="1.0" />
+      <edge source="drainspotting" target="amazon" id="81" weight="1.0" />
+      <edge source="chihuahuasofinstagram" target="perrhijo" id="82" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

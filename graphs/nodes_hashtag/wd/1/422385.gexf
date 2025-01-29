@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="joefranklinday" label="joefranklinday" />
+      <node id="barbieday" label="barbieday" />
+      <node id="worldsleepday" label="worldsleepday" />
+      <node id="panicday" label="panicday" />
+      <node id="getoveritday" label="getoveritday" />
+      <node id="internationalwomensday" label="internationalwomensday" />
+      <node id="essencemagazine" label="essencemagazine" />
+      <node id="melanin" label="melanin" />
+      <node id="selflove" label="selflove" />
+      <node id="nintendodirect" label="nintendodirect" />
+      <node id="trndnl" label="trndnl" />
+      <node id="ruinmydayin5word" label="ruinmydayin5word" />
+      <node id="htgawm" label="htgawm" />
+      <node id="bobbytarantino2" label="bobbytarantino2" />
+      <node id="finepeoplefromtexa" label="finepeoplefromtexa" />
+      <node id="sxsw" label="sxsw" />
+      <node id="scandal" label="scandal" />
+      <node id="atlantafx" label="atlantafx" />
+      <node id="naisac" label="naisac" />
+      <node id="healthymindandbody" label="healthymindandbody" />
+      <node id="layman" label="layman" />
+    </nodes>
+    <edges>
+      <edge source="joefranklinday" target="barbieday" id="0" weight="1.0" />
+      <edge source="joefranklinday" target="worldsleepday" id="1" weight="1.0" />
+      <edge source="joefranklinday" target="panicday" id="2" weight="1.0" />
+      <edge source="joefranklinday" target="getoveritday" id="3" weight="1.0" />
+      <edge source="barbieday" target="worldsleepday" id="4" weight="1.0" />
+      <edge source="barbieday" target="panicday" id="5" weight="1.0" />
+      <edge source="barbieday" target="getoveritday" id="6" weight="1.0" />
+      <edge source="worldsleepday" target="panicday" id="7" weight="1.0" />
+      <edge source="worldsleepday" target="getoveritday" id="8" weight="1.0" />
+      <edge source="panicday" target="getoveritday" id="9" weight="1.0" />
+      <edge source="internationalwomensday" target="essencemagazine" id="10" weight="1.0" />
+      <edge source="internationalwomensday" target="melanin" id="11" weight="1.0" />
+      <edge source="internationalwomensday" target="layman" id="12" weight="1.0" />
+      <edge source="essencemagazine" target="melanin" id="13" weight="1.0" />
+      <edge source="nintendodirect" target="trndnl" id="14" weight="1.0" />
+      <edge source="nintendodirect" target="ruinmydayin5word" id="15" weight="1.0" />
+      <edge source="nintendodirect" target="htgawm" id="16" weight="1.0" />
+      <edge source="nintendodirect" target="bobbytarantino2" id="17" weight="1.0" />
+      <edge source="nintendodirect" target="finepeoplefromtexa" id="18" weight="1.0" />
+      <edge source="nintendodirect" target="sxsw" id="19" weight="1.0" />
+      <edge source="nintendodirect" target="scandal" id="20" weight="1.0" />
+      <edge source="nintendodirect" target="atlantafx" id="21" weight="1.0" />
+      <edge source="trndnl" target="ruinmydayin5word" id="22" weight="1.0" />
+      <edge source="trndnl" target="htgawm" id="23" weight="1.0" />
+      <edge source="trndnl" target="bobbytarantino2" id="24" weight="1.0" />
+      <edge source="trndnl" target="finepeoplefromtexa" id="25" weight="1.0" />
+      <edge source="trndnl" target="sxsw" id="26" weight="1.0" />
+      <edge source="trndnl" target="scandal" id="27" weight="1.0" />
+      <edge source="trndnl" target="atlantafx" id="28" weight="1.0" />
+      <edge source="ruinmydayin5word" target="htgawm" id="29" weight="1.0" />
+      <edge source="ruinmydayin5word" target="bobbytarantino2" id="30" weight="1.0" />
+      <edge source="ruinmydayin5word" target="finepeoplefromtexa" id="31" weight="1.0" />
+      <edge source="ruinmydayin5word" target="sxsw" id="32" weight="1.0" />
+      <edge source="ruinmydayin5word" target="scandal" id="33" weight="1.0" />
+      <edge source="ruinmydayin5word" target="atlantafx" id="34" weight="1.0" />
+      <edge source="htgawm" target="bobbytarantino2" id="35" weight="1.0" />
+      <edge source="htgawm" target="finepeoplefromtexa" id="36" weight="1.0" />
+      <edge source="htgawm" target="sxsw" id="37" weight="1.0" />
+      <edge source="htgawm" target="scandal" id="38" weight="1.0" />
+      <edge source="htgawm" target="atlantafx" id="39" weight="1.0" />
+      <edge source="bobbytarantino2" target="finepeoplefromtexa" id="40" weight="1.0" />
+      <edge source="bobbytarantino2" target="sxsw" id="41" weight="1.0" />
+      <edge source="bobbytarantino2" target="scandal" id="42" weight="1.0" />
+      <edge source="bobbytarantino2" target="atlantafx" id="43" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="sxsw" id="44" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="scandal" id="45" weight="1.0" />
+      <edge source="finepeoplefromtexa" target="atlantafx" id="46" weight="1.0" />
+      <edge source="sxsw" target="scandal" id="47" weight="1.0" />
+      <edge source="sxsw" target="atlantafx" id="48" weight="1.0" />
+      <edge source="scandal" target="atlantafx" id="49" weight="1.0" />
+      <edge source="naisac" target="healthymindandbody" id="50" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

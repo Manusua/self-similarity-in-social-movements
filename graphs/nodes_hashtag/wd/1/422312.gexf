@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="peacecorpsday" label="peacecorpsday" />
+      <node id="dayofthedude" label="dayofthedude" />
+      <node id="sofiakovalevskayamathday" label="sofiakovalevskayamathday" />
+      <node id="motheringsunday" label="motheringsunday" />
+      <node id="avalance" label="avalance" />
+      <node id="riphunter" label="riphunter" />
+      <node id="legendsoftomorrow" label="legendsoftomorrow" />
+      <node id="saralance" label="saralance" />
+      <node id="avasharpe" label="avasharpe" />
+      <node id="snapoutofitla" label="snapoutofitla" />
+      <node id="houseofavalon" label="houseofavalon" />
+      <node id="khristinebognot" label="khristinebognot" />
+      <node id="reikimaster" label="reikimaster" />
+      <node id="reikienergy" label="reikienergy" />
+      <node id="reikihealing" label="reikihealing" />
+      <node id="poem" label="poem" />
+      <node id="write" label="write" />
+      <node id="life" label="life" />
+      <node id="poet" label="poet" />
+      <node id="writer" label="writer" />
+      <node id="writ" label="writ" />
+      <node id="literature" label="literature" />
+      <node id="mickysweho" label="mickysweho" />
+      <node id="runwild" label="runwild" />
+      <node id="livefree" label="livefree" />
+      <node id="lovestrong" label="lovestrong" />
+    </nodes>
+    <edges>
+      <edge source="peacecorpsday" target="dayofthedude" id="0" weight="1.0" />
+      <edge source="peacecorpsday" target="sofiakovalevskayamathday" id="1" weight="1.0" />
+      <edge source="peacecorpsday" target="motheringsunday" id="2" weight="1.0" />
+      <edge source="dayofthedude" target="sofiakovalevskayamathday" id="3" weight="1.0" />
+      <edge source="dayofthedude" target="motheringsunday" id="4" weight="1.0" />
+      <edge source="sofiakovalevskayamathday" target="motheringsunday" id="5" weight="1.0" />
+      <edge source="avalance" target="riphunter" id="6" weight="1.0" />
+      <edge source="avalance" target="legendsoftomorrow" id="7" weight="1.0" />
+      <edge source="avalance" target="saralance" id="8" weight="1.0" />
+      <edge source="avalance" target="avasharpe" id="9" weight="1.0" />
+      <edge source="riphunter" target="legendsoftomorrow" id="10" weight="1.0" />
+      <edge source="riphunter" target="saralance" id="11" weight="1.0" />
+      <edge source="riphunter" target="avasharpe" id="12" weight="1.0" />
+      <edge source="legendsoftomorrow" target="saralance" id="13" weight="1.0" />
+      <edge source="legendsoftomorrow" target="avasharpe" id="14" weight="1.0" />
+      <edge source="saralance" target="avasharpe" id="15" weight="1.0" />
+      <edge source="snapoutofitla" target="houseofavalon" id="16" weight="1.0" />
+      <edge source="snapoutofitla" target="mickysweho" id="17" weight="1.0" />
+      <edge source="houseofavalon" target="mickysweho" id="18" weight="1.0" />
+      <edge source="khristinebognot" target="reikimaster" id="19" weight="1.0" />
+      <edge source="khristinebognot" target="reikienergy" id="20" weight="1.0" />
+      <edge source="khristinebognot" target="reikihealing" id="21" weight="1.0" />
+      <edge source="reikimaster" target="reikienergy" id="22" weight="1.0" />
+      <edge source="reikimaster" target="reikihealing" id="23" weight="1.0" />
+      <edge source="reikienergy" target="reikihealing" id="24" weight="1.0" />
+      <edge source="poem" target="write" id="25" weight="1.0" />
+      <edge source="poem" target="life" id="26" weight="1.0" />
+      <edge source="poem" target="poet" id="27" weight="1.0" />
+      <edge source="poem" target="writer" id="28" weight="1.0" />
+      <edge source="poem" target="writ" id="29" weight="1.0" />
+      <edge source="poem" target="literature" id="30" weight="1.0" />
+      <edge source="write" target="life" id="31" weight="1.0" />
+      <edge source="write" target="poet" id="32" weight="1.0" />
+      <edge source="write" target="writer" id="33" weight="1.0" />
+      <edge source="write" target="writ" id="34" weight="1.0" />
+      <edge source="write" target="literature" id="35" weight="1.0" />
+      <edge source="life" target="poet" id="36" weight="1.0" />
+      <edge source="life" target="writer" id="37" weight="1.0" />
+      <edge source="life" target="writ" id="38" weight="1.0" />
+      <edge source="life" target="literature" id="39" weight="1.0" />
+      <edge source="poet" target="writer" id="40" weight="1.0" />
+      <edge source="poet" target="writ" id="41" weight="1.0" />
+      <edge source="poet" target="literature" id="42" weight="1.0" />
+      <edge source="writer" target="writ" id="43" weight="1.0" />
+      <edge source="writer" target="literature" id="44" weight="1.0" />
+      <edge source="writ" target="literature" id="45" weight="1.0" />
+      <edge source="runwild" target="livefree" id="46" weight="1.0" />
+      <edge source="runwild" target="lovestrong" id="47" weight="1.0" />
+      <edge source="livefree" target="lovestrong" id="48" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

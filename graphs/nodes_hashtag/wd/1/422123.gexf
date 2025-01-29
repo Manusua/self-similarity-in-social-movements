@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="carnivalday" label="carnivalday" />
+      <node id="nationalpersonalchefsday" label="nationalpersonalchefsday" />
+      <node id="tellafairytaleday" label="tellafairytaleday" />
+      <node id="mondaymotivation" label="mondaymotivation" />
+      <node id="paparazziaccessorie" label="paparazziaccessorie" />
+      <node id="support" label="support" />
+      <node id="teamwork" label="teamwork" />
+      <node id="positivevibe" label="positivevibe" />
+      <node id="musclemamamonday" label="musclemamamonday" />
+      <node id="stellaraward" label="stellaraward" />
+      <node id="chefknow" label="chefknow" />
+      <node id="chefrockd" label="chefrockd" />
+      <node id="happy" label="happy" />
+      <node id="firstbornson" label="firstbornson" />
+      <node id="brandenmichaelgriffin" label="brandenmichaelgriffin" />
+      <node id="goodmorning" label="goodmorning" />
+      <node id="staywoke" label="staywoke" />
+      <node id="getpaper" label="getpaper" />
+      <node id="maketimeforlove" label="maketimeforlove" />
+      <node id="jamaica" label="jamaica" />
+      <node id="queen" label="queen" />
+      <node id="ny" label="ny" />
+      <node id="mentalhealthmonday" label="mentalhealthmonday" />
+      <node id="insomniacsvirtue" label="insomniacsvirtue" />
+      <node id="motivated" label="motivated" />
+      <node id="determined" label="determined" />
+      <node id="adapt" label="adapt" />
+      <node id="acsend" label="acsend" />
+      <node id="achieve" label="achieve" />
+    </nodes>
+    <edges>
+      <edge source="carnivalday" target="nationalpersonalchefsday" id="0" weight="1.0" />
+      <edge source="carnivalday" target="tellafairytaleday" id="1" weight="1.0" />
+      <edge source="nationalpersonalchefsday" target="tellafairytaleday" id="2" weight="1.0" />
+      <edge source="mondaymotivation" target="musclemamamonday" id="3" weight="1.0" />
+      <edge source="paparazziaccessorie" target="support" id="4" weight="1.0" />
+      <edge source="paparazziaccessorie" target="teamwork" id="5" weight="1.0" />
+      <edge source="paparazziaccessorie" target="positivevibe" id="6" weight="1.0" />
+      <edge source="support" target="teamwork" id="7" weight="1.0" />
+      <edge source="support" target="positivevibe" id="8" weight="1.0" />
+      <edge source="teamwork" target="positivevibe" id="9" weight="1.0" />
+      <edge source="chefknow" target="chefrockd" id="10" weight="1.0" />
+      <edge source="happy" target="firstbornson" id="11" weight="1.0" />
+      <edge source="happy" target="brandenmichaelgriffin" id="12" weight="1.0" />
+      <edge source="firstbornson" target="brandenmichaelgriffin" id="13" weight="1.0" />
+      <edge source="goodmorning" target="staywoke" id="14" weight="1.0" />
+      <edge source="goodmorning" target="getpaper" id="15" weight="1.0" />
+      <edge source="goodmorning" target="maketimeforlove" id="16" weight="1.0" />
+      <edge source="staywoke" target="getpaper" id="17" weight="1.0" />
+      <edge source="staywoke" target="maketimeforlove" id="18" weight="1.0" />
+      <edge source="getpaper" target="maketimeforlove" id="19" weight="1.0" />
+      <edge source="jamaica" target="queen" id="20" weight="1.0" />
+      <edge source="jamaica" target="ny" id="21" weight="1.0" />
+      <edge source="queen" target="ny" id="22" weight="1.0" />
+      <edge source="insomniacsvirtue" target="motivated" id="23" weight="1.0" />
+      <edge source="insomniacsvirtue" target="determined" id="24" weight="1.0" />
+      <edge source="insomniacsvirtue" target="adapt" id="25" weight="1.0" />
+      <edge source="insomniacsvirtue" target="acsend" id="26" weight="1.0" />
+      <edge source="insomniacsvirtue" target="achieve" id="27" weight="1.0" />
+      <edge source="motivated" target="determined" id="28" weight="1.0" />
+      <edge source="motivated" target="adapt" id="29" weight="1.0" />
+      <edge source="motivated" target="acsend" id="30" weight="1.0" />
+      <edge source="motivated" target="achieve" id="31" weight="1.0" />
+      <edge source="determined" target="adapt" id="32" weight="1.0" />
+      <edge source="determined" target="acsend" id="33" weight="1.0" />
+      <edge source="determined" target="achieve" id="34" weight="1.0" />
+      <edge source="adapt" target="acsend" id="35" weight="1.0" />
+      <edge source="adapt" target="achieve" id="36" weight="1.0" />
+      <edge source="acsend" target="achieve" id="37" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

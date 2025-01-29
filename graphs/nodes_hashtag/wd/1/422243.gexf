@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="worldwildlifeday" label="worldwildlifeday" />
+      <node id="whatifcatsanddogshadopposablethumbsday" label="whatifcatsanddogshadopposablethumbsday" />
+      <node id="perseverance" label="perseverance" />
+      <node id="figureinternational" label="figureinternational" />
+      <node id="asf2018" label="asf2018" />
+      <node id="arnoldexpo" label="arnoldexpo" />
+      <node id="malemodel" label="malemodel" />
+      <node id="workout" label="workout" />
+      <node id="fitnes" label="fitnes" />
+      <node id="shredded" label="shredded" />
+      <node id="killedit" label="killedit" />
+      <node id="amazing" label="amazing" />
+      <node id="gramyourgarden" label="gramyourgarden" />
+      <node id="seed" label="seed" />
+      <node id="latergram" label="latergram" />
+      <node id="bettybailey" label="bettybailey" />
+    </nodes>
+    <edges>
+      <edge source="worldwildlifeday" target="whatifcatsanddogshadopposablethumbsday" id="0" weight="1.0" />
+      <edge source="figureinternational" target="asf2018" id="1" weight="1.0" />
+      <edge source="figureinternational" target="arnoldexpo" id="2" weight="1.0" />
+      <edge source="asf2018" target="arnoldexpo" id="3" weight="1.0" />
+      <edge source="malemodel" target="workout" id="4" weight="1.0" />
+      <edge source="malemodel" target="fitnes" id="5" weight="1.0" />
+      <edge source="malemodel" target="shredded" id="6" weight="1.0" />
+      <edge source="malemodel" target="killedit" id="7" weight="1.0" />
+      <edge source="malemodel" target="amazing" id="8" weight="1.0" />
+      <edge source="workout" target="fitnes" id="9" weight="1.0" />
+      <edge source="workout" target="shredded" id="10" weight="1.0" />
+      <edge source="workout" target="killedit" id="11" weight="1.0" />
+      <edge source="workout" target="amazing" id="12" weight="1.0" />
+      <edge source="fitnes" target="shredded" id="13" weight="1.0" />
+      <edge source="fitnes" target="killedit" id="14" weight="1.0" />
+      <edge source="fitnes" target="amazing" id="15" weight="1.0" />
+      <edge source="shredded" target="killedit" id="16" weight="1.0" />
+      <edge source="shredded" target="amazing" id="17" weight="1.0" />
+      <edge source="killedit" target="amazing" id="18" weight="1.0" />
+      <edge source="gramyourgarden" target="seed" id="19" weight="1.0" />
+      <edge source="gramyourgarden" target="latergram" id="20" weight="1.0" />
+      <edge source="seed" target="latergram" id="21" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

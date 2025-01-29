@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="igraal" label="igraal" />
+      <node id="bringbackourgirl" label="bringbackourgirl" />
+      <node id="nimesolympique" label="nimesolympique" />
+      <node id="wakeup" label="wakeup" />
+      <node id="lrt" label="lrt" />
+      <node id="caen" label="caen" />
+      <node id="grandirsanscancer" label="grandirsanscancer" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="mic" label="mic" />
+      <node id="on" label="on" />
+      <node id="batb" label="batb" />
+      <node id="laicite" label="laicite" />
+      <node id="free" label="free" />
+      <node id="lq" label="lq" />
+      <node id="pariscartepostale" label="pariscartepostale" />
+      <node id="parisjetaime" label="parisjetaime" />
+      <node id="picfrompari" label="picfrompari" />
+      <node id="monpari" label="monpari" />
+      <node id="igerspari" label="igerspari" />
+      <node id="monochrome" label="monochrome" />
+      <node id="strasbourg" label="strasbourg" />
+      <node id="theweightproject" label="theweightproject" />
+      <node id="lt" label="lt" />
+      <node id="inondation" label="inondation" />
+      <node id="kf" label="kf" />
+      <node id="nf" label="nf" />
+      <node id="happybirthdayomar" label="happybirthdayomar" />
+      <node id="friend" label="friend" />
+      <node id="love" label="love" />
+      <node id="instagoodmoment" label="instagoodmoment" />
+      <node id="bastille" label="bastille" />
+      <node id="protagonista" label="protagonista" />
+      <node id="queenb" label="queenb" />
+      <node id="medium" label="medium" />
+      <node id="retweet" label="retweet" />
+      <node id="50shade" label="50shade" />
+      <node id="insomniebonjour" label="insomniebonjour" />
+      <node id="noussommeenhiver" label="noussommeenhiver" />
+      <node id="taken3" label="taken3" />
+      <node id="missprestigenational" label="missprestigenational" />
+      <node id="concour" label="concour" />
+      <node id="beaute" label="beaute" />
+      <node id="reine" label="reine" />
+      <node id="misslanguedoc" label="misslanguedoc" />
+      <node id="sncf" label="sncf" />
+      <node id="np" label="np" />
+      <node id="online" label="online" />
+    </nodes>
+    <edges>
+      <edge source="igraal" target="strasbourg" id="0" weight="1.0" />
+      <edge source="nimesolympique" target="laicite" id="1" weight="1.0" />
+      <edge source="nimesolympique" target="inondation" id="2" weight="1.0" />
+      <edge source="on" target="lt" id="3" weight="1.0" />
+      <edge source="laicite" target="inondation" id="4" weight="1.0" />
+      <edge source="pariscartepostale" target="parisjetaime" id="5" weight="1.0" />
+      <edge source="pariscartepostale" target="picfrompari" id="6" weight="1.0" />
+      <edge source="pariscartepostale" target="monpari" id="7" weight="1.0" />
+      <edge source="pariscartepostale" target="igerspari" id="8" weight="1.0" />
+      <edge source="pariscartepostale" target="monochrome" id="9" weight="1.0" />
+      <edge source="parisjetaime" target="picfrompari" id="10" weight="1.0" />
+      <edge source="parisjetaime" target="monpari" id="11" weight="1.0" />
+      <edge source="parisjetaime" target="igerspari" id="12" weight="1.0" />
+      <edge source="parisjetaime" target="monochrome" id="13" weight="1.0" />
+      <edge source="picfrompari" target="monpari" id="14" weight="1.0" />
+      <edge source="picfrompari" target="igerspari" id="15" weight="1.0" />
+      <edge source="picfrompari" target="monochrome" id="16" weight="1.0" />
+      <edge source="monpari" target="igerspari" id="17" weight="1.0" />
+      <edge source="monpari" target="monochrome" id="18" weight="1.0" />
+      <edge source="igerspari" target="monochrome" id="19" weight="1.0" />
+      <edge source="kf" target="nf" id="20" weight="1.0" />
+      <edge source="friend" target="love" id="21" weight="1.0" />
+      <edge source="friend" target="instagoodmoment" id="22" weight="1.0" />
+      <edge source="love" target="instagoodmoment" id="23" weight="1.0" />
+      <edge source="50shade" target="insomniebonjour" id="24" weight="1.0" />
+      <edge source="missprestigenational" target="concour" id="25" weight="1.0" />
+      <edge source="missprestigenational" target="beaute" id="26" weight="1.0" />
+      <edge source="missprestigenational" target="reine" id="27" weight="1.0" />
+      <edge source="missprestigenational" target="misslanguedoc" id="28" weight="1.0" />
+      <edge source="concour" target="beaute" id="29" weight="1.0" />
+      <edge source="concour" target="reine" id="30" weight="1.0" />
+      <edge source="concour" target="misslanguedoc" id="31" weight="1.0" />
+      <edge source="beaute" target="reine" id="32" weight="1.0" />
+      <edge source="beaute" target="misslanguedoc" id="33" weight="1.0" />
+      <edge source="reine" target="misslanguedoc" id="34" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="vape" label="vape" />
+      <node id="off" label="off" />
+      <node id="bonneannee" label="bonneannee" />
+      <node id="bourree" label="bourree" />
+      <node id="alcoholism" label="alcoholism" />
+      <node id="drunk" label="drunk" />
+      <node id="thug" label="thug" />
+      <node id="teametg" label="teametg" />
+      <node id="lexpresso" label="lexpresso" />
+      <node id="happynewyear" label="happynewyear" />
+      <node id="nyehangover" label="nyehangover" />
+      <node id="hello" label="hello" />
+      <node id="twitter" label="twitter" />
+      <node id="bonneannee2015" label="bonneannee2015" />
+      <node id="felizanonuevo" label="felizanonuevo" />
+      <node id="frohesneuesjahr" label="frohesneuesjahr" />
+      <node id="buonannoatutti" label="buonannoatutti" />
+      <node id="paceesalute" label="paceesalute" />
+      <node id="mougin" label="mougin" />
+      <node id="welcom2015" label="welcom2015" />
+      <node id="cousin" label="cousin" />
+      <node id="funtime" label="funtime" />
+      <node id="newyear" label="newyear" />
+      <node id="on" label="on" />
+      <node id="autisme" label="autisme" />
+      <node id="20xv" label="20xv" />
+      <node id="paramourdurugby" label="paramourdurugby" />
+      <node id="bonneanneemespoulet" label="bonneanneemespoulet" />
+      <node id="bff" label="bff" />
+    </nodes>
+    <edges>
+      <edge source="off" target="bonneannee" id="0" weight="1.0" />
+      <edge source="off" target="bourree" id="1" weight="1.0" />
+      <edge source="off" target="alcoholism" id="2" weight="1.0" />
+      <edge source="off" target="drunk" id="3" weight="1.0" />
+      <edge source="bonneannee" target="bourree" id="4" weight="1.0" />
+      <edge source="bonneannee" target="alcoholism" id="5" weight="1.0" />
+      <edge source="bonneannee" target="drunk" id="6" weight="1.0" />
+      <edge source="bonneannee" target="happynewyear" id="7" weight="1.0" />
+      <edge source="bonneannee" target="bonneanneemespoulet" id="8" weight="1.0" />
+      <edge source="bourree" target="alcoholism" id="9" weight="1.0" />
+      <edge source="bourree" target="drunk" id="10" weight="1.0" />
+      <edge source="alcoholism" target="drunk" id="11" weight="1.0" />
+      <edge source="happynewyear" target="hello" id="12" weight="1.0" />
+      <edge source="happynewyear" target="twitter" id="13" weight="1.0" />
+      <edge source="happynewyear" target="bonneannee2015" id="14" weight="1.0" />
+      <edge source="happynewyear" target="felizanonuevo" id="15" weight="1.0" />
+      <edge source="happynewyear" target="frohesneuesjahr" id="16" weight="1.0" />
+      <edge source="happynewyear" target="buonannoatutti" id="17" weight="1.0" />
+      <edge source="happynewyear" target="paceesalute" id="18" weight="1.0" />
+      <edge source="happynewyear" target="bonneanneemespoulet" id="19" weight="1.0" />
+      <edge source="hello" target="twitter" id="20" weight="1.0" />
+      <edge source="hello" target="bonneannee2015" id="21" weight="1.0" />
+      <edge source="hello" target="felizanonuevo" id="22" weight="1.0" />
+      <edge source="hello" target="frohesneuesjahr" id="23" weight="1.0" />
+      <edge source="hello" target="buonannoatutti" id="24" weight="1.0" />
+      <edge source="hello" target="paceesalute" id="25" weight="1.0" />
+      <edge source="twitter" target="bonneannee2015" id="26" weight="1.0" />
+      <edge source="twitter" target="felizanonuevo" id="27" weight="1.0" />
+      <edge source="twitter" target="frohesneuesjahr" id="28" weight="1.0" />
+      <edge source="twitter" target="buonannoatutti" id="29" weight="1.0" />
+      <edge source="twitter" target="paceesalute" id="30" weight="1.0" />
+      <edge source="bonneannee2015" target="felizanonuevo" id="31" weight="1.0" />
+      <edge source="bonneannee2015" target="frohesneuesjahr" id="32" weight="1.0" />
+      <edge source="bonneannee2015" target="buonannoatutti" id="33" weight="1.0" />
+      <edge source="bonneannee2015" target="paceesalute" id="34" weight="1.0" />
+      <edge source="felizanonuevo" target="frohesneuesjahr" id="35" weight="1.0" />
+      <edge source="felizanonuevo" target="buonannoatutti" id="36" weight="1.0" />
+      <edge source="felizanonuevo" target="paceesalute" id="37" weight="1.0" />
+      <edge source="frohesneuesjahr" target="buonannoatutti" id="38" weight="1.0" />
+      <edge source="frohesneuesjahr" target="paceesalute" id="39" weight="1.0" />
+      <edge source="buonannoatutti" target="paceesalute" id="40" weight="1.0" />
+      <edge source="cousin" target="funtime" id="41" weight="1.0" />
+      <edge source="cousin" target="newyear" id="42" weight="1.0" />
+      <edge source="funtime" target="newyear" id="43" weight="1.0" />
+      <edge source="20xv" target="paramourdurugby" id="44" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

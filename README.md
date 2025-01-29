@@ -41,3 +41,4 @@ El repositorio se encuentra organizado de la siguiente forma:
         |    │   ├── 9n: grafos de 9 de noviembre
         |    │   ├── nat: grafos de No al Tarifazo
     
+find . -size +100M | cat >> .gitignore

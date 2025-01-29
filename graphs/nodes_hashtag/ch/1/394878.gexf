@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="off" label="off" />
+      <node id="holorime" label="holorime" />
+      <node id="missuniverse" label="missuniverse" />
+      <node id="missparaguay" label="missparaguay" />
+      <node id="sallyjara" label="sallyjara" />
+      <node id="nfi" label="nfi" />
+      <node id="fubar" label="fubar" />
+      <node id="bonjour" label="bonjour" />
+      <node id="goodmorning" label="goodmorning" />
+      <node id="pari" label="pari" />
+      <node id="vscocam" label="vscocam" />
+      <node id="vscophile" label="vscophile" />
+      <node id="vsco" label="vsco" />
+      <node id="vieetudiante" label="vieetudiante" />
+      <node id="oppafrigostyle" label="oppafrigostyle" />
+      <node id="lt" label="lt" />
+      <node id="selfie" label="selfie" />
+      <node id="on" label="on" />
+      <node id="np" label="np" />
+      <node id="soundcloud" label="soundcloud" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="lrt" label="lrt" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="alp" label="alp" />
+      <node id="mountain" label="mountain" />
+      <node id="ski" label="ski" />
+      <node id="alpe" label="alpe" />
+      <node id="montagne" label="montagne" />
+      <node id="manoeuvre" label="manoeuvre" />
+      <node id="coulibaly" label="coulibaly" />
+      <node id="daech" label="daech" />
+      <node id="fascislamisme" label="fascislamisme" />
+    </nodes>
+    <edges>
+      <edge source="missuniverse" target="missparaguay" id="0" weight="1.0" />
+      <edge source="missuniverse" target="sallyjara" id="1" weight="1.0" />
+      <edge source="missparaguay" target="sallyjara" id="2" weight="1.0" />
+      <edge source="nfi" target="fubar" id="3" weight="1.0" />
+      <edge source="bonjour" target="goodmorning" id="4" weight="1.0" />
+      <edge source="bonjour" target="pari" id="5" weight="1.0" />
+      <edge source="bonjour" target="vscocam" id="6" weight="1.0" />
+      <edge source="bonjour" target="vscophile" id="7" weight="1.0" />
+      <edge source="bonjour" target="vsco" id="8" weight="1.0" />
+      <edge source="goodmorning" target="pari" id="9" weight="1.0" />
+      <edge source="goodmorning" target="vscocam" id="10" weight="1.0" />
+      <edge source="goodmorning" target="vscophile" id="11" weight="1.0" />
+      <edge source="goodmorning" target="vsco" id="12" weight="1.0" />
+      <edge source="pari" target="vscocam" id="13" weight="1.0" />
+      <edge source="pari" target="vscophile" id="14" weight="1.0" />
+      <edge source="pari" target="vsco" id="15" weight="1.0" />
+      <edge source="vscocam" target="vscophile" id="16" weight="1.0" />
+      <edge source="vscocam" target="vsco" id="17" weight="1.0" />
+      <edge source="vscophile" target="vsco" id="18" weight="1.0" />
+      <edge source="np" target="soundcloud" id="19" weight="1.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="20" weight="1.0" />
+      <edge source="alp" target="mountain" id="21" weight="1.0" />
+      <edge source="alp" target="ski" id="22" weight="1.0" />
+      <edge source="alp" target="alpe" id="23" weight="1.0" />
+      <edge source="alp" target="montagne" id="24" weight="1.0" />
+      <edge source="mountain" target="ski" id="25" weight="1.0" />
+      <edge source="mountain" target="alpe" id="26" weight="1.0" />
+      <edge source="mountain" target="montagne" id="27" weight="1.0" />
+      <edge source="ski" target="alpe" id="28" weight="1.0" />
+      <edge source="ski" target="montagne" id="29" weight="1.0" />
+      <edge source="alpe" target="montagne" id="30" weight="1.0" />
+      <edge source="coulibaly" target="daech" id="31" weight="1.0" />
+      <edge source="coulibaly" target="fascislamisme" id="32" weight="1.0" />
+      <edge source="daech" target="fascislamisme" id="33" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

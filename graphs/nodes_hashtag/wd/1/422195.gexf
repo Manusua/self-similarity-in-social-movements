@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="optimismwin" label="optimismwin" />
+      <node id="thingsthatmakeyousayhmmm" label="thingsthatmakeyousayhmmm" />
+      <node id="sleekdasongtres" label="sleekdasongtres" />
+      <node id="musician" label="musician" />
+      <node id="musicstateofmind" label="musicstateofmind" />
+      <node id="musiclifestyle" label="musiclifestyle" />
+      <node id="goodmorning" label="goodmorning" />
+      <node id="toptag" label="toptag" />
+      <node id="morning" label="morning" />
+      <node id="goodmorningpost" label="goodmorningpost" />
+      <node id="beautiful" label="beautiful" />
+      <node id="march" label="march" />
+      <node id="peanut" label="peanut" />
+      <node id="snoopy" label="snoopy" />
+      <node id="woodstock" label="woodstock" />
+      <node id="snoopyofinstagram" label="snoopyofinstagram" />
+      <node id="peanutsofinstagram" label="peanutsofinstagram" />
+      <node id="stpatricksday" label="stpatricksday" />
+      <node id="tbt" label="tbt" />
+      <node id="loveoverlatte" label="loveoverlatte" />
+    </nodes>
+    <edges>
+      <edge source="thingsthatmakeyousayhmmm" target="sleekdasongtres" id="0" weight="1.0" />
+      <edge source="thingsthatmakeyousayhmmm" target="musician" id="1" weight="1.0" />
+      <edge source="thingsthatmakeyousayhmmm" target="musicstateofmind" id="2" weight="1.0" />
+      <edge source="thingsthatmakeyousayhmmm" target="musiclifestyle" id="3" weight="1.0" />
+      <edge source="sleekdasongtres" target="musician" id="4" weight="1.0" />
+      <edge source="sleekdasongtres" target="musicstateofmind" id="5" weight="1.0" />
+      <edge source="sleekdasongtres" target="musiclifestyle" id="6" weight="1.0" />
+      <edge source="musician" target="musicstateofmind" id="7" weight="1.0" />
+      <edge source="musician" target="musiclifestyle" id="8" weight="1.0" />
+      <edge source="musicstateofmind" target="musiclifestyle" id="9" weight="1.0" />
+      <edge source="goodmorning" target="toptag" id="10" weight="1.0" />
+      <edge source="goodmorning" target="morning" id="11" weight="1.0" />
+      <edge source="goodmorning" target="goodmorningpost" id="12" weight="1.0" />
+      <edge source="goodmorning" target="beautiful" id="13" weight="1.0" />
+      <edge source="toptag" target="morning" id="14" weight="1.0" />
+      <edge source="toptag" target="goodmorningpost" id="15" weight="1.0" />
+      <edge source="toptag" target="beautiful" id="16" weight="1.0" />
+      <edge source="morning" target="goodmorningpost" id="17" weight="1.0" />
+      <edge source="morning" target="beautiful" id="18" weight="1.0" />
+      <edge source="goodmorningpost" target="beautiful" id="19" weight="1.0" />
+      <edge source="march" target="peanut" id="20" weight="1.0" />
+      <edge source="march" target="snoopy" id="21" weight="1.0" />
+      <edge source="march" target="woodstock" id="22" weight="1.0" />
+      <edge source="march" target="snoopyofinstagram" id="23" weight="1.0" />
+      <edge source="march" target="peanutsofinstagram" id="24" weight="1.0" />
+      <edge source="march" target="stpatricksday" id="25" weight="1.0" />
+      <edge source="peanut" target="snoopy" id="26" weight="1.0" />
+      <edge source="peanut" target="woodstock" id="27" weight="1.0" />
+      <edge source="peanut" target="snoopyofinstagram" id="28" weight="1.0" />
+      <edge source="peanut" target="peanutsofinstagram" id="29" weight="1.0" />
+      <edge source="peanut" target="stpatricksday" id="30" weight="1.0" />
+      <edge source="snoopy" target="woodstock" id="31" weight="1.0" />
+      <edge source="snoopy" target="snoopyofinstagram" id="32" weight="1.0" />
+      <edge source="snoopy" target="peanutsofinstagram" id="33" weight="1.0" />
+      <edge source="snoopy" target="stpatricksday" id="34" weight="1.0" />
+      <edge source="woodstock" target="snoopyofinstagram" id="35" weight="1.0" />
+      <edge source="woodstock" target="peanutsofinstagram" id="36" weight="1.0" />
+      <edge source="woodstock" target="stpatricksday" id="37" weight="1.0" />
+      <edge source="snoopyofinstagram" target="peanutsofinstagram" id="38" weight="1.0" />
+      <edge source="snoopyofinstagram" target="stpatricksday" id="39" weight="1.0" />
+      <edge source="peanutsofinstagram" target="stpatricksday" id="40" weight="1.0" />
+      <edge source="tbt" target="loveoverlatte" id="41" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

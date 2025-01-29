@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="internationalearcareday" label="internationalearcareday" />
+      <node id="sockmonkeyday" label="sockmonkeyday" />
+      <node id="nationalanthemday" label="nationalanthemday" />
+      <node id="princessday" label="princessday" />
+      <node id="bipolar" label="bipolar" />
+      <node id="bipolardisorder" label="bipolardisorder" />
+      <node id="did" label="did" />
+      <node id="ptsd" label="ptsd" />
+      <node id="gmorning" label="gmorning" />
+      <node id="truth" label="truth" />
+      <node id="repost" label="repost" />
+      <node id="dli2018" label="dli2018" />
+      <node id="neworlean" label="neworlean" />
+      <node id="life" label="life" />
+      <node id="fullmoon" label="fullmoon" />
+      <node id="morningmoon" label="morningmoon" />
+      <node id="moon" label="moon" />
+      <node id="moonset" label="moonset" />
+    </nodes>
+    <edges>
+      <edge source="internationalearcareday" target="sockmonkeyday" id="0" weight="1.0" />
+      <edge source="internationalearcareday" target="nationalanthemday" id="1" weight="1.0" />
+      <edge source="internationalearcareday" target="princessday" id="2" weight="1.0" />
+      <edge source="sockmonkeyday" target="nationalanthemday" id="3" weight="1.0" />
+      <edge source="sockmonkeyday" target="princessday" id="4" weight="1.0" />
+      <edge source="nationalanthemday" target="princessday" id="5" weight="1.0" />
+      <edge source="bipolar" target="bipolardisorder" id="6" weight="1.0" />
+      <edge source="bipolar" target="did" id="7" weight="1.0" />
+      <edge source="bipolar" target="ptsd" id="8" weight="1.0" />
+      <edge source="bipolardisorder" target="did" id="9" weight="1.0" />
+      <edge source="bipolardisorder" target="ptsd" id="10" weight="1.0" />
+      <edge source="did" target="ptsd" id="11" weight="1.0" />
+      <edge source="truth" target="repost" id="12" weight="1.0" />
+      <edge source="dli2018" target="neworlean" id="13" weight="1.0" />
+      <edge source="fullmoon" target="morningmoon" id="14" weight="1.0" />
+      <edge source="fullmoon" target="moon" id="15" weight="1.0" />
+      <edge source="fullmoon" target="moonset" id="16" weight="1.0" />
+      <edge source="morningmoon" target="moon" id="17" weight="1.0" />
+      <edge source="morningmoon" target="moonset" id="18" weight="1.0" />
+      <edge source="moon" target="moonset" id="19" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

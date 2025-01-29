@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="bfmtv" label="bfmtv" />
+      <node id="terroriste" label="terroriste" />
+      <node id="pittiuomo" label="pittiuomo" />
+      <node id="fw15" label="fw15" />
+      <node id="eddymalou" label="eddymalou" />
+      <node id="lrt" label="lrt" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="lt" label="lt" />
+      <node id="teambasket" label="teambasket" />
+      <node id="nbaextra" label="nbaextra" />
+      <node id="np" label="np" />
+      <node id="thunderup" label="thunderup" />
+      <node id="jujujul" label="jujujul" />
+      <node id="off" label="off" />
+      <node id="ultraviolence" label="ultraviolence" />
+    </nodes>
+    <edges>
+      <edge source="bfmtv" target="terroriste" id="0" weight="1.0" />
+      <edge source="pittiuomo" target="fw15" id="1" weight="1.0" />
+      <edge source="lrt" target="jujujul" id="2" weight="1.0" />
+      <edge source="teaminsomniaque" target="lt" id="3" weight="1.0" />
+      <edge source="teambasket" target="nbaextra" id="4" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

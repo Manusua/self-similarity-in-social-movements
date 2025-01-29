@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="worldcomplimentday" label="worldcomplimentday" />
+      <node id="planasolovacationday" label="planasolovacationday" />
+      <node id="gameboievent" label="gameboievent" />
+      <node id="jacklit" label="jacklit" />
+      <node id="kimpetra" label="kimpetra" />
+      <node id="ncorsano" label="ncorsano" />
+      <node id="davehallnyc" label="davehallnyc" />
+      <node id="throwbackthursday" label="throwbackthursday" />
+      <node id="tbt" label="tbt" />
+      <node id="booze" label="booze" />
+      <node id="calmneforethestorm" label="calmneforethestorm" />
+      <node id="manhattanbeach" label="manhattanbeach" />
+      <node id="stacy" label="stacy" />
+      <node id="stdoftheheart" label="stdoftheheart" />
+      <node id="comedy" label="comedy" />
+      <node id="comedyshow" label="comedyshow" />
+      <node id="funny" label="funny" />
+      <node id="comedian" label="comedian" />
+      <node id="bigguy" label="bigguy" />
+    </nodes>
+    <edges>
+      <edge source="worldcomplimentday" target="planasolovacationday" id="0" weight="1.0" />
+      <edge source="gameboievent" target="jacklit" id="1" weight="1.0" />
+      <edge source="gameboievent" target="kimpetra" id="2" weight="1.0" />
+      <edge source="gameboievent" target="ncorsano" id="3" weight="1.0" />
+      <edge source="gameboievent" target="davehallnyc" id="4" weight="1.0" />
+      <edge source="gameboievent" target="throwbackthursday" id="5" weight="1.0" />
+      <edge source="gameboievent" target="tbt" id="6" weight="1.0" />
+      <edge source="gameboievent" target="booze" id="7" weight="1.0" />
+      <edge source="jacklit" target="kimpetra" id="8" weight="1.0" />
+      <edge source="jacklit" target="ncorsano" id="9" weight="1.0" />
+      <edge source="jacklit" target="davehallnyc" id="10" weight="1.0" />
+      <edge source="jacklit" target="throwbackthursday" id="11" weight="1.0" />
+      <edge source="jacklit" target="tbt" id="12" weight="1.0" />
+      <edge source="jacklit" target="booze" id="13" weight="1.0" />
+      <edge source="kimpetra" target="ncorsano" id="14" weight="1.0" />
+      <edge source="kimpetra" target="davehallnyc" id="15" weight="1.0" />
+      <edge source="kimpetra" target="throwbackthursday" id="16" weight="1.0" />
+      <edge source="kimpetra" target="tbt" id="17" weight="1.0" />
+      <edge source="kimpetra" target="booze" id="18" weight="1.0" />
+      <edge source="ncorsano" target="davehallnyc" id="19" weight="1.0" />
+      <edge source="ncorsano" target="throwbackthursday" id="20" weight="1.0" />
+      <edge source="ncorsano" target="tbt" id="21" weight="1.0" />
+      <edge source="ncorsano" target="booze" id="22" weight="1.0" />
+      <edge source="davehallnyc" target="throwbackthursday" id="23" weight="1.0" />
+      <edge source="davehallnyc" target="tbt" id="24" weight="1.0" />
+      <edge source="davehallnyc" target="booze" id="25" weight="1.0" />
+      <edge source="throwbackthursday" target="tbt" id="26" weight="1.0" />
+      <edge source="throwbackthursday" target="booze" id="27" weight="1.0" />
+      <edge source="tbt" target="booze" id="28" weight="1.0" />
+      <edge source="calmneforethestorm" target="manhattanbeach" id="29" weight="1.0" />
+      <edge source="stacy" target="stdoftheheart" id="30" weight="1.0" />
+      <edge source="stacy" target="comedy" id="31" weight="1.0" />
+      <edge source="stacy" target="comedyshow" id="32" weight="1.0" />
+      <edge source="stacy" target="funny" id="33" weight="1.0" />
+      <edge source="stacy" target="comedian" id="34" weight="1.0" />
+      <edge source="stacy" target="bigguy" id="35" weight="1.0" />
+      <edge source="stdoftheheart" target="comedy" id="36" weight="1.0" />
+      <edge source="stdoftheheart" target="comedyshow" id="37" weight="1.0" />
+      <edge source="stdoftheheart" target="funny" id="38" weight="1.0" />
+      <edge source="stdoftheheart" target="comedian" id="39" weight="1.0" />
+      <edge source="stdoftheheart" target="bigguy" id="40" weight="1.0" />
+      <edge source="comedy" target="comedyshow" id="41" weight="1.0" />
+      <edge source="comedy" target="funny" id="42" weight="1.0" />
+      <edge source="comedy" target="comedian" id="43" weight="1.0" />
+      <edge source="comedy" target="bigguy" id="44" weight="1.0" />
+      <edge source="comedyshow" target="funny" id="45" weight="1.0" />
+      <edge source="comedyshow" target="comedian" id="46" weight="1.0" />
+      <edge source="comedyshow" target="bigguy" id="47" weight="1.0" />
+      <edge source="funny" target="comedian" id="48" weight="1.0" />
+      <edge source="funny" target="bigguy" id="49" weight="1.0" />
+      <edge source="comedian" target="bigguy" id="50" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

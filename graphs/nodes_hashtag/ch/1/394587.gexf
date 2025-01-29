@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="ideedelecture" label="ideedelecture" />
+      <node id="vbn" label="vbn" />
+      <node id="lpdla2" label="lpdla2" />
+      <node id="retrouvaille" label="retrouvaille" />
+      <node id="autop" label="autop" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="monteleson" label="monteleson" />
+      <node id="off" label="off" />
+      <node id="rhoa" label="rhoa" />
+      <node id="lmao" label="lmao" />
+      <node id="d" label="d" />
+    </nodes>
+    <edges>
+      <edge source="ideedelecture" target="vbn" id="0" weight="1.0" />
+      <edge source="lpdla2" target="retrouvaille" id="1" weight="1.0" />
+      <edge source="lpdla2" target="autop" id="2" weight="1.0" />
+      <edge source="retrouvaille" target="autop" id="3" weight="1.0" />
+      <edge source="teaminsomniaque" target="monteleson" id="4" weight="1.0" />
+      <edge source="rhoa" target="lmao" id="5" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

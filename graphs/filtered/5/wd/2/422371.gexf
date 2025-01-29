@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-29">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="iwd2018" label="iwd2018" />
+      <node id="girlpower" label="girlpower" />
+      <node id="women" label="women" />
+      <node id="internationalwomensday" label="internationalwomensday" />
+      <node id="tbt" label="tbt" />
+    </nodes>
+    <edges>
+      <edge source="iwd2018" target="internationalwomensday" id="42" weight="11.0" />
+      <edge source="girlpower" target="internationalwomensday" id="24" weight="5.0" />
+      <edge source="women" target="internationalwomensday" id="13" weight="8.0" />
+      <edge source="internationalwomensday" target="tbt" id="86" weight="8.0" />
+    </edges>
+  </graph>
+</gexf>

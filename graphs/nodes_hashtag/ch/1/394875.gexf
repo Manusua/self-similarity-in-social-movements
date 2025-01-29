@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="gagnetaplace" label="gagnetaplace" />
+      <node id="rt" label="rt" />
+      <node id="bonnenuit" label="bonnenuit" />
+      <node id="jetaime" label="jetaime" />
+      <node id="cherchelalogique" label="cherchelalogique" />
+      <node id="lrt" label="lrt" />
+      <node id="fifa" label="fifa" />
+      <node id="tarn" label="tarn" />
+      <node id="aveyron" label="aveyron" />
+      <node id="grossehaine" label="grossehaine" />
+      <node id="off" label="off" />
+      <node id="lt" label="lt" />
+    </nodes>
+    <edges>
+      <edge source="bonnenuit" target="jetaime" id="0" weight="1.0" />
+      <edge source="fifa" target="off" id="1" weight="1.0" />
+      <edge source="tarn" target="aveyron" id="2" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

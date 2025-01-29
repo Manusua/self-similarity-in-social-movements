@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="internationalwomensday" label="internationalwomensday" />
+      <node id="bipolar" label="bipolar" />
+      <node id="bipolardisorder" label="bipolardisorder" />
+      <node id="did" label="did" />
+      <node id="ptsd" label="ptsd" />
+      <node id="comedian" label="comedian" />
+      <node id="nationalbeheardday" label="nationalbeheardday" />
+      <node id="cerealday" label="cerealday" />
+      <node id="humpday" label="humpday" />
+      <node id="instalove" label="instalove" />
+    </nodes>
+    <edges>
+      <edge source="internationalwomensday" target="instalove" id="0" weight="1.0" />
+      <edge source="bipolar" target="bipolardisorder" id="1" weight="1.0" />
+      <edge source="bipolar" target="did" id="2" weight="1.0" />
+      <edge source="bipolar" target="ptsd" id="3" weight="1.0" />
+      <edge source="bipolardisorder" target="did" id="4" weight="1.0" />
+      <edge source="bipolardisorder" target="ptsd" id="5" weight="1.0" />
+      <edge source="did" target="ptsd" id="6" weight="1.0" />
+      <edge source="nationalbeheardday" target="cerealday" id="7" weight="1.0" />
+      <edge source="nationalbeheardday" target="humpday" id="8" weight="1.0" />
+      <edge source="cerealday" target="humpday" id="9" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

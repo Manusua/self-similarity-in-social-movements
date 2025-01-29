@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="on" label="on" />
+      <node id="off" label="off" />
+      <node id="teamdanslamerde" label="teamdanslamerde" />
+      <node id="teamassa" label="teamassa" />
+      <node id="teamjuriste" label="teamjuriste" />
+      <node id="teampartiel" label="teampartiel" />
+      <node id="thelibrarian" label="thelibrarian" />
+      <node id="gopat" label="gopat" />
+      <node id="offline" label="offline" />
+      <node id="nevsind" label="nevsind" />
+      <node id="antistansmith" label="antistansmith" />
+      <node id="stansmith" label="stansmith" />
+      <node id="sneaker" label="sneaker" />
+      <node id="adida" label="adida" />
+      <node id="fiftyshade" label="fiftyshade" />
+      <node id="photo" label="photo" />
+      <node id="kissmylip" label="kissmylip" />
+      <node id="jesuiscolt" label="jesuiscolt" />
+      <node id="indvsne" label="indvsne" />
+      <node id="lrt" label="lrt" />
+      <node id="bbox" label="bbox" />
+      <node id="bboxclub" label="bboxclub" />
+      <node id="m" label="m" />
+      <node id="lt" label="lt" />
+      <node id="mfw" label="mfw" />
+      <node id="men" label="men" />
+      <node id="fw15" label="fw15" />
+    </nodes>
+    <edges>
+      <edge source="off" target="teamdanslamerde" id="0" weight="1.0" />
+      <edge source="off" target="teamassa" id="1" weight="1.0" />
+      <edge source="off" target="teamjuriste" id="2" weight="1.0" />
+      <edge source="off" target="teampartiel" id="3" weight="1.0" />
+      <edge source="teamdanslamerde" target="teamassa" id="4" weight="1.0" />
+      <edge source="teamdanslamerde" target="teamjuriste" id="5" weight="1.0" />
+      <edge source="teamdanslamerde" target="teampartiel" id="6" weight="1.0" />
+      <edge source="teamassa" target="teamjuriste" id="7" weight="1.0" />
+      <edge source="teamassa" target="teampartiel" id="8" weight="1.0" />
+      <edge source="teamjuriste" target="teampartiel" id="9" weight="1.0" />
+      <edge source="gopat" target="nevsind" id="10" weight="1.0" />
+      <edge source="gopat" target="jesuiscolt" id="11" weight="1.0" />
+      <edge source="gopat" target="indvsne" id="12" weight="1.0" />
+      <edge source="nevsind" target="jesuiscolt" id="13" weight="1.0" />
+      <edge source="nevsind" target="indvsne" id="14" weight="1.0" />
+      <edge source="antistansmith" target="stansmith" id="15" weight="1.0" />
+      <edge source="antistansmith" target="sneaker" id="16" weight="1.0" />
+      <edge source="antistansmith" target="adida" id="17" weight="1.0" />
+      <edge source="stansmith" target="sneaker" id="18" weight="1.0" />
+      <edge source="stansmith" target="adida" id="19" weight="1.0" />
+      <edge source="sneaker" target="adida" id="20" weight="1.0" />
+      <edge source="photo" target="kissmylip" id="21" weight="1.0" />
+      <edge source="photo" target="bbox" id="22" weight="1.0" />
+      <edge source="photo" target="bboxclub" id="23" weight="1.0" />
+      <edge source="kissmylip" target="bbox" id="24" weight="1.0" />
+      <edge source="kissmylip" target="bboxclub" id="25" weight="1.0" />
+      <edge source="jesuiscolt" target="indvsne" id="26" weight="1.0" />
+      <edge source="lrt" target="m" id="27" weight="1.0" />
+      <edge source="lrt" target="lt" id="28" weight="1.0" />
+      <edge source="bbox" target="bboxclub" id="29" weight="1.0" />
+      <edge source="m" target="lt" id="30" weight="1.0" />
+      <edge source="mfw" target="men" id="31" weight="1.0" />
+      <edge source="mfw" target="fw15" id="32" weight="1.0" />
+      <edge source="men" target="fw15" id="33" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

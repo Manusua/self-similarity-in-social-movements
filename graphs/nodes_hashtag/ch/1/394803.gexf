@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="tweetcommelimamdedrancy" label="tweetcommelimamdedrancy" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="toulouse" label="toulouse" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="christianoronaldo" label="christianoronaldo" />
+      <node id="ballondor2014" label="ballondor2014" />
+      <node id="football" label="football" />
+      <node id="lmdla" label="lmdla" />
+      <node id="jdcjdr" label="jdcjdr" />
+      <node id="tatouage" label="tatouage" />
+      <node id="je" label="je" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="tarn" label="tarn" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="strasbourg" label="strasbourg" />
+      <node id="hj" label="hj" />
+      <node id="bureaudepresse" label="bureaudepresse" />
+    </nodes>
+    <edges>
+      <edge source="toulouse" target="hautegaronne" id="0" weight="1.0" />
+      <edge source="toulouse" target="tarn" id="1" weight="1.0" />
+      <edge source="hautegaronne" target="tarn" id="2" weight="1.0" />
+      <edge source="christianoronaldo" target="ballondor2014" id="3" weight="1.0" />
+      <edge source="christianoronaldo" target="football" id="4" weight="1.0" />
+      <edge source="ballondor2014" target="football" id="5" weight="1.0" />
+      <edge source="lmdla" target="jdcjdr" id="6" weight="1.0" />
+      <edge source="je" target="e1bonjour" id="7" weight="1.0" />
+      <edge source="je" target="jesuischarlie" id="8" weight="1.0" />
+      <edge source="je" target="bureaudepresse" id="9" weight="1.0" />
+      <edge source="e1bonjour" target="jesuischarlie" id="10" weight="1.0" />
+      <edge source="e1bonjour" target="bureaudepresse" id="11" weight="1.0" />
+      <edge source="jesuischarlie" target="bureaudepresse" id="12" weight="1.0" />
+      <edge source="strasbourg" target="hj" id="13" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

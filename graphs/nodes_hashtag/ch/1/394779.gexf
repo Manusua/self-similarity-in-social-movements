@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="coulibaly" label="coulibaly" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="lookgood" label="lookgood" />
+      <node id="goodvibe" label="goodvibe" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="duysiduy" label="duysiduy" />
+      <node id="servicemilitaire" label="servicemilitaire" />
+      <node id="jeunesse" label="jeunesse" />
+      <node id="encadrement" label="encadrement" />
+      <node id="france" label="france" />
+      <node id="harlow" label="harlow" />
+      <node id="complot" label="complot" />
+      <node id="desinformation" label="desinformation" />
+      <node id="aveyron" label="aveyron" />
+      <node id="tarn" label="tarn" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charlie" label="charlie" />
+      <node id="np" label="np" />
+    </nodes>
+    <edges>
+      <edge source="coulibaly" target="charliehebdo" id="0" weight="1.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="1" weight="1.0" />
+      <edge source="lookgood" target="goodvibe" id="2" weight="1.0" />
+      <edge source="lookgood" target="duysiduy" id="3" weight="1.0" />
+      <edge source="goodvibe" target="duysiduy" id="4" weight="1.0" />
+      <edge source="hautegaronne" target="aveyron" id="5" weight="1.0" />
+      <edge source="hautegaronne" target="tarn" id="6" weight="1.0" />
+      <edge source="servicemilitaire" target="jeunesse" id="7" weight="1.0" />
+      <edge source="servicemilitaire" target="encadrement" id="8" weight="1.0" />
+      <edge source="servicemilitaire" target="complot" id="9" weight="1.0" />
+      <edge source="servicemilitaire" target="desinformation" id="10" weight="1.0" />
+      <edge source="jeunesse" target="encadrement" id="11" weight="1.0" />
+      <edge source="jeunesse" target="complot" id="12" weight="1.0" />
+      <edge source="jeunesse" target="desinformation" id="13" weight="1.0" />
+      <edge source="encadrement" target="complot" id="14" weight="1.0" />
+      <edge source="encadrement" target="desinformation" id="15" weight="1.0" />
+      <edge source="france" target="harlow" id="16" weight="1.0" />
+      <edge source="complot" target="desinformation" id="17" weight="1.0" />
+      <edge source="aveyron" target="tarn" id="18" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

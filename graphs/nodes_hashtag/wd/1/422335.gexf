@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="nationalbeheardday" label="nationalbeheardday" />
+      <node id="cerealday" label="cerealday" />
+      <node id="humpday" label="humpday" />
+      <node id="wcw" label="wcw" />
+      <node id="boulder" label="boulder" />
+      <node id="silly" label="silly" />
+      <node id="honest" label="honest" />
+      <node id="kind" label="kind" />
+      <node id="havefun" label="havefun" />
+      <node id="quote" label="quote" />
+      <node id="inspiration" label="inspiration" />
+      <node id="permissiontoplay" label="permissiontoplay" />
+      <node id="hockeyismyreligion" label="hockeyismyreligion" />
+      <node id="molsonoriginalsix" label="molsonoriginalsix" />
+      <node id="iamcanadian" label="iamcanadian" />
+      <node id="movingin" label="movingin" />
+      <node id="joyaudefrance" label="joyaudefrance" />
+      <node id="kickmyfeetup" label="kickmyfeetup" />
+      <node id="noyouare" label="noyouare" />
+      <node id="dirtmovie" label="dirtmovie" />
+      <node id="sunset" label="sunset" />
+      <node id="marinadeley" label="marinadeley" />
+      <node id="losangele" label="losangele" />
+      <node id="hollywood" label="hollywood" />
+      <node id="california" label="california" />
+      <node id="marinadelrey" label="marinadelrey" />
+      <node id="eventsofalifetime" label="eventsofalifetime" />
+      <node id="jimshaw" label="jimshaw" />
+    </nodes>
+    <edges>
+      <edge source="nationalbeheardday" target="cerealday" id="0" weight="1.0" />
+      <edge source="nationalbeheardday" target="humpday" id="1" weight="1.0" />
+      <edge source="cerealday" target="humpday" id="2" weight="1.0" />
+      <edge source="wcw" target="boulder" id="3" weight="1.0" />
+      <edge source="silly" target="honest" id="4" weight="1.0" />
+      <edge source="silly" target="kind" id="5" weight="1.0" />
+      <edge source="silly" target="havefun" id="6" weight="1.0" />
+      <edge source="silly" target="quote" id="7" weight="1.0" />
+      <edge source="silly" target="inspiration" id="8" weight="1.0" />
+      <edge source="silly" target="permissiontoplay" id="9" weight="1.0" />
+      <edge source="honest" target="kind" id="10" weight="1.0" />
+      <edge source="honest" target="havefun" id="11" weight="1.0" />
+      <edge source="honest" target="quote" id="12" weight="1.0" />
+      <edge source="honest" target="inspiration" id="13" weight="1.0" />
+      <edge source="honest" target="permissiontoplay" id="14" weight="1.0" />
+      <edge source="kind" target="havefun" id="15" weight="1.0" />
+      <edge source="kind" target="quote" id="16" weight="1.0" />
+      <edge source="kind" target="inspiration" id="17" weight="1.0" />
+      <edge source="kind" target="permissiontoplay" id="18" weight="1.0" />
+      <edge source="havefun" target="quote" id="19" weight="1.0" />
+      <edge source="havefun" target="inspiration" id="20" weight="1.0" />
+      <edge source="havefun" target="permissiontoplay" id="21" weight="1.0" />
+      <edge source="quote" target="inspiration" id="22" weight="1.0" />
+      <edge source="quote" target="permissiontoplay" id="23" weight="1.0" />
+      <edge source="inspiration" target="permissiontoplay" id="24" weight="1.0" />
+      <edge source="hockeyismyreligion" target="molsonoriginalsix" id="25" weight="1.0" />
+      <edge source="hockeyismyreligion" target="iamcanadian" id="26" weight="1.0" />
+      <edge source="molsonoriginalsix" target="iamcanadian" id="27" weight="1.0" />
+      <edge source="movingin" target="joyaudefrance" id="28" weight="1.0" />
+      <edge source="movingin" target="kickmyfeetup" id="29" weight="1.0" />
+      <edge source="movingin" target="noyouare" id="30" weight="1.0" />
+      <edge source="joyaudefrance" target="kickmyfeetup" id="31" weight="1.0" />
+      <edge source="joyaudefrance" target="noyouare" id="32" weight="1.0" />
+      <edge source="kickmyfeetup" target="noyouare" id="33" weight="1.0" />
+      <edge source="sunset" target="marinadeley" id="34" weight="1.0" />
+      <edge source="sunset" target="losangele" id="35" weight="1.0" />
+      <edge source="sunset" target="hollywood" id="36" weight="1.0" />
+      <edge source="sunset" target="california" id="37" weight="1.0" />
+      <edge source="sunset" target="marinadelrey" id="38" weight="1.0" />
+      <edge source="marinadeley" target="losangele" id="39" weight="1.0" />
+      <edge source="marinadeley" target="hollywood" id="40" weight="1.0" />
+      <edge source="marinadeley" target="california" id="41" weight="1.0" />
+      <edge source="marinadeley" target="marinadelrey" id="42" weight="1.0" />
+      <edge source="losangele" target="hollywood" id="43" weight="1.0" />
+      <edge source="losangele" target="california" id="44" weight="1.0" />
+      <edge source="losangele" target="marinadelrey" id="45" weight="1.0" />
+      <edge source="hollywood" target="california" id="46" weight="1.0" />
+      <edge source="hollywood" target="marinadelrey" id="47" weight="1.0" />
+      <edge source="california" target="marinadelrey" id="48" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

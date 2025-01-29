@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="fatigue" label="fatigue" />
+      <node id="vdm" label="vdm" />
+      <node id="nw" label="nw" />
+      <node id="taubirademission" label="taubirademission" />
+      <node id="vallaudbelkacemdemission" label="vallaudbelkacemdemission" />
+      <node id="aaliyahsbirthday" label="aaliyahsbirthday" />
+      <node id="oneinamillion" label="oneinamillion" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="leweekend" label="leweekend" />
+      <node id="atlast" label="atlast" />
+      <node id="off" label="off" />
+    </nodes>
+    <edges>
+      <edge source="taubirademission" target="vallaudbelkacemdemission" id="0" weight="1.0" />
+      <edge source="aaliyahsbirthday" target="oneinamillion" id="1" weight="1.0" />
+      <edge source="aaliyahsbirthday" target="leweekend" id="2" weight="1.0" />
+      <edge source="aaliyahsbirthday" target="atlast" id="3" weight="1.0" />
+      <edge source="oneinamillion" target="leweekend" id="4" weight="1.0" />
+      <edge source="oneinamillion" target="atlast" id="5" weight="1.0" />
+      <edge source="leweekend" target="atlast" id="6" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

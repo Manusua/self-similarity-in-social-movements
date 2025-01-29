@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="school" label="school" />
+      <node id="on" label="on" />
+      <node id="juvisy" label="juvisy" />
+      <node id="rerc" label="rerc" />
+      <node id="np" label="np" />
+      <node id="frankrike" label="frankrike" />
+      <node id="pari" label="pari" />
+      <node id="digital" label="digital" />
+      <node id="projectmanager" label="projectmanager" />
+      <node id="job" label="job" />
+      <node id="fail" label="fail" />
+      <node id="radiofg" label="radiofg" />
+      <node id="ontheroadagaintour" label="ontheroadagaintour" />
+      <node id="course" label="course" />
+      <node id="1000m" label="1000m" />
+      <node id="javelot" label="javelot" />
+      <node id="off" label="off" />
+      <node id="nw" label="nw" />
+      <node id="manudansle69" label="manudansle69" />
+      <node id="baumette" label="baumette" />
+      <node id="reveilcherie" label="reveilcherie" />
+      <node id="bonjour" label="bonjour" />
+      <node id="snapchat" label="snapchat" />
+      <node id="sapin" label="sapin" />
+      <node id="fcn" label="fcn" />
+      <node id="evilregal" label="evilregal" />
+      <node id="showlematin" label="showlematin" />
+      <node id="salete" label="salete" />
+      <node id="online" label="online" />
+      <node id="googlemybusines" label="googlemybusines" />
+      <node id="h1" label="h1" />
+      <node id="referencement" label="referencement" />
+      <node id="local" label="local" />
+      <node id="google" label="google" />
+      <node id="pigeon" label="pigeon" />
+      <node id="sncf" label="sncf" />
+      <node id="grandfrereautop" label="grandfrereautop" />
+      <node id="caminitodelaescuela" label="caminitodelaescuela" />
+      <node id="conducteur" label="conducteur" />
+      <node id="amoursurplaceouaemporter" label="amoursurplaceouaemporter" />
+      <node id="scorpion" label="scorpion" />
+      <node id="lt" label="lt" />
+      <node id="voeux" label="voeux" />
+      <node id="volvo" label="volvo" />
+      <node id="pub" label="pub" />
+      <node id="facebook" label="facebook" />
+      <node id="euro" label="euro" />
+      <node id="zoneeuro" label="zoneeuro" />
+      <node id="eurozone" label="eurozone" />
+      <node id="levedusoleil" label="levedusoleil" />
+      <node id="clermontfd" label="clermontfd" />
+      <node id="skyline" label="skyline" />
+      <node id="bruin" label="bruin" />
+      <node id="rumeur" label="rumeur" />
+      <node id="trade" label="trade" />
+      <node id="fevad" label="fevad" />
+      <node id="ilakeannecy" label="ilakeannecy" />
+    </nodes>
+    <edges>
+      <edge source="juvisy" target="rerc" id="0" weight="1.0" />
+      <edge source="digital" target="projectmanager" id="1" weight="1.0" />
+      <edge source="digital" target="job" id="2" weight="1.0" />
+      <edge source="digital" target="fail" id="3" weight="1.0" />
+      <edge source="projectmanager" target="job" id="4" weight="1.0" />
+      <edge source="projectmanager" target="fail" id="5" weight="1.0" />
+      <edge source="job" target="fail" id="6" weight="1.0" />
+      <edge source="course" target="1000m" id="7" weight="1.0" />
+      <edge source="course" target="javelot" id="8" weight="1.0" />
+      <edge source="1000m" target="javelot" id="9" weight="1.0" />
+      <edge source="snapchat" target="conducteur" id="10" weight="1.0" />
+      <edge source="sapin" target="fcn" id="11" weight="1.0" />
+      <edge source="googlemybusines" target="h1" id="12" weight="1.0" />
+      <edge source="googlemybusines" target="referencement" id="13" weight="1.0" />
+      <edge source="googlemybusines" target="local" id="14" weight="1.0" />
+      <edge source="googlemybusines" target="google" id="15" weight="1.0" />
+      <edge source="googlemybusines" target="pigeon" id="16" weight="1.0" />
+      <edge source="h1" target="referencement" id="17" weight="1.0" />
+      <edge source="h1" target="local" id="18" weight="1.0" />
+      <edge source="h1" target="google" id="19" weight="1.0" />
+      <edge source="h1" target="pigeon" id="20" weight="1.0" />
+      <edge source="referencement" target="local" id="21" weight="1.0" />
+      <edge source="referencement" target="google" id="22" weight="1.0" />
+      <edge source="referencement" target="pigeon" id="23" weight="1.0" />
+      <edge source="local" target="google" id="24" weight="1.0" />
+      <edge source="local" target="pigeon" id="25" weight="1.0" />
+      <edge source="google" target="pigeon" id="26" weight="1.0" />
+      <edge source="voeux" target="volvo" id="27" weight="1.0" />
+      <edge source="voeux" target="pub" id="28" weight="1.0" />
+      <edge source="volvo" target="pub" id="29" weight="1.0" />
+      <edge source="euro" target="zoneeuro" id="30" weight="1.0" />
+      <edge source="euro" target="eurozone" id="31" weight="1.0" />
+      <edge source="zoneeuro" target="eurozone" id="32" weight="1.0" />
+      <edge source="levedusoleil" target="clermontfd" id="33" weight="1.0" />
+      <edge source="levedusoleil" target="skyline" id="34" weight="1.0" />
+      <edge source="clermontfd" target="skyline" id="35" weight="1.0" />
+      <edge source="bruin" target="rumeur" id="36" weight="1.0" />
+      <edge source="bruin" target="trade" id="37" weight="1.0" />
+      <edge source="rumeur" target="trade" id="38" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

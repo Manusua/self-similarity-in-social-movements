@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="goldenglobe" label="goldenglobe" />
+      <node id="tarn" label="tarn" />
+      <node id="aveyron" label="aveyron" />
+      <node id="gg2015" label="gg2015" />
+      <node id="lastrt" label="lastrt" />
+      <node id="lrt" label="lrt" />
+      <node id="insomnia" label="insomnia" />
+      <node id="cantsleep" label="cantsleep" />
+      <node id="truestory" label="truestory" />
+      <node id="off" label="off" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="merkel" label="merkel" />
+      <node id="hollande" label="hollande" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="lamarche" label="lamarche" />
+      <node id="11janvier" label="11janvier" />
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="offfff" label="offfff" />
+      <node id="houseofcard" label="houseofcard" />
+      <node id="seasoniii" label="seasoniii" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="thetheoryofeverything" label="thetheoryofeverything" />
+    </nodes>
+    <edges>
+      <edge source="goldenglobe" target="gg2015" id="0" weight="1.0" />
+      <edge source="goldenglobe" target="thetheoryofeverything" id="1" weight="1.0" />
+      <edge source="goldenglobe" target="jesuischarlie" id="2" weight="1.0" />
+      <edge source="goldenglobe" target="houseofcard" id="3" weight="1.0" />
+      <edge source="goldenglobe" target="seasoniii" id="4" weight="1.0" />
+      <edge source="goldenglobe" target="charliehebdo" id="5" weight="1.0" />
+      <edge source="tarn" target="aveyron" id="6" weight="1.0" />
+      <edge source="tarn" target="hautegaronne" id="7" weight="1.0" />
+      <edge source="aveyron" target="hautegaronne" id="8" weight="1.0" />
+      <edge source="gg2015" target="thetheoryofeverything" id="9" weight="1.0" />
+      <edge source="lrt" target="off" id="10" weight="1.0" />
+      <edge source="insomnia" target="cantsleep" id="11" weight="1.0" />
+      <edge source="insomnia" target="truestory" id="12" weight="1.0" />
+      <edge source="cantsleep" target="truestory" id="13" weight="1.0" />
+      <edge source="jesuischarlie" target="merkel" id="14" weight="1.0" />
+      <edge source="jesuischarlie" target="hollande" id="15" weight="1.0" />
+      <edge source="jesuischarlie" target="marcherepublicaine" id="16" weight="1.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="17" weight="1.0" />
+      <edge source="jesuischarlie" target="e1bonjour" id="18" weight="1.0" />
+      <edge source="jesuischarlie" target="11janvier" id="19" weight="1.0" />
+      <edge source="merkel" target="hollande" id="20" weight="1.0" />
+      <edge source="merkel" target="marcherepublicaine" id="21" weight="1.0" />
+      <edge source="merkel" target="noussommescharlie" id="22" weight="1.0" />
+      <edge source="hollande" target="marcherepublicaine" id="23" weight="1.0" />
+      <edge source="hollande" target="noussommescharlie" id="24" weight="1.0" />
+      <edge source="marcherepublicaine" target="noussommescharlie" id="25" weight="1.0" />
+      <edge source="houseofcard" target="seasoniii" id="26" weight="1.0" />
+      <edge source="houseofcard" target="charliehebdo" id="27" weight="1.0" />
+      <edge source="seasoniii" target="charliehebdo" id="28" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

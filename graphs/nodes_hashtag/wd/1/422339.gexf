@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="humpday" label="humpday" />
+      <node id="cerealday" label="cerealday" />
+      <node id="nationalbeheardday" label="nationalbeheardday" />
+      <node id="optimism" label="optimism" />
+      <node id="lloydlegacysharp" label="lloydlegacysharp" />
+      <node id="poem" label="poem" />
+      <node id="choice" label="choice" />
+      <node id="writing" label="writing" />
+      <node id="poet" label="poet" />
+      <node id="literature" label="literature" />
+      <node id="poetry" label="poetry" />
+      <node id="swfotw" label="swfotw" />
+      <node id="greedo" label="greedo" />
+      <node id="starwar" label="starwar" />
+      <node id="travelling" label="travelling" />
+      <node id="snowstorm2018" label="snowstorm2018" />
+      <node id="bigapple" label="bigapple" />
+      <node id="nyc" label="nyc" />
+      <node id="bosslife" label="bosslife" />
+      <node id="thebronzeyogi" label="thebronzeyogi" />
+      <node id="yogaposer13" label="yogaposer13" />
+      <node id="gettinit" label="gettinit" />
+      <node id="rap" label="rap" />
+      <node id="hiphop" label="hiphop" />
+      <node id="80" label="80" />
+      <node id="michaeljackson" label="michaeljackson" />
+      <node id="rockthisday" label="rockthisday" />
+      <node id="paparazziaccessorie" label="paparazziaccessorie" />
+      <node id="lisaspaparazzidoll" label="lisaspaparazzidoll" />
+      <node id="justdoit" label="justdoit" />
+      <node id="goforit" label="goforit" />
+      <node id="yougotthi" label="yougotthi" />
+      <node id="bossbabe" label="bossbabe" />
+    </nodes>
+    <edges>
+      <edge source="humpday" target="cerealday" id="0" weight="1.0" />
+      <edge source="humpday" target="nationalbeheardday" id="1" weight="1.0" />
+      <edge source="cerealday" target="nationalbeheardday" id="2" weight="1.0" />
+      <edge source="poem" target="choice" id="3" weight="1.0" />
+      <edge source="poem" target="writing" id="4" weight="1.0" />
+      <edge source="poem" target="poet" id="5" weight="1.0" />
+      <edge source="poem" target="literature" id="6" weight="1.0" />
+      <edge source="poem" target="poetry" id="7" weight="1.0" />
+      <edge source="choice" target="writing" id="8" weight="1.0" />
+      <edge source="choice" target="poet" id="9" weight="1.0" />
+      <edge source="choice" target="literature" id="10" weight="1.0" />
+      <edge source="choice" target="poetry" id="11" weight="1.0" />
+      <edge source="writing" target="poet" id="12" weight="1.0" />
+      <edge source="writing" target="literature" id="13" weight="1.0" />
+      <edge source="writing" target="poetry" id="14" weight="1.0" />
+      <edge source="poet" target="literature" id="15" weight="1.0" />
+      <edge source="poet" target="poetry" id="16" weight="1.0" />
+      <edge source="literature" target="poetry" id="17" weight="1.0" />
+      <edge source="swfotw" target="greedo" id="18" weight="1.0" />
+      <edge source="swfotw" target="starwar" id="19" weight="1.0" />
+      <edge source="greedo" target="starwar" id="20" weight="1.0" />
+      <edge source="travelling" target="snowstorm2018" id="21" weight="1.0" />
+      <edge source="travelling" target="bigapple" id="22" weight="1.0" />
+      <edge source="travelling" target="nyc" id="23" weight="1.0" />
+      <edge source="travelling" target="bosslife" id="24" weight="1.0" />
+      <edge source="snowstorm2018" target="bigapple" id="25" weight="1.0" />
+      <edge source="snowstorm2018" target="nyc" id="26" weight="1.0" />
+      <edge source="snowstorm2018" target="bosslife" id="27" weight="1.0" />
+      <edge source="bigapple" target="nyc" id="28" weight="1.0" />
+      <edge source="bigapple" target="bosslife" id="29" weight="1.0" />
+      <edge source="nyc" target="bosslife" id="30" weight="1.0" />
+      <edge source="thebronzeyogi" target="yogaposer13" id="31" weight="1.0" />
+      <edge source="gettinit" target="rap" id="32" weight="1.0" />
+      <edge source="gettinit" target="hiphop" id="33" weight="1.0" />
+      <edge source="gettinit" target="80" id="34" weight="1.0" />
+      <edge source="gettinit" target="michaeljackson" id="35" weight="1.0" />
+      <edge source="rap" target="hiphop" id="36" weight="1.0" />
+      <edge source="rap" target="80" id="37" weight="1.0" />
+      <edge source="rap" target="michaeljackson" id="38" weight="1.0" />
+      <edge source="hiphop" target="80" id="39" weight="1.0" />
+      <edge source="hiphop" target="michaeljackson" id="40" weight="1.0" />
+      <edge source="80" target="michaeljackson" id="41" weight="1.0" />
+      <edge source="rockthisday" target="paparazziaccessorie" id="42" weight="1.0" />
+      <edge source="rockthisday" target="lisaspaparazzidoll" id="43" weight="1.0" />
+      <edge source="rockthisday" target="justdoit" id="44" weight="1.0" />
+      <edge source="rockthisday" target="goforit" id="45" weight="1.0" />
+      <edge source="rockthisday" target="yougotthi" id="46" weight="1.0" />
+      <edge source="rockthisday" target="bossbabe" id="47" weight="1.0" />
+      <edge source="paparazziaccessorie" target="lisaspaparazzidoll" id="48" weight="1.0" />
+      <edge source="paparazziaccessorie" target="justdoit" id="49" weight="1.0" />
+      <edge source="paparazziaccessorie" target="goforit" id="50" weight="1.0" />
+      <edge source="paparazziaccessorie" target="yougotthi" id="51" weight="1.0" />
+      <edge source="paparazziaccessorie" target="bossbabe" id="52" weight="1.0" />
+      <edge source="lisaspaparazzidoll" target="justdoit" id="53" weight="1.0" />
+      <edge source="lisaspaparazzidoll" target="goforit" id="54" weight="1.0" />
+      <edge source="lisaspaparazzidoll" target="yougotthi" id="55" weight="1.0" />
+      <edge source="lisaspaparazzidoll" target="bossbabe" id="56" weight="1.0" />
+      <edge source="justdoit" target="goforit" id="57" weight="1.0" />
+      <edge source="justdoit" target="yougotthi" id="58" weight="1.0" />
+      <edge source="justdoit" target="bossbabe" id="59" weight="1.0" />
+      <edge source="goforit" target="yougotthi" id="60" weight="1.0" />
+      <edge source="goforit" target="bossbabe" id="61" weight="1.0" />
+      <edge source="yougotthi" target="bossbabe" id="62" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="ufc182" label="ufc182" />
+      <node id="nationalportraitgallery" label="nationalportraitgallery" />
+      <node id="london" label="london" />
+      <node id="portrait" label="portrait" />
+      <node id="sculpture" label="sculpture" />
+      <node id="bust" label="bust" />
+      <node id="museum" label="museum" />
+      <node id="online" label="online" />
+      <node id="cancer" label="cancer" />
+      <node id="poisson" label="poisson" />
+      <node id="capricorne" label="capricorne" />
+      <node id="vierge" label="vierge" />
+      <node id="taureau" label="taureau" />
+      <node id="scorpion" label="scorpion" />
+      <node id="jdd" label="jdd" />
+      <node id="duflot" label="duflot" />
+      <node id="goldman" label="goldman" />
+      <node id="h" label="h" />
+      <node id="off" label="off" />
+      <node id="jetlag" label="jetlag" />
+      <node id="demaincestlarentree" label="demaincestlarentree" />
+      <node id="teamhomophobeetfier" label="teamhomophobeetfier" />
+      <node id="lrt" label="lrt" />
+      <node id="comebackgame" label="comebackgame" />
+      <node id="dalstournee" label="dalstournee" />
+      <node id="02fffff" label="02fffff" />
+      <node id="horoscope" label="horoscope" />
+      <node id="offance" label="offance" />
+    </nodes>
+    <edges>
+      <edge source="nationalportraitgallery" target="london" id="0" weight="1.0" />
+      <edge source="nationalportraitgallery" target="portrait" id="1" weight="1.0" />
+      <edge source="nationalportraitgallery" target="sculpture" id="2" weight="1.0" />
+      <edge source="nationalportraitgallery" target="bust" id="3" weight="1.0" />
+      <edge source="nationalportraitgallery" target="museum" id="4" weight="1.0" />
+      <edge source="london" target="portrait" id="5" weight="1.0" />
+      <edge source="london" target="sculpture" id="6" weight="1.0" />
+      <edge source="london" target="bust" id="7" weight="1.0" />
+      <edge source="london" target="museum" id="8" weight="1.0" />
+      <edge source="portrait" target="sculpture" id="9" weight="1.0" />
+      <edge source="portrait" target="bust" id="10" weight="1.0" />
+      <edge source="portrait" target="museum" id="11" weight="1.0" />
+      <edge source="sculpture" target="bust" id="12" weight="1.0" />
+      <edge source="sculpture" target="museum" id="13" weight="1.0" />
+      <edge source="bust" target="museum" id="14" weight="1.0" />
+      <edge source="cancer" target="poisson" id="15" weight="1.0" />
+      <edge source="cancer" target="capricorne" id="16" weight="1.0" />
+      <edge source="cancer" target="vierge" id="17" weight="1.0" />
+      <edge source="cancer" target="taureau" id="18" weight="1.0" />
+      <edge source="cancer" target="scorpion" id="19" weight="1.0" />
+      <edge source="poisson" target="capricorne" id="20" weight="1.0" />
+      <edge source="poisson" target="vierge" id="21" weight="1.0" />
+      <edge source="poisson" target="taureau" id="22" weight="1.0" />
+      <edge source="poisson" target="scorpion" id="23" weight="1.0" />
+      <edge source="capricorne" target="vierge" id="24" weight="1.0" />
+      <edge source="capricorne" target="taureau" id="25" weight="1.0" />
+      <edge source="capricorne" target="scorpion" id="26" weight="1.0" />
+      <edge source="vierge" target="taureau" id="27" weight="1.0" />
+      <edge source="vierge" target="scorpion" id="28" weight="1.0" />
+      <edge source="taureau" target="scorpion" id="29" weight="1.0" />
+      <edge source="jdd" target="duflot" id="30" weight="1.0" />
+      <edge source="jdd" target="goldman" id="31" weight="1.0" />
+      <edge source="duflot" target="goldman" id="32" weight="1.0" />
+      <edge source="h" target="offance" id="33" weight="1.0" />
+      <edge source="jetlag" target="demaincestlarentree" id="34" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="nbaextra" label="nbaextra" />
+      <node id="klaine" label="klaine" />
+      <node id="ibtissamtiskat" label="ibtissamtiskat" />
+      <node id="marre" label="marre" />
+      <node id="oscars2015" label="oscars2015" />
+      <node id="oscar" label="oscar" />
+      <node id="birdmanmovie" label="birdmanmovie" />
+      <node id="tgbh" label="tgbh" />
+      <node id="qotd" label="qotd" />
+      <node id="showtime" label="showtime" />
+      <node id="thunderup" label="thunderup" />
+      <node id="newteam" label="newteam" />
+      <node id="nancy" label="nancy" />
+      <node id="doesn" label="doesn" />
+      <node id="sleep" label="sleep" />
+      <node id="mybeloved" label="mybeloved" />
+      <node id="one" label="one" />
+      <node id="merci" label="merci" />
+      <node id="soiree" label="soiree" />
+      <node id="deouff" label="deouff" />
+      <node id="cheri" label="cheri" />
+      <node id="so" label="so" />
+      <node id="fav" label="fav" />
+      <node id="off" label="off" />
+      <node id="e" label="e" />
+      <node id="coac2015p1" label="coac2015p1" />
+    </nodes>
+    <edges>
+      <edge source="oscars2015" target="oscar" id="0" weight="1.0" />
+      <edge source="oscars2015" target="birdmanmovie" id="1" weight="1.0" />
+      <edge source="oscars2015" target="tgbh" id="2" weight="1.0" />
+      <edge source="oscar" target="birdmanmovie" id="3" weight="1.0" />
+      <edge source="oscar" target="tgbh" id="4" weight="1.0" />
+      <edge source="birdmanmovie" target="tgbh" id="5" weight="1.0" />
+      <edge source="showtime" target="thunderup" id="6" weight="1.0" />
+      <edge source="nancy" target="doesn" id="7" weight="1.0" />
+      <edge source="nancy" target="sleep" id="8" weight="1.0" />
+      <edge source="nancy" target="mybeloved" id="9" weight="1.0" />
+      <edge source="nancy" target="one" id="10" weight="1.0" />
+      <edge source="nancy" target="merci" id="11" weight="1.0" />
+      <edge source="nancy" target="soiree" id="12" weight="1.0" />
+      <edge source="nancy" target="deouff" id="13" weight="1.0" />
+      <edge source="nancy" target="cheri" id="14" weight="1.0" />
+      <edge source="doesn" target="sleep" id="15" weight="1.0" />
+      <edge source="doesn" target="mybeloved" id="16" weight="1.0" />
+      <edge source="doesn" target="one" id="17" weight="1.0" />
+      <edge source="doesn" target="merci" id="18" weight="1.0" />
+      <edge source="doesn" target="soiree" id="19" weight="1.0" />
+      <edge source="doesn" target="deouff" id="20" weight="1.0" />
+      <edge source="doesn" target="cheri" id="21" weight="1.0" />
+      <edge source="sleep" target="mybeloved" id="22" weight="1.0" />
+      <edge source="sleep" target="one" id="23" weight="1.0" />
+      <edge source="sleep" target="merci" id="24" weight="1.0" />
+      <edge source="sleep" target="soiree" id="25" weight="1.0" />
+      <edge source="sleep" target="deouff" id="26" weight="1.0" />
+      <edge source="sleep" target="cheri" id="27" weight="1.0" />
+      <edge source="mybeloved" target="one" id="28" weight="1.0" />
+      <edge source="mybeloved" target="merci" id="29" weight="1.0" />
+      <edge source="mybeloved" target="soiree" id="30" weight="1.0" />
+      <edge source="mybeloved" target="deouff" id="31" weight="1.0" />
+      <edge source="mybeloved" target="cheri" id="32" weight="1.0" />
+      <edge source="one" target="merci" id="33" weight="1.0" />
+      <edge source="one" target="soiree" id="34" weight="1.0" />
+      <edge source="one" target="deouff" id="35" weight="1.0" />
+      <edge source="one" target="cheri" id="36" weight="1.0" />
+      <edge source="merci" target="soiree" id="37" weight="1.0" />
+      <edge source="merci" target="deouff" id="38" weight="1.0" />
+      <edge source="merci" target="cheri" id="39" weight="1.0" />
+      <edge source="soiree" target="deouff" id="40" weight="1.0" />
+      <edge source="soiree" target="cheri" id="41" weight="1.0" />
+      <edge source="deouff" target="cheri" id="42" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

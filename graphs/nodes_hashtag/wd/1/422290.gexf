@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="nationalmaplesyrupday" label="nationalmaplesyrupday" />
+      <node id="nationalabsintheday" label="nationalabsintheday" />
+      <node id="battlearmour" label="battlearmour" />
+      <node id="accessorie" label="accessorie" />
+      <node id="ivegotthi" label="ivegotthi" />
+      <node id="happymonday" label="happymonday" />
+      <node id="prioritize" label="prioritize" />
+    </nodes>
+    <edges>
+      <edge source="nationalmaplesyrupday" target="nationalabsintheday" id="0" weight="1.0" />
+      <edge source="battlearmour" target="accessorie" id="1" weight="1.0" />
+      <edge source="battlearmour" target="ivegotthi" id="2" weight="1.0" />
+      <edge source="accessorie" target="ivegotthi" id="3" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

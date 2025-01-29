@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="courageousfollowerday" label="courageousfollowerday" />
+      <node id="shabbatacrossamerica" label="shabbatacrossamerica" />
+      <node id="namesakeday" label="namesakeday" />
+      <node id="artshow" label="artshow" />
+      <node id="artsell" label="artsell" />
+      <node id="soloartshow" label="soloartshow" />
+      <node id="comicbookhideout" label="comicbookhideout" />
+      <node id="drawing" label="drawing" />
+      <node id="painting" label="painting" />
+      <node id="yougots2go" label="yougots2go" />
+      <node id="kevingate" label="kevingate" />
+      <node id="bwa" label="bwa" />
+      <node id="lucabrasi" label="lucabrasi" />
+      <node id="maryjblige" label="maryjblige" />
+      <node id="oscar" label="oscar" />
+      <node id="actres" label="actres" />
+      <node id="singer" label="singer" />
+      <node id="superman" label="superman" />
+      <node id="dc" label="dc" />
+      <node id="comic" label="comic" />
+      <node id="geek" label="geek" />
+      <node id="fitgeek" label="fitgeek" />
+      <node id="dccomic" label="dccomic" />
+    </nodes>
+    <edges>
+      <edge source="courageousfollowerday" target="shabbatacrossamerica" id="0" weight="1.0" />
+      <edge source="courageousfollowerday" target="namesakeday" id="1" weight="1.0" />
+      <edge source="shabbatacrossamerica" target="namesakeday" id="2" weight="1.0" />
+      <edge source="artshow" target="artsell" id="3" weight="1.0" />
+      <edge source="artshow" target="soloartshow" id="4" weight="1.0" />
+      <edge source="artshow" target="comicbookhideout" id="5" weight="1.0" />
+      <edge source="artshow" target="drawing" id="6" weight="1.0" />
+      <edge source="artshow" target="painting" id="7" weight="1.0" />
+      <edge source="artsell" target="soloartshow" id="8" weight="1.0" />
+      <edge source="artsell" target="comicbookhideout" id="9" weight="1.0" />
+      <edge source="artsell" target="drawing" id="10" weight="1.0" />
+      <edge source="artsell" target="painting" id="11" weight="1.0" />
+      <edge source="soloartshow" target="comicbookhideout" id="12" weight="1.0" />
+      <edge source="soloartshow" target="drawing" id="13" weight="1.0" />
+      <edge source="soloartshow" target="painting" id="14" weight="1.0" />
+      <edge source="comicbookhideout" target="drawing" id="15" weight="1.0" />
+      <edge source="comicbookhideout" target="painting" id="16" weight="1.0" />
+      <edge source="drawing" target="painting" id="17" weight="1.0" />
+      <edge source="yougots2go" target="kevingate" id="18" weight="1.0" />
+      <edge source="yougots2go" target="bwa" id="19" weight="1.0" />
+      <edge source="yougots2go" target="lucabrasi" id="20" weight="1.0" />
+      <edge source="kevingate" target="bwa" id="21" weight="1.0" />
+      <edge source="kevingate" target="lucabrasi" id="22" weight="1.0" />
+      <edge source="bwa" target="lucabrasi" id="23" weight="1.0" />
+      <edge source="maryjblige" target="oscar" id="24" weight="1.0" />
+      <edge source="maryjblige" target="actres" id="25" weight="1.0" />
+      <edge source="maryjblige" target="singer" id="26" weight="1.0" />
+      <edge source="oscar" target="actres" id="27" weight="1.0" />
+      <edge source="oscar" target="singer" id="28" weight="1.0" />
+      <edge source="actres" target="singer" id="29" weight="1.0" />
+      <edge source="superman" target="dc" id="30" weight="1.0" />
+      <edge source="superman" target="comic" id="31" weight="1.0" />
+      <edge source="superman" target="geek" id="32" weight="1.0" />
+      <edge source="superman" target="fitgeek" id="33" weight="1.0" />
+      <edge source="superman" target="dccomic" id="34" weight="1.0" />
+      <edge source="dc" target="comic" id="35" weight="1.0" />
+      <edge source="dc" target="geek" id="36" weight="1.0" />
+      <edge source="dc" target="fitgeek" id="37" weight="1.0" />
+      <edge source="dc" target="dccomic" id="38" weight="1.0" />
+      <edge source="comic" target="geek" id="39" weight="1.0" />
+      <edge source="comic" target="fitgeek" id="40" weight="1.0" />
+      <edge source="comic" target="dccomic" id="41" weight="1.0" />
+      <edge source="geek" target="fitgeek" id="42" weight="1.0" />
+      <edge source="geek" target="dccomic" id="43" weight="1.0" />
+      <edge source="fitgeek" target="dccomic" id="44" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

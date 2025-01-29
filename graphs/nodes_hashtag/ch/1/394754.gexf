@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="insomnia" label="insomnia" />
+      <node id="nanterre" label="nanterre" />
+      <node id="droit" label="droit" />
+      <node id="off" label="off" />
+      <node id="dieudonne" label="dieudonne" />
+      <node id="np" label="np" />
+      <node id="quino" label="quino" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="rassuree" label="rassuree" />
+      <node id="pari" label="pari" />
+      <node id="policier" label="policier" />
+      <node id="courage" label="courage" />
+      <node id="lastrt" label="lastrt" />
+      <node id="gdnuit" label="gdnuit" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="bfm" label="bfm" />
+      <node id="jaimemonprophete" label="jaimemonprophete" />
+      <node id="fifa15" label="fifa15" />
+      <node id="charliegate" label="charliegate" />
+      <node id="soon" label="soon" />
+      <node id="girl" label="girl" />
+      <node id="tweet" label="tweet" />
+      <node id="leslie" label="leslie" />
+      <node id="kathrynmerteuil" label="kathrynmerteuil" />
+      <node id="cruelintention" label="cruelintention" />
+      <node id="delair" label="delair" />
+      <node id="une" label="une" />
+      <node id="bonnenuit" label="bonnenuit" />
+      <node id="oh" label="oh" />
+      <node id="ballondor" label="ballondor" />
+    </nodes>
+    <edges>
+      <edge source="nanterre" target="droit" id="0" weight="1.0" />
+      <edge source="nanterre" target="off" id="1" weight="1.0" />
+      <edge source="droit" target="off" id="2" weight="1.0" />
+      <edge source="quino" target="charliehebdo" id="3" weight="1.0" />
+      <edge source="quino" target="jesuischarlie" id="4" weight="1.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="5" weight="2.0" />
+      <edge source="charliehebdo" target="rassuree" id="6" weight="1.0" />
+      <edge source="jesuischarlie" target="rassuree" id="7" weight="1.0" />
+      <edge source="jesuischarlie" target="charliegate" id="8" weight="1.0" />
+      <edge source="jesuischarlie" target="une" id="9" weight="1.0" />
+      <edge source="pari" target="policier" id="10" weight="1.0" />
+      <edge source="pari" target="courage" id="11" weight="1.0" />
+      <edge source="pari" target="bfm" id="12" weight="1.0" />
+      <edge source="policier" target="courage" id="13" weight="1.0" />
+      <edge source="girl" target="tweet" id="14" weight="1.0" />
+      <edge source="girl" target="leslie" id="15" weight="1.0" />
+      <edge source="girl" target="kathrynmerteuil" id="16" weight="1.0" />
+      <edge source="girl" target="cruelintention" id="17" weight="1.0" />
+      <edge source="tweet" target="leslie" id="18" weight="1.0" />
+      <edge source="tweet" target="kathrynmerteuil" id="19" weight="1.0" />
+      <edge source="tweet" target="cruelintention" id="20" weight="1.0" />
+      <edge source="leslie" target="kathrynmerteuil" id="21" weight="1.0" />
+      <edge source="leslie" target="cruelintention" id="22" weight="1.0" />
+      <edge source="kathrynmerteuil" target="cruelintention" id="23" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

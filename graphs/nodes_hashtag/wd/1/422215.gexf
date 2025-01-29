@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="nationaldayofunplugging" label="nationaldayofunplugging" />
+      <node id="dressinblueday" label="dressinblueday" />
+      <node id="worlddayofprayer" label="worlddayofprayer" />
+      <node id="bar10weho" label="bar10weho" />
+      <node id="cazwellnyc" label="cazwellnyc" />
+      <node id="businessandpleasure" label="businessandpleasure" />
+      <node id="checkmate" label="checkmate" />
+      <node id="sosleepy" label="sosleepy" />
+      <node id="bedplease" label="bedplease" />
+      <node id="bed" label="bed" />
+      <node id="sleep" label="sleep" />
+      <node id="beautysleep" label="beautysleep" />
+      <node id="sanfrancisco" label="sanfrancisco" />
+      <node id="bfd" label="bfd" />
+      <node id="mariodiazlovesyou" label="mariodiazlovesyou" />
+      <node id="fubarweho" label="fubarweho" />
+      <node id="helloros" label="helloros" />
+      <node id="marissajaretwinokur" label="marissajaretwinokur" />
+      <node id="bisexual" label="bisexual" />
+      <node id="ravenclaw" label="ravenclaw" />
+    </nodes>
+    <edges>
+      <edge source="nationaldayofunplugging" target="dressinblueday" id="0" weight="1.0" />
+      <edge source="nationaldayofunplugging" target="worlddayofprayer" id="1" weight="1.0" />
+      <edge source="dressinblueday" target="worlddayofprayer" id="2" weight="1.0" />
+      <edge source="bar10weho" target="cazwellnyc" id="3" weight="1.0" />
+      <edge source="bar10weho" target="bfd" id="4" weight="1.0" />
+      <edge source="bar10weho" target="mariodiazlovesyou" id="5" weight="1.0" />
+      <edge source="bar10weho" target="fubarweho" id="6" weight="1.0" />
+      <edge source="bar10weho" target="helloros" id="7" weight="1.0" />
+      <edge source="bar10weho" target="marissajaretwinokur" id="8" weight="1.0" />
+      <edge source="cazwellnyc" target="bfd" id="9" weight="1.0" />
+      <edge source="cazwellnyc" target="mariodiazlovesyou" id="10" weight="1.0" />
+      <edge source="cazwellnyc" target="fubarweho" id="11" weight="1.0" />
+      <edge source="cazwellnyc" target="helloros" id="12" weight="1.0" />
+      <edge source="cazwellnyc" target="marissajaretwinokur" id="13" weight="1.0" />
+      <edge source="sosleepy" target="bedplease" id="14" weight="1.0" />
+      <edge source="sosleepy" target="bed" id="15" weight="1.0" />
+      <edge source="sosleepy" target="sleep" id="16" weight="1.0" />
+      <edge source="sosleepy" target="beautysleep" id="17" weight="1.0" />
+      <edge source="bedplease" target="bed" id="18" weight="1.0" />
+      <edge source="bedplease" target="sleep" id="19" weight="1.0" />
+      <edge source="bedplease" target="beautysleep" id="20" weight="1.0" />
+      <edge source="bed" target="sleep" id="21" weight="1.0" />
+      <edge source="bed" target="beautysleep" id="22" weight="1.0" />
+      <edge source="sleep" target="beautysleep" id="23" weight="1.0" />
+      <edge source="bfd" target="mariodiazlovesyou" id="24" weight="1.0" />
+      <edge source="bfd" target="fubarweho" id="25" weight="1.0" />
+      <edge source="bfd" target="helloros" id="26" weight="1.0" />
+      <edge source="bfd" target="marissajaretwinokur" id="27" weight="1.0" />
+      <edge source="mariodiazlovesyou" target="fubarweho" id="28" weight="1.0" />
+      <edge source="mariodiazlovesyou" target="helloros" id="29" weight="1.0" />
+      <edge source="mariodiazlovesyou" target="marissajaretwinokur" id="30" weight="1.0" />
+      <edge source="fubarweho" target="helloros" id="31" weight="1.0" />
+      <edge source="fubarweho" target="marissajaretwinokur" id="32" weight="1.0" />
+      <edge source="helloros" target="marissajaretwinokur" id="33" weight="1.0" />
+      <edge source="bisexual" target="ravenclaw" id="34" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

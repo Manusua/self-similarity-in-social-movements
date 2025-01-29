@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="famouslastword" label="famouslastword" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="lrt" label="lrt" />
+      <node id="tonu" label="tonu" />
+      <node id="jeudisoir" label="jeudisoir" />
+      <node id="stap" label="stap" />
+      <node id="captainstap" label="captainstap" />
+      <node id="samceluiquiconduitcestceluiquineboitpa" label="samceluiquiconduitcestceluiquineboitpa" />
+      <node id="philharmoniedepari" label="philharmoniedepari" />
+      <node id="yennaiarindhaal" label="yennaiarindhaal" />
+      <node id="numerique" label="numerique" />
+      <node id="industrie" label="industrie" />
+      <node id="flyingdutchman" label="flyingdutchman" />
+      <node id="toulouse" label="toulouse" />
+      <node id="bringbackourgirl" label="bringbackourgirl" />
+      <node id="britonedirection" label="britonedirection" />
+      <node id="teambensetti" label="teambensetti" />
+      <node id="teamikonomova" label="teamikonomova" />
+      <node id="nohomo" label="nohomo" />
+      <node id="cavaetrelafetealamaison" label="cavaetrelafetealamaison" />
+      <node id="lechatestpartilessouriesdansent" label="lechatestpartilessouriesdansent" />
+      <node id="tropdursanselle" label="tropdursanselle" />
+      <node id="atiksaha" label="atiksaha" />
+      <node id="expressonoisette" label="expressonoisette" />
+      <node id="syria" label="syria" />
+      <node id="anwaralawlaki" label="anwaralawlaki" />
+      <node id="terrorisme" label="terrorisme" />
+      <node id="charlie" label="charlie" />
+    </nodes>
+    <edges>
+      <edge source="e1bonjour" target="philharmoniedepari" id="0" weight="1.0" />
+      <edge source="tonu" target="jeudisoir" id="1" weight="1.0" />
+      <edge source="tonu" target="stap" id="2" weight="1.0" />
+      <edge source="tonu" target="captainstap" id="3" weight="1.0" />
+      <edge source="tonu" target="samceluiquiconduitcestceluiquineboitpa" id="4" weight="1.0" />
+      <edge source="jeudisoir" target="stap" id="5" weight="1.0" />
+      <edge source="jeudisoir" target="captainstap" id="6" weight="1.0" />
+      <edge source="jeudisoir" target="samceluiquiconduitcestceluiquineboitpa" id="7" weight="1.0" />
+      <edge source="stap" target="captainstap" id="8" weight="1.0" />
+      <edge source="stap" target="samceluiquiconduitcestceluiquineboitpa" id="9" weight="1.0" />
+      <edge source="captainstap" target="samceluiquiconduitcestceluiquineboitpa" id="10" weight="1.0" />
+      <edge source="numerique" target="industrie" id="11" weight="1.0" />
+      <edge source="britonedirection" target="teambensetti" id="12" weight="1.0" />
+      <edge source="britonedirection" target="teamikonomova" id="13" weight="1.0" />
+      <edge source="teambensetti" target="teamikonomova" id="14" weight="1.0" />
+      <edge source="cavaetrelafetealamaison" target="lechatestpartilessouriesdansent" id="15" weight="1.0" />
+      <edge source="cavaetrelafetealamaison" target="tropdursanselle" id="16" weight="1.0" />
+      <edge source="lechatestpartilessouriesdansent" target="tropdursanselle" id="17" weight="1.0" />
+      <edge source="atiksaha" target="expressonoisette" id="18" weight="1.0" />
+      <edge source="syria" target="anwaralawlaki" id="19" weight="1.0" />
+      <edge source="terrorisme" target="charlie" id="20" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

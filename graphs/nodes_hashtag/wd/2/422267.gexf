@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="iditarodbegin" label="iditarodbegin" />
+      <node id="toysoldierday" label="toysoldierday" />
+      <node id="daughtersandsonsday" label="daughtersandsonsday" />
+      <node id="namesakeday" label="namesakeday" />
+      <node id="listen" label="listen" />
+      <node id="intention" label="intention" />
+      <node id="gmorning" label="gmorning" />
+      <node id="af" label="af" />
+      <node id="spaceshipearthsunday" label="spaceshipearthsunday" />
+      <node id="pug" label="pug" />
+      <node id="pup" label="pup" />
+      <node id="repost" label="repost" />
+      <node id="lakemichigan" label="lakemichigan" />
+      <node id="insomniacsvirtue" label="insomniacsvirtue" />
+      <node id="riseup" label="riseup" />
+      <node id="joy" label="joy" />
+      <node id="teamtitu" label="teamtitu" />
+    </nodes>
+    <edges>
+      <edge source="iditarodbegin" target="toysoldierday" id="0" weight="1.0" />
+      <edge source="iditarodbegin" target="daughtersandsonsday" id="1" weight="1.0" />
+      <edge source="iditarodbegin" target="namesakeday" id="2" weight="1.0" />
+      <edge source="toysoldierday" target="daughtersandsonsday" id="3" weight="1.0" />
+      <edge source="toysoldierday" target="namesakeday" id="4" weight="1.0" />
+      <edge source="daughtersandsonsday" target="namesakeday" id="5" weight="1.0" />
+      <edge source="listen" target="intention" id="6" weight="1.0" />
+      <edge source="gmorning" target="af" id="7" weight="1.0" />
+      <edge source="pug" target="pup" id="8" weight="1.0" />
+      <edge source="pug" target="repost" id="9" weight="1.0" />
+      <edge source="pup" target="repost" id="10" weight="1.0" />
+      <edge source="insomniacsvirtue" target="riseup" id="11" weight="1.0" />
+      <edge source="joy" target="teamtitu" id="12" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

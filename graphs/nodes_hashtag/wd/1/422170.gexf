@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="humpday" label="humpday" />
+      <node id="inconvenienceyourselfday" label="inconvenienceyourselfday" />
+      <node id="studio" label="studio" />
+      <node id="fortnite" label="fortnite" />
+      <node id="tsyfr18" label="tsyfr18" />
+      <node id="event" label="event" />
+      <node id="women" label="women" />
+      <node id="hoboken" label="hoboken" />
+      <node id="poem" label="poem" />
+      <node id="poet" label="poet" />
+      <node id="poetry" label="poetry" />
+      <node id="poetrycommunity" label="poetrycommunity" />
+      <node id="life" label="life" />
+      <node id="lesson" label="lesson" />
+      <node id="word" label="word" />
+      <node id="littlepoem" label="littlepoem" />
+      <node id="writ" label="writ" />
+      <node id="headsup" label="headsup" />
+    </nodes>
+    <edges>
+      <edge source="humpday" target="inconvenienceyourselfday" id="0" weight="1.0" />
+      <edge source="studio" target="fortnite" id="1" weight="1.0" />
+      <edge source="event" target="women" id="2" weight="1.0" />
+      <edge source="poem" target="poet" id="3" weight="1.0" />
+      <edge source="poem" target="poetry" id="4" weight="1.0" />
+      <edge source="poem" target="poetrycommunity" id="5" weight="1.0" />
+      <edge source="poem" target="life" id="6" weight="1.0" />
+      <edge source="poem" target="lesson" id="7" weight="1.0" />
+      <edge source="poem" target="word" id="8" weight="1.0" />
+      <edge source="poem" target="littlepoem" id="9" weight="1.0" />
+      <edge source="poem" target="writ" id="10" weight="1.0" />
+      <edge source="poet" target="poetry" id="11" weight="1.0" />
+      <edge source="poet" target="poetrycommunity" id="12" weight="1.0" />
+      <edge source="poet" target="life" id="13" weight="1.0" />
+      <edge source="poet" target="lesson" id="14" weight="1.0" />
+      <edge source="poet" target="word" id="15" weight="1.0" />
+      <edge source="poet" target="littlepoem" id="16" weight="1.0" />
+      <edge source="poet" target="writ" id="17" weight="1.0" />
+      <edge source="poetry" target="poetrycommunity" id="18" weight="1.0" />
+      <edge source="poetry" target="life" id="19" weight="1.0" />
+      <edge source="poetry" target="lesson" id="20" weight="1.0" />
+      <edge source="poetry" target="word" id="21" weight="1.0" />
+      <edge source="poetry" target="littlepoem" id="22" weight="1.0" />
+      <edge source="poetry" target="writ" id="23" weight="1.0" />
+      <edge source="poetrycommunity" target="life" id="24" weight="1.0" />
+      <edge source="poetrycommunity" target="lesson" id="25" weight="1.0" />
+      <edge source="poetrycommunity" target="word" id="26" weight="1.0" />
+      <edge source="poetrycommunity" target="littlepoem" id="27" weight="1.0" />
+      <edge source="poetrycommunity" target="writ" id="28" weight="1.0" />
+      <edge source="life" target="lesson" id="29" weight="1.0" />
+      <edge source="life" target="word" id="30" weight="1.0" />
+      <edge source="life" target="littlepoem" id="31" weight="1.0" />
+      <edge source="life" target="writ" id="32" weight="1.0" />
+      <edge source="lesson" target="word" id="33" weight="1.0" />
+      <edge source="lesson" target="littlepoem" id="34" weight="1.0" />
+      <edge source="lesson" target="writ" id="35" weight="1.0" />
+      <edge source="word" target="littlepoem" id="36" weight="1.0" />
+      <edge source="word" target="writ" id="37" weight="1.0" />
+      <edge source="littlepoem" target="writ" id="38" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

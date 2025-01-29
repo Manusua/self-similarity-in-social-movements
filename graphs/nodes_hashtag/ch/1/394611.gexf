@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="star" label="star" />
+      <node id="insomnie" label="insomnie" />
+      <node id="lrt" label="lrt" />
+      <node id="off" label="off" />
+      <node id="traquenard" label="traquenard" />
+      <node id="parionssport" label="parionssport" />
+      <node id="lt" label="lt" />
+      <node id="e1bonjour" label="e1bonjour" />
+      <node id="sick" label="sick" />
+      <node id="fuck" label="fuck" />
+      <node id="eargasm" label="eargasm" />
+      <node id="letmesail" label="letmesail" />
+      <node id="night" label="night" />
+      <node id="voice" label="voice" />
+      <node id="samsparro" label="samsparro" />
+    </nodes>
+    <edges>
+      <edge source="teaminsomniaque" target="lrt" id="0" weight="1.0" />
+      <edge source="sick" target="fuck" id="1" weight="1.0" />
+      <edge source="eargasm" target="letmesail" id="2" weight="1.0" />
+      <edge source="eargasm" target="night" id="3" weight="1.0" />
+      <edge source="eargasm" target="voice" id="4" weight="1.0" />
+      <edge source="eargasm" target="samsparro" id="5" weight="1.0" />
+      <edge source="letmesail" target="night" id="6" weight="1.0" />
+      <edge source="letmesail" target="voice" id="7" weight="1.0" />
+      <edge source="letmesail" target="samsparro" id="8" weight="1.0" />
+      <edge source="night" target="voice" id="9" weight="1.0" />
+      <edge source="night" target="samsparro" id="10" weight="1.0" />
+      <edge source="voice" target="samsparro" id="11" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="ko" label="ko" />
+      <node id="kobane" label="kobane" />
+      <node id="cantlie" label="cantlie" />
+      <node id="ei" label="ei" />
+      <node id="love" label="love" />
+      <node id="twitterforandroid" label="twitterforandroid" />
+      <node id="alzheimer" label="alzheimer" />
+      <node id="parionssport" label="parionssport" />
+      <node id="pouf" label="pouf" />
+      <node id="salope" label="salope" />
+      <node id="pauvremeuf" label="pauvremeuf" />
+    </nodes>
+    <edges>
+      <edge source="kobane" target="cantlie" id="0" weight="1.0" />
+      <edge source="kobane" target="ei" id="1" weight="1.0" />
+      <edge source="cantlie" target="ei" id="2" weight="1.0" />
+      <edge source="pouf" target="salope" id="3" weight="1.0" />
+      <edge source="pouf" target="pauvremeuf" id="4" weight="1.0" />
+      <edge source="salope" target="pauvremeuf" id="5" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

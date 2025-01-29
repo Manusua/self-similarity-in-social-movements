@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-29">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="repost" label="repost" />
+      <node id="march8" label="march8" />
+      <node id="iwd2018" label="iwd2018" />
+      <node id="girlpower" label="girlpower" />
+      <node id="fierce" label="fierce" />
+      <node id="strong" label="strong" />
+      <node id="ladie" label="ladie" />
+      <node id="women" label="women" />
+      <node id="internationalwomensday" label="internationalwomensday" />
+      <node id="love" label="love" />
+      <node id="girlbosse" label="girlbosse" />
+      <node id="art" label="art" />
+      <node id="throwbackthursday" label="throwbackthursday" />
+      <node id="girl" label="girl" />
+      <node id="tbt" label="tbt" />
+    </nodes>
+    <edges>
+      <edge source="repost" target="internationalwomensday" id="76" weight="2.0" />
+      <edge source="march8" target="internationalwomensday" id="27" weight="3.0" />
+      <edge source="iwd2018" target="internationalwomensday" id="41" weight="7.0" />
+      <edge source="girlpower" target="internationalwomensday" id="23" weight="5.0" />
+      <edge source="fierce" target="internationalwomensday" id="15" weight="2.0" />
+      <edge source="strong" target="internationalwomensday" id="13" weight="2.0" />
+      <edge source="ladie" target="internationalwomensday" id="61" weight="2.0" />
+      <edge source="women" target="internationalwomensday" id="12" weight="7.0" />
+      <edge source="women" target="girl" id="184" weight="2.0" />
+      <edge source="internationalwomensday" target="art" id="6" weight="2.0" />
+      <edge source="internationalwomensday" target="love" id="25" weight="2.0" />
+      <edge source="internationalwomensday" target="throwbackthursday" id="54" weight="2.0" />
+      <edge source="internationalwomensday" target="girl" id="62" weight="3.0" />
+      <edge source="internationalwomensday" target="tbt" id="85" weight="3.0" />
+      <edge source="internationalwomensday" target="girlbosse" id="142" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>
