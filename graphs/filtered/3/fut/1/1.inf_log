@@ -1,0 +1,192 @@
+
+===========================================================================================
+D-Mercator: accurate embeddings of graphs in the SD space
+version: 0.9
+started on: 2025/01/30 14:55 UTC
+edgelist filename: /data/1.edge
+seed: 1738248944
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    1501
+    Nb edges:                       6280
+    Average degree:                 8.368
+    Minimum degree:                 1
+    Maximum degree:                 1419
+    Nb of degree class:             72
+    Average clustering:             0.8981
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.4246 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.7652 
+         3.6369 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.7857 
+         5.4553 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.7951 
+         8.1830 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8271 
+        12.2745 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8175 
+        18.4118 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.8103 
+WARNING: value too high, using beta =     27.6176.
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 8.3248
+    Minimum degree:                 1
+    Maximum degree:                 1419
+    Average clustering:             0.8103
+    Parameters
+      - beta:                       27.6176
+      - mu:                         0.0595
+      - radius_S1 (R):              238.8916
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+
+    Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
+
+    Sum of the angular positions (before adjustment): 23.7721
+                                     .................................................done.
+
+Refining the positions...
+    ...of vertices      [1,75]......done in 1.4291 seconds (73/75 changed position)
+    ...of vertices    [76,150]......done in 1.1606 seconds (70/75 changed position)
+    ...of vertices   [151,225]......done in 1.1497 seconds (60/75 changed position)
+    ...of vertices   [226,300]......done in 1.1488 seconds (59/75 changed position)
+    ...of vertices   [301,375]......done in 1.1715 seconds (44/75 changed position)
+    ...of vertices   [376,450]......done in 1.1283 seconds (45/75 changed position)
+    ...of vertices   [451,525]......done in 1.1373 seconds (40/75 changed position)
+    ...of vertices   [526,600]......done in 1.1230 seconds (42/75 changed position)
+    ...of vertices   [601,675]......done in 1.1245 seconds (55/75 changed position)
+    ...of vertices   [676,750]......done in 1.1090 seconds (52/75 changed position)
+    ...of vertices   [751,825]......done in 1.0960 seconds (60/75 changed position)
+    ...of vertices   [826,900]......done in 1.1008 seconds (52/75 changed position)
+    ...of vertices   [901,975]......done in 1.0998 seconds (63/75 changed position)
+    ...of vertices  [976,1050]......done in 1.0890 seconds (75/75 changed position)
+    ...of vertices [1051,1125]......done in 1.0868 seconds (74/75 changed position)
+    ...of vertices [1126,1200]......done in 1.1096 seconds (72/75 changed position)
+    ...of vertices [1201,1275]......done in 1.1099 seconds (75/75 changed position)
+    ...of vertices [1276,1350]......done in 1.0980 seconds (74/75 changed position)
+    ...of vertices [1351,1425]......done in 1.0998 seconds (74/75 changed position)
+    ...of vertices [1426,1500]......done in 1.1035 seconds (73/75 changed position)
+    ...of vertices [1501,1501]......done in 0.0143 seconds ( 1/ 1 changed position)
+                         .............................................................done.
+
+Updating values of kappa based on inferred positions...
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                                                       ...............................done.
+
+    => Inferred coordinates saved to /data/1.inf_coord
+
+    => Inferred theta density saved to /data/1.inf_theta_density
+
+    => Inferred connection probability saved to /data/1.inf_pconn
+
+Characterizing the inferred ensemble...
+
+    A total of 100 graphs will be generated (chosen in function of the total number
+    of vertices). To change this value, set the flag 'CUSTOM_CHARACTERIZATION_NB_GRAPHS'
+    to 'true' and set the variable 'CHARACTERIZATION_NB_GRAPHS' to the desired value.
+
+    Generating and analyzing graphs     [1,5]......done in 0.4739 seconds
+    Generating and analyzing graphs    [6,10]......done in 0.4868 seconds
+    Generating and analyzing graphs   [11,15]......done in 0.4909 seconds
+    Generating and analyzing graphs   [16,20]......done in 0.4852 seconds
+    Generating and analyzing graphs   [21,25]......done in 0.4775 seconds
+    Generating and analyzing graphs   [26,30]......done in 0.4827 seconds
+    Generating and analyzing graphs   [31,35]......done in 0.4863 seconds
+    Generating and analyzing graphs   [36,40]......done in 0.4710 seconds
+    Generating and analyzing graphs   [41,45]......done in 0.4799 seconds
+    Generating and analyzing graphs   [46,50]......done in 0.4924 seconds
+    Generating and analyzing graphs   [51,55]......done in 0.4886 seconds
+    Generating and analyzing graphs   [56,60]......done in 0.4912 seconds
+    Generating and analyzing graphs   [61,65]......done in 0.4772 seconds
+    Generating and analyzing graphs   [66,70]......done in 0.5014 seconds
+    Generating and analyzing graphs   [71,75]......done in 0.4906 seconds
+    Generating and analyzing graphs   [76,80]......done in 0.4836 seconds
+    Generating and analyzing graphs   [81,85]......done in 0.4850 seconds
+    Generating and analyzing graphs   [86,90]......done in 0.4839 seconds
+    Generating and analyzing graphs   [91,95]......done in 0.4832 seconds
+    Generating and analyzing graphs  [96,100]......done in 0.4879 seconds
+                                       ...............................................done.
+
+    => Vertices properties of the inferred ensemble saved to /data/1.inf_vprop
+
+    => Inferred ensemble statistics by degree class saved to /data/1.inf_vstat
+
+Extracting the original graph statistics by degree class..............................done.
+
+    => Original graph statistics by degree class saved to /data/1.obs_vstat
+
+Computing two-sample Kolmogorov-Smirnov test......
+Test statistic: 0.0321, critical_value: 0.1835
+The null hypothesis is not rejected at level 0.0500
+Two data samples does come from the same distribution
+
+Internal parameters and options
+    ALREADY_INFERRED_PARAMETERS_FILENAME   
+    BETA_ABS_MAX                           25
+    BETA_ABS_MIN                           1.01
+    CHARACTERIZATION_MODE                  true
+    CHARACTERIZATION_NB_GRAPHS             100
+    CLEAN_RAW_OUTPUT_MODE                  false
+    CUSTOM_BETA                            false
+    CUSTOM_CHARACTERIZATION_NB_GRAPHS      false
+    CUSTOM_INFERRED_COORDINATES            false
+    CUSTOM_OUTPUT_ROOTNAME_MODE            false
+    CUSTOM_SEED                            false
+    EDGELIST_FILENAME:                     /data/1.edge
+    EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+    EXP_DIST_NB_INTEGRATION_STEPS          1000
+    KAPPA_MAX_NB_ITER_CONV                 500
+    KAPPA_POST_INFERENCE_MODE              true
+    MAXIMIZATION_MODE                      true
+    MIN_NB_ANGLES_TO_TRY                   100
+    NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+    NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+    NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+    NUMERICAL_ZERO                         1e-10
+    QUIET_MODE                             false
+    REFINE_MODE                            false
+    ROOTNAME_OUTPUT:                       /data/1
+    SEED                                   1738248944
+    VALIDATION_MODE                        true
+    VERBOSE_MODE                           false
+    VERSION                                0.9
+
+Ended on: 2025/01/30 14:56 UTC
+Elapsed CPU time (embedding):               81.4347 seconds
+    initialization:                          0.0617 seconds
+    parameters inference:                   51.1829 seconds
+    initial positions:                       0.1398 seconds
+    refining positions:                     22.6899 seconds
+    adjusting kappas:                        7.3605 seconds
+Elapsed CPU time (validation):               9.7436 seconds
+    validating embedding:                    0.0354 seconds
+    characterizing ensemble:                 9.7082 seconds
+===========================================================================================
