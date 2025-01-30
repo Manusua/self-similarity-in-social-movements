@@ -574,8 +574,20 @@ if os.path.isfile(vprop_inferred):
 if os.path.isfile(coord_original):
     plot_inferred_theta_vs_original_theta()"""
 
+folders = path.split('/')
+hour_window = folders[-2]
+filter_threshold = folders[-4]
+if folders[-3] == "ch":
+   titulo = "Charlie Hebdo"
+elif folders[-3] == "nat":
+   titulo = "No al Tarifazo"
+elif folders[-3] == "9n":
+   titulo = "9 de Noviembre"
+elif folders[-3] == "wd":
+   titulo = "Womanday"
+
 # Adds figure title.
-plt.suptitle("No al Tarifazo", y=0.99, va="top", ha="center")
+plt.suptitle(titulo + ', filter_thresh: ' + filter_threshold + ', hour window: ' + hour_window, y=0.99, va="top", ha="center")
 
 # Save to file.
 plt.tight_layout(rect=[-0.012, -0.012, 1.012, 0.988])

@@ -1,0 +1,52 @@
+
+===========================================================================================
+D-Mercator: accurate embeddings of graphs in the SD space
+version: 0.9
+started on: 2025/01/30 12:00 UTC
+edgelist filename: /data/422369.edge
+seed: 1738238443
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    30
+    Nb edges:                       30
+    Average degree:                 2
+    Minimum degree:                 1
+    Maximum degree:                 22
+    Nb of degree class:             4
+    Average clustering:             0.5011
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.3974 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4858 
+         3.5961 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4928 
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 1.9993
+    Minimum degree:                 1
+    Maximum degree:                 22
+    Average clustering:             0.4928
+    Parameters
+      - beta:                       3.5961
+      - mu:                         0.2194
+      - radius_S1 (R):              4.7746
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+

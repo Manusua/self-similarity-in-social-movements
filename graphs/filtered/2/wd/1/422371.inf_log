@@ -1,0 +1,69 @@
+
+===========================================================================================
+D-Mercator: accurate embeddings of graphs in the SD space
+version: 0.9
+started on: 2025/01/30 12:30 UTC
+edgelist filename: /data/422371.edge
+seed: 1738240252
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    15
+    Nb edges:                       15
+    Average degree:                 2
+    Minimum degree:                 1
+    Maximum degree:                 14
+    Nb of degree class:             3
+    Average clustering:             0.6703
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.6296 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4350 
+         3.9444 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4432 
+         5.9166 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4759 
+         8.8748 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4717 
+        13.3123 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4725 
+        19.9684 
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                              0.4787 
+WARNING: value too high, using beta =     29.9526.
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 1.9076
+    Minimum degree:                 1
+    Maximum degree:                 14
+    Average clustering:             0.4787
+    Parameters
+      - beta:                       29.9526
+      - mu:                         0.2490
+      - radius_S1 (R):              2.3873
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+

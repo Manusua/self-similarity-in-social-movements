@@ -1,0 +1,101 @@
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Embedding started at:  2025/01/30 11:56 UTC
+# Ended at:              2025/01/30 11:56 UTC
+# Elapsed CPU time:      4.01238 seconds
+# Edgelist file:         /data/394718.edge
+#
+# Parameters
+#   - nb. vertices:      54
+#   - beta:              24.4445
+#   - mu:                0.131989
+#   - radius_S1:         8.59437
+#   - radius_H2:         18.5986
+#   - kappa_min:         0.109153
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+#                  Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
+                      rip        0.558661         2.99766          15.333 
+                     lrsy         0.32978         5.83589         16.3872 
+                     lyon         1.89022         5.04843         12.8952 
+                     metz         0.32978          5.8794         16.3872 
+                     pari         23.9602         4.15653          7.8158 
+                     tour         1.21397         3.66187         13.7808 
+                    dijon         0.32978         6.20082         16.3872 
+                    peace         0.32978         5.90623         16.3872 
+                   annecy        0.331923        0.377728         16.3743 
+                   france         3.28813         3.73855          11.788 
+                   marche         0.32978         5.92238         16.3872 
+                   nation        0.469895         3.76801         15.6791 
+                  avignon         0.32978         6.03062         16.3872 
+                  charlie         1.84338         2.43225         12.9454 
+                  egalite         1.54062         1.72906         13.3042 
+                  liberte         4.61997         1.69037         11.1078 
+                  tousuni         1.27488         4.81371         13.6829 
+                 bordeaux         1.50522         2.55112         13.3507 
+                 grenoble         1.23673         4.78396         13.7437 
+                11janvier         1.68208         3.89824         13.1285 
+               franceunie         1.34004         4.84445         13.5832 
+               fraternite         1.37385         1.73986         13.5334 
+               jesuisflic         0.32978         6.22036         16.3872 
+               jesuisjuif          2.0356        0.826899          12.747 
+               netanyahou         0.52425         3.70814         15.4602 
+               republique         4.15197         3.14731         11.3214 
+               strasbourg        0.942317         4.61736         14.2874 
+              chaliehebdo         0.32978         6.13695         16.3872 
+              jesuisahmed         0.32978         6.14637         16.3872 
+              montpellier         2.39882         2.76506         12.4186 
+              parisattack         1.49379         2.51345          13.366 
+             charliehebdo         21.0692         2.88224         8.07296 
+             manifcharlie         0.32978         6.00171         16.3872 
+             onfaitlapaix         2.17108         2.89501         12.6181 
+             vivelafrance         1.20959         4.75675          13.788 
+            jesuischarlie         134.364          6.1695         4.36748 
+            jesuisfrancai         1.04191         5.27855         14.0865 
+            rassemblement        0.329808        0.294772         16.3871 
+           jessuischarlie         1.60962         4.90521         13.2166 
+           jesuismusulman        0.109153         5.27966         18.5986 
+           jesuispolicier         2.02006         0.81621         12.7623 
+           lyonestcharlie        0.685722         5.04892         14.9232 
+           unitenationale         5.35523        0.746555         10.8124 
+          dijonestcharlie         0.32978       0.0617351         16.3872 
+          parisestcharlie        0.638864         4.58748         15.0647 
+        marchedu11janvier         5.35211         4.10063         10.8136 
+        noussommescharlie         5.03863         1.92939         10.9343 
+       lafranceestcharlie         11.0669         4.44342         9.36066 
+       libertedexpression          1.8375         2.47256         12.9518 
+       marcherepublicaine         45.7852         4.02805         6.52067 
+       noussommesensemble         3.15225         1.91283         11.8724 
+      lamarchedu11janvier         0.32978         6.06311         16.3872 
+    noussommestouscharlie         0.32978          6.0561         16.3872 
+ tousalamarchedu11janvier         2.11864         4.68508          12.667 
+#
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+# Internal parameters and options
+#     ALREADY_INFERRED_PARAMETERS_FILENAME   
+#     BETA_ABS_MAX                           25
+#     BETA_ABS_MIN                           1.01
+#     CHARACTERIZATION_MODE                  true
+#     CHARACTERIZATION_NB_GRAPHS             100
+#     CLEAN_RAW_OUTPUT_MODE                  false
+#     CUSTOM_BETA                            false
+#     CUSTOM_INFERRED_COORDINATES            false
+#     CUSTOM_OUTPUT_ROOTNAME_MODE            false
+#     CUSTOM_SEED                            false
+#     EDGELIST_FILENAME:                     /data/394718.edge
+#     EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+#     EXP_DIST_NB_INTEGRATION_STEPS          1000
+#     KAPPA_MAX_NB_ITER_CONV                 500
+#     KAPPA_POST_INFERENCE_MODE              true
+#     MAXIMIZATION_MODE                      true
+#     MIN_NB_ANGLES_TO_TRY                   100
+#     NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+#     NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+#     NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+#     NUMERICAL_ZERO                         1e-10
+#     QUIET_MODE                             false
+#     REFINE_MODE                            false
+#     ROOTNAME_OUTPUT:                       /data/394718
+#     SEED                                   1738238203
+#     VALIDATION_MODE                        true
+#     VERBOSE_MODE                           false
+#     VERSION                                0.9
+# =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
