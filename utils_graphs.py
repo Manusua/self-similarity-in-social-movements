@@ -138,7 +138,7 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
     graphs_folder = graphs_folder + 'nodes_' + node_criteria + '/'+ manifestacion + '/' + str(hour_window) + '/'
     df_h = df["hour"].unique()
     print("Creando redes de", node_criteria, "unidos si comparten uno o más", edge_criteria, ", manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
-    for hour in tqdm(df_h[::hour_window]):
+    for hour in tqdm(np.sort(df_h)[::hour_window]):
         G = nx.Graph()
         conditions = (df["hour"] == hour)
         for step in range(1, hour_window):

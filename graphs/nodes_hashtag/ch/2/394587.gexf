@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-01-30">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="ideedelecture" label="ideedelecture" />
+      <node id="vbn" label="vbn" />
+      <node id="lpdla2" label="lpdla2" />
+      <node id="retrouvaille" label="retrouvaille" />
+      <node id="autop" label="autop" />
+      <node id="teaminsomniaque" label="teaminsomniaque" />
+      <node id="monteleson" label="monteleson" />
+      <node id="off" label="off" />
+      <node id="rhoa" label="rhoa" />
+      <node id="lmao" label="lmao" />
+      <node id="d" label="d" />
+      <node id="immo" label="immo" />
+      <node id="des5h" label="des5h" />
+      <node id="bbl" label="bbl" />
+      <node id="lt" label="lt" />
+      <node id="pariscartepostale" label="pariscartepostale" />
+      <node id="parisjetaime" label="parisjetaime" />
+      <node id="picfrompari" label="picfrompari" />
+      <node id="monpari" label="monpari" />
+      <node id="igerspari" label="igerspari" />
+      <node id="monochrome" label="monochrome" />
+      <node id="instablackandwhite" label="instablackandwhite" />
+      <node id="bringbackourgirl" label="bringbackourgirl" />
+    </nodes>
+    <edges>
+      <edge source="ideedelecture" target="vbn" id="0" weight="1.0" />
+      <edge source="lpdla2" target="retrouvaille" id="1" weight="1.0" />
+      <edge source="lpdla2" target="autop" id="2" weight="1.0" />
+      <edge source="retrouvaille" target="autop" id="3" weight="1.0" />
+      <edge source="teaminsomniaque" target="monteleson" id="4" weight="1.0" />
+      <edge source="rhoa" target="lmao" id="5" weight="1.0" />
+      <edge source="immo" target="des5h" id="6" weight="1.0" />
+      <edge source="pariscartepostale" target="parisjetaime" id="7" weight="1.0" />
+      <edge source="pariscartepostale" target="picfrompari" id="8" weight="1.0" />
+      <edge source="pariscartepostale" target="monpari" id="9" weight="1.0" />
+      <edge source="pariscartepostale" target="igerspari" id="10" weight="1.0" />
+      <edge source="pariscartepostale" target="monochrome" id="11" weight="1.0" />
+      <edge source="pariscartepostale" target="instablackandwhite" id="12" weight="1.0" />
+      <edge source="parisjetaime" target="picfrompari" id="13" weight="1.0" />
+      <edge source="parisjetaime" target="monpari" id="14" weight="1.0" />
+      <edge source="parisjetaime" target="igerspari" id="15" weight="1.0" />
+      <edge source="parisjetaime" target="monochrome" id="16" weight="1.0" />
+      <edge source="parisjetaime" target="instablackandwhite" id="17" weight="1.0" />
+      <edge source="picfrompari" target="monpari" id="18" weight="1.0" />
+      <edge source="picfrompari" target="igerspari" id="19" weight="1.0" />
+      <edge source="picfrompari" target="monochrome" id="20" weight="1.0" />
+      <edge source="picfrompari" target="instablackandwhite" id="21" weight="1.0" />
+      <edge source="monpari" target="igerspari" id="22" weight="1.0" />
+      <edge source="monpari" target="monochrome" id="23" weight="1.0" />
+      <edge source="monpari" target="instablackandwhite" id="24" weight="1.0" />
+      <edge source="igerspari" target="monochrome" id="25" weight="1.0" />
+      <edge source="igerspari" target="instablackandwhite" id="26" weight="1.0" />
+      <edge source="monochrome" target="instablackandwhite" id="27" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>
