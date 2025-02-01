@@ -2,9 +2,9 @@
 ===========================================================================================
 D-Mercator: accurate embeddings of graphs in the SD space
 version: 0.9
-started on: 2025/01/30 17:22 UTC
+started on: 2025/02/01 20:21 UTC
 edgelist filename: /data/437037.edge
-seed: 1738257768
+seed: 1738441274
 
 Loading edgelist......................................................................done.
 
@@ -27,24 +27,20 @@ Properties of the graph
 
 Inferring parameters...
            beta      avg. clustering 
-         2.0866 
+         2.9128 
     WARNING: maximum number of iterations reached before convergence. This limit can be
              adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
-                              0.8624 
-         3.1298 
-    WARNING: maximum number of iterations reached before convergence. This limit can be
-             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
-                              0.8646 
+                              0.8693 
                        ...............................................................done.
 
 Inferred ensemble (random positions)
-    Average degree:                 17.3446
+    Average degree:                 17.3412
     Minimum degree:                 1
     Maximum degree:                 169
-    Average clustering:             0.8646
+    Average clustering:             0.8693
     Parameters
-      - beta:                       3.1298
-      - mu:                         0.0242
+      - beta:                       2.9128
+      - mu:                         0.0235
       - radius_S1 (R):              33.1042
 
 Finding initial positions/ordering...
@@ -52,31 +48,31 @@ Finding initial positions/ordering...
 
     Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
 
-    Sum of the angular positions (before adjustment): 13.5651
+    Sum of the angular positions (before adjustment): 13.4654
                                      .................................................done.
 
 Refining the positions...
-    ...of vertices    [1,10]......done in 0.0223 seconds ( 9/10 changed position)
-    ...of vertices   [11,20]......done in 0.0228 seconds (10/10 changed position)
-    ...of vertices   [21,30]......done in 0.0226 seconds (10/10 changed position)
-    ...of vertices   [31,40]......done in 0.0212 seconds (10/10 changed position)
-    ...of vertices   [41,50]......done in 0.0208 seconds (10/10 changed position)
-    ...of vertices   [51,60]......done in 0.0205 seconds ( 8/10 changed position)
-    ...of vertices   [61,70]......done in 0.0203 seconds ( 6/10 changed position)
-    ...of vertices   [71,80]......done in 0.0203 seconds ( 7/10 changed position)
-    ...of vertices   [81,90]......done in 0.0203 seconds ( 8/10 changed position)
-    ...of vertices  [91,100]......done in 0.0207 seconds ( 5/10 changed position)
-    ...of vertices [101,110]......done in 0.0208 seconds ( 7/10 changed position)
-    ...of vertices [111,120]......done in 0.0216 seconds ( 7/10 changed position)
-    ...of vertices [121,130]......done in 0.0234 seconds ( 7/10 changed position)
-    ...of vertices [131,140]......done in 0.0208 seconds ( 8/10 changed position)
-    ...of vertices [141,150]......done in 0.0206 seconds ( 9/10 changed position)
-    ...of vertices [151,160]......done in 0.0217 seconds ( 8/10 changed position)
-    ...of vertices [161,170]......done in 0.0211 seconds ( 8/10 changed position)
-    ...of vertices [171,180]......done in 0.0200 seconds ( 9/10 changed position)
-    ...of vertices [181,190]......done in 0.0201 seconds ( 4/10 changed position)
-    ...of vertices [191,200]......done in 0.0198 seconds ( 8/10 changed position)
-    ...of vertices [201,208]......done in 0.0158 seconds ( 6/ 8 changed position)
+    ...of vertices    [1,10]......done in 0.0701 seconds (10/10 changed position)
+    ...of vertices   [11,20]......done in 0.0874 seconds (10/10 changed position)
+    ...of vertices   [21,30]......done in 0.0800 seconds (10/10 changed position)
+    ...of vertices   [31,40]......done in 0.0833 seconds (10/10 changed position)
+    ...of vertices   [41,50]......done in 0.0665 seconds ( 9/10 changed position)
+    ...of vertices   [51,60]......done in 0.0610 seconds (10/10 changed position)
+    ...of vertices   [61,70]......done in 0.0488 seconds ( 8/10 changed position)
+    ...of vertices   [71,80]......done in 0.0306 seconds ( 7/10 changed position)
+    ...of vertices   [81,90]......done in 0.0315 seconds ( 8/10 changed position)
+    ...of vertices  [91,100]......done in 0.0261 seconds ( 5/10 changed position)
+    ...of vertices [101,110]......done in 0.0245 seconds ( 6/10 changed position)
+    ...of vertices [111,120]......done in 0.0234 seconds ( 3/10 changed position)
+    ...of vertices [121,130]......done in 0.0229 seconds ( 8/10 changed position)
+    ...of vertices [131,140]......done in 0.0226 seconds ( 7/10 changed position)
+    ...of vertices [141,150]......done in 0.0228 seconds (10/10 changed position)
+    ...of vertices [151,160]......done in 0.0232 seconds ( 7/10 changed position)
+    ...of vertices [161,170]......done in 0.0229 seconds ( 8/10 changed position)
+    ...of vertices [171,180]......done in 0.0229 seconds ( 6/10 changed position)
+    ...of vertices [181,190]......done in 0.0223 seconds ( 5/10 changed position)
+    ...of vertices [191,200]......done in 0.0211 seconds ( 9/10 changed position)
+    ...of vertices [201,208]......done in 0.0169 seconds ( 4/ 8 changed position)
                          .............................................................done.
 
 Updating values of kappa based on inferred positions...
@@ -96,26 +92,26 @@ Characterizing the inferred ensemble...
     of vertices). To change this value, set the flag 'CUSTOM_CHARACTERIZATION_NB_GRAPHS'
     to 'true' and set the variable 'CHARACTERIZATION_NB_GRAPHS' to the desired value.
 
-    Generating and analyzing graphs      [1,50]......done in 0.3025 seconds
-    Generating and analyzing graphs    [51,100]......done in 0.2999 seconds
-    Generating and analyzing graphs   [101,150]......done in 0.2966 seconds
-    Generating and analyzing graphs   [151,200]......done in 0.3050 seconds
-    Generating and analyzing graphs   [201,250]......done in 0.3027 seconds
-    Generating and analyzing graphs   [251,300]......done in 0.3064 seconds
-    Generating and analyzing graphs   [301,350]......done in 0.2999 seconds
-    Generating and analyzing graphs   [351,400]......done in 0.3015 seconds
-    Generating and analyzing graphs   [401,450]......done in 0.2989 seconds
-    Generating and analyzing graphs   [451,500]......done in 0.2986 seconds
-    Generating and analyzing graphs   [501,550]......done in 0.2965 seconds
-    Generating and analyzing graphs   [551,600]......done in 0.2997 seconds
-    Generating and analyzing graphs   [601,650]......done in 0.3048 seconds
-    Generating and analyzing graphs   [651,700]......done in 0.2897 seconds
-    Generating and analyzing graphs   [701,750]......done in 0.2921 seconds
-    Generating and analyzing graphs   [751,800]......done in 0.2919 seconds
-    Generating and analyzing graphs   [801,850]......done in 0.3006 seconds
-    Generating and analyzing graphs   [851,900]......done in 0.2901 seconds
-    Generating and analyzing graphs   [901,950]......done in 0.2999 seconds
-    Generating and analyzing graphs  [951,1000]......done in 0.3099 seconds
+    Generating and analyzing graphs      [1,50]......done in 0.3284 seconds
+    Generating and analyzing graphs    [51,100]......done in 0.3369 seconds
+    Generating and analyzing graphs   [101,150]......done in 0.3300 seconds
+    Generating and analyzing graphs   [151,200]......done in 0.3296 seconds
+    Generating and analyzing graphs   [201,250]......done in 0.3383 seconds
+    Generating and analyzing graphs   [251,300]......done in 0.3295 seconds
+    Generating and analyzing graphs   [301,350]......done in 0.3259 seconds
+    Generating and analyzing graphs   [351,400]......done in 0.3334 seconds
+    Generating and analyzing graphs   [401,450]......done in 0.3394 seconds
+    Generating and analyzing graphs   [451,500]......done in 0.3279 seconds
+    Generating and analyzing graphs   [501,550]......done in 0.3362 seconds
+    Generating and analyzing graphs   [551,600]......done in 0.3338 seconds
+    Generating and analyzing graphs   [601,650]......done in 0.3317 seconds
+    Generating and analyzing graphs   [651,700]......done in 0.3295 seconds
+    Generating and analyzing graphs   [701,750]......done in 0.3301 seconds
+    Generating and analyzing graphs   [751,800]......done in 0.3332 seconds
+    Generating and analyzing graphs   [801,850]......done in 0.3357 seconds
+    Generating and analyzing graphs   [851,900]......done in 0.3630 seconds
+    Generating and analyzing graphs   [901,950]......done in 0.3858 seconds
+    Generating and analyzing graphs  [951,1000]......done in 0.3596 seconds
                                        ...............................................done.
 
     => Vertices properties of the inferred ensemble saved to /data/437037.inf_vprop
@@ -127,7 +123,7 @@ Extracting the original graph statistics by degree class........................
     => Original graph statistics by degree class saved to /data/437037.obs_vstat
 
 Computing two-sample Kolmogorov-Smirnov test......
-Test statistic: 0.0264, critical_value: 0.2113
+Test statistic: 0.0282, critical_value: 0.2111
 The null hypothesis is not rejected at level 0.0500
 Two data samples does come from the same distribution
 
@@ -157,19 +153,19 @@ Internal parameters and options
     QUIET_MODE                             false
     REFINE_MODE                            false
     ROOTNAME_OUTPUT:                       /data/437037
-    SEED                                   1738257768
+    SEED                                   1738441274
     VALIDATION_MODE                        true
     VERBOSE_MODE                           false
     VERSION                                0.9
 
-Ended on: 2025/01/30 17:22 UTC
-Elapsed CPU time (embedding):                3.9821 seconds
-    initialization:                          0.0066 seconds
-    parameters inference:                    3.3235 seconds
-    initial positions:                       0.0744 seconds
-    refining positions:                      0.4386 seconds
-    adjusting kappas:                        0.1390 seconds
-Elapsed CPU time (validation):               5.9922 seconds
-    validating embedding:                    0.0021 seconds
-    characterizing ensemble:                 5.9901 seconds
+Ended on: 2025/02/01 20:21 UTC
+Elapsed CPU time (embedding):                5.9998 seconds
+    initialization:                          0.0074 seconds
+    parameters inference:                    4.8432 seconds
+    initial positions:                       0.1665 seconds
+    refining positions:                      0.8354 seconds
+    adjusting kappas:                        0.1474 seconds
+Elapsed CPU time (validation):               6.7648 seconds
+    validating embedding:                    0.0028 seconds
+    characterizing ensemble:                 6.7621 seconds
 ===========================================================================================
