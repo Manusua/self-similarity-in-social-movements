@@ -599,7 +599,6 @@ def calc_avg_clust_coef_by_normalized_internal_degree(G, clust):
     dict_hid_var = {}
     # Crea un diccionario con cada internal degree como clave y un array con los coeficientes
     # de clusterización de los nodos que tienen dicho internal degree
-    arr_int_deg = []
 
     for node in G.nodes():
         att = G.nodes[node]["internalDegree"]
@@ -607,8 +606,6 @@ def calc_avg_clust_coef_by_normalized_internal_degree(G, clust):
             np.append(dict_hid_var_aux[att], clust[node])
         else:
             dict_hid_var_aux[att] = np.array(clust[node])
-
-        arr_int_deg.append(att)
 
     # Se ordena el diccionario en función de la clave (internal degree) de menor a mayor
     # sorted(dict) devuleve las keys ordenadas
@@ -1020,7 +1017,8 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
             points_kt = dict_points[kt]
         if norm:
             points_kt = np.array(points_kt) / np.mean(points_kt)
-
+            print(np.mean(points_kt))
+            print(points_kt)
         arr_points.append(points_kt)
     # El exponente solo se va a calcular cuando se reciba un valor de kt
     plfit = None
