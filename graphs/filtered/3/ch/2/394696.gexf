@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="minutedesilence" label="minutedesilence" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="teamom" label="teamom" />
+      <node id="pari" label="pari" />
+      <node id="bastia" label="bastia" />
+      <node id="baspsg" label="baspsg" />
+      <node id="toulouse" label="toulouse" />
+      <node id="jesuispolicier" label="jesuispolicier" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="lrt" label="lrt" />
+      <node id="teampsg" label="teampsg" />
+      <node id="nante" label="nante" />
+      <node id="rouen" label="rouen" />
+      <node id="toulouseestcharlie" label="toulouseestcharlie" />
+      <node id="montrouge" label="montrouge" />
+      <node id="jesuisjuif" label="jesuisjuif" />
+      <node id="psg" label="psg" />
+      <node id="coulibaly" label="coulibaly" />
+      <node id="palmieri" label="palmieri" />
+      <node id="ligue1" label="ligue1" />
+      <node id="vincenne" label="vincenne" />
+      <node id="rassemblement" label="rassemblement" />
+      <node id="placeroyale" label="placeroyale" />
+      <node id="stasr" label="stasr" />
+      <node id="forzabastia" label="forzabastia" />
+      <node id="honte" label="honte" />
+      <node id="bordeaux" label="bordeaux" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="top14" label="top14" />
+      <node id="scbpsg" label="scbpsg" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="teamol" label="teamol" />
+      <node id="scbastia" label="scbastia" />
+    </nodes>
+    <edges>
+      <edge source="minutedesilence" target="jesuischarlie" id="43" weight="3.0" />
+      <edge source="jesuischarlie" target="rouen" id="65" weight="3.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="66" weight="30.0" />
+      <edge source="jesuischarlie" target="nante" id="68" weight="7.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="84" weight="8.0" />
+      <edge source="jesuischarlie" target="toulouse" id="86" weight="6.0" />
+      <edge source="jesuischarlie" target="marcherepublicaine" id="93" weight="9.0" />
+      <edge source="jesuischarlie" target="pari" id="94" weight="3.0" />
+      <edge source="jesuischarlie" target="jesuispolicier" id="97" weight="4.0" />
+      <edge source="jesuischarlie" target="jesuisjuif" id="99" weight="3.0" />
+      <edge source="jesuischarlie" target="stasr" id="106" weight="4.0" />
+      <edge source="jesuischarlie" target="toulouseestcharlie" id="119" weight="6.0" />
+      <edge source="jesuischarlie" target="rassemblement" id="123" weight="3.0" />
+      <edge source="jesuischarlie" target="bordeaux" id="127" weight="4.0" />
+      <edge source="jesuischarlie" target="lrt" id="156" weight="3.0" />
+      <edge source="teamom" target="scbpsg" id="267" weight="6.0" />
+      <edge source="pari" target="charliehebdo" id="386" weight="3.0" />
+      <edge source="pari" target="psg" id="521" weight="3.0" />
+      <edge source="bastia" target="scbpsg" id="255" weight="3.0" />
+      <edge source="bastia" target="psg" id="520" weight="4.0" />
+      <edge source="bastia" target="forzabastia" id="836" weight="3.0" />
+      <edge source="baspsg" target="forzabastia" id="980" weight="4.0" />
+      <edge source="toulouse" target="charliehebdo" id="379" weight="3.0" />
+      <edge source="charliehebdo" target="noussommescharlie" id="317" weight="3.0" />
+      <edge source="charliehebdo" target="rouen" id="361" weight="3.0" />
+      <edge source="charliehebdo" target="vincenne" id="370" weight="3.0" />
+      <edge source="charliehebdo" target="montrouge" id="371" weight="3.0" />
+      <edge source="charliehebdo" target="marcherepublicaine" id="390" weight="3.0" />
+      <edge source="lrt" target="scbpsg" id="228" weight="3.0" />
+      <edge source="teampsg" target="scbpsg" id="250" weight="14.0" />
+      <edge source="teampsg" target="psg" id="300" weight="6.0" />
+      <edge source="teampsg" target="honte" id="305" weight="3.0" />
+      <edge source="nante" target="placeroyale" id="441" weight="3.0" />
+      <edge source="montrouge" target="vincenne" id="480" weight="5.0" />
+      <edge source="montrouge" target="coulibaly" id="498" weight="4.0" />
+      <edge source="psg" target="scbpsg" id="260" weight="17.0" />
+      <edge source="psg" target="honte" id="530" weight="3.0" />
+      <edge source="coulibaly" target="vincenne" id="486" weight="4.0" />
+      <edge source="palmieri" target="scbpsg" id="273" weight="5.0" />
+      <edge source="ligue1" target="scbpsg" id="261" weight="3.0" />
+      <edge source="stasr" target="top14" id="957" weight="4.0" />
+      <edge source="forzabastia" target="scbpsg" id="256" weight="3.0" />
+      <edge source="forzabastia" target="scbastia" id="1067" weight="3.0" />
+      <edge source="bordeaux" target="marcherepublicaine" id="814" weight="4.0" />
+      <edge source="scbpsg" target="teamol" id="274" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

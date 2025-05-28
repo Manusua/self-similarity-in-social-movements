@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-28">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="liberte" label="liberte" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+    </nodes>
+    <edges>
+      <edge source="charliehebdo" target="marcherepublicaine" id="5" weight="5.0" />
+      <edge source="charliehebdo" target="liberte" id="8" weight="4.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="12" weight="3.0" />
+      <edge source="liberte" target="marcherepublicaine" id="52" weight="4.0" />
+      <edge source="jesuischarlie" target="marcherepublicaine" id="30" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

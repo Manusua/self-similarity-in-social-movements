@@ -1021,12 +1021,12 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         else:
             points_kt = dict_points[kt]
         if norm:
-            print(points_kt)
-            print(np.mean(points_kt))
+            #print(points_kt)
+            #print(np.mean(points_kt))
             points_kt = np.array(points_kt) / np.mean(points_kt)
-            print(len(points_kt))
-            print(np.mean(points_kt))
-            print(points_kt)
+            #print(len(points_kt))
+            #print(np.mean(points_kt))
+            #print(points_kt)
         arr_points.append(points_kt)
     # El exponente solo se va a calcular cuando se reciba un valor de kt
     plfit = None
@@ -1040,8 +1040,8 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         degrees, counts = np.unique(points, return_counts=True)
         probs = counts / len(points)
         arr_deg_prob.append((degrees, probs))
-        print(degrees)
-        print(probs)
+        #print(degrees)
+        #print(probs)
     
     # Puntos de la CDF
     arr_deg_cum = []
@@ -1049,13 +1049,13 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         cum_freq = np.cumsum(deg_prob[1])
         cdf = cum_freq/cum_freq[-1]
         arr_deg_cum.append((deg_prob[0], cdf))
-        print(cdf)
+        #print(cdf)
     # Puntos de la CCDF
     arr_deg_comp_cum = []
     for deg_cum in arr_deg_cum:
         ccdf = 1 - deg_cum[1]
         arr_deg_comp_cum.append((deg_cum[0], ccdf))
-        print(ccdf)
+        #print(ccdf)
 
     if write:
         with open(measures_path, "w") as f:
