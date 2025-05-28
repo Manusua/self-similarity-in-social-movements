@@ -1,164 +1,164 @@
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
-# Embedding started at:  2025/01/30 11:57 UTC
-# Ended at:              2025/01/30 11:57 UTC
-# Elapsed CPU time:      6.15533 seconds
+# Embedding started at:  2025/04/19 1:15 UTC
+# Ended at:              2025/04/19 1:15 UTC
+# Elapsed CPU time:      13.5523 seconds
 # Edgelist file:         /data/394718.edge
 #
 # Parameters
 #   - nb. vertices:      146
-#   - beta:              32.3827
-#   - mu:                0.10188
+#   - beta:              33.1743
+#   - mu:                0.101897
 #   - radius_S1:         23.2366
-#   - radius_H2:         25.9706
-#   - kappa_min:         0.0323472
+#   - radius_H2:         25.4136
+#   - kappa_min:         0.0371766
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 #                       Vertex       Inf.Kappa       Inf.Theta    Inf.Hyp.Rad. 
-                           lrt         12.1492         5.53256         14.1136 
-                           rip         1.85636         4.22987         17.8709 
-                           tf1        0.279449         5.53088          21.658 
-                           uni        0.915058         5.40743         19.2857 
-                          cabu        0.322348        0.440544         21.3724 
-                          caen         1.00169         2.07203         19.1047 
-                          love        0.322348        0.607517         21.3724 
-                          lrsy        0.399033      0.00212131         20.9455 
-                          lyon         2.37491         6.13708         17.3782 
-                          metz        0.322348        0.733027         21.3724 
-                          nice       0.0323472         2.57032         25.9706 
-                          nime         1.85574         5.64526         17.8716 
-                          pari         56.2189         2.48929         11.0496 
-                          reim         1.07864         5.13578         18.9567 
-                          tour         1.17645         4.98796         18.7831 
-                         anger        0.888003         1.10626         19.3457 
-                         brest        0.959408         1.87346          19.191 
-                         charb        0.322348        0.684426         21.3724 
-                         crest        0.332799         3.86542         21.3086 
-                         dijon         6.85512         2.17987         15.2581 
-                         havre         1.73712         1.86433         18.0037 
-                         manif        0.322348        0.496374         21.3724 
-                         merci        0.920853          5.3957          19.273 
-                         monde         1.27163         2.36654         18.6275 
-                         nancy        0.910961         5.41761         19.2946 
-                         oltfc        0.322442         0.86094         21.3718 
-                         peace         2.60885         1.53362         17.1903 
-                         renne        0.322348        0.315784         21.3724 
-                        annecy        0.322348        0.255835         21.3724 
-                        arsstk        0.322348        0.459852         21.3724 
-                        cognac        0.322348        0.219006         21.3724 
-                        europe        0.123004         2.51111         23.2992 
-                        france         16.3177         2.55163         13.5236 
-                        israel        0.322348         0.52455         21.3724 
-                        letrot        0.590749         1.85776         20.1608 
-                        marche        0.962732         5.32566         19.1841 
-                        nation         2.66271         3.24678         17.1494 
-                        teamol         1.67414        0.866991         18.0775 
-                        vendee        0.322348        0.245962         21.3724 
-                       aveyron        0.322348        0.302118         21.3724 
-                       avignon        0.322348        0.198959         21.3724 
-                       charlie         24.5255         2.13178         12.7087 
-                       egalite         4.52901         4.44543         16.0871 
-                       emotion        0.322348        0.402646         21.3724 
-                       france2          2.7441         6.15807         17.0892 
-                       freedom         2.57992         2.30897         17.2126 
-                       hommage         1.04427         1.85636         19.0215 
-                       laicite         1.06995         2.05379         18.9729 
-                       liberte         20.7329         3.95109         13.0447 
-                       lmtlive          0.8367         5.47926         19.4647 
-                       lorient        0.888024         5.68417         19.3456 
-                       okjesor        0.531191         4.97396         20.3734 
-                       sarkozy        0.322348        0.611158         21.3724 
-                       tourist        0.869473         2.50287         19.3879 
-                       tousuni         6.66121         4.45869         15.3155 
-                       ukraine        0.322348        0.729053         21.3724 
-                      attentat        0.545765         4.96348         20.3193 
-                      auvergne        0.322348        0.590734         21.3724 
-                      bastille        0.322348        0.536058         21.3724 
-                      bordeaux         2.57792         3.64832         17.2142 
-                      chambery        0.322348        0.288193         21.3724 
-                      grenoble         4.63098         4.32797         16.0426 
-                      handball         1.34779         2.65711         18.5112 
-                      hollande         1.07073         5.14656         18.9714 
-                      lamarche        0.322348        0.223278         21.3724 
-                     11janvier         7.89141         3.41785         14.9766 
-                     instagram         2.13133         2.29201         17.5946 
-                     notafraid        0.322348        0.698837         21.3724 
-                     palestine         2.93532         2.98739         16.9545 
-                     streetart        0.322348        0.393148         21.3724 
-                     tangodown        0.322348        0.374742         21.3724 
-                     tousanime         1.65523         5.63347         18.1002 
-                    franceunie        0.628263         6.11504         20.0377 
-                    fraternite         6.61778         4.47677         15.3286 
-                    iamcharlie        0.468241         1.13951         20.6257 
-                    jesuisflic        0.888004        0.971146         19.3457 
-                    jesuisjuif         8.42451         0.95384         14.8458 
-                    larochelle        0.535232         4.97097         20.3582 
-                    netanyahou         1.00555         5.24683          19.097 
-                    parismarch        0.322348        0.621868         21.3724 
-                    radiolibre        0.903309          5.4405         19.3115 
-                    republique         8.26235          3.1831         14.8847 
-                    solidarite        0.322348        0.490283         21.3724 
-                    strasbourg         2.96421       0.0170824         16.9349 
-                   carcassonne         1.07216         1.84571         18.9688 
-                   chaliehebdo        0.322348        0.284326         21.3724 
-                   eiffeltower        0.159679         2.50854         22.7773 
-                   francelibre        0.249262         6.11578         21.8866 
-                   jesuisahmed         4.13203         3.55403         16.2706 
-                   montpellier         2.30564         3.60596         17.4374 
-                   parisattack         1.44667         3.72621         18.3696 
-                   rambouillet        0.322348        0.456823         21.3724 
-                   touscharlie          4.6169         4.32316         16.0487 
-                  arenesdenime         1.59622         5.63918         18.1728 
-                  charlieanger        0.888003         1.10549         19.3457 
-                  charliehebdo         31.3633         3.89996         12.2168 
-                  franceattack        0.322348        0.631735         21.3724 
-                  jesuischalie         1.55807         6.27869         18.2212 
-                  manifcharlie        0.993211         5.26689         19.1217 
-                  marseillaise        0.322348        0.553477         21.3724 
-                  onfaitlapaix         2.63763         4.20871         17.1684 
-                  vivelafrance         4.04697         1.43775         16.3122 
-                  wearecharlie        0.322348        0.426568         21.3724 
-                 11janvier2015        0.775498         5.58286         19.6166 
-                 iosonocharlie        0.509516         4.95671         20.4567 
-                 jesuischarlie         412.407        0.460134          7.0641 
-                 jesuisfrancai        0.665768        0.921249         19.9218 
-                 rassemblement         8.91788         2.58871          14.732 
-                 stopterrorism         2.02467         2.29996         17.6973 
-                jessuischarlie         19.6763         3.95426         13.1493 
-                jesuismusulman         1.46781        0.917915         18.3406 
-                jesuispolicier         2.55639        0.891386         17.2309 
-                jesuisspartacu         3.82058         6.09997         16.4273 
-                lyonestcharlie         2.22371         6.14477         17.5098 
-                opcharliehebdo         0.97616         5.29695         19.1564 
-                unitenationale         1.85079        0.877864         17.8769 
-               clermontferrand        0.322348        0.406088         21.3724 
-               dijonestcharlie         8.10138         2.54431         14.9241 
-               freedomofspeech        0.965261         5.31195         19.1788 
-               parisestcharlie         6.53706         2.89412         15.3531 
-               policenationale        0.322348        0.231858         21.3724 
-              angersestcharlie        0.220766         4.04981         22.1294 
-              fierdetrefrancai        0.322348        0.635017         21.3724 
-              troyesestcharlie        0.275778           2.592         21.6844 
-             lehavreestcharlie         1.59795         1.86865         18.1707 
-             libertedelapresse         2.42677         2.83693          17.335 
-             marchedu11janvier         20.2863         3.82163         13.0882 
-             marcherepubicaine        0.322348        0.221431         21.3724 
-             marcherepublicain         3.20044         3.50057         16.7815 
-             noussommescharlie         21.4936         1.78894         12.9726 
-            bordeauxestcharlie        0.322345         3.64923         21.3724 
-            lafranceestcharlie         24.5847         1.71191         12.7039 
-            libertedexpression         6.65096         1.25613         15.3186 
-            marcherepublicaine         207.741         5.34171         8.43554 
-            noussommesensemble         3.77546         3.29981         16.4511 
-           hommagecharliehebdo         1.17558         4.99772         18.7846 
-           lamarchedu11janvier         2.52381         4.16805         17.2566 
-           libertaddeexpresion        0.322348        0.541742         21.3724 
-          chateaudunestcharlie         1.75859         1.82573         17.9791 
-          jesuiscitoyendumonde        0.369051        0.990809         21.1018 
-          lamarcherepublicaine        0.322348        0.512556         21.3724 
-          strasbourgestcharlie         1.24222       0.0366468         18.6743 
-          weareallcharliehebdo        0.322348        0.203711         21.3724 
-         noussommestouscharlie         12.1984         2.13288         14.1055 
-      tousalamarchedu11janvier         2.27525         3.01537         17.4639 
- noussommestousdescharliehebdo        0.507481         4.95807         20.4647 
+                           lrt         11.1399        0.842489         14.0084 
+                           rip         1.72871          2.2953         17.7347 
+                           tf1        0.337627        0.838213         21.0011 
+                           uni         1.09855          1.2305         18.6415 
+                          cabu        0.324901         5.95358         21.0779 
+                          caen         1.28018         4.40593         18.3355 
+                          love        0.324901         5.99461         21.0779 
+                          lrsy         1.39557        0.134344         18.1629 
+                          lyon         1.77951        0.261849         17.6768 
+                          metz        0.324901         5.95062         21.0779 
+                          nice        0.551752         4.37487         20.0188 
+                          nime         1.77597        0.731412         17.6808 
+                          pari         62.7874         3.86665           10.55 
+                          reim        0.957579         1.02875         18.9162 
+                          tour        0.974388         1.05627         18.8814 
+                         anger        0.888822         5.32679         19.0652 
+                         brest          1.0155         4.54879         18.7987 
+                         charb        0.324901         5.75788         21.0779 
+                         crest        0.324817         2.43879         21.0785 
+                         dijon         4.37428         4.30791          15.878 
+                         havre         1.86853          4.5668         17.5792 
+                         manif        0.324901         5.78138         21.0779 
+                         merci        0.950383         1.01138         18.9313 
+                         monde         1.54925         3.82059         17.9539 
+                         nancy        0.917848        0.962401         19.0009 
+                         oltfc       0.0371766         5.60985         25.4136 
+                         peace         2.58541         4.84202         16.9297 
+                         renne        0.324901         5.92029         21.0779 
+                        annecy        0.324901         5.97118         21.0779 
+                        arsstk        0.324901         5.97547         21.0779 
+                        cognac        0.324901          5.8338         21.0779 
+                        europe         0.39185         3.78627         20.7032 
+                        france         18.8887         4.28525         12.9524 
+                        israel        0.324901         5.88237         21.0779 
+                        letrot        0.357032         4.58599         20.8893 
+                        marche        0.902388        0.917603         19.0349 
+                        nation         2.40104         3.26093         17.0777 
+                        teamol        0.888816         5.60985         19.0652 
+                        vendee        0.324901         5.77376         21.0779 
+                       aveyron        0.324901         6.19618         21.0779 
+                       avignon        0.324901          5.9188         21.0779 
+                       charlie         20.8713         4.30333         12.7527 
+                       egalite         5.02663         1.85919            15.6 
+                       emotion        0.324901         5.71767         21.0779 
+                       france2         1.77963        0.229598         17.6767 
+                       freedom         1.82886         4.15939         17.6221 
+                       hommage           1.962         4.58599         17.4815 
+                       laicite         1.10365         4.38883         18.6322 
+                       liberte         23.9637         2.50081         12.4764 
+                       lmtlive         1.07386         1.19038          18.687 
+                       lorient         1.05154         1.16166          18.729 
+                       okjesor        0.406097         1.45133         20.6318 
+                       sarkozy        0.324961         5.61431         21.0776 
+                       tourist         1.32958         4.12145         18.2598 
+                       tousuni          6.2041         1.89569         15.1791 
+                       ukraine        0.324901         6.19822         21.0779 
+                      attentat        0.668236          1.4822         19.6357 
+                      auvergne        0.324901         6.14318         21.0779 
+                      bastille        0.324901         5.96879         21.0779 
+                      bordeaux         3.49276         2.90878         16.3281 
+                      chambery        0.324901         5.77658         21.0779 
+                      grenoble         4.93775         2.00538         15.6357 
+                      handball         1.12859         4.19995         18.5876 
+                      hollande         1.23115         1.42524         18.4136 
+                      lamarche        0.324901         6.09768         21.0779 
+                     11janvier         6.26383         3.12823         15.1599 
+                     instagram         1.32179         4.15493         18.2715 
+                     notafraid        0.324901         5.93689         21.0779 
+                     palestine         3.19328         3.03239         16.5074 
+                     streetart        0.324901          6.0175         21.0779 
+                     tangodown        0.324901         5.89852         21.0779 
+                     tousanime         1.70865        0.737039         17.7581 
+                    franceunie         1.77951        0.283436         17.6768 
+                    fraternite         6.39495         1.87968         15.1185 
+                    iamcharlie        0.324901           6.182         21.0779 
+                    jesuisflic        0.888822         5.46764         19.0652 
+                    jesuisjuif         7.88623         5.48253         14.6992 
+                    larochelle         0.60281         1.43845         19.8418 
+                    netanyahou        0.935588        0.988521         18.9626 
+                    parismarch        0.324901         6.12823         21.0779 
+                    radiolibre         1.00156         1.09294         18.8264 
+                    republique         9.92573         3.33089         14.2392 
+                    solidarite        0.324901         5.98779         21.0779 
+                    strasbourg         1.17816        0.159307         18.5016 
+                   carcassonne         1.19823         4.53079         18.4678 
+                   chaliehebdo        0.324901          5.7698         21.0779 
+                   eiffeltower        0.277796         3.82622         21.3912 
+                   francelibre         1.77963        0.285918         17.6767 
+                   jesuisahmed         3.09736         2.81691         16.5684 
+                   montpellier         1.92632         2.23707         17.5183 
+                   parisattack        0.874083         2.58493         19.0986 
+                   rambouillet        0.324901         5.96076         21.0779 
+                   touscharlie         4.94113         1.99583         15.6343 
+                  arenesdenime         1.89634        0.725786         17.5496 
+                  charlieanger        0.888822         5.32603         19.0652 
+                  charliehebdo         32.7264         2.44949         11.8531 
+                  franceattack        0.324901         5.87665         21.0779 
+                  jesuischalie         2.91468         0.17154           16.69 
+                  manifcharlie         0.97159         1.04612         18.8871 
+                  marseillaise        0.324901         5.79695         21.0779 
+                  onfaitlapaix         2.13156         2.21208         17.3158 
+                  vivelafrance         3.76558         4.98403         16.1777 
+                  wearecharlie        0.324901         6.04026         21.0779 
+                 11janvier2015        0.911783        0.943821         19.0142 
+                 iosonocharlie        0.404251          1.4507         20.6409 
+                 jesuischarlie         381.728         5.98829         6.94006 
+                 jesuisfrancai        0.883883         5.50775         19.0763 
+                 rassemblement          10.324         3.95543         14.1605 
+                 stopterrorism         1.09181         4.13957         18.6538 
+                jessuischarlie         23.5167         2.50038         12.5141 
+                jesuismusulman         1.88596         5.51453         17.5606 
+                jesuispolicier         2.54156         5.54035         16.9639 
+                jesuisspartacu         1.77963        0.232067         17.6767 
+                lyonestcharlie         1.77963        0.259366         17.6767 
+                opcharliehebdo         1.08234         1.20924         18.6712 
+                unitenationale         2.99537         5.55805         16.6353 
+               clermontferrand        0.324901          5.7269         21.0779 
+               dijonestcharlie         6.21105         4.23538         15.1768 
+               freedomofspeech         1.23922          1.4465         18.4005 
+               parisestcharlie          7.9966         3.62512         14.6714 
+               policenationale        0.420503         5.42384         20.5621 
+              angersestcharlie         0.74068         2.41692         19.4299 
+              fierdetrefrancai        0.324901         5.99894         21.0779 
+              troyesestcharlie        0.237578         3.95872          21.704 
+             lehavreestcharlie         1.08331          4.5412         18.6694 
+             libertedelapresse         2.62502         3.42234         16.8993 
+             marchedu11janvier         19.7044         2.68113         12.8678 
+             marcherepubicaine        0.324901         5.70253         21.0779 
+             marcherepublicain         2.93887         3.06671         16.6734 
+             noussommescharlie         22.6005         4.63402         12.5935 
+            bordeauxestcharlie        0.354653         2.91088         20.9027 
+            lafranceestcharlie          22.207         4.66299         12.6287 
+            libertedexpression         5.62448         3.73242         15.3752 
+            marcherepublicaine         196.758         1.05106         8.26553 
+            noussommesensemble         4.07035         2.96876          16.022 
+           hommagecharliehebdo         0.92659        0.974045          18.982 
+           lamarchedu11janvier         2.37051          2.7694         17.1033 
+           libertaddeexpresion        0.324901         5.96343         21.0779 
+          chateaudunestcharlie          1.6663         4.80415         17.8083 
+          jesuiscitoyendumonde        0.324901         5.76163         21.0779 
+          lamarcherepublicaine        0.324901         5.91341         21.0779 
+          strasbourgestcharlie         1.18385        0.152347         18.4919 
+          weareallcharliehebdo        0.324901         6.03684         21.0779 
+         noussommestouscharlie         15.8138         4.68306         13.3077 
+      tousalamarchedu11janvier         3.16378         3.46616         16.5259 
+ noussommestousdescharliehebdo        0.554181         1.40556           20.01 
 #
 # =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 # Internal parameters and options
@@ -186,7 +186,7 @@
 #     QUIET_MODE                             false
 #     REFINE_MODE                            false
 #     ROOTNAME_OUTPUT:                       /data/394718
-#     SEED                                   1738238248
+#     SEED                                   1745025346
 #     VALIDATION_MODE                        true
 #     VERBOSE_MODE                           false
 #     VERSION                                0.9

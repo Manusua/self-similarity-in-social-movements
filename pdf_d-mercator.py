@@ -587,6 +587,8 @@ elif folders[-3] == "wd":
    titulo = "Womanday"
 elif folders[-3] == "fut":
    titulo = "Real Madrid - Liverpool"
+else:
+   titulo = "No se ha podido determinar el titulo"
 
 # Adds figure title.
 plt.suptitle(titulo + ', filter_thresh: ' + filter_threshold + ', hour window: ' + hour_window, y=0.99, va="top", ha="center")

@@ -151,10 +151,15 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
             df_node_edge = df_hour.loc[df_hour[node_criteria] == node]
             # Seleccionamos tantos hashtags/usuarios como haya que haya compartido el usuario/hasthag respectivamente
             df_node_edge = df_node_edge[edge_criteria]
+            # Eliminamos duplicaods (por si hay repetidos en varias horas)
+            df_node_edge = df_node_edge.drop_duplicates()
             for edge in df_node_edge:
                 df_edge = df_hour.loc[df_hour[edge_criteria] == edge]
                 df_edge = df_edge[node_criteria]
+                df_edge = df_edge.drop_duplicates()
                 for nd in df_edge:
+                    """if hour == 394717 and ((nd == 1118 and node == 1349) or (nd == 1349 and node == 1118)):
+                        print("\nnode", node, "nd", nd, edge, hour)"""
                     if nd != node:
                         if G.has_edge(node, nd):
                             G[node][nd]["weight"] += 1
@@ -168,7 +173,7 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
 
         if labels:
             # Abre el archivo CSV
-            with open("datasets/dicts_hashtags/dict_hashtags_"+manifestacion+".csv", mode='r', encoding='utf-8') as file:
+            with open("datasets/dicts_hashtags/dict_hashtags_" + manifestacion + ".csv", mode='r', encoding='utf-8') as file:
                 reader = csv.reader(file)
                 # Saltamos el header del csv (Id, haashtag)
                 next(reader, None)
@@ -1016,7 +1021,10 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         else:
             points_kt = dict_points[kt]
         if norm:
+            print(points_kt)
+            print(np.mean(points_kt))
             points_kt = np.array(points_kt) / np.mean(points_kt)
+            print(len(points_kt))
             print(np.mean(points_kt))
             print(points_kt)
         arr_points.append(points_kt)
@@ -1032,6 +1040,8 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         degrees, counts = np.unique(points, return_counts=True)
         probs = counts / len(points)
         arr_deg_prob.append((degrees, probs))
+        print(degrees)
+        print(probs)
     
     # Puntos de la CDF
     arr_deg_cum = []
@@ -1039,12 +1049,13 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         cum_freq = np.cumsum(deg_prob[1])
         cdf = cum_freq/cum_freq[-1]
         arr_deg_cum.append((deg_prob[0], cdf))
-
+        print(cdf)
     # Puntos de la CCDF
     arr_deg_comp_cum = []
     for deg_cum in arr_deg_cum:
         ccdf = 1 - deg_cum[1]
         arr_deg_comp_cum.append((deg_cum[0], ccdf))
+        print(ccdf)
 
     if write:
         with open(measures_path, "w") as f:
