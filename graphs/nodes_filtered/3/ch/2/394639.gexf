@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="fusillade" label="fusillade" />
+      <node id="deuilnational" label="deuilnational" />
+      <node id="pari" label="pari" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="rip" label="rip" />
+      <node id="attentatcharliehebdo" label="attentatcharliehebdo" />
+      <node id="thankstheworldfromfrance" label="thankstheworldfromfrance" />
+      <node id="libertedelapresse" label="libertedelapresse" />
+      <node id="montrouge" label="montrouge" />
+      <node id="liberte" label="liberte" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="info" label="info" />
+      <node id="cabu" label="cabu" />
+      <node id="kouachi" label="kouachi" />
+      <node id="franceinter" label="franceinter" />
+      <node id="bfmtv" label="bfmtv" />
+      <node id="jessuischarlie" label="jessuischarlie" />
+    </nodes>
+    <edges>
+      <edge source="noussommescharlie" target="charliehebdo" id="3" weight="3.0" />
+      <edge source="noussommescharlie" target="jesuischarlie" id="135" weight="10.0" />
+      <edge source="fusillade" target="jesuischarlie" id="134" weight="9.0" />
+      <edge source="fusillade" target="pari" id="323" weight="6.0" />
+      <edge source="fusillade" target="deuilnational" id="366" weight="3.0" />
+      <edge source="fusillade" target="montrouge" id="641" weight="5.0" />
+      <edge source="deuilnational" target="charliehebdo" id="59" weight="3.0" />
+      <edge source="deuilnational" target="jesuischarlie" id="129" weight="11.0" />
+      <edge source="deuilnational" target="pari" id="318" weight="3.0" />
+      <edge source="deuilnational" target="montrouge" id="376" weight="3.0" />
+      <edge source="pari" target="charliehebdo" id="4" weight="7.0" />
+      <edge source="pari" target="jesuischarlie" id="127" weight="9.0" />
+      <edge source="pari" target="montrouge" id="324" weight="6.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="0" weight="84.0" />
+      <edge source="charliehebdo" target="chaliehebdo" id="1" weight="4.0" />
+      <edge source="charliehebdo" target="cabu" id="10" weight="4.0" />
+      <edge source="charliehebdo" target="liberte" id="11" weight="3.0" />
+      <edge source="charliehebdo" target="jessuischarlie" id="30" weight="3.0" />
+      <edge source="charliehebdo" target="rip" id="31" weight="4.0" />
+      <edge source="charliehebdo" target="franceinter" id="40" weight="3.0" />
+      <edge source="charliehebdo" target="info" id="45" weight="3.0" />
+      <edge source="charliehebdo" target="montrouge" id="64" weight="5.0" />
+      <edge source="france" target="jesuischarlie" id="145" weight="3.0" />
+      <edge source="chaliehebdo" target="jesuischarlie" id="126" weight="12.0" />
+      <edge source="chaliehebdo" target="montrouge" id="302" weight="3.0" />
+      <edge source="rip" target="jesuischarlie" id="170" weight="4.0" />
+      <edge source="attentatcharliehebdo" target="jesuischarlie" id="188" weight="3.0" />
+      <edge source="attentatcharliehebdo" target="montrouge" id="835" weight="3.0" />
+      <edge source="thankstheworldfromfrance" target="jesuischarlie" id="125" weight="6.0" />
+      <edge source="libertedelapresse" target="jesuischarlie" id="154" weight="3.0" />
+      <edge source="montrouge" target="jesuischarlie" id="185" weight="7.0" />
+      <edge source="liberte" target="jesuischarlie" id="152" weight="3.0" />
+      <edge source="jesuischarlie" target="kouachi" id="133" weight="4.0" />
+      <edge source="jesuischarlie" target="cabu" id="151" weight="5.0" />
+      <edge source="jesuischarlie" target="bfmtv" id="156" weight="3.0" />
+      <edge source="jesuischarlie" target="jessuischarlie" id="182" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

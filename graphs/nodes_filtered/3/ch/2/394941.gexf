@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="teamol" label="teamol" />
+      <node id="lrt" label="lrt" />
+      <node id="off" label="off" />
+      <node id="cdf" label="cdf" />
+      <node id="fcnol" label="fcnol" />
+      <node id="nante" label="nante" />
+      <node id="lf" label="lf" />
+    </nodes>
+    <edges>
+      <edge source="teamol" target="fcnol" id="171" weight="4.0" />
+      <edge source="lrt" target="off" id="28" weight="6.0" />
+      <edge source="lrt" target="lf" id="57" weight="4.0" />
+      <edge source="lrt" target="fcnol" id="64" weight="3.0" />
+      <edge source="cdf" target="fcnol" id="18" weight="3.0" />
+      <edge source="fcnol" target="nante" id="182" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

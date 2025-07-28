@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="equipe21" label="equipe21" />
+      <node id="ballondor" label="ballondor" />
+      <node id="ballondor2014" label="ballondor2014" />
+    </nodes>
+    <edges>
+      <edge source="equipe21" target="ballondor" id="123" weight="5.0" />
+      <edge source="ballondor" target="ballondor2014" id="129" weight="7.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="psgfcgb" label="psgfcgb" />
+      <node id="cavani" label="cavani" />
+      <node id="psggdb" label="psggdb" />
+      <node id="cdf16e" label="cdf16e" />
+      <node id="psg" label="psg" />
+      <node id="teampsg" label="teampsg" />
+      <node id="coupedefrance" label="coupedefrance" />
+    </nodes>
+    <edges>
+      <edge source="psgfcgb" target="psggdb" id="142" weight="5.0" />
+      <edge source="psgfcgb" target="coupedefrance" id="283" weight="6.0" />
+      <edge source="psgfcgb" target="psg" id="287" weight="7.0" />
+      <edge source="psgfcgb" target="teampsg" id="288" weight="9.0" />
+      <edge source="psgfcgb" target="cavani" id="300" weight="3.0" />
+      <edge source="psggdb" target="cdf16e" id="139" weight="3.0" />
+      <edge source="psggdb" target="coupedefrance" id="141" weight="3.0" />
+      <edge source="psg" target="teampsg" id="620" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

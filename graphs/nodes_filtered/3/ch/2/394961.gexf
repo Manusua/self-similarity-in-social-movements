@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="rafsimon" label="rafsimon" />
+      <node id="elitemen" label="elitemen" />
+      <node id="fashionshow" label="fashionshow" />
+      <node id="pfw" label="pfw" />
+      <node id="pr" label="pr" />
+    </nodes>
+    <edges>
+      <edge source="rafsimon" target="pfw" id="194" weight="4.0" />
+      <edge source="rafsimon" target="fashionshow" id="308" weight="4.0" />
+      <edge source="rafsimon" target="elitemen" id="310" weight="4.0" />
+      <edge source="rafsimon" target="pr" id="311" weight="4.0" />
+      <edge source="elitemen" target="pfw" id="197" weight="4.0" />
+      <edge source="elitemen" target="fashionshow" id="314" weight="4.0" />
+      <edge source="elitemen" target="pr" id="320" weight="4.0" />
+      <edge source="fashionshow" target="pfw" id="195" weight="4.0" />
+      <edge source="fashionshow" target="pr" id="315" weight="4.0" />
+      <edge source="pfw" target="pr" id="198" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

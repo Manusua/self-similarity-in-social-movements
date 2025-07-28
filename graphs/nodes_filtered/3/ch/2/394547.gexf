@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="me" label="me" />
+      <node id="men" label="men" />
+      <node id="eye" label="eye" />
+      <node id="hairstyle" label="hairstyle" />
+      <node id="cute" label="cute" />
+      <node id="selfie" label="selfie" />
+      <node id="sun" label="sun" />
+    </nodes>
+    <edges>
+      <edge source="me" target="selfie" id="88" weight="4.0" />
+      <edge source="me" target="cute" id="412" weight="4.0" />
+      <edge source="me" target="eye" id="413" weight="4.0" />
+      <edge source="me" target="sun" id="414" weight="4.0" />
+      <edge source="me" target="hairstyle" id="415" weight="4.0" />
+      <edge source="me" target="men" id="416" weight="4.0" />
+      <edge source="men" target="selfie" id="93" weight="4.0" />
+      <edge source="men" target="cute" id="422" weight="4.0" />
+      <edge source="men" target="eye" id="427" weight="4.0" />
+      <edge source="men" target="sun" id="431" weight="4.0" />
+      <edge source="men" target="hairstyle" id="434" weight="4.0" />
+      <edge source="eye" target="selfie" id="90" weight="4.0" />
+      <edge source="eye" target="cute" id="419" weight="4.0" />
+      <edge source="eye" target="sun" id="425" weight="4.0" />
+      <edge source="eye" target="hairstyle" id="426" weight="4.0" />
+      <edge source="hairstyle" target="selfie" id="92" weight="4.0" />
+      <edge source="hairstyle" target="cute" id="421" weight="4.0" />
+      <edge source="hairstyle" target="sun" id="430" weight="4.0" />
+      <edge source="cute" target="selfie" id="89" weight="4.0" />
+      <edge source="cute" target="sun" id="420" weight="4.0" />
+      <edge source="selfie" target="sun" id="91" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

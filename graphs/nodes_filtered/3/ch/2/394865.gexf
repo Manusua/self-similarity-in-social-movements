@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="nko" label="nko" />
+      <node id="judgenajwa" label="judgenajwa" />
+      <node id="arabsgottalent4" label="arabsgottalent4" />
+      <node id="3alsakhramusicvideo" label="3alsakhramusicvideo" />
+      <node id="arabsgottalent" label="arabsgottalent" />
+    </nodes>
+    <edges>
+      <edge source="nko" target="arabsgottalent" id="352" weight="4.0" />
+      <edge source="nko" target="judgenajwa" id="359" weight="4.0" />
+      <edge source="nko" target="3alsakhramusicvideo" id="501" weight="4.0" />
+      <edge source="nko" target="arabsgottalent4" id="502" weight="4.0" />
+      <edge source="judgenajwa" target="arabsgottalent" id="351" weight="4.0" />
+      <edge source="judgenajwa" target="3alsakhramusicvideo" id="360" weight="4.0" />
+      <edge source="judgenajwa" target="arabsgottalent4" id="361" weight="4.0" />
+      <edge source="arabsgottalent4" target="arabsgottalent" id="354" weight="4.0" />
+      <edge source="arabsgottalent4" target="3alsakhramusicvideo" id="507" weight="4.0" />
+      <edge source="3alsakhramusicvideo" target="arabsgottalent" id="353" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="3" label="3" />
+      <node id="26" label="26" />
+      <node id="6" label="6" />
+      <node id="2" label="2" />
+      <node id="9" label="9" />
+      <node id="31" label="31" />
+      <node id="67" label="67" />
+      <node id="82" label="82" />
+      <node id="87" label="87" />
+      <node id="20" label="20" />
+      <node id="86" label="86" />
+      <node id="76" label="76" />
+      <node id="88" label="88" />
+      <node id="89" label="89" />
+    </nodes>
+    <edges>
+      <edge source="3" target="26" id="0" weight="2.0" />
+      <edge source="3" target="6" id="1" weight="2.0" />
+      <edge source="3" target="67" id="2" weight="2.0" />
+      <edge source="3" target="82" id="3" weight="1.0" />
+      <edge source="3" target="87" id="4" weight="1.0" />
+      <edge source="3" target="76" id="5" weight="1.0" />
+      <edge source="3" target="88" id="6" weight="1.0" />
+      <edge source="3" target="89" id="7" weight="1.0" />
+      <edge source="2" target="9" id="8" weight="1.0" />
+      <edge source="2" target="31" id="9" weight="1.0" />
+      <edge source="9" target="31" id="10" weight="1.0" />
+      <edge source="67" target="82" id="11" weight="1.0" />
+      <edge source="67" target="87" id="12" weight="1.0" />
+      <edge source="67" target="76" id="13" weight="1.0" />
+      <edge source="67" target="88" id="14" weight="1.0" />
+      <edge source="67" target="89" id="15" weight="1.0" />
+      <edge source="82" target="87" id="16" weight="1.0" />
+      <edge source="20" target="86" id="17" weight="1.0" />
+      <edge source="76" target="88" id="18" weight="1.0" />
+      <edge source="76" target="89" id="19" weight="1.0" />
+      <edge source="88" target="89" id="20" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

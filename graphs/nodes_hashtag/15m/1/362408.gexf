@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-07-11">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="1000003" label="1000003" />
+      <node id="1000002" label="1000002" />
+      <node id="1000008" label="1000008" />
+      <node id="1000020" label="1000020" />
+      <node id="1000022" label="1000022" />
+      <node id="1000561" label="1000561" />
+      <node id="1000828" label="1000828" />
+      <node id="1000929" label="1000929" />
+      <node id="1001012" label="1001012" />
+      <node id="1000044" label="1000044" />
+      <node id="1001014" label="1001014" />
+      <node id="1001013" label="1001013" />
+    </nodes>
+    <edges>
+      <edge source="1000003" target="1000561" id="0" weight="2.0" />
+      <edge source="1000003" target="1000828" id="1" weight="2.0" />
+      <edge source="1000003" target="1000929" id="2" weight="2.0" />
+      <edge source="1000003" target="1001012" id="3" weight="2.0" />
+      <edge source="1000003" target="1000044" id="4" weight="1.0" />
+      <edge source="1000003" target="1001014" id="5" weight="1.0" />
+      <edge source="1000003" target="1001013" id="6" weight="1.0" />
+      <edge source="1000002" target="1000008" id="7" weight="1.0" />
+      <edge source="1000002" target="1000020" id="8" weight="1.0" />
+      <edge source="1000002" target="1000022" id="9" weight="1.0" />
+      <edge source="1000008" target="1000020" id="10" weight="1.0" />
+      <edge source="1000008" target="1000022" id="11" weight="1.0" />
+      <edge source="1000020" target="1000022" id="12" weight="1.0" />
+      <edge source="1000561" target="1000828" id="13" weight="2.0" />
+      <edge source="1000561" target="1000929" id="14" weight="2.0" />
+      <edge source="1000561" target="1001012" id="15" weight="2.0" />
+      <edge source="1000828" target="1000929" id="16" weight="2.0" />
+      <edge source="1000828" target="1001012" id="17" weight="2.0" />
+      <edge source="1000929" target="1001012" id="18" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>

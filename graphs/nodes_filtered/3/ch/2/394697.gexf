@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="toulouse" label="toulouse" />
+      <node id="bastia" label="bastia" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="normandie" label="normandie" />
+      <node id="teamom" label="teamom" />
+      <node id="pari" label="pari" />
+      <node id="honte" label="honte" />
+      <node id="parisestcharlie" label="parisestcharlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="lt" label="lt" />
+      <node id="jesuispolicier" label="jesuispolicier" />
+      <node id="rouen" label="rouen" />
+      <node id="igersnormandie" label="igersnormandie" />
+      <node id="charb" label="charb" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="jesuisjuif" label="jesuisjuif" />
+      <node id="igersrouen" label="igersrouen" />
+      <node id="teampsg" label="teampsg" />
+      <node id="stsr" label="stsr" />
+      <node id="teamol" label="teamol" />
+      <node id="toulouseestcharlie" label="toulouseestcharlie" />
+      <node id="bastiapsg" label="bastiapsg" />
+      <node id="scbpsg" label="scbpsg" />
+      <node id="blanc" label="blanc" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="palmieri" label="palmieri" />
+      <node id="psg" label="psg" />
+      <node id="solidarite" label="solidarite" />
+      <node id="nante" label="nante" />
+    </nodes>
+    <edges>
+      <edge source="lrt" target="jesuischarlie" id="40" weight="6.0" />
+      <edge source="lrt" target="lt" id="200" weight="5.0" />
+      <edge source="toulouse" target="jesuischarlie" id="60" weight="6.0" />
+      <edge source="toulouse" target="marcherepublicaine" id="378" weight="3.0" />
+      <edge source="bastia" target="scbpsg" id="240" weight="3.0" />
+      <edge source="noussommescharlie" target="jesuischarlie" id="15" weight="10.0" />
+      <edge source="noussommescharlie" target="charliehebdo" id="416" weight="4.0" />
+      <edge source="normandie" target="jesuischarlie" id="44" weight="4.0" />
+      <edge source="normandie" target="rouen" id="407" weight="4.0" />
+      <edge source="normandie" target="charliehebdo" id="419" weight="4.0" />
+      <edge source="normandie" target="igersrouen" id="776" weight="4.0" />
+      <edge source="normandie" target="igersnormandie" id="779" weight="4.0" />
+      <edge source="teamom" target="scbpsg" id="233" weight="7.0" />
+      <edge source="pari" target="jesuischarlie" id="56" weight="8.0" />
+      <edge source="pari" target="france" id="547" weight="4.0" />
+      <edge source="honte" target="scbpsg" id="232" weight="4.0" />
+      <edge source="honte" target="psg" id="296" weight="5.0" />
+      <edge source="honte" target="teampsg" id="338" weight="3.0" />
+      <edge source="parisestcharlie" target="jesuischarlie" id="19" weight="3.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="13" weight="28.0" />
+      <edge source="charliehebdo" target="psg" id="323" weight="4.0" />
+      <edge source="charliehebdo" target="rouen" id="405" weight="5.0" />
+      <edge source="charliehebdo" target="igersrouen" id="418" weight="4.0" />
+      <edge source="charliehebdo" target="igersnormandie" id="420" weight="4.0" />
+      <edge source="charliehebdo" target="charb" id="425" weight="3.0" />
+      <edge source="france" target="jesuischarlie" id="38" weight="3.0" />
+      <edge source="jesuispolicier" target="jesuischarlie" id="16" weight="4.0" />
+      <edge source="rouen" target="jesuischarlie" id="12" weight="5.0" />
+      <edge source="rouen" target="igersrouen" id="406" weight="4.0" />
+      <edge source="rouen" target="igersnormandie" id="408" weight="4.0" />
+      <edge source="igersnormandie" target="jesuischarlie" id="45" weight="4.0" />
+      <edge source="igersnormandie" target="igersrouen" id="777" weight="4.0" />
+      <edge source="marcherepublicaine" target="jesuischarlie" id="10" weight="10.0" />
+      <edge source="marcherepublicaine" target="toulouseestcharlie" id="376" weight="3.0" />
+      <edge source="jesuisjuif" target="jesuischarlie" id="65" weight="3.0" />
+      <edge source="igersrouen" target="jesuischarlie" id="43" weight="4.0" />
+      <edge source="teampsg" target="scbpsg" id="230" weight="7.0" />
+      <edge source="teampsg" target="psg" id="294" weight="3.0" />
+      <edge source="stsr" target="jesuischarlie" id="48" weight="3.0" />
+      <edge source="teamol" target="scbpsg" id="237" weight="4.0" />
+      <edge source="toulouseestcharlie" target="jesuischarlie" id="47" weight="5.0" />
+      <edge source="bastiapsg" target="psg" id="317" weight="3.0" />
+      <edge source="scbpsg" target="psg" id="229" weight="14.0" />
+      <edge source="scbpsg" target="palmieri" id="236" weight="7.0" />
+      <edge source="blanc" target="psg" id="324" weight="3.0" />
+      <edge source="jesuischarlie" target="nante" id="30" weight="3.0" />
+      <edge source="jesuischarlie" target="solidarite" id="87" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

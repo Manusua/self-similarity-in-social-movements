@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="airport" label="airport" />
+      <node id="cominghome" label="cominghome" />
+      <node id="piano" label="piano" />
+      <node id="pari" label="pari" />
+      <node id="cdg" label="cdg" />
+    </nodes>
+    <edges>
+      <edge source="airport" target="pari" id="267" weight="4.0" />
+      <edge source="airport" target="cominghome" id="393" weight="4.0" />
+      <edge source="airport" target="cdg" id="394" weight="4.0" />
+      <edge source="airport" target="piano" id="395" weight="4.0" />
+      <edge source="cominghome" target="pari" id="268" weight="4.0" />
+      <edge source="cominghome" target="cdg" id="396" weight="4.0" />
+      <edge source="cominghome" target="piano" id="397" weight="4.0" />
+      <edge source="piano" target="pari" id="270" weight="4.0" />
+      <edge source="piano" target="cdg" id="398" weight="4.0" />
+      <edge source="pari" target="cdg" id="269" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

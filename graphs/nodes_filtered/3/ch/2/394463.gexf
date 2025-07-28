@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="happynewyear" label="happynewyear" />
+      <node id="bonneannee" label="bonneannee" />
+      <node id="newyear" label="newyear" />
+      <node id="newyear2015" label="newyear2015" />
+      <node id="followerpower" label="followerpower" />
+      <node id="bonneannee2015" label="bonneannee2015" />
+      <node id="annee2015" label="annee2015" />
+      <node id="emfamily" label="emfamily" />
+      <node id="happynewyear2015" label="happynewyear2015" />
+      <node id="chemin" label="chemin" />
+    </nodes>
+    <edges>
+      <edge source="happynewyear" target="followerpower" id="14" weight="4.0" />
+      <edge source="happynewyear" target="newyear" id="27" weight="6.0" />
+      <edge source="happynewyear" target="newyear2015" id="69" weight="4.0" />
+      <edge source="happynewyear" target="bonneannee" id="71" weight="10.0" />
+      <edge source="happynewyear" target="bonneannee2015" id="72" weight="19.0" />
+      <edge source="happynewyear" target="emfamily" id="100" weight="4.0" />
+      <edge source="happynewyear" target="chemin" id="101" weight="4.0" />
+      <edge source="bonneannee" target="newyear" id="31" weight="3.0" />
+      <edge source="bonneannee" target="bonneannee2015" id="163" weight="5.0" />
+      <edge source="newyear" target="followerpower" id="13" weight="4.0" />
+      <edge source="newyear" target="newyear2015" id="29" weight="3.0" />
+      <edge source="newyear2015" target="bonneannee2015" id="147" weight="3.0" />
+      <edge source="bonneannee2015" target="happynewyear2015" id="139" weight="3.0" />
+      <edge source="bonneannee2015" target="annee2015" id="182" weight="3.0" />
+      <edge source="emfamily" target="chemin" id="551" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

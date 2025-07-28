@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="tpmp" label="tpmp" />
+      <node id="lrt" label="lrt" />
+      <node id="lplda2" label="lplda2" />
+      <node id="lpda2" label="lpda2" />
+      <node id="maillonfaible" label="maillonfaible" />
+      <node id="lpdla2" label="lpdla2" />
+      <node id="lt" label="lt" />
+      <node id="bonretablissementvalerie" label="bonretablissementvalerie" />
+      <node id="d8" label="d8" />
+      <node id="tpmpisback" label="tpmpisback" />
+      <node id="manquedeouf" label="manquedeouf" />
+      <node id="bonnerentreetpmp" label="bonnerentreetpmp" />
+      <node id="lpdl2" label="lpdl2" />
+      <node id="hollywoodgirls4" label="hollywoodgirls4" />
+      <node id="hg4" label="hg4" />
+    </nodes>
+    <edges>
+      <edge source="tpmp" target="lrt" id="36" weight="3.0" />
+      <edge source="tpmp" target="maillonfaible" id="102" weight="4.0" />
+      <edge source="tpmp" target="tpmpisback" id="247" weight="17.0" />
+      <edge source="tpmp" target="d8" id="252" weight="3.0" />
+      <edge source="lrt" target="lpdla2" id="13" weight="12.0" />
+      <edge source="lrt" target="lt" id="33" weight="4.0" />
+      <edge source="lplda2" target="lpdla2" id="164" weight="4.0" />
+      <edge source="lpda2" target="lpdla2" id="165" weight="7.0" />
+      <edge source="maillonfaible" target="tpmpisback" id="103" weight="3.0" />
+      <edge source="lpdla2" target="hollywoodgirls4" id="6" weight="3.0" />
+      <edge source="lpdla2" target="hg4" id="73" weight="5.0" />
+      <edge source="lpdla2" target="lpdl2" id="168" weight="4.0" />
+      <edge source="bonretablissementvalerie" target="tpmpisback" id="387" weight="4.0" />
+      <edge source="tpmpisback" target="manquedeouf" id="141" weight="3.0" />
+      <edge source="tpmpisback" target="bonnerentreetpmp" id="390" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

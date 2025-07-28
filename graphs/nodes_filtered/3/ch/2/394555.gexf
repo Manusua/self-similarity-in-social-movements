@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="guirlande" label="guirlande" />
+      <node id="noel" label="noel" />
+      <node id="light" label="light" />
+      <node id="candle" label="candle" />
+      <node id="christmaslight" label="christmaslight" />
+      <node id="chandelle" label="chandelle" />
+      <node id="christmastree" label="christmastree" />
+      <node id="night" label="night" />
+      <node id="christma" label="christma" />
+      <node id="nuit" label="nuit" />
+    </nodes>
+    <edges>
+      <edge source="guirlande" target="christmaslight" id="231" weight="4.0" />
+      <edge source="guirlande" target="christmastree" id="239" weight="4.0" />
+      <edge source="guirlande" target="christma" id="246" weight="4.0" />
+      <edge source="guirlande" target="chandelle" id="252" weight="4.0" />
+      <edge source="guirlande" target="candle" id="257" weight="4.0" />
+      <edge source="guirlande" target="light" id="261" weight="4.0" />
+      <edge source="guirlande" target="nuit" id="264" weight="4.0" />
+      <edge source="guirlande" target="night" id="266" weight="4.0" />
+      <edge source="guirlande" target="noel" id="267" weight="4.0" />
+      <edge source="noel" target="christmaslight" id="230" weight="4.0" />
+      <edge source="noel" target="christmastree" id="238" weight="4.0" />
+      <edge source="noel" target="christma" id="245" weight="4.0" />
+      <edge source="noel" target="chandelle" id="251" weight="4.0" />
+      <edge source="noel" target="candle" id="256" weight="4.0" />
+      <edge source="noel" target="light" id="260" weight="4.0" />
+      <edge source="noel" target="nuit" id="263" weight="4.0" />
+      <edge source="noel" target="night" id="265" weight="4.0" />
+      <edge source="light" target="christmaslight" id="227" weight="4.0" />
+      <edge source="light" target="christmastree" id="235" weight="4.0" />
+      <edge source="light" target="christma" id="242" weight="4.0" />
+      <edge source="light" target="chandelle" id="248" weight="4.0" />
+      <edge source="light" target="candle" id="253" weight="4.0" />
+      <edge source="light" target="nuit" id="258" weight="4.0" />
+      <edge source="light" target="night" id="259" weight="4.0" />
+      <edge source="candle" target="christmaslight" id="226" weight="4.0" />
+      <edge source="candle" target="christmastree" id="234" weight="4.0" />
+      <edge source="candle" target="christma" id="241" weight="4.0" />
+      <edge source="candle" target="chandelle" id="247" weight="4.0" />
+      <edge source="candle" target="nuit" id="254" weight="4.0" />
+      <edge source="candle" target="night" id="255" weight="4.0" />
+      <edge source="christmaslight" target="christmastree" id="223" weight="4.0" />
+      <edge source="christmaslight" target="christma" id="224" weight="4.0" />
+      <edge source="christmaslight" target="chandelle" id="225" weight="4.0" />
+      <edge source="christmaslight" target="nuit" id="228" weight="4.0" />
+      <edge source="christmaslight" target="night" id="229" weight="4.0" />
+      <edge source="chandelle" target="christmastree" id="233" weight="4.0" />
+      <edge source="chandelle" target="christma" id="240" weight="4.0" />
+      <edge source="chandelle" target="nuit" id="249" weight="4.0" />
+      <edge source="chandelle" target="night" id="250" weight="4.0" />
+      <edge source="christmastree" target="christma" id="232" weight="4.0" />
+      <edge source="christmastree" target="nuit" id="236" weight="4.0" />
+      <edge source="christmastree" target="night" id="237" weight="4.0" />
+      <edge source="night" target="christma" id="244" weight="4.0" />
+      <edge source="night" target="nuit" id="262" weight="4.0" />
+      <edge source="christma" target="nuit" id="243" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

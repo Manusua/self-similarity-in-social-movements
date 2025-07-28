@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="france" label="france" />
+      <node id="taiji" label="taiji" />
+      <node id="seaworld" label="seaworld" />
+      <node id="tweet4dolphin" label="tweet4dolphin" />
+      <node id="marineland" label="marineland" />
+    </nodes>
+    <edges>
+      <edge source="france" target="taiji" id="159" weight="4.0" />
+      <edge source="france" target="seaworld" id="167" weight="4.0" />
+      <edge source="france" target="marineland" id="168" weight="4.0" />
+      <edge source="france" target="tweet4dolphin" id="170" weight="4.0" />
+      <edge source="taiji" target="seaworld" id="276" weight="4.0" />
+      <edge source="taiji" target="marineland" id="277" weight="4.0" />
+      <edge source="taiji" target="tweet4dolphin" id="279" weight="4.0" />
+      <edge source="seaworld" target="marineland" id="349" weight="4.0" />
+      <edge source="seaworld" target="tweet4dolphin" id="351" weight="4.0" />
+      <edge source="tweet4dolphin" target="marineland" id="354" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

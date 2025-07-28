@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="hautegaronne" label="hautegaronne" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="toulouse" label="toulouse" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="ouestcharlie" label="ouestcharlie" />
+      <node id="charlie" label="charlie" />
+      <node id="lecanardenchaine" label="lecanardenchaine" />
+      <node id="pari" label="pari" />
+    </nodes>
+    <edges>
+      <edge source="hautegaronne" target="toulouse" id="257" weight="4.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="5" weight="33.0" />
+      <edge source="jesuischarlie" target="charlie" id="146" weight="6.0" />
+      <edge source="jesuischarlie" target="chaliehebdo" id="148" weight="7.0" />
+      <edge source="jesuischarlie" target="ouestcharlie" id="156" weight="3.0" />
+      <edge source="charliehebdo" target="charlie" id="9" weight="5.0" />
+      <edge source="charliehebdo" target="pari" id="20" weight="8.0" />
+      <edge source="charliehebdo" target="toulouse" id="32" weight="3.0" />
+      <edge source="charliehebdo" target="chaliehebdo" id="53" weight="5.0" />
+      <edge source="charliehebdo" target="lecanardenchaine" id="57" weight="3.0" />
+      <edge source="charliehebdo" target="ouestcharlie" id="64" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

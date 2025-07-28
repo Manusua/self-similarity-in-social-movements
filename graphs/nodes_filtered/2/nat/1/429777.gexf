@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="1335" label="1335" />
+      <node id="4023" label="4023" />
+      <node id="10008" label="10008" />
+      <node id="2017" label="2017" />
+      <node id="10336" label="10336" />
+      <node id="11781" label="11781" />
+      <node id="11817" label="11817" />
+      <node id="10334" label="10334" />
+    </nodes>
+    <edges>
+      <edge source="1335" target="10334" id="7" weight="2.0" />
+      <edge source="4023" target="2017" id="94" weight="2.0" />
+      <edge source="4023" target="10008" id="289" weight="2.0" />
+      <edge source="10008" target="2017" id="98" weight="2.0" />
+      <edge source="2017" target="11781" id="61" weight="2.0" />
+      <edge source="2017" target="10336" id="100" weight="2.0" />
+      <edge source="2017" target="10334" id="108" weight="4.0" />
+      <edge source="11781" target="10334" id="56" weight="10.0" />
+      <edge source="11781" target="11817" id="57" weight="10.0" />
+      <edge source="11817" target="10334" id="151" weight="10.0" />
+    </edges>
+  </graph>
+</gexf>

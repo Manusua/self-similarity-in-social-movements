@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="citeunfilmquitamarque" label="citeunfilmquitamarque" />
+      <node id="tpmp" label="tpmp" />
+      <node id="pdl" label="pdl" />
+      <node id="pdla2" label="pdla2" />
+      <node id="lpdla2" label="lpdla2" />
+      <node id="lt" label="lt" />
+      <node id="rencontrekevinhg4" label="rencontrekevinhg4" />
+      <node id="valeriereviensvite" label="valeriereviensvite" />
+      <node id="hollywoodgirls4" label="hollywoodgirls4" />
+      <node id="hg4" label="hg4" />
+    </nodes>
+    <edges>
+      <edge source="citeunfilmquitamarque" target="tpmp" id="71" weight="4.0" />
+      <edge source="tpmp" target="lt" id="103" weight="4.0" />
+      <edge source="tpmp" target="valeriereviensvite" id="412" weight="4.0" />
+      <edge source="tpmp" target="pdl" id="421" weight="5.0" />
+      <edge source="pdla2" target="lpdla2" id="296" weight="3.0" />
+      <edge source="lpdla2" target="hg4" id="28" weight="6.0" />
+      <edge source="lpdla2" target="hollywoodgirls4" id="56" weight="3.0" />
+      <edge source="lpdla2" target="lt" id="109" weight="4.0" />
+      <edge source="rencontrekevinhg4" target="hg4" id="34" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="nicenord" label="nicenord" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="dieudonne" label="dieudonne" />
+      <node id="jeveuxcharlie" label="jeveuxcharlie" />
+      <node id="auvergne" label="auvergne" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="charliehebdo" id="0" weight="21.0" />
+      <edge source="jesuischarlie" target="nicenord" id="2" weight="4.0" />
+      <edge source="jesuischarlie" target="jeveuxcharlie" id="23" weight="4.0" />
+      <edge source="charliehebdo" target="dieudonne" id="58" weight="3.0" />
+      <edge source="charliehebdo" target="nicenord" id="61" weight="4.0" />
+      <edge source="charliehebdo" target="auvergne" id="68" weight="4.0" />
+      <edge source="charliehebdo" target="chaliehebdo" id="79" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

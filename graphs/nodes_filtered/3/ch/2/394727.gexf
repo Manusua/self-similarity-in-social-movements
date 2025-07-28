@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="eredcarpet" label="eredcarpet" />
+      <node id="lafranceestcharlie" label="lafranceestcharlie" />
+      <node id="gg2015" label="gg2015" />
+      <node id="soireejesuischarlie" label="soireejesuischarlie" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="11janvier" label="11janvier" />
+      <node id="charlie" label="charlie" />
+      <node id="marchedu11janvier" label="marchedu11janvier" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="notafraid" label="notafraid" />
+      <node id="goldenglobe" label="goldenglobe" />
+      <node id="libertedelapresse" label="libertedelapresse" />
+      <node id="pari" label="pari" />
+      <node id="placedelarepublique" label="placedelarepublique" />
+      <node id="liberte" label="liberte" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="goldenglobe" id="29" weight="8.0" />
+      <edge source="jesuischarlie" target="marchedu11janvier" id="51" weight="8.0" />
+      <edge source="jesuischarlie" target="marcherepublicaine" id="76" weight="18.0" />
+      <edge source="jesuischarlie" target="pari" id="117" weight="4.0" />
+      <edge source="jesuischarlie" target="liberte" id="158" weight="7.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="197" weight="10.0" />
+      <edge source="jesuischarlie" target="lafranceestcharlie" id="198" weight="3.0" />
+      <edge source="jesuischarlie" target="soireejesuischarlie" id="201" weight="4.0" />
+      <edge source="jesuischarlie" target="libertedelapresse" id="211" weight="4.0" />
+      <edge source="jesuischarlie" target="placedelarepublique" id="214" weight="3.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="219" weight="3.0" />
+      <edge source="jesuischarlie" target="notafraid" id="222" weight="3.0" />
+      <edge source="jesuischarlie" target="11janvier" id="244" weight="3.0" />
+      <edge source="jesuischarlie" target="gg2015" id="255" weight="4.0" />
+      <edge source="charliehebdo" target="marcherepublicaine" id="83" weight="7.0" />
+      <edge source="charliehebdo" target="liberte" id="157" weight="5.0" />
+      <edge source="charliehebdo" target="libertedelapresse" id="319" weight="4.0" />
+      <edge source="charliehebdo" target="soireejesuischarlie" id="322" weight="3.0" />
+      <edge source="france" target="pari" id="111" weight="7.0" />
+      <edge source="eredcarpet" target="goldenglobe" id="11" weight="4.0" />
+      <edge source="lafranceestcharlie" target="marcherepublicaine" id="77" weight="3.0" />
+      <edge source="gg2015" target="goldenglobe" id="39" weight="6.0" />
+      <edge source="charlie" target="marcherepublicaine" id="89" weight="3.0" />
+      <edge source="marchedu11janvier" target="marcherepublicaine" id="47" weight="4.0" />
+      <edge source="marcherepublicaine" target="pari" id="73" weight="4.0" />
+      <edge source="marcherepublicaine" target="liberte" id="75" weight="5.0" />
+      <edge source="marcherepublicaine" target="libertedelapresse" id="82" weight="4.0" />
+      <edge source="libertedelapresse" target="liberte" id="156" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

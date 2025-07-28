@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="fusillade" label="fusillade" />
+      <node id="pari" label="pari" />
+      <node id="gign" label="gign" />
+      <node id="dammartinengoele" label="dammartinengoele" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="otage" label="otage" />
+      <node id="prisedotage" label="prisedotage" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="lt" label="lt" />
+      <node id="jesuisahmed" label="jesuisahmed" />
+      <node id="fn" label="fn" />
+      <node id="rip" label="rip" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="portedevincenne" label="portedevincenne" />
+      <node id="home" label="home" />
+      <node id="vincenne" label="vincenne" />
+      <node id="traque" label="traque" />
+      <node id="afp" label="afp" />
+      <node id="charlie" label="charlie" />
+      <node id="dammartin" label="dammartin" />
+      <node id="lne" label="lne" />
+      <node id="tf1" label="tf1" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="kouachi" label="kouachi" />
+      <node id="liberted" label="liberted" />
+      <node id="bfmtv" label="bfmtv" />
+      <node id="montrouge" label="montrouge" />
+    </nodes>
+    <edges>
+      <edge source="lrt" target="jesuischarlie" id="63" weight="3.0" />
+      <edge source="lrt" target="charliehebdo" id="196" weight="8.0" />
+      <edge source="lrt" target="lt" id="304" weight="5.0" />
+      <edge source="noussommescharlie" target="jesuischarlie" id="24" weight="9.0" />
+      <edge source="noussommescharlie" target="charliehebdo" id="230" weight="7.0" />
+      <edge source="fusillade" target="jesuischarlie" id="8" weight="5.0" />
+      <edge source="fusillade" target="dammartinengoele" id="344" weight="3.0" />
+      <edge source="fusillade" target="prisedotage" id="378" weight="5.0" />
+      <edge source="fusillade" target="chaliehebdo" id="421" weight="4.0" />
+      <edge source="fusillade" target="kouachi" id="441" weight="4.0" />
+      <edge source="fusillade" target="vincenne" id="444" weight="5.0" />
+      <edge source="pari" target="jesuischarlie" id="11" weight="7.0" />
+      <edge source="pari" target="charliehebdo" id="183" weight="7.0" />
+      <edge source="pari" target="kouachi" id="543" weight="3.0" />
+      <edge source="gign" target="dammartinengoele" id="360" weight="3.0" />
+      <edge source="gign" target="prisedotage" id="393" weight="3.0" />
+      <edge source="dammartinengoele" target="jesuischarlie" id="5" weight="5.0" />
+      <edge source="dammartinengoele" target="charliehebdo" id="184" weight="9.0" />
+      <edge source="dammartinengoele" target="prisedotage" id="342" weight="7.0" />
+      <edge source="dammartinengoele" target="chaliehebdo" id="343" weight="3.0" />
+      <edge source="dammartinengoele" target="kouachi" id="345" weight="4.0" />
+      <edge source="dammartinengoele" target="vincenne" id="348" weight="5.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="0" weight="49.0" />
+      <edge source="charliehebdo" target="marcherepublicaine" id="176" weight="6.0" />
+      <edge source="charliehebdo" target="charlie" id="177" weight="4.0" />
+      <edge source="charliehebdo" target="bfmtv" id="179" weight="4.0" />
+      <edge source="charliehebdo" target="jesuisahmed" id="180" weight="4.0" />
+      <edge source="charliehebdo" target="otage" id="181" weight="3.0" />
+      <edge source="charliehebdo" target="lt" id="198" weight="3.0" />
+      <edge source="charliehebdo" target="kouachi" id="199" weight="5.0" />
+      <edge source="charliehebdo" target="fn" id="206" weight="4.0" />
+      <edge source="charliehebdo" target="afp" id="211" weight="3.0" />
+      <edge source="charliehebdo" target="traque" id="216" weight="3.0" />
+      <edge source="charliehebdo" target="chaliehebdo" id="217" weight="3.0" />
+      <edge source="charliehebdo" target="prisedotage" id="241" weight="11.0" />
+      <edge source="charliehebdo" target="dammartin" id="262" weight="4.0" />
+      <edge source="charliehebdo" target="montrouge" id="276" weight="4.0" />
+      <edge source="charliehebdo" target="france" id="283" weight="3.0" />
+      <edge source="charliehebdo" target="vincenne" id="291" weight="4.0" />
+      <edge source="france" target="jesuischarlie" id="15" weight="4.0" />
+      <edge source="france" target="prisedotage" id="385" weight="3.0" />
+      <edge source="otage" target="jesuischarlie" id="19" weight="6.0" />
+      <edge source="otage" target="kouachi" id="511" weight="3.0" />
+      <edge source="prisedotage" target="jesuischarlie" id="6" weight="13.0" />
+      <edge source="prisedotage" target="chaliehebdo" id="377" weight="5.0" />
+      <edge source="prisedotage" target="kouachi" id="379" weight="6.0" />
+      <edge source="prisedotage" target="vincenne" id="382" weight="4.0" />
+      <edge source="prisedotage" target="montrouge" id="384" weight="3.0" />
+      <edge source="prisedotage" target="portedevincenne" id="409" weight="3.0" />
+      <edge source="chaliehebdo" target="jesuischarlie" id="7" weight="11.0" />
+      <edge source="chaliehebdo" target="kouachi" id="422" weight="4.0" />
+      <edge source="lt" target="tf1" id="301" weight="3.0" />
+      <edge source="lt" target="bfmtv" id="302" weight="3.0" />
+      <edge source="jesuisahmed" target="jesuischarlie" id="18" weight="6.0" />
+      <edge source="rip" target="jesuischarlie" id="29" weight="3.0" />
+      <edge source="portedevincenne" target="jesuischarlie" id="83" weight="4.0" />
+      <edge source="home" target="jesuischarlie" id="34" weight="3.0" />
+      <edge source="vincenne" target="jesuischarlie" id="12" weight="7.0" />
+      <edge source="vincenne" target="dammartin" id="640" weight="3.0" />
+      <edge source="vincenne" target="kouachi" id="685" weight="3.0" />
+      <edge source="vincenne" target="montrouge" id="801" weight="4.0" />
+      <edge source="charlie" target="jesuischarlie" id="4" weight="3.0" />
+      <edge source="dammartin" target="jesuischarlie" id="31" weight="5.0" />
+      <edge source="lne" target="jesuischarlie" id="82" weight="3.0" />
+      <edge source="jesuischarlie" target="kouachi" id="9" weight="9.0" />
+      <edge source="jesuischarlie" target="montrouge" id="14" weight="7.0" />
+      <edge source="jesuischarlie" target="liberted" id="41" weight="3.0" />
+      <edge source="kouachi" target="montrouge" id="687" weight="6.0" />
+    </edges>
+  </graph>
+</gexf>

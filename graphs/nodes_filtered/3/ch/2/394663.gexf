@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="conseildepari" label="conseildepari" />
+      <node id="traque" label="traque" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="afp" label="afp" />
+      <node id="jesuisahmed" label="jesuisahmed" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="longpont" label="longpont" />
+      <node id="pari" label="pari" />
+      <node id="ff" label="ff" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="charliehebdo" id="11" weight="29.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="13" weight="6.0" />
+      <edge source="jesuischarlie" target="ff" id="28" weight="5.0" />
+      <edge source="jesuischarlie" target="jesuisahmed" id="38" weight="4.0" />
+      <edge source="jesuischarlie" target="pari" id="44" weight="3.0" />
+      <edge source="jesuischarlie" target="chaliehebdo" id="79" weight="3.0" />
+      <edge source="charliehebdo" target="chaliehebdo" id="157" weight="3.0" />
+      <edge source="charliehebdo" target="afp" id="160" weight="3.0" />
+      <edge source="charliehebdo" target="noussommescharlie" id="165" weight="4.0" />
+      <edge source="charliehebdo" target="longpont" id="167" weight="3.0" />
+      <edge source="charliehebdo" target="pari" id="174" weight="3.0" />
+      <edge source="charliehebdo" target="traque" id="206" weight="3.0" />
+      <edge source="charliehebdo" target="conseildepari" id="219" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

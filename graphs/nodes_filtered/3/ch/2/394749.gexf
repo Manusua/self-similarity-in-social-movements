@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="lrt" label="lrt" />
+      <node id="off" label="off" />
+      <node id="lt" label="lt" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="chariehebdo" label="chariehebdo" />
+      <node id="marchedu11janvier" label="marchedu11janvier" />
+      <node id="charlie" label="charlie" />
+      <node id="pari" label="pari" />
+      <node id="citeunephrasedemytho" label="citeunephrasedemytho" />
+      <node id="jessuischarlie" label="jessuischarlie" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="france" id="23" weight="4.0" />
+      <edge source="jesuischarlie" target="lt" id="78" weight="4.0" />
+      <edge source="jesuischarlie" target="pari" id="162" weight="4.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="167" weight="21.0" />
+      <edge source="jesuischarlie" target="chariehebdo" id="171" weight="3.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="173" weight="5.0" />
+      <edge source="charliehebdo" target="france" id="27" weight="3.0" />
+      <edge source="charliehebdo" target="jessuischarlie" id="420" weight="4.0" />
+      <edge source="charliehebdo" target="charlie" id="426" weight="3.0" />
+      <edge source="france" target="marchedu11janvier" id="22" weight="3.0" />
+      <edge source="france" target="pari" id="25" weight="5.0" />
+      <edge source="lrt" target="lt" id="83" weight="6.0" />
+      <edge source="lrt" target="off" id="117" weight="8.0" />
+      <edge source="lrt" target="citeunephrasedemytho" id="119" weight="4.0" />
+      <edge source="marchedu11janvier" target="pari" id="49" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

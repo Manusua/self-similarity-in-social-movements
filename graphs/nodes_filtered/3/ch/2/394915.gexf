@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="m" label="m" />
+      <node id="team213" label="team213" />
+      <node id="teamdz" label="teamdz" />
+      <node id="algaf" label="algaf" />
+      <node id="algerie" label="algerie" />
+      <node id="teamalgerie" label="teamalgerie" />
+      <node id="can2015" label="can2015" />
+      <node id="algeriebos" label="algeriebos" />
+      <node id="tahiadjazair" label="tahiadjazair" />
+      <node id="teamalg" label="teamalg" />
+    </nodes>
+    <edges>
+      <edge source="m" target="algaf" id="78" weight="3.0" />
+      <edge source="m" target="can2015" id="167" weight="3.0" />
+      <edge source="team213" target="algaf" id="69" weight="8.0" />
+      <edge source="team213" target="can2015" id="159" weight="8.0" />
+      <edge source="team213" target="teamalgerie" id="248" weight="5.0" />
+      <edge source="team213" target="algeriebos" id="254" weight="4.0" />
+      <edge source="team213" target="teamdz" id="261" weight="5.0" />
+      <edge source="teamdz" target="algaf" id="77" weight="6.0" />
+      <edge source="teamdz" target="can2015" id="166" weight="6.0" />
+      <edge source="teamdz" target="algerie" id="724" weight="3.0" />
+      <edge source="algaf" target="tahiadjazair" id="65" weight="7.0" />
+      <edge source="algaf" target="can2015" id="66" weight="33.0" />
+      <edge source="algaf" target="teamalgerie" id="67" weight="5.0" />
+      <edge source="algaf" target="algeriebos" id="68" weight="4.0" />
+      <edge source="algaf" target="algerie" id="83" weight="7.0" />
+      <edge source="algaf" target="teamalg" id="84" weight="4.0" />
+      <edge source="algerie" target="can2015" id="172" weight="7.0" />
+      <edge source="teamalgerie" target="can2015" id="157" weight="4.0" />
+      <edge source="teamalgerie" target="algeriebos" id="247" weight="4.0" />
+      <edge source="can2015" target="algeriebos" id="158" weight="4.0" />
+      <edge source="can2015" target="tahiadjazair" id="163" weight="6.0" />
+    </edges>
+  </graph>
+</gexf>

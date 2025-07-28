@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="chaliehebdo" label="chaliehebdo" />
+      <node id="charlie" label="charlie" />
+      <node id="jachetecharlie" label="jachetecharlie" />
+      <node id="asniere" label="asniere" />
+      <node id="pari" label="pari" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="chaliehebdo" id="18" weight="3.0" />
+      <edge source="jesuischarlie" target="charliehebdo" id="20" weight="19.0" />
+      <edge source="jesuischarlie" target="pari" id="30" weight="4.0" />
+      <edge source="jesuischarlie" target="jachetecharlie" id="39" weight="3.0" />
+      <edge source="charliehebdo" target="asniere" id="77" weight="4.0" />
+      <edge source="charliehebdo" target="charlie" id="79" weight="5.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="trot" label="trot" />
+      <node id="superdimanche" label="superdimanche" />
+      <node id="hippodrome" label="hippodrome" />
+    </nodes>
+    <edges>
+      <edge source="trot" target="superdimanche" id="157" weight="4.0" />
+      <edge source="trot" target="hippodrome" id="159" weight="4.0" />
+      <edge source="superdimanche" target="hippodrome" id="208" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

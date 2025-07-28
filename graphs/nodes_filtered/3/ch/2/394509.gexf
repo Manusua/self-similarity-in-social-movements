@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="nt1" label="nt1" />
+      <node id="tvd" label="tvd" />
+      <node id="theoriginal" label="theoriginal" />
+      <node id="reign" label="reign" />
+    </nodes>
+    <edges>
+      <edge source="nt1" target="theoriginal" id="0" weight="3.0" />
+      <edge source="tvd" target="theoriginal" id="3" weight="4.0" />
+      <edge source="tvd" target="reign" id="246" weight="4.0" />
+      <edge source="theoriginal" target="reign" id="1" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

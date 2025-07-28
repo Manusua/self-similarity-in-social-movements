@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="tpmp" label="tpmp" />
+      <node id="nw" label="nw" />
+      <node id="stachmou" label="stachmou" />
+      <node id="excellent" label="excellent" />
+      <node id="stachemou" label="stachemou" />
+    </nodes>
+    <edges>
+      <edge source="tpmp" target="nw" id="91" weight="3.0" />
+      <edge source="tpmp" target="stachemou" id="300" weight="5.0" />
+      <edge source="tpmp" target="stachmou" id="301" weight="4.0" />
+      <edge source="tpmp" target="excellent" id="303" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

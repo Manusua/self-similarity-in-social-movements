@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="tunisie" label="tunisie" />
+      <node id="tuncap" label="tuncap" />
+      <node id="tahiatoune" label="tahiatoune" />
+      <node id="omeag" label="omeag" />
+      <node id="tuncpv" label="tuncpv" />
+      <node id="om" label="om" />
+      <node id="teamom" label="teamom" />
+      <node id="teamtn" label="teamtn" />
+      <node id="can2015" label="can2015" />
+      <node id="capvert" label="capvert" />
+      <node id="livephoceen" label="livephoceen" />
+    </nodes>
+    <edges>
+      <edge source="tunisie" target="tuncap" id="72" weight="5.0" />
+      <edge source="tunisie" target="can2015" id="301" weight="5.0" />
+      <edge source="tuncap" target="tahiatoune" id="62" weight="4.0" />
+      <edge source="tuncap" target="can2015" id="67" weight="11.0" />
+      <edge source="tuncap" target="omeag" id="70" weight="4.0" />
+      <edge source="tuncap" target="tuncpv" id="73" weight="4.0" />
+      <edge source="omeag" target="teamom" id="134" weight="22.0" />
+      <edge source="omeag" target="om" id="138" weight="3.0" />
+      <edge source="omeag" target="livephoceen" id="144" weight="4.0" />
+      <edge source="tuncpv" target="teamtn" id="185" weight="4.0" />
+      <edge source="tuncpv" target="can2015" id="188" weight="5.0" />
+      <edge source="teamtn" target="can2015" id="292" weight="4.0" />
+      <edge source="can2015" target="capvert" id="295" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

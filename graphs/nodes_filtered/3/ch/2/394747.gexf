@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="lequipe21" label="lequipe21" />
+      <node id="cristianoronaldo" label="cristianoronaldo" />
+      <node id="teamcr7" label="teamcr7" />
+      <node id="equipe21" label="equipe21" />
+      <node id="halamadrid" label="halamadrid" />
+      <node id="pari" label="pari" />
+      <node id="teamportugal" label="teamportugal" />
+      <node id="ballondor" label="ballondor" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="lt" label="lt" />
+      <node id="jesuispolicier" label="jesuispolicier" />
+      <node id="cr7ballondor" label="cr7ballondor" />
+      <node id="balondeoro" label="balondeoro" />
+      <node id="nw" label="nw" />
+      <node id="cr7" label="cr7" />
+      <node id="ballondor2014" label="ballondor2014" />
+      <node id="france2" label="france2" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="ronaldo" label="ronaldo" />
+      <node id="portugal" label="portugal" />
+      <node id="fifaballondor" label="fifaballondor" />
+      <node id="messi" label="messi" />
+      <node id="neuer" label="neuer" />
+    </nodes>
+    <edges>
+      <edge source="lrt" target="ballondor" id="25" weight="6.0" />
+      <edge source="lrt" target="cr7" id="235" weight="3.0" />
+      <edge source="lrt" target="jesuischarlie" id="239" weight="3.0" />
+      <edge source="lrt" target="lt" id="242" weight="8.0" />
+      <edge source="lequipe21" target="ballondor" id="26" weight="10.0" />
+      <edge source="lequipe21" target="ballondor2014" id="116" weight="5.0" />
+      <edge source="lequipe21" target="cr7" id="276" weight="4.0" />
+      <edge source="cristianoronaldo" target="ballondor" id="64" weight="4.0" />
+      <edge source="cristianoronaldo" target="ballondor2014" id="112" weight="10.0" />
+      <edge source="cristianoronaldo" target="cr7" id="178" weight="5.0" />
+      <edge source="cristianoronaldo" target="fifaballondor" id="181" weight="4.0" />
+      <edge source="teamcr7" target="ballondor2014" id="145" weight="3.0" />
+      <edge source="equipe21" target="ballondor2014" id="138" weight="3.0" />
+      <edge source="halamadrid" target="ballondor" id="31" weight="5.0" />
+      <edge source="halamadrid" target="ballondor2014" id="115" weight="7.0" />
+      <edge source="halamadrid" target="cr7" id="273" weight="4.0" />
+      <edge source="pari" target="jesuischarlie" id="512" weight="6.0" />
+      <edge source="pari" target="charliehebdo" id="736" weight="3.0" />
+      <edge source="teamportugal" target="ballondor2014" id="144" weight="3.0" />
+      <edge source="teamportugal" target="cr7" id="282" weight="3.0" />
+      <edge source="ballondor" target="ballondor2014" id="24" weight="26.0" />
+      <edge source="ballondor" target="cr7" id="27" weight="11.0" />
+      <edge source="ballondor" target="ronaldo" id="28" weight="9.0" />
+      <edge source="ballondor" target="balondeoro" id="41" weight="3.0" />
+      <edge source="ballondor" target="messi" id="42" weight="3.0" />
+      <edge source="ballondor" target="fifaballondor" id="47" weight="3.0" />
+      <edge source="ballondor" target="neuer" id="49" weight="5.0" />
+      <edge source="ballondor" target="portugal" id="55" weight="3.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="524" weight="7.0" />
+      <edge source="lt" target="jesuischarlie" id="311" weight="3.0" />
+      <edge source="jesuispolicier" target="jesuischarlie" id="529" weight="4.0" />
+      <edge source="cr7ballondor" target="cr7" id="274" weight="3.0" />
+      <edge source="balondeoro" target="ballondor2014" id="114" weight="4.0" />
+      <edge source="nw" target="ballondor2014" id="110" weight="3.0" />
+      <edge source="cr7" target="ballondor2014" id="103" weight="15.0" />
+      <edge source="ballondor2014" target="ronaldo" id="98" weight="6.0" />
+      <edge source="ballondor2014" target="fifaballondor" id="113" weight="3.0" />
+      <edge source="ballondor2014" target="neuer" id="120" weight="4.0" />
+      <edge source="ballondor2014" target="messi" id="124" weight="3.0" />
+      <edge source="ballondor2014" target="jesuischarlie" id="153" weight="3.0" />
+      <edge source="france2" target="jesuischarlie" id="543" weight="3.0" />
+      <edge source="ronaldo" target="neuer" id="370" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

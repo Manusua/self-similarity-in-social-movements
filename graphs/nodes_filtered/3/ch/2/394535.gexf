@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="saintouen" label="saintouen" />
+      <node id="marcheauxpuce" label="marcheauxpuce" />
+      <node id="fleamarket" label="fleamarket" />
+      <node id="pari" label="pari" />
+      <node id="metro" label="metro" />
+      <node id="portrait" label="portrait" />
+    </nodes>
+    <edges>
+      <edge source="saintouen" target="pari" id="140" weight="4.0" />
+      <edge source="saintouen" target="metro" id="207" weight="4.0" />
+      <edge source="saintouen" target="portrait" id="230" weight="4.0" />
+      <edge source="saintouen" target="fleamarket" id="294" weight="4.0" />
+      <edge source="saintouen" target="marcheauxpuce" id="315" weight="4.0" />
+      <edge source="marcheauxpuce" target="pari" id="142" weight="4.0" />
+      <edge source="marcheauxpuce" target="metro" id="209" weight="4.0" />
+      <edge source="marcheauxpuce" target="portrait" id="232" weight="4.0" />
+      <edge source="marcheauxpuce" target="fleamarket" id="296" weight="4.0" />
+      <edge source="fleamarket" target="pari" id="139" weight="4.0" />
+      <edge source="fleamarket" target="metro" id="206" weight="4.0" />
+      <edge source="fleamarket" target="portrait" id="229" weight="4.0" />
+      <edge source="pari" target="metro" id="135" weight="4.0" />
+      <edge source="pari" target="portrait" id="136" weight="4.0" />
+      <edge source="metro" target="portrait" id="203" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

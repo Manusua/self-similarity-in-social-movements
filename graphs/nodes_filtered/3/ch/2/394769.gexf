@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="lpda2" label="lpda2" />
+      <node id="lpdla2" label="lpdla2" />
+      <node id="lt" label="lt" />
+      <node id="lesanges7" label="lesanges7" />
+      <node id="lemag" label="lemag" />
+      <node id="hg4" label="hg4" />
+    </nodes>
+    <edges>
+      <edge source="lrt" target="lt" id="57" weight="3.0" />
+      <edge source="lrt" target="lpdla2" id="174" weight="7.0" />
+      <edge source="lpda2" target="lpdla2" id="333" weight="3.0" />
+      <edge source="lpda2" target="hg4" id="422" weight="6.0" />
+      <edge source="lpdla2" target="hg4" id="348" weight="5.0" />
+      <edge source="lesanges7" target="lemag" id="76" weight="3.0" />
+      <edge source="lesanges7" target="hg4" id="318" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

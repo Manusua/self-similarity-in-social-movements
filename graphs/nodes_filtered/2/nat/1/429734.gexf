@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="401" label="401" />
+      <node id="4249" label="4249" />
+      <node id="14562" label="14562" />
+      <node id="15465" label="15465" />
+      <node id="17907" label="17907" />
+      <node id="2494" label="2494" />
+      <node id="9960" label="9960" />
+      <node id="395" label="395" />
+    </nodes>
+    <edges>
+      <edge source="401" target="2494" id="1" weight="3.0" />
+      <edge source="401" target="4249" id="2" weight="2.0" />
+      <edge source="401" target="9960" id="3" weight="3.0" />
+      <edge source="401" target="17907" id="7" weight="3.0" />
+      <edge source="4249" target="2494" id="87" weight="2.0" />
+      <edge source="4249" target="9960" id="169" weight="2.0" />
+      <edge source="4249" target="17907" id="173" weight="2.0" />
+      <edge source="14562" target="395" id="25" weight="2.0" />
+      <edge source="14562" target="2494" id="26" weight="2.0" />
+      <edge source="14562" target="15465" id="32" weight="2.0" />
+      <edge source="15465" target="395" id="51" weight="2.0" />
+      <edge source="15465" target="2494" id="52" weight="2.0" />
+      <edge source="17907" target="2494" id="92" weight="6.0" />
+      <edge source="17907" target="9960" id="177" weight="3.0" />
+      <edge source="2494" target="9960" id="88" weight="3.0" />
+      <edge source="2494" target="395" id="102" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>

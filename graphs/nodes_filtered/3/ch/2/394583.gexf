@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="pari" label="pari" />
+      <node id="pompidoucentre" label="pompidoucentre" />
+      <node id="museum" label="museum" />
+      <node id="portrait" label="portrait" />
+    </nodes>
+    <edges>
+      <edge source="pari" target="pompidoucentre" id="160" weight="4.0" />
+      <edge source="pari" target="museum" id="161" weight="4.0" />
+      <edge source="pari" target="portrait" id="164" weight="4.0" />
+      <edge source="pompidoucentre" target="museum" id="457" weight="4.0" />
+      <edge source="pompidoucentre" target="portrait" id="460" weight="4.0" />
+      <edge source="museum" target="portrait" id="500" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

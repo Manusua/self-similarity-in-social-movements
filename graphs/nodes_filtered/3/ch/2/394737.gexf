@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="parisattack" label="parisattack" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="pari" label="pari" />
+      <node id="placedelarepublique" label="placedelarepublique" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="charliehebdo" id="23" weight="3.0" />
+      <edge source="jesuischarlie" target="marcherepublicaine" id="49" weight="6.0" />
+      <edge source="jesuischarlie" target="pari" id="54" weight="4.0" />
+      <edge source="jesuischarlie" target="placedelarepublique" id="61" weight="5.0" />
+      <edge source="jesuischarlie" target="parisattack" id="62" weight="4.0" />
+      <edge source="parisattack" target="placedelarepublique" id="266" weight="4.0" />
+      <edge source="france" target="pari" id="189" weight="3.0" />
+      <edge source="pari" target="placedelarepublique" id="268" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

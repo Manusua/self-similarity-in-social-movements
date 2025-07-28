@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="mhscpsg" label="mhscpsg" />
+      <node id="lrt" label="lrt" />
+      <node id="off" label="off" />
+      <node id="np" label="np" />
+      <node id="lt" label="lt" />
+      <node id="monpsg" label="monpsg" />
+      <node id="psg" label="psg" />
+      <node id="cdf" label="cdf" />
+      <node id="teampsg" label="teampsg" />
+      <node id="coupedefrance" label="coupedefrance" />
+    </nodes>
+    <edges>
+      <edge source="mhscpsg" target="cdf" id="30" weight="5.0" />
+      <edge source="mhscpsg" target="teampsg" id="40" weight="3.0" />
+      <edge source="mhscpsg" target="coupedefrance" id="50" weight="3.0" />
+      <edge source="lrt" target="off" id="74" weight="5.0" />
+      <edge source="lrt" target="np" id="154" weight="4.0" />
+      <edge source="lrt" target="psg" id="155" weight="3.0" />
+      <edge source="off" target="lt" id="63" weight="3.0" />
+      <edge source="monpsg" target="coupedefrance" id="234" weight="3.0" />
+      <edge source="psg" target="cdf" id="137" weight="3.0" />
+      <edge source="teampsg" target="coupedefrance" id="181" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

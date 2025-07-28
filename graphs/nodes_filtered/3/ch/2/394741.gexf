@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="louvre" label="louvre" />
+      <node id="museum" label="museum" />
+      <node id="marchedu11janvier" label="marchedu11janvier" />
+      <node id="pari" label="pari" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="charliehebdo" id="4" weight="5.0" />
+      <edge source="jesuischarlie" target="pari" id="6" weight="6.0" />
+      <edge source="jesuischarlie" target="france" id="10" weight="3.0" />
+      <edge source="jesuischarlie" target="marchedu11janvier" id="36" weight="3.0" />
+      <edge source="charliehebdo" target="pari" id="202" weight="3.0" />
+      <edge source="france" target="pari" id="108" weight="3.0" />
+      <edge source="louvre" target="pari" id="264" weight="4.0" />
+      <edge source="louvre" target="museum" id="339" weight="4.0" />
+      <edge source="museum" target="pari" id="266" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

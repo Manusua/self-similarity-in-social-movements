@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="copadelrey" label="copadelrey" />
+      <node id="realmadridvsatl" label="realmadridvsatl" />
+      <node id="rmaatm" label="rmaatm" />
+      <node id="rmlive" label="rmlive" />
+      <node id="teamcr7" label="teamcr7" />
+      <node id="halamadrid" label="halamadrid" />
+      <node id="teamportugal" label="teamportugal" />
+      <node id="teamreal" label="teamreal" />
+      <node id="rmaatl" label="rmaatl" />
+      <node id="elnino" label="elnino" />
+    </nodes>
+    <edges>
+      <edge source="copadelrey" target="halamadrid" id="94" weight="6.0" />
+      <edge source="copadelrey" target="rmaatm" id="102" weight="11.0" />
+      <edge source="copadelrey" target="teamcr7" id="184" weight="4.0" />
+      <edge source="copadelrey" target="teamreal" id="185" weight="4.0" />
+      <edge source="copadelrey" target="teamportugal" id="186" weight="5.0" />
+      <edge source="copadelrey" target="realmadridvsatl" id="187" weight="4.0" />
+      <edge source="copadelrey" target="rmlive" id="188" weight="4.0" />
+      <edge source="copadelrey" target="rmaatl" id="189" weight="4.0" />
+      <edge source="realmadridvsatl" target="halamadrid" id="92" weight="4.0" />
+      <edge source="realmadridvsatl" target="teamcr7" id="327" weight="4.0" />
+      <edge source="realmadridvsatl" target="teamreal" id="330" weight="4.0" />
+      <edge source="realmadridvsatl" target="teamportugal" id="332" weight="4.0" />
+      <edge source="realmadridvsatl" target="rmlive" id="335" weight="4.0" />
+      <edge source="rmaatm" target="halamadrid" id="88" weight="6.0" />
+      <edge source="rmaatm" target="elnino" id="101" weight="3.0" />
+      <edge source="rmaatm" target="rmaatl" id="105" weight="4.0" />
+      <edge source="rmlive" target="halamadrid" id="93" weight="4.0" />
+      <edge source="rmlive" target="teamcr7" id="328" weight="4.0" />
+      <edge source="rmlive" target="teamreal" id="331" weight="4.0" />
+      <edge source="rmlive" target="teamportugal" id="333" weight="4.0" />
+      <edge source="teamcr7" target="halamadrid" id="89" weight="4.0" />
+      <edge source="teamcr7" target="teamreal" id="325" weight="4.0" />
+      <edge source="teamcr7" target="teamportugal" id="326" weight="4.0" />
+      <edge source="halamadrid" target="teamreal" id="90" weight="4.0" />
+      <edge source="halamadrid" target="teamportugal" id="91" weight="4.0" />
+      <edge source="teamportugal" target="teamreal" id="329" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

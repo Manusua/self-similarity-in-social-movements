@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="lrt" label="lrt" />
+      <node id="verratti" label="verratti" />
+      <node id="zlatan" label="zlatan" />
+      <node id="teamom" label="teamom" />
+      <node id="pari" label="pari" />
+      <node id="douchez" label="douchez" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="lt" label="lt" />
+      <node id="marquinho" label="marquinho" />
+      <node id="teampsg" label="teampsg" />
+      <node id="lfauit" label="lfauit" />
+      <node id="teamol" label="teamol" />
+      <node id="off" label="off" />
+      <node id="np" label="np" />
+      <node id="coupedelaligue" label="coupedelaligue" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="antiasse" label="antiasse" />
+      <node id="renoir" label="renoir" />
+      <node id="cdl" label="cdl" />
+      <node id="psg" label="psg" />
+      <node id="assepsg" label="assepsg" />
+    </nodes>
+    <edges>
+      <edge source="lrt" target="lt" id="40" weight="7.0" />
+      <edge source="lrt" target="np" id="93" weight="4.0" />
+      <edge source="lrt" target="assepsg" id="98" weight="6.0" />
+      <edge source="lrt" target="lfauit" id="99" weight="5.0" />
+      <edge source="lrt" target="jesuischarlie" id="106" weight="4.0" />
+      <edge source="verratti" target="assepsg" id="561" weight="3.0" />
+      <edge source="zlatan" target="assepsg" id="544" weight="4.0" />
+      <edge source="teamom" target="assepsg" id="538" weight="3.0" />
+      <edge source="teamom" target="cdl" id="688" weight="3.0" />
+      <edge source="pari" target="jesuischarlie" id="137" weight="3.0" />
+      <edge source="pari" target="renoir" id="463" weight="4.0" />
+      <edge source="douchez" target="assepsg" id="559" weight="4.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="123" weight="6.0" />
+      <edge source="lt" target="assepsg" id="42" weight="6.0" />
+      <edge source="marquinho" target="assepsg" id="549" weight="4.0" />
+      <edge source="teampsg" target="assepsg" id="424" weight="22.0" />
+      <edge source="teampsg" target="coupedelaligue" id="427" weight="6.0" />
+      <edge source="teamol" target="assepsg" id="535" weight="7.0" />
+      <edge source="teamol" target="antiasse" id="761" weight="4.0" />
+      <edge source="off" target="assepsg" id="10" weight="3.0" />
+      <edge source="coupedelaligue" target="assepsg" id="539" weight="15.0" />
+      <edge source="coupedelaligue" target="cdl" id="689" weight="4.0" />
+      <edge source="antiasse" target="assepsg" id="575" weight="4.0" />
+      <edge source="cdl" target="assepsg" id="537" weight="11.0" />
+      <edge source="psg" target="assepsg" id="551" weight="13.0" />
+    </edges>
+  </graph>
+</gexf>

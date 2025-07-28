@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="voice" label="voice" />
+      <node id="eargasm" label="eargasm" />
+      <node id="samsparro" label="samsparro" />
+      <node id="night" label="night" />
+      <node id="letmesail" label="letmesail" />
+    </nodes>
+    <edges>
+      <edge source="voice" target="eargasm" id="6" weight="4.0" />
+      <edge source="voice" target="letmesail" id="10" weight="4.0" />
+      <edge source="voice" target="night" id="13" weight="4.0" />
+      <edge source="voice" target="samsparro" id="16" weight="4.0" />
+      <edge source="eargasm" target="letmesail" id="4" weight="4.0" />
+      <edge source="eargasm" target="night" id="5" weight="4.0" />
+      <edge source="eargasm" target="samsparro" id="7" weight="4.0" />
+      <edge source="samsparro" target="letmesail" id="11" weight="4.0" />
+      <edge source="samsparro" target="night" id="14" weight="4.0" />
+      <edge source="night" target="letmesail" id="9" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

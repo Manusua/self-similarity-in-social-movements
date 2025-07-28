@@ -8,8 +8,7 @@ from tqdm import tqdm
 import numpy as np
 import powerlaw
 import csv
-
-
+from itertools import combinations
 
 from nestedness_calculator import NestednessCalculator
 
@@ -34,7 +33,6 @@ def create_csv_weighted(input_file, output_file):
                 weight = df_hashtag[(df_hashtag["hour"] == hour)].shape[1]
                 main_df = pd.concat([main_df, pd.DataFrame([user, hashtag, hour, weight])], ignore_index=True)
     main_df.to_csv(output_file, sep=' ')
-
 
 def read_data(manifestacion, datasets_folder = "datasets/"):
     """
@@ -87,10 +85,9 @@ def create_bipartite_graph(df, manifestacion, graphs_folder="graphs/", hour_wind
     --------
     create_bipartite_graph(df, "protesta_2024")
     """
-    graphs_folder = graphs_folder + 'bipartite/' + manifestacion + '/' + str(hour_window) + '/'
-    df_h = df["hour"].unique()
+    graphs_folder = graphs_folder + 'nodes_bipartite/' + manifestacion + '/' + str(hour_window) + '/'
+    df_h = np.sort(df["hour"].unique())
     print("Creando redes bipartitas, manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
-    G = nx.Graph()
     for hour in tqdm(df_h[::hour_window]):
         conditions = (df["hour"] == hour)
         for step in range(1, hour_window):
@@ -136,9 +133,9 @@ def create_graphs(node_criteria, edge_criteria, df, manifestacion, graphs_folder
     create_graphs("user", "hashtag", df, "protesta_2024")
     """
     graphs_folder = graphs_folder + 'nodes_' + node_criteria + '/'+ manifestacion + '/' + str(hour_window) + '/'
-    df_h = df["hour"].unique()
+    np.sort(df_h = df["hour"].unique())
     print("Creando redes de", node_criteria, "unidos si comparten uno o más", edge_criteria, ", manifestación seleccionada:", manifestacion, "número de horas: ", len(df_h)/hour_window)
-    for hour in tqdm(np.sort(df_h)[::hour_window]):
+    for hour in tqdm(df_h[::hour_window]):
         G = nx.Graph()
         conditions = (df["hour"] == hour)
         for step in range(1, hour_window):
@@ -375,6 +372,26 @@ def create_filtered_graph(G, thresh_filt):
         if data['weight'] >= thresh_filt:
             H.add_edge(u, v, **data)
     return H
+
+def write_filtered_graph(manifestacion, HORA_CRITICA, umbral, graphs_folder, hour_window=1):
+    
+    G = nx.read_gexf(str(graphs_folder) + "nodes_hashtag/" + str(manifestacion) + '/' + str(hour_window) + '/' + str(HORA_CRITICA) + ".gexf")
+    nodos_original = G.number_of_nodes()
+    aristas_original = G.number_of_edges()
+    # Se queda con las aristas con peso mayor o igual a umbral
+    G = create_filtered_graph(G, umbral)
+
+    # Componente gigante del grafo
+    Gcc = sorted(nx.connected_components(G), key=len, reverse=True)
+    G = G.subgraph(Gcc[0])
+
+    nx.write_gexf(G, graphs_folder + "nodes_filtered/" + str(umbral) + '/'  + manifestacion + '/' + str(hour_window) + '/' + str(HORA_CRITICA) + ".gexf")
+
+    # Escribimos el .edge (listo para usar dmercator)
+    with open(graphs_folder + "nodes_filtered/" + str(umbral) + '/'  + manifestacion + '/' + str(hour_window) + '/' + str(HORA_CRITICA) + ".edge", "w") as f:
+        for edge in G.edges():
+            f.write(edge[0] + ' ' + edge[1] + '\n')
+    print("Grafo", manifestacion + ":" + str(HORA_CRITICA)," (umbral", str(umbral) + ')', "reducido a", round(G.number_of_nodes()/nodos_original*100,2), "% en nodos y ", round(G.number_of_edges()/aristas_original*100, 2), "% en aristas.")
 ########################################################################
 #
 # OBTENCIÓN DE MÉTRICAS
@@ -457,7 +474,7 @@ def calc_nestedness(G):
     nodf_score = NestednessCalculator(mat).nodf(mat)
     return nodf_score
 
-def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures/", datasets_foler="datasets/", graphs_folder="graphs/", write=True, read=True, hour_window=1):
+def get_mod_nest_coefficient(manifestacion, criterio, measures_foler="measures/", datasets_foler="datasets/", graphs_folder="graphs/", write=True, read=True, hour_window=1):
     """
     Calcula y devuelve el coeficiente de clustering y el coeficiente de anidamiento para cada hora de una manifestación 
     dada, en función del tipo de red especificado. Los resultados se pueden guardar en un archivo JSON para su reutilización.
@@ -498,13 +515,18 @@ def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures
 
     Ejemplo de uso:
     --------------
-    hours, modularities, nestedness = get_clust_nest_coefficient("protest", "u")
+    hours, modularities, nestedness = get_mod_nest_coefficient("protest", "u")
     """
     print("Calculando el anidamiento y modularidad de " + manifestacion + " con criterio: " + criterio)
     if criterio == "h":
         name_path = "hashtag"
     elif criterio == "u":
         name_path = "user"
+    elif criterio == "b":
+        name_path = "bipartite"
+    else:
+        print("Criterio no válido. Debe ser 'h', 'u' o 'b'.")
+        return -1
 
     dict_manif = {}
     path_file = measures_foler + manifestacion + '_' + str(hour_window) + '_' + criterio + '.json'
@@ -530,23 +552,26 @@ def get_clust_nest_coefficient(manifestacion, criterio, measures_foler="measures
             dict_manif[hora] = {}
 
         if not ("nestedness" in dict_manif[hora].keys() and "modularity" in dict_manif[hora].keys()):
-            if criterio != "b":
-                G = nx.read_gexf(graphs_folder + 'nodes_' + name_path + '/' + manifestacion + '/' + str(hour_window) + '/' + str(hora) + '.gexf')
+            if not os.path.exists(graphs_folder + 'nodes_' + name_path + '/' + manifestacion + '/' + str(hour_window) + '/' + str(hora) + '.gexf'):
+                dict_manif[hora]["nestedness"] = 0
+                dict_manif[hora]["modularity"] = 0
+
+                
             else:
-                G = nx.read_gexf(graphs_folder + 'bipartite/' + manifestacion + '/' + str(hour_window) + '/' + str(hora) + '.gexf')
-            if not "nestedness" in dict_manif[hora].keys():
-                if G.number_of_edges() > 0:
-                    nestedness = calc_nestedness(G)
-                else:
-                    nestedness = 0
-                dict_manif[hora]["nestedness"] = float(nestedness)
-            
-            if not "modularity" in dict_manif[hora].keys(): 
-                if G.number_of_edges() > 0:
-                    modularity_louv = nx.community.modularity(G, nx.community.louvain_communities(G, seed=123), weight="weight")
-                else:
-                    modularity_louv = 0
-                dict_manif[hora]["modularity"] = modularity_louv
+                G = nx.read_gexf(graphs_folder + 'nodes_' + name_path + '/' + manifestacion + '/' + str(hour_window) + '/' + str(hora) + '.gexf')
+                if not "nestedness" in dict_manif[hora].keys():
+                    if G.number_of_edges() > 0:
+                        nestedness = calc_nestedness(G)
+                    else:
+                        nestedness = 0
+                    dict_manif[hora]["nestedness"] = float(nestedness)
+                
+                if not "modularity" in dict_manif[hora].keys(): 
+                    if G.number_of_edges() > 0:
+                        modularity_louv = nx.community.modularity(G, nx.community.louvain_communities(G, seed=123), weight="weight")
+                    else:
+                        modularity_louv = 0
+                    dict_manif[hora]["modularity"] = modularity_louv
 
     arr_hour =[]
     arr_nest = []
@@ -622,6 +647,36 @@ def calc_avg_clust_coef_by_normalized_internal_degree(G, clust):
         dict_hid_var[key] = np.average(dict_hid_var_aux_2[key])
 
     return dict_hid_var
+
+
+def bipartite_clustering(B: nx.Graph, nodes: set) -> dict:
+    """
+    Calcula el clustering bipartito para los nodos indicados en 'nodes',
+    usando la fórmula c_i = 2*T_i / (k_i*(k_i-1)), donde
+    - k_i = grado de i (nº de vecinos en la otra capa)
+    - T_i = nº de pares de vecinos (u,v) tales que u y v
+            comparten al menos un vecino (distinto de i)
+            —es decir, cuentan los cuadrados sin multiplicidad.
+    Devuelve un dict { nodo_i: clustering_i }.
+    """
+    clustering = {}
+    for i in nodes:
+        neigh = set(B.neighbors(i))
+        k = len(neigh)
+        if k < 2:
+            clustering[i] = 0.0
+            continue
+
+        T = 0
+        # recorre cada par de vecinos (u,v) de i
+        for u, v in combinations(neigh, 2):
+            # comprueba si u y v comparten algún otro vecino distinto de i
+            if (set(B.neighbors(u)) & set(B.neighbors(v))) - {i}:
+                T += 1
+
+        clustering[i] = 2 * T / (k * (k - 1))
+
+    return clustering
 
 def calc_clust(G, MAX_UMBRAL, measures_path, mode="h", read=True, write=True):
     """
@@ -707,7 +762,14 @@ def calc_clust(G, MAX_UMBRAL, measures_path, mode="h", read=True, write=True):
                 return dict_thres_avg_clust, dict_norm_int_deg
 
             if mode == "b":
-                clust = nx.algorithms.bipartite.clustering(F)
+                #clust = nx.algorithms.bipartite.clustering(F)
+                layers = nx.get_node_attributes(F, 'bipartite')
+                set0 = {n for n,p in layers.items() if p == 0}
+                set1 = set(F) - set0
+                # calculamos clustering en cada capa y unimos
+                c0 = bipartite_clustering(F, set0)
+                c1 = bipartite_clustering(F, set1)
+                clust = {**c0, **c1}
             else:
                 clust  = nx.clustering(F)
             avg_clust = np.mean(np.array(list(clust.values())))
@@ -772,14 +834,14 @@ def calc_self_sim(hora, MAX_UMBRAL, manifestacion, mode='h', graphs_folder="grap
     elif mode == "u":
         path_graph = "nodes_user/"
     elif mode == "b":
-        path_graph = "bipartite/"
+        path_graph = "nodes_bipartite/"
     elif mode == "f":
-        path_graph = "filtered/" + str(thresh_filter) + '/'
+        path_graph = "nodes_filtered/" + str(thresh_filter) + '/'
     G = nx.read_gexf(graphs_folder + path_graph  + manifestacion + hora + ".gexf")
     path_measures_hour = measures_folder + manifestacion
     if not os.path.exists(path_measures_hour):
         os.makedirs(path_measures_hour)
-    return calc_clust(G, MAX_UMBRAL, path_measures_hour + hora, mode=mode)
+    return calc_clust(G, MAX_UMBRAL, path_measures_hour + hora, mode=mode, read=False, write=True)
 
 
 ########################################################################
@@ -788,6 +850,34 @@ def calc_self_sim(hora, MAX_UMBRAL, manifestacion, mode='h', graphs_folder="grap
 #
 ########################################################################
 
+def get_exp_from_pdf(pdf_points):
+    x_vals = []
+    probabilities = []
+    for elem in pdf_points:
+    # Extraer los valores de x y las probabilidades
+        for a in np.array([point[0] for point in elem]):
+            x_vals.append(a)
+        for b in np.array([point[1] for point in elem]):
+            probabilities.append(b)
+
+    # num total de observaciones que deseas simular
+    total_count = 1000  
+
+    # Calcular las frecuencias absolutas
+    frequencies = probabilities * total_count
+
+    # Reconstruir los datos originales
+    data = []
+    for x, freq in zip(x_vals, frequencies):
+        count = int(round(freq))
+        data.extend([x] * count)
+    import powerlaw
+
+    fit = powerlaw.Fit(data)
+    alpha = fit.power_law.alpha
+    xmin = fit.power_law.xmin
+
+    return alpha
 
 def get_exp(arr_points):
     """
@@ -990,9 +1080,9 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
     elif mode == "u":
         path_graph = "nodes_user/"
     elif mode == "b":
-        path_graph = "bipartite/"
+        path_graph = "nodes_bipartite/"
     elif mode == "f":
-        path_graph = "filtered/" + str(thresh_filt) + '/'
+        path_graph = "nodes_filtered/" + str(thresh_filt) + '/'
     
     # Se carga el grafo inicial
     G = nx.read_gexf(graphs_folder + path_graph + manifestacion + hour + '.gexf')
@@ -1062,54 +1152,19 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
             json.dump(dict_points, f, indent=2)
     return plfit, arr_deg_prob, arr_deg_comp_cum
 
+def get_dict_hora_kt(manifestacion, HORA_CRITICA, hour_window=1, node_type="hashtag", MAX_UMBRAL=200, graphs_folder="graphs/", umbral_filt=None):
+    dict_hora = {}
+    if node_type == "filtered":
+        node_type = "filtered/" + str(umbral_filt) 
+    G = nx.read_gexf(graphs_folder + f"nodes_{node_type}/{manifestacion}/{str(hour_window)}/{HORA_CRITICA}.gexf")
+    for threshold in tqdm(range(MAX_UMBRAL)):
+        threshold = float(threshold)
+        if not threshold in dict_hora.keys():
+            # Se crea el subgrafo basandose en el threshold seleccionado
+            F = thresh_normalization(G, threshold)
+            if F == -1:
+                # Caso de grafo vacío o grafo inconexo
+                break 
+            dict_hora[threshold] = calc_avg_degree(F)
+    return dict_hora
 
-########################################################################
-#
-# FUNCIONES DE REPRESENTACIÓN DE MÉTRICAS
-#
-########################################################################
-
-
-def get_all_markers():
-    """
-    Devuelve una lista de todos los marcadores disponibles en matplotlib.
-
-    Retorna:
-    --------
-    list
-        Una lista de cadenas, donde cada cadena es el nombre de un marcador disponible en matplotlib.
-    """
-    return [
-    '.',  # point marker
-    ',',  # pixel marker
-    'o',  # circle marker
-    'v',  # triangle_down marker
-    '^',  # triangle_up marker
-    '<',  # triangle_left marker
-    '>',  # triangle_right marker
-    '1',  # tri_down marker
-    '2',  # tri_up marker
-    '3',  # tri_left marker
-    '4',  # tri_right marker
-    's',  # square marker
-    'p',  # pentagon marker
-    '*',  # star marker
-    'h',  # hexagon1 marker
-    'H',  # hexagon2 marker
-    '+',  # plus marker
-    'x',  # x marker
-    'D',  # diamond marker
-    'd',  # thin_diamond marker
-    '|',  # vline marker
-    '_',  # hline marker
-    'P',  # plus (filled) marker
-    'X',  # x (filled) marker
-    0,    # tickleft marker
-    1,    # tickright marker
-    2,    # tickup marker
-    3,    # tickdown marker
-    4,    # caretleft marker
-    5,    # caretright marker
-    6,    # caretup marker
-    7    # caretdown marker
-]

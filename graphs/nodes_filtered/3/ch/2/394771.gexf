@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="asse" label="asse" />
+      <node id="lrt" label="lrt" />
+      <node id="teamasse" label="teamasse" />
+      <node id="allezpari" label="allezpari" />
+      <node id="lt" label="lt" />
+      <node id="cdl" label="cdl" />
+      <node id="nw" label="nw" />
+      <node id="alv" label="alv" />
+      <node id="psg" label="psg" />
+      <node id="assepsg" label="assepsg" />
+      <node id="teampsg" label="teampsg" />
+      <node id="coupedelaligue" label="coupedelaligue" />
+    </nodes>
+    <edges>
+      <edge source="asse" target="assepsg" id="190" weight="3.0" />
+      <edge source="asse" target="psg" id="530" weight="3.0" />
+      <edge source="lrt" target="lt" id="98" weight="6.0" />
+      <edge source="teamasse" target="alv" id="373" weight="4.0" />
+      <edge source="allezpari" target="assepsg" id="195" weight="4.0" />
+      <edge source="allezpari" target="teampsg" id="326" weight="4.0" />
+      <edge source="lt" target="assepsg" id="123" weight="3.0" />
+      <edge source="lt" target="nw" id="132" weight="3.0" />
+      <edge source="cdl" target="assepsg" id="187" weight="4.0" />
+      <edge source="nw" target="assepsg" id="197" weight="6.0" />
+      <edge source="alv" target="assepsg" id="185" weight="4.0" />
+      <edge source="psg" target="assepsg" id="201" weight="4.0" />
+      <edge source="assepsg" target="teampsg" id="191" weight="7.0" />
+      <edge source="assepsg" target="coupedelaligue" id="193" weight="4.0" />
+      <edge source="teampsg" target="coupedelaligue" id="332" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

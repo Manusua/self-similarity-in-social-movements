@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="france" label="france" />
+      <node id="toulouse" label="toulouse" />
+      <node id="contrelesterroriste" label="contrelesterroriste" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="jesuisahmed" label="jesuisahmed" />
+      <node id="noamalgame" label="noamalgame" />
+      <node id="europe" label="europe" />
+      <node id="libertedelapresse" label="libertedelapresse" />
+      <node id="pari" label="pari" />
+      <node id="liberte" label="liberte" />
+    </nodes>
+    <edges>
+      <edge source="jesuischarlie" target="charliehebdo" id="6" weight="33.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="96" weight="4.0" />
+      <edge source="jesuischarlie" target="pari" id="100" weight="5.0" />
+      <edge source="jesuischarlie" target="toulouse" id="104" weight="3.0" />
+      <edge source="jesuischarlie" target="contrelesterroriste" id="124" weight="4.0" />
+      <edge source="jesuischarlie" target="jesuisahmed" id="126" weight="5.0" />
+      <edge source="jesuischarlie" target="liberte" id="134" weight="4.0" />
+      <edge source="jesuischarlie" target="libertedelapresse" id="135" weight="4.0" />
+      <edge source="jesuischarlie" target="noamalgame" id="176" weight="4.0" />
+      <edge source="charliehebdo" target="noussommescharlie" id="7" weight="5.0" />
+      <edge source="charliehebdo" target="pari" id="23" weight="4.0" />
+      <edge source="charliehebdo" target="liberte" id="27" weight="4.0" />
+      <edge source="charliehebdo" target="libertedelapresse" id="28" weight="4.0" />
+      <edge source="france" target="pari" id="276" weight="6.0" />
+      <edge source="france" target="europe" id="287" weight="3.0" />
+      <edge source="europe" target="pari" id="328" weight="3.0" />
+      <edge source="libertedelapresse" target="liberte" id="611" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

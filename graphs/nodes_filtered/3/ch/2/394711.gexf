@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="noussommestouscharlie" label="noussommestouscharlie" />
+      <node id="charliehebdo" label="charliehebdo" />
+      <node id="vivelafrance" label="vivelafrance" />
+      <node id="jesuischarlie" label="jesuischarlie" />
+      <node id="allemagne" label="allemagne" />
+      <node id="lafranceestcharlie" label="lafranceestcharlie" />
+      <node id="noussommescharlie" label="noussommescharlie" />
+      <node id="marcherepublicaine" label="marcherepublicaine" />
+      <node id="promclassic" label="promclassic" />
+    </nodes>
+    <edges>
+      <edge source="noussommestouscharlie" target="jesuischarlie" id="12" weight="3.0" />
+      <edge source="charliehebdo" target="jesuischarlie" id="15" weight="4.0" />
+      <edge source="vivelafrance" target="jesuischarlie" id="20" weight="3.0" />
+      <edge source="jesuischarlie" target="marcherepublicaine" id="6" weight="6.0" />
+      <edge source="jesuischarlie" target="promclassic" id="7" weight="3.0" />
+      <edge source="jesuischarlie" target="noussommescharlie" id="11" weight="3.0" />
+      <edge source="jesuischarlie" target="lafranceestcharlie" id="16" weight="4.0" />
+      <edge source="jesuischarlie" target="allemagne" id="21" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

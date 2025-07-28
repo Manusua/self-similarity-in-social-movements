@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="teamol" label="teamol" />
+      <node id="lrt" label="lrt" />
+      <node id="off" label="off" />
+      <node id="np" label="np" />
+      <node id="lt" label="lt" />
+      <node id="omeag" label="omeag" />
+      <node id="ogcnom" label="ogcnom" />
+      <node id="om" label="om" />
+      <node id="smstesmoncrush" label="smstesmoncrush" />
+      <node id="teamom" label="teamom" />
+      <node id="livephoceen" label="livephoceen" />
+    </nodes>
+    <edges>
+      <edge source="teamol" target="teamom" id="180" weight="3.0" />
+      <edge source="lrt" target="np" id="2" weight="4.0" />
+      <edge source="lrt" target="lt" id="43" weight="7.0" />
+      <edge source="lrt" target="off" id="52" weight="6.0" />
+      <edge source="lrt" target="smstesmoncrush" id="64" weight="3.0" />
+      <edge source="lt" target="omeag" id="117" weight="3.0" />
+      <edge source="omeag" target="om" id="92" weight="4.0" />
+      <edge source="omeag" target="ogcnom" id="93" weight="5.0" />
+      <edge source="omeag" target="teamom" id="95" weight="23.0" />
+      <edge source="omeag" target="livephoceen" id="104" weight="3.0" />
+      <edge source="ogcnom" target="teamom" id="181" weight="3.0" />
+      <edge source="om" target="teamom" id="173" weight="3.0" />
+    </edges>
+  </graph>
+</gexf>

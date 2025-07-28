@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="teamol" label="teamol" />
+      <node id="lrt" label="lrt" />
+      <node id="rclol" label="rclol" />
+      <node id="nimasm" label="nimasm" />
+      <node id="olrcl" label="olrcl" />
+      <node id="fcgbtfc" label="fcgbtfc" />
+      <node id="cdf" label="cdf" />
+      <node id="teamasnl" label="teamasnl" />
+      <node id="coupedefrance" label="coupedefrance" />
+      <node id="girondin" label="girondin" />
+      <node id="asseasnl" label="asseasnl" />
+    </nodes>
+    <edges>
+      <edge source="teamol" target="rclol" id="60" weight="20.0" />
+      <edge source="teamol" target="olrcl" id="90" weight="3.0" />
+      <edge source="lrt" target="rclol" id="1" weight="3.0" />
+      <edge source="rclol" target="cdf" id="55" weight="5.0" />
+      <edge source="rclol" target="asseasnl" id="63" weight="3.0" />
+      <edge source="nimasm" target="cdf" id="186" weight="4.0" />
+      <edge source="fcgbtfc" target="girondin" id="122" weight="4.0" />
+      <edge source="fcgbtfc" target="coupedefrance" id="124" weight="4.0" />
+      <edge source="fcgbtfc" target="cdf" id="130" weight="4.0" />
+      <edge source="teamasnl" target="asseasnl" id="139" weight="4.0" />
+      <edge source="coupedefrance" target="girondin" id="221" weight="4.0" />
+    </edges>
+  </graph>
+</gexf>

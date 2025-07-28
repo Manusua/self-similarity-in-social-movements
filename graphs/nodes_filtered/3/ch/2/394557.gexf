@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-27">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="cdf32e" label="cdf32e" />
+      <node id="gf38" label="gf38" />
+      <node id="lrt" label="lrt" />
+      <node id="off" label="off" />
+      <node id="enqueteexclusive" label="enqueteexclusive" />
+      <node id="np" label="np" />
+      <node id="lt" label="lt" />
+      <node id="cdf" label="cdf" />
+      <node id="om" label="om" />
+      <node id="greom" label="greom" />
+      <node id="fbsport" label="fbsport" />
+      <node id="teamom" label="teamom" />
+      <node id="grenoble" label="grenoble" />
+      <node id="gf38om" label="gf38om" />
+      <node id="m6" label="m6" />
+      <node id="zoneinterdite" label="zoneinterdite" />
+      <node id="coupedefrance" label="coupedefrance" />
+    </nodes>
+    <edges>
+      <edge source="cdf32e" target="gf38om" id="36" weight="3.0" />
+      <edge source="cdf32e" target="cdf" id="174" weight="3.0" />
+      <edge source="gf38" target="gf38om" id="22" weight="3.0" />
+      <edge source="lrt" target="gf38om" id="10" weight="3.0" />
+      <edge source="lrt" target="teamom" id="72" weight="3.0" />
+      <edge source="lrt" target="lt" id="108" weight="8.0" />
+      <edge source="lrt" target="off" id="112" weight="8.0" />
+      <edge source="off" target="teamom" id="100" weight="3.0" />
+      <edge source="off" target="lt" id="209" weight="3.0" />
+      <edge source="enqueteexclusive" target="greom" id="279" weight="4.0" />
+      <edge source="enqueteexclusive" target="zoneinterdite" id="333" weight="6.0" />
+      <edge source="enqueteexclusive" target="m6" id="966" weight="3.0" />
+      <edge source="np" target="lt" id="202" weight="3.0" />
+      <edge source="cdf" target="gf38om" id="1" weight="20.0" />
+      <edge source="cdf" target="teamom" id="65" weight="6.0" />
+      <edge source="cdf" target="fbsport" id="158" weight="4.0" />
+      <edge source="cdf" target="grenoble" id="159" weight="4.0" />
+      <edge source="om" target="gf38om" id="43" weight="3.0" />
+      <edge source="om" target="greom" id="288" weight="3.0" />
+      <edge source="greom" target="gf38om" id="11" weight="8.0" />
+      <edge source="greom" target="teamom" id="89" weight="6.0" />
+      <edge source="greom" target="coupedefrance" id="230" weight="5.0" />
+      <edge source="fbsport" target="gf38om" id="7" weight="4.0" />
+      <edge source="fbsport" target="grenoble" id="208" weight="4.0" />
+      <edge source="teamom" target="gf38om" id="0" weight="39.0" />
+      <edge source="teamom" target="coupedefrance" id="71" weight="5.0" />
+      <edge source="grenoble" target="gf38om" id="8" weight="6.0" />
+      <edge source="gf38om" target="coupedefrance" id="9" weight="9.0" />
+    </edges>
+  </graph>
+</gexf>
