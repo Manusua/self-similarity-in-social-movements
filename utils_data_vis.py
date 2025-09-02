@@ -101,7 +101,7 @@ def plot_avg_deg(ax, dict_hora, limit_kt, axvline=None, xlabel=None, ylabel=None
         ax.set_ylabel(ylabel, fontsize=20)
 
 
-def plot_clust_ss(ax, arr_kt_plot, dict_norm_int_deg, xlim=None, ylim=(0.1, 1.05), legend=True, marker="x", alpha=0.7, ylabel=None, xlabel=None, sep_points=1):
+def plot_clust_ss(ax, arr_kt_plot, dict_norm_int_deg, xlim=None, ylim=(0.1, 1.05), legend=True, marker="x", alpha=0.7, ylabel=None, xlabel=None, sep_points=1, loc=None, linewidth=0.6, s=4):
     
     for kt in arr_kt_plot[:]:
         if kt in dict_norm_int_deg.keys():
@@ -115,8 +115,8 @@ def plot_clust_ss(ax, arr_kt_plot, dict_norm_int_deg, xlim=None, ylim=(0.1, 1.05
             points_y, indexes = calcular_quitar_ceros(points_y)
             points_x, _ = quitar_ceros(points_x, indexes)
     
-            ax.plot(points_x, points_y, alpha=alpha, linewidth=0.6)
-            ax.scatter(points_x, points_y, alpha=alpha, s=4, marker=marker, label=f'$k_T: {kt}$')        
+            ax.plot(points_x, points_y, alpha=alpha, linewidth=linewidth)
+            ax.scatter(points_x, points_y, alpha=alpha, s=s, marker=marker, label=f'$k_T: {kt}$')        
     if ylabel:  
         ax.set_ylabel(ylabel, fontsize=20)
         #ax.set_ylabel("$\\overline{c(Q_n(k_T))}$", fontsize=20)
@@ -130,7 +130,10 @@ def plot_clust_ss(ax, arr_kt_plot, dict_norm_int_deg, xlim=None, ylim=(0.1, 1.05
     if xlim:
         ax.set_xlim(xlim[0], xlim[1])
     if legend:
-        ax.legend(prop={'size': 12})
+        if loc:
+            ax.legend(loc=loc, prop={'size': 12})
+        else:
+            ax.legend(prop={'size': 12})
 
 
 ########################################################################

@@ -6,6 +6,7 @@ import os
 import json
 from tqdm import tqdm
 import numpy as np
+import math
 import powerlaw
 import csv
 from itertools import combinations
@@ -645,7 +646,8 @@ def calc_avg_clust_coef_by_normalized_internal_degree(G, clust):
     # de los nodos que tienen dicho internal degree como valor
     for key in dict_hid_var_aux_2.keys():
         dict_hid_var[key] = np.average(dict_hid_var_aux_2[key])
-
+    """ for index, element in enumerate(sorted(list(dict_hid_var.keys()))):
+        print(sorted(dict_hid_var.keys())[index], list(dict_hid_var_aux_2.keys())[index])"""
     return dict_hid_var
 
 
@@ -750,6 +752,8 @@ def calc_clust(G, MAX_UMBRAL, measures_path, mode="h", read=True, write=True):
         if not (flag_int_deg and flag_avg_clust):
             # Se crea el subgrafo basándonos en el threshold seleccionado
             F = thresh_normalization(G, threshold)
+            """if threshold == 0:
+                print(sorted(var for _, var in F.nodes(data="internalDegree")))"""
             if F == -1:
                 # Caso de grafo vacío o grafo inconexo
                 # Se escribe la información calculada.
@@ -837,6 +841,8 @@ def calc_self_sim(hora, MAX_UMBRAL, manifestacion, mode='h', graphs_folder="grap
         path_graph = "nodes_bipartite/"
     elif mode == "f":
         path_graph = "nodes_filtered/" + str(thresh_filter) + '/'
+    elif mode == "d":
+        path_graph = "nodes_disparity/"
     G = nx.read_gexf(graphs_folder + path_graph  + manifestacion + hora + ".gexf")
     path_measures_hour = measures_folder + manifestacion
     if not os.path.exists(path_measures_hour):
@@ -1083,6 +1089,8 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
         path_graph = "nodes_bipartite/"
     elif mode == "f":
         path_graph = "nodes_filtered/" + str(thresh_filt) + '/'
+    elif mode == "d":
+        path_graph = "nodes_disparity/"
     
     # Se carga el grafo inicial
     G = nx.read_gexf(graphs_folder + path_graph + manifestacion + hour + '.gexf')
@@ -1107,11 +1115,13 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
             if F != -1:
                 points_kt = np.sort(np.array(list(dict(F.degree()).values())).astype(float))
                 dict_points[kt] = list(points_kt)
+                """for index, point in enumerate(points_kt):
+                    if kt== 0:
+                        print(kt, point, ':', point / np.mean(points_kt), sorted(F.nodes[node]["internalDegree"] for node in F.nodes())[index])"""
     
         else:
             points_kt = dict_points[kt]
         if norm:
-            #print(points_kt)
             #print(np.mean(points_kt))
             points_kt = np.array(points_kt) / np.mean(points_kt)
             #print(len(points_kt))
@@ -1168,3 +1178,351 @@ def get_dict_hora_kt(manifestacion, HORA_CRITICA, hour_window=1, node_type="hash
             dict_hora[threshold] = calc_avg_degree(F)
     return dict_hora
 
+
+
+########################################################################
+#
+# DISPARITY FILTER
+#
+########################################################################
+
+import numpy as np
+def backbone_confidence(filename, filenameout):
+	NODOSMAX = 100000
+	NEDGESMAX = 1000000
+
+	internalnet = np.zeros((NEDGESMAX, 2), dtype=int)
+	weight = np.zeros(NEDGESMAX)
+	strenght = np.zeros(NODOSMAX)
+	ndegree = np.zeros(NODOSMAX, dtype=int)
+	nodepresent = np.zeros(NODOSMAX, dtype=int)
+	weightmin = 0.0
+
+
+	for i in range(NODOSMAX):
+		strenght[i] = 0.0
+		ndegree[i] = 0
+
+	for i in range(NEDGESMAX):
+		weight[i] = 0.0
+
+	weighttotal = 0.0
+	NODOS = 0
+	nlink = 0
+	nodos_set = set()
+	with open(filename, 'r') as f:
+		for line in f:
+			
+			arr = line.split(',')
+			i, j, d = arr[0], arr[1], float(int(arr[2]))
+			i, j = int(i), int(j)
+			if d == 0:
+				print(f"cities {i} {j} have distance 0")
+				d += 0.1
+			#w = 1.0 / d**(1.0)
+			w = d
+			nlink += 1
+			internalnet[nlink - 1, 0] = i
+			internalnet[nlink - 1, 1] = j
+			strenght[i] += w
+			strenght[j] += w
+			ndegree[i] += 1
+			ndegree[j] += 1
+			weight[nlink - 1] = w
+			weighttotal += w
+			nodos_set.add(i)
+			nodos_set.add(j)
+
+	NODOS = len(nodos_set)
+
+	with open(filenameout, 'w') as f:
+		for n in range(100):
+			wconfidence = float(n) * 0.01
+			nodepresent.fill(0)
+
+			weightbackbone = 0.0
+			nedgesbackbone = 0
+			weightnodeszerodegree = 0.0
+
+			for i in range(nlink):
+				if (ndegree[internalnet[i, 1]] > 1) and (ndegree[internalnet[i, 0]] > 1):
+					if (weight[i] / strenght[internalnet[i, 0]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 0]] - 1)))) or \
+					(weight[i] / strenght[internalnet[i, 1]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 1]] - 1)))):
+						weightbackbone += weight[i]
+						nedgesbackbone += 1
+						nodepresent[internalnet[i, 0]] = 1
+						nodepresent[internalnet[i, 1]] = 1
+				elif (ndegree[internalnet[i, 1]] > 1) and (ndegree[internalnet[i, 0]] == 1):
+					if (weight[i] / strenght[internalnet[i, 1]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 1]] - 1)))):
+						weightbackbone += weight[i]
+						nedgesbackbone += 1
+						nodepresent[internalnet[i, 0]] = 1
+						nodepresent[internalnet[i, 1]] = 1
+				elif (ndegree[internalnet[i, 1]] == 1) and (ndegree[internalnet[i, 0]] > 1):
+					if (weight[i] / strenght[internalnet[i, 0]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 0]] - 1)))):
+						weightbackbone += weight[i]
+						nedgesbackbone += 1
+						nodepresent[internalnet[i, 0]] = 1
+						nodepresent[internalnet[i, 1]] = 1
+				else:
+					weightnodeszerodegree += weight[i]
+
+			nodosbackbone = 0
+			strenghtbackbone = 0.0
+			for i in range(NODOS):
+				if nodepresent[i] == 1:
+					nodosbackbone += 1
+					strenghtbackbone += strenght[i] - strenght[i]
+
+			f.write(f"{wconfidence:.6f} {weightbackbone / weighttotal:.4f} {nodosbackbone / NODOS:.4f} {nedgesbackbone / nlink:.4f}\n")
+               
+
+
+import numpy as np
+def backbone(filename, filenameout, wconfidence):
+	NODOSMAX = 100000
+	NEDGESMAX = 1000000
+
+	internalnet = np.zeros((NEDGESMAX, 2), dtype=int)
+	weight = np.zeros(NEDGESMAX)
+	strenght = np.zeros(NODOSMAX)
+	ndegree = np.zeros(NODOSMAX, dtype=int)
+
+	weightmin = 0.0
+	#wconfidence = 0.9977  # this is 1-alfa
+
+	#filename = '../Data/distancesbetweencities_Spain_ids.csv'  # input network
+	#filenameout = '../Data/backbone_Spain_0.9977_nw.net'  # output backbone
+
+	for i in range(NODOSMAX):
+		strenght[i] = 0.0
+		ndegree[i] = 0
+
+	for i in range(NEDGESMAX):
+		weight[i] = 0.0
+
+	weighttotal = 0.0
+	NODOS = 0
+	nlink = 0
+
+	with open(filename, 'r') as f:
+		while True:
+			line = f.readline()
+			if not line:
+				break
+			arr = line.split(',')
+			i, j, d = arr[0], arr[1], float(int(arr[2]))
+			i, j = int(i), int(j)
+			if d == 0:
+				print(f"cities {i} {j} have distance 0")
+				d += 0.1
+			#w = 1.0 / d**(1.0)
+			w = d
+			nlink += 1
+			internalnet[nlink - 1, 0] = i
+			internalnet[nlink - 1, 1] = j
+			strenght[i] += w
+			strenght[j] += w
+			ndegree[i] += 1
+			ndegree[j] += 1
+			weight[nlink - 1] = w
+			weighttotal += w
+			NODOS = max(NODOS, i, j)
+
+	weightbackbone = 0.0
+
+	with open(filenameout, 'w') as f:
+		for i in range(nlink):
+			if (ndegree[internalnet[i, 1]] > 1) and (ndegree[internalnet[i, 0]] > 1):
+				if (weight[i] / strenght[internalnet[i, 0]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 0]] - 1)))) or \
+				(weight[i] / strenght[internalnet[i, 1]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 1]] - 1)))):
+					if weight[i] > weightmin:
+						f.write(f"{internalnet[i, 0]} {internalnet[i, 1]} {weight[i]}\n")
+						weightbackbone += weight[i]
+			elif (ndegree[internalnet[i, 1]] > 1) and (ndegree[internalnet[i, 0]] == 1):
+				if weight[i] / strenght[internalnet[i, 1]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 1]] - 1))):
+					if weight[i] > weightmin:
+						f.write(f"{internalnet[i, 0]} {internalnet[i, 1]} {weight[i]}\n")
+						weightbackbone += weight[i]
+			elif (ndegree[internalnet[i, 1]] == 1) and (ndegree[internalnet[i, 0]] > 1):
+				if weight[i] / strenght[internalnet[i, 0]] > (1 - (1 - wconfidence)**(1 / (ndegree[internalnet[i, 0]] - 1))):
+					if weight[i] > weightmin:
+						f.write(f"{internalnet[i, 0]} {internalnet[i, 1]} {weight[i]}\n")
+						weightbackbone += weight[i]
+
+	print('fraction of weight in backbone=', weightbackbone / weighttotal, filenameout)
+     
+
+
+
+########################################################################
+#
+# EXPONENTIAL BINNING
+#
+########################################################################
+
+# === Exponential binning + plot (compatible con CCDF o PDF) ===
+
+
+def _exp_bin_xy(x, y, aa=1.02, normalize=False):
+    """
+    Binning exponencial para pares (x,y).
+    - aa: factor de crecimiento del tamaño de bin (1.02 por defecto, como en make_exponential_binning.py)
+    - normalize=True: divide por el ancho del bin (útil si 'y' es densidad - PDF).
+    Devuelve arrays (xb, yb) con el centro del bin (media geométrica) y el valor agregado.
+    """
+    x = np.asarray(x, float); y = np.asarray(y, float)
+    m = (x > 0) & np.isfinite(x) & np.isfinite(y)
+    x = x[m]; y = y[m]
+    if x.size == 0:
+        return np.array([]), np.array([])
+
+    xmax = float(x.max())
+    i = 1
+    xs, ys = [], []
+    while aa**i <= xmax:
+        lo = aa**i
+        hi = aa**(i + 1)
+
+        # Mismo truco que el script: evitar bordes exactamente enteros
+        if float(int(lo)) == lo:
+            lo -= 0.1
+        if float(int(hi)) == hi:
+            hi += 0.1
+
+        sel = (x > lo) & (x <= hi)
+        if np.any(sel):
+            xg = math.sqrt(lo * hi)          # centro del bin (media geométrica)
+            if normalize:                     # para PDFs: sumar y normalizar por ancho
+                yb = y[sel].sum() / (hi - lo)
+            else:                             # para CCDF: media dentro del bin (suavizado)
+                yb = y[sel].mean()
+            xs.append(xg); ys.append(yb)
+        i += 1
+
+    return np.array(xs), np.array(ys)
+
+
+def plot_pdf_expbin(ax, arr_xy, arr_kt_plot, aa=1.02, ylabel="P(X>x)",
+                    ylim=(0.0002, 1.05), xlim=None,
+                    marker="x", alpha=0.7, dot_size=4, line=True,
+                    normalize=False, label_prefix="$k_t :$ "):
+    """
+    Versión con binning exponencial del plot.
+    - arr_xy: lista de (x, y) como arr_ccdf_points_* o arr_pdf_points_*.
+    - normalize=True si 'y' es PDF (densidad) y quieres dividir por ancho del bin.
+    """
+    for idx, (x, y) in enumerate(arr_xy):
+        xb, yb = _exp_bin_xy(x, y, aa=aa, normalize=normalize)
+        if xb.size == 0:
+            continue
+        if line:
+            ax.plot(xb, yb, marker=marker, ms=dot_size, alpha=alpha, lw=0.8,
+                    label=f"{label_prefix}{arr_kt_plot[idx]}")
+        else:
+            ax.scatter(xb, yb, marker=marker, s=dot_size, alpha=alpha,
+                       label=f"{label_prefix}{arr_kt_plot[idx]}")
+
+    ax.set_xscale('log')
+    ax.set_yscale('log')
+    if ylim: ax.set_ylim(*ylim)
+    if xlim: ax.set_xlim(*xlim)
+    if ylabel: ax.set_ylabel(ylabel, fontsize=20)
+
+
+def _exp_bin_xy_ss(x, y, aa=1.02):
+    """
+    Binning exponencial para pares (x, y).
+    - aa: factor de crecimiento de los bins (1.02 por defecto).
+    - x>0, y finitos. El punto del bin se coloca en la media geométrica del intervalo.
+    Devuelve (xb, yb) con un valor y agregado como media dentro del bin.
+    """
+    x = np.asarray(x, dtype=float)
+    y = np.asarray(y, dtype=float)
+
+    m = (x > 0) & np.isfinite(x) & np.isfinite(y)
+    x = x[m]; y = y[m]
+    if x.size == 0:
+        return np.array([]), np.array([])
+
+    xmax = float(x.max())
+    i = 1
+    xs, ys = [], []
+    while aa**i <= xmax:
+        lo = aa**i
+        hi = aa**(i + 1)
+
+        # Evitar bordes exactamente enteros (mismo truco que el script original)
+        if float(int(lo)) == lo:
+            lo -= 0.1
+        if float(int(hi)) == hi:
+            hi += 0.1
+
+        sel = (x > lo) & (x <= hi)
+        if np.any(sel):
+            xg = math.sqrt(lo * hi)   # centro del bin (media geométrica)
+            yb = y[sel].mean()        # agregador para clustering: media
+            xs.append(xg); ys.append(yb)
+        i += 1
+
+    return np.array(xs), np.array(ys)
+
+
+def plot_clust_ss_expbin(ax, arr_kt_plot, dict_norm_int_deg,
+                         aa=1.02, xlim=None, ylim=(0.01, 1.05),
+                         alpha=0.7, marker="x", linewidth=0.8, s=10,
+                         legend=True, loc=None, title=None,
+                         ylabel=None, xlabel=None):
+    """
+    Versión con binning exponencial del plot tipo plot_clust_ss.
+
+    Parámetros clave:
+    - arr_kt_plot: lista con los k_T a graficar (orden de las curvas).
+    - dict_norm_int_deg: dict: kt -> {grado: valor} (p.ej., clustering normalizado por grado).
+    - aa: factor del exponential binning (1.02 por defecto).
+    - Los demás parámetros controlan estilo y ejes.
+    """
+    for kt in arr_kt_plot:
+        if kt not in dict_norm_int_deg:
+            continue
+
+        # Extraer pares (grado, valor)
+        # Nota: dict puede no estar ordenado; para el binning no hace falta orden.
+        x_vals = np.array(list(dict_norm_int_deg[kt].keys()), dtype=float)
+        y_vals = np.array(list(dict_norm_int_deg[kt].values()), dtype=float)
+
+        # Limpiar: quitar grado=0 y no finitos; también y<=0 si vas a usar escala log en Y
+        m = (x_vals > 0) & np.isfinite(x_vals) & np.isfinite(y_vals) & (y_vals > 0)
+        x_vals = x_vals[m]; y_vals = y_vals[m]
+        if x_vals.size == 0:
+            continue
+
+        xb, yb = _exp_bin_xy_ss(x_vals, y_vals, aa=aa)
+        if xb.size == 0:
+            continue
+
+        # Línea + puntos (como el original)
+        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth)
+        ax.scatter(xb, yb, alpha=alpha, s=s, marker=marker, label=f'$k_T: {kt}$')
+
+    # Escalas log–log (habitual para grado y clustering con límites como 0.01–1.05)
+    ax.set_xscale('log')
+    ax.set_yscale('log')
+
+    if title:
+        ax.set_title(title, fontsize=20)
+    if ylabel:
+        ax.set_ylabel(ylabel, fontsize=20)
+    if xlabel:
+        ax.set_xlabel(xlabel, fontsize=20)
+
+    if ylim:
+        ax.set_ylim(ylim[0], ylim[1])
+    if xlim:
+        ax.set_xlim(xlim[0], xlim[1])
+
+    if legend:
+        if loc:
+            ax.legend(loc=loc, prop={'size': 12})
+        else:
+            ax.legend(prop={'size': 12})
