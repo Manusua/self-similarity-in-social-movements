@@ -1110,6 +1110,7 @@ def calc_degree_distribution(hour, manifestacion, graphs_folder="graphs/", mode=
     
     # Si no recibe un arr_kt como parametro, se interpreta que es la red original
     for kt in tqdm(arr_kt):
+        points_kt=[0]
         if not kt in dict_points.keys():
             F = thresh_normalization(G, kt)
             if F != -1:
