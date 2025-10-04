@@ -338,14 +338,15 @@ and "Add2" with the directory you want to save the output txt files
 ##List of the netorks and their  k_T^max 
 #Networks_list = ["Astrophysics", "bible-nouns",  "PGP", "Internet", "Facebook", "Fb-Friends-Copenhagen", "Int-4896","Solo-BrightKite", "Bitcoin-Trust", "GMP-S.cerevisiaes", "Int-Drosophila", "GI-S.cerevisiae", "Japanese-Words","GMP-Plasmodium", "GMP-Drosophila","GMP-Mus" , "Wikipedia-am",  "MB-R.norvegicus","PPI-rat", "GMP-Celegans", "Int-figeys", "WikiTalk-catalan"]
 #k_T2= ["38", "22", "30", "50", "46", "14", "57","49","29",  "94", "13","164", "17", "6" , "26", "7", "35", "8", "9", "9", "8","39" ] 
+manifestacion = "9n"
 
-df = pd.read_csv("epsilon_sq/nat/kts.csv")
+df = pd.read_csv(f"epsilon_sq/{manifestacion}/kts.csv")
 
 Networks_list = list(df["hora"])
 k_T2 = list(df["clave_max"])
 
-Add="./epsilon_sq/nat/"
-Add2= "./epsilon_sq/nat/results/"
+Add = f"./epsilon_sq/{manifestacion}/"
+Add2 = f"./epsilon_sq/{manifestacion}/results"
 
 
 nbins=20
