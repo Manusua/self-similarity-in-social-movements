@@ -57,14 +57,14 @@ def plot_num_users_hashtags(ax, hour_dt, hour_window, num_users, num_hashtags, t
     if legend:
         ax.legend(loc="best", prop={'size': 12})
 
-def plot_mod_nestedness(ax, hour_dt, hour_window, mod_sort, nest_sort, inicio=0, legend=False, tick_split=30, HORA_CRITICA=None):
-    ax.plot(hour_dt[int(inicio/hour_window):], mod_sort[int(inicio/hour_window):], label="Modularity")
-    ax.plot(hour_dt[int(inicio/hour_window):], nest_sort[int(inicio/hour_window):], label="Nestedness")
+def plot_mod_nestedness(ax, hour_dt, hour_window, mod_sort, nest_sort, inicio=0, final=None, legend=False, tick_split=30, HORA_CRITICA=None):
+    ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], mod_sort[int(inicio/hour_window):int(final/hour_window)], label="Modularity")
+    ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], nest_sort[int(inicio/hour_window):int(final/hour_window)], label="Nestedness")
     if HORA_CRITICA:
         ax.axvline(x=datetime.datetime.fromtimestamp(int(HORA_CRITICA)*3600, tz=datetime.timezone.utc).strftime("%Y-%m-%d %H"), color="green", ls="--")
     ax.get_xaxis().set_visible(True)
-    ax.set_xticks(hour_dt[int(inicio/hour_window)::tick_split])
-    ax.set_xticklabels(hour_dt[int(inicio/hour_window)::tick_split])
+    ax.set_xticks(hour_dt[int(inicio/hour_window):int(final/hour_window):tick_split])
+    ax.set_xticklabels(hour_dt[int(inicio/hour_window):int(final/hour_window):tick_split])
     ax.tick_params(axis='x', rotation=70)
     if legend:
         ax.legend(loc="best", prop={'size': 12})
