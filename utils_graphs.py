@@ -9,6 +9,7 @@ import numpy as np
 import math
 import powerlaw
 import csv
+from pathlib import Path
 from itertools import combinations
 
 from nestedness_calculator import NestednessCalculator
@@ -19,6 +20,39 @@ from nestedness_calculator import NestednessCalculator
 # CREACION DE GRAFOS
 #
 ########################################################################
+
+def convertir_file(hora, filtered=False, umbral=None):
+	if not filtered:
+		G = nx.read_gexf(f"graphs/nodes_hashtag/nat/1/{hora}.gexf")
+		nombre_output = f"disparity_filter/puntos/{hora}.csv"
+	else:
+		G = nx.read_gexf(f"graphs/nodes_filtered/{umbral}/nat/1/{hora}.gexf")
+		nombre_output = f"disparity_filter/puntos/{hora}_filt.csv"
+	print(G.number_of_nodes(), G.number_of_edges(), nombre_output)
+	with open(nombre_output, "w") as f:
+		arr_edges = ""
+		for orig, dst, we in G.edges(data=True):
+			if "weight" not in G[orig][dst].keys():
+				print(orig, dst)
+			peso = int(G[orig][dst]["weight"])
+			arr_edges = arr_edges + f"{orig},{dst},{peso} \n"
+		f.write(arr_edges)
+	
+
+def gexf_a_edge(gexf_path: Path, out_path, delimiter: str = "\t", header: bool = False) -> Path:
+    G = nx.read_gexf(gexf_path)
+    out_path = out_path
+    with open(out_path, "w", encoding="utf-8", newline="\n") as f:
+        if header:
+            f.write(f"source{delimiter}target\n")
+        if G.is_multigraph():
+            for u, v, _k in G.edges(keys=True):
+                f.write(f"{u}{delimiter}{v}\n")
+        else:
+            for u, v in G.edges():
+                f.write(f"{u}{delimiter}{v}\n")
+    return out_path
+
 
 def create_csv_weighted(input_file, output_file):
     main_df = pd.DataFrame(columns=["user", "hashtag", "hour", "weight"])
