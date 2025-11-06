@@ -44,13 +44,17 @@ def get_num_nodes_edges(df_hour, node_type, manifestacion, hour_window=1, graphs
 #
 ########################################################################
 
-def plot_num_users_hashtags(ax, hour_dt, hour_window, num_users, num_hashtags, title=None, inicio=0, final=None, legend=False, HORA_CRITICA=None):
+def plot_num_users_hashtags(ax, hour_dt, hour_window, num_users, num_hashtags, title=None, inicio=0, final=None, legend=False, HORA_CRITICA=None, with_avg = False):
     if title:
         ax.set_title(title, fontsize=20)
     if not final:
         final = len(hour_dt)
-    ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], num_users[int(inicio/hour_window):int(final/hour_window)], label="Número de usuarios únicos\nMedia de usuarios por hora: " +str(round(np.mean(num_users), 1)), color="orange")
-    ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], num_hashtags[int(inicio/hour_window):int(final/hour_window)], label="Número de hashtags únicos\nMedia de hashtags por hora: " +str(round(np.mean(num_hashtags), 1)), color="magenta")
+    if with_avg:
+        ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], num_users[int(inicio/hour_window):int(final/hour_window)], label="Número de usuarios únicos\nMedia de usuarios por hora: " +str(round(np.mean(num_users), 1)), color="orange")
+        ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], num_hashtags[int(inicio/hour_window):int(final/hour_window)], label="Número de hashtags únicos\nMedia de hashtags por hora: " +str(round(np.mean(num_hashtags), 1)), color="magenta")
+    else:
+        ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], num_users[int(inicio/hour_window):int(final/hour_window)], label="Unique users", color="orange")
+        ax.plot(hour_dt[int(inicio/hour_window):int(final/hour_window)], num_hashtags[int(inicio/hour_window):int(final/hour_window)], label="Unique Hashtags", color="magenta")
     if HORA_CRITICA:
         ax.axvline(x=datetime.datetime.fromtimestamp(int(HORA_CRITICA)*3600, tz=datetime.timezone.utc).strftime("%Y-%m-%d %H"), color="green", ls="--", label="Fecha identificada como crítica: " + str(datetime.datetime.fromtimestamp(int(HORA_CRITICA)*3600, tz=datetime.timezone.utc).strftime("%Y-%m-%d %H")) +' (UTC)')
     ax.get_xaxis().set_visible(False)
