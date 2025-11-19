@@ -1451,13 +1451,23 @@ def plot_pdf_expbin(ax, arr_xy, arr_kt_plot, aa=1.02, ylabel="P(X>x)",
         xb, yb = _exp_bin_xy(x, y, aa=aa, normalize=normalize)
         if xb.size == 0:
             continue
-        if line:
-            ax.plot(xb, yb, marker=marker, ms=dot_size, alpha=alpha, lw=0.8,
-                    label=f"{label_prefix}{arr_kt_plot[idx]}")
-        else:
-            ax.scatter(xb, yb, marker=marker, s=dot_size, alpha=alpha,
-                       label=f"{label_prefix}{arr_kt_plot[idx]}")
 
+        # Filtrar puntos problemáticos (y <= 0) para escala log
+        mask = yb > 0
+        xb = xb[mask]
+        yb = yb[mask]
+        if xb.size == 0:
+            continue
+
+        ax.plot(
+            xb, yb,
+            marker=marker,
+            ms=dot_size,
+            alpha=alpha,
+            lw=0.8 if line else 0,
+            linestyle='-' if line else 'none',
+            label=f"{label_prefix}{arr_kt_plot[idx]}",
+        )
     ax.set_xscale('log')
     ax.set_yscale('log')
     if ylim: ax.set_ylim(*ylim)
@@ -1537,7 +1547,7 @@ def plot_clust_ss_expbin(ax, arr_kt_plot, dict_norm_int_deg,
             continue
 
         # Línea + puntos (como el original)
-        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth)
+        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth, s=s, marker=marker)
         ax.scatter(xb, yb, alpha=alpha, s=s, marker=marker, label=f'$k_T: {kt}$')
 
     # Escalas log–log (habitual para grado y clustering con límites como 0.01–1.05)
