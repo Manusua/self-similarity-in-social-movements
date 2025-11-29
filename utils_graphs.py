@@ -1547,7 +1547,7 @@ def plot_clust_ss_expbin(ax, arr_kt_plot, dict_norm_int_deg,
             continue
 
         # Línea + puntos (como el original)
-        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth, s=s, marker=marker)
+        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth, marker=marker)
         ax.scatter(xb, yb, alpha=alpha, s=s, marker=marker, label=f'$k_T: {kt}$')
 
     # Escalas log–log (habitual para grado y clustering con límites como 0.01–1.05)
