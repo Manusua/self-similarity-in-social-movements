@@ -1468,6 +1468,12 @@ def plot_pdf_expbin(ax, arr_xy, arr_kt_plot, aa=1.02, ylabel="P(X>x)",
             linestyle='-' if line else 'none',
             label=f"{label_prefix}{arr_kt_plot[idx]}",
         )
+        ax.scatter(
+			xb, yb,
+			s=20,
+			marker=marker,
+			alpha=alpha,
+		)
     ax.set_xscale('log')
     ax.set_yscale('log')
     if ylim: ax.set_ylim(*ylim)
@@ -1547,8 +1553,8 @@ def plot_clust_ss_expbin(ax, arr_kt_plot, dict_norm_int_deg,
             continue
 
         # Línea + puntos (como el original)
-        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth, marker=marker)
-        ax.scatter(xb, yb, alpha=alpha, s=s, marker=marker, label=f'$k_T: {kt}$')
+        ax.plot(xb, yb, alpha=alpha, linewidth=linewidth, marker=marker, ms=s)
+        ax.scatter(xb, yb, alpha=alpha, s=20, marker=marker, label=f'$k_T: {kt}$')
 
     # Escalas log–log (habitual para grado y clustering con límites como 0.01–1.05)
     ax.set_xscale('log')
