@@ -159,12 +159,93 @@ def plot_hypermap(file_edgelist,file_coor,Tc,Scale,fname):
     lc = LineCollection(lines, colors=l_grey,linewidths=0.3,linestyles='solid',zorder=1)
     ax1.add_collection(lc)
     # plot nodes
+
+
+    dict_nodes_ch = {
+            "charliehebdo": 16,
+            "jesuischarlie": 16, 
+            "marcherepublicaine": 12,
+            "france": 12,
+            "libertedelapresse": 10, 
+            "republique": 12,
+            #"bastille": 8,
+            "franceattack": 10,
+            "notafraid":8, 
+            "larevolutionestenmarche":8, 
+            "auvergnecharlie": 8,
+            "tousalamarchedu11janvier": 8,
+            "hommage": 8,
+            "marchedelahonte": 8
+        }
+
+    dict_nodes_sizes_nat = {
+            "14652": 16,
+            "14641": 16,
+            "2017": 14,
+            "460": 12,
+            "1615": 12,
+            "11336": 10,
+            "22622": 10,
+            "13901": 8,
+            "9164": 8
+        }
+    
+    dict_labels_nat = {
+            "14652": "NoAlTarifazo",
+            "14641": "RuidazoNacional",
+            "2017": "BastaDeTarifazos",
+            "460": "MarchaDeAntorchas",
+            "1615": "Argentina",
+            "11336": "HayAlternativa",
+            "22622": "Elecciones2019",
+            "13901": "TarifazoEsSaqueo",
+            "9164": "MarDelPlata"
+    }
+
+    dict_nodes_sizes_9n = {
+            "1995": 16,
+            "387": 16,
+            "375": 14,
+            "5203": 12,
+            "5181": 12,
+            "2241": 10,
+            "3155": 10,
+            "5970": 8,
+            "3318": 8
+        }
+    
+    dict_labels_9n = {
+            "1995": "SiSePuede",
+            "387": "9NGranMarchaPorLaJusticia",
+            "375": "7DHastaLuegoPresidente",
+            "5203": "SiSePuedeMarDelPlata",
+            "5181": "EleccionesArgentina",
+            "2241": "DebatePresidencial2019",
+            "3155": "Argentina",
+            "5970": "Elecciones2019",
+            "3318": "9NJusticia"
+    }
+
     for i in G_cut.nodes():
         a=[x[i]]
         b=[y[i]]        
-        ax1.scatter(a,b, marker='o',color=color_seq[2],linewidths=0.1,edgecolor='k',
+        ax1.scatter(a,b, marker='o',color=color_seq[2],linewidths=0.1,edgecolor='k', 
+                    s=Scale*nodesize[i],zorder=2)
 
-                 s=Scale*nodesize[i],zorder=2)
+        if i in dict_labels_9n.keys():
+            ax1.text(a[0], b[0], '\#' + dict_labels_9n[i].lower(), fontsize=dict_nodes_sizes_9n[i], ha='center', va='center', zorder=3)
+        #ax1.text(a[0], b[0], i, fontsize=6, ha='center', va='center', zorder=3)
+
+
+
+
+
+
+       
+
+        arr_bold = ["jesuischarlie", "charliehebdo"]
+       
+
 
     # Draw a circle 
     r_cut={}
@@ -201,3 +282,4 @@ if __name__ == "__main__":
     main()
 
 
+# python3 plot_hypermap.py d-mercator/graphs/ch/394718/2/394718.edge d-mercator/graphs/ch/394718/2/394718.inf_coord .01 8
