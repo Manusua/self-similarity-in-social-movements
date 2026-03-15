@@ -86,13 +86,13 @@ def anonimizar_gexf(ruta_entrada: str, ruta_salida: str, inicio_id: int = 0) -> 
     # Guardar archivo resultante
     tree.write(ruta_salida, encoding="utf-8", xml_declaration=True)
 
-graph_origin_1 = "graphs/nodes_hashtag/ch/2/394645.gexf"
-graph_dest_1 = "graphs/nodes_hashtag_anonymized/ch/2/394645.gexf"
+graph_origin_1 = "graphs/nodes_filtered/1/ch/2/394645.gexf"
+graph_dest_1 = "graphs/nodes_filtered_anonymized/1/ch/2/394645.gexf"
 
 
 anonimizar_gexf(graph_origin_1, graph_dest_1)
 
-graph_dest_edge_list_1 = "graphs/nodes_hashtag_anonymized/ch/2/394645_edges.txt"
+graph_dest_edge_list_1 = "graphs/nodes_filtered_anonymized/1/ch/2/CH_other_TW_edges.txt"
 
 import networkx as nx
 
@@ -102,13 +102,13 @@ with open(graph_dest_edge_list_1, "wb") as f:
 
 
 
-graph_origin_2 = "graphs/nodes_hashtag/ch/2/394717.gexf"
-graph_dest_2 = "graphs/nodes_hashtag_anonymized/ch/2/394717.gexf"
+graph_origin_2 = "graphs/nodes_filtered/1/ch/2/394717.gexf"
+graph_dest_2 = "graphs/nodes_filtered_anonymized/1/ch/2/394717.gexf"
 
 
 anonimizar_gexf(graph_origin_2, graph_dest_2)
 
-graph_dest_edge_list_2 = "graphs/nodes_hashtag_anonymized/ch/2/394717_edges.txt"
+graph_dest_edge_list_2 = "graphs/nodes_filtered_anonymized/1/ch/2/CH_CTW_edges.txt"
 
 import networkx as nx
 

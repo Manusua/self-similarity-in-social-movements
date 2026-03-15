@@ -1213,6 +1213,21 @@ def get_dict_hora_kt(manifestacion, HORA_CRITICA, hour_window=1, node_type="hash
             dict_hora[threshold] = calc_avg_degree(F)
     return dict_hora
 
+def get_avg_deg_kt(manifestacion, HORA_CRITICA, hour_window=1, node_type="hashtag", MAX_UMBRAL=200, graphs_folder="graphs/", umbral_filt=None):
+    dict_hora = {}
+    if node_type == "filtered":
+        node_type = "filtered/" + str(umbral_filt) 
+    G = nx.read_gexf(graphs_folder + f"nodes_{node_type}/{manifestacion}/{str(hour_window)}/{HORA_CRITICA}.gexf")
+    for threshold in tqdm(range(MAX_UMBRAL)):
+        threshold = float(threshold)
+        if not threshold in dict_hora.keys():
+            # Se crea el subgrafo basandose en el threshold seleccionado
+            F = thresh_normalization(G, threshold)
+            if F == -1:
+                # Caso de grafo vacío o grafo inconexo
+                break 
+            dict_hora[threshold] = calc_avg_degree(F)
+    return dict_hora
 
 
 ########################################################################
