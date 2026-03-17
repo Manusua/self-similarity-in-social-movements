@@ -424,15 +424,11 @@ def write_filtered_graph(manifestacion, HORA_CRITICA, umbral, graphs_folder, hou
 
     # Escribimos el .edge (listo para usar dmercator)
     with open(graphs_folder + "nodes_filtered/" + str(umbral) + '/'  + manifestacion + '/' + str(hour_window) + '/' + str(HORA_CRITICA) + ".edge", "w") as f:
-        for edge in G.edges():
+        for edge in G.edges(): 
             f.write(edge[0] + ' ' + edge[1] + '\n')
-    print("Grafo", manifestacion + ":" + str(HORA_CRITICA)," (umbral", str(umbral) + ')', "reducido a", round(G.number_of_nodes()/nodos_original*100,2), "% en nodos y ", round(G.number_of_edges()/aristas_original*100, 2), "% en aristas.")
-########################################################################
-#
-# OBTENCIÓN DE MÉTRICAS
-#
-########################################################################
-
+    print("Grafo", manifestacion + ":" + str(HORA_CRITICA)," (umbral", str(umbral) + ')', "reducido a", round(G.number_of_nodes()/nodos_original*100,2), f"% en nodos ({G.number_of_nodes()}) y ",
+     round(G.number_of_edges()/aristas_original*100, 2), 
+     f"% en aristas ({G.number_of_edges()}). Average degree: {calc_avg_degree(G)}. Clustering coefficient: {nx.average_clustering(G)}.")
 
 def convert_keys_to_float(d, recursive=True, tipo="float"):
     """
@@ -511,7 +507,7 @@ def calc_nestedness(G):
 
 def get_mod_nest_coefficient(manifestacion, criterio, measures_foler="measures/", datasets_foler="datasets/", graphs_folder="graphs/", write=True, read=True, hour_window=1):
     """
-    Calcula y devuelve el coeficiente de clustering y el coeficiente de anidamiento para cada hora de una manifestación 
+    Calcula y devuelve el coeficiente de modularidad y el coeficiente de anidamiento para cada hora de una manifestación 
     dada, en función del tipo de red especificado. Los resultados se pueden guardar en un archivo JSON para su reutilización.
 
     Parámetros:
