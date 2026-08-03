@@ -1,0 +1,175 @@
+
+===========================================================================================
+D-Mercator: accurate embeddings of graphs in the SD space
+version: 0.9
+started on: 2026/07/30 2:13 UTC
+edgelist filename: /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.edge
+seed: 1785377580
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    151
+    Nb edges:                       280
+    Average degree:                 3.709
+    Minimum degree:                 1
+    Maximum degree:                 78
+    Nb of degree class:             15
+    Average clustering:             0.8526
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.3187               0.6676 
+         3.4780               0.7112 
+         5.2170               0.7358 
+         7.8255               0.7358 
+        11.7382               0.7251 
+        17.6073               0.7333 
+WARNING: value too high, using beta =     26.4109.
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 3.7086
+    Minimum degree:                 1
+    Maximum degree:                 78
+    Average clustering:             0.7333
+    Parameters
+      - beta:                       26.4109
+      - mu:                         0.1341
+      - radius_S1 (R):              24.0324
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+
+    Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
+
+    Sum of the angular positions (before adjustment): 13.7506
+                                     .................................................done.
+
+Refining the positions...
+    ...of vertices     [1,7]......done in 0.0090 seconds (5/7 changed position)
+    ...of vertices    [8,14]......done in 0.0106 seconds (7/7 changed position)
+    ...of vertices   [15,21]......done in 0.0090 seconds (6/7 changed position)
+    ...of vertices   [22,28]......done in 0.0090 seconds (6/7 changed position)
+    ...of vertices   [29,35]......done in 0.0077 seconds (5/7 changed position)
+    ...of vertices   [36,42]......done in 0.0076 seconds (2/7 changed position)
+    ...of vertices   [43,49]......done in 0.0076 seconds (2/7 changed position)
+    ...of vertices   [50,56]......done in 0.0076 seconds (1/7 changed position)
+    ...of vertices   [57,63]......done in 0.0076 seconds (0/7 changed position)
+    ...of vertices   [64,70]......done in 0.0076 seconds (3/7 changed position)
+    ...of vertices   [71,77]......done in 0.0076 seconds (0/7 changed position)
+    ...of vertices   [78,84]......done in 0.0076 seconds (0/7 changed position)
+    ...of vertices   [85,91]......done in 0.0076 seconds (1/7 changed position)
+    ...of vertices   [92,98]......done in 0.0076 seconds (5/7 changed position)
+    ...of vertices  [99,105]......done in 0.0076 seconds (4/7 changed position)
+    ...of vertices [106,112]......done in 0.0074 seconds (4/7 changed position)
+    ...of vertices [113,119]......done in 0.0074 seconds (3/7 changed position)
+    ...of vertices [120,126]......done in 0.0074 seconds (6/7 changed position)
+    ...of vertices [127,133]......done in 0.0074 seconds (3/7 changed position)
+    ...of vertices [134,140]......done in 0.0074 seconds (5/7 changed position)
+    ...of vertices [141,147]......done in 0.0074 seconds (5/7 changed position)
+    ...of vertices [148,151]......done in 0.0043 seconds (3/4 changed position)
+                         .............................................................done.
+
+Updating values of kappa based on inferred positions...
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                                                       ...............................done.
+
+    => Inferred coordinates saved to /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.inf_coord
+
+    => Inferred theta density saved to /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.inf_theta_density
+
+    => Inferred connection probability saved to /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.inf_pconn
+
+Characterizing the inferred ensemble...
+
+    A total of 1000 graphs will be generated (chosen in function of the total number
+    of vertices). To change this value, set the flag 'CUSTOM_CHARACTERIZATION_NB_GRAPHS'
+    to 'true' and set the variable 'CHARACTERIZATION_NB_GRAPHS' to the desired value.
+
+    Generating and analyzing graphs      [1,50]......done in 0.0236 seconds
+    Generating and analyzing graphs    [51,100]......done in 0.0235 seconds
+    Generating and analyzing graphs   [101,150]......done in 0.0235 seconds
+    Generating and analyzing graphs   [151,200]......done in 0.0236 seconds
+    Generating and analyzing graphs   [201,250]......done in 0.0235 seconds
+    Generating and analyzing graphs   [251,300]......done in 0.0235 seconds
+    Generating and analyzing graphs   [301,350]......done in 0.0236 seconds
+    Generating and analyzing graphs   [351,400]......done in 0.0234 seconds
+    Generating and analyzing graphs   [401,450]......done in 0.0235 seconds
+    Generating and analyzing graphs   [451,500]......done in 0.0235 seconds
+    Generating and analyzing graphs   [501,550]......done in 0.0235 seconds
+    Generating and analyzing graphs   [551,600]......done in 0.0235 seconds
+    Generating and analyzing graphs   [601,650]......done in 0.0234 seconds
+    Generating and analyzing graphs   [651,700]......done in 0.0236 seconds
+    Generating and analyzing graphs   [701,750]......done in 0.0234 seconds
+    Generating and analyzing graphs   [751,800]......done in 0.0235 seconds
+    Generating and analyzing graphs   [801,850]......done in 0.0235 seconds
+    Generating and analyzing graphs   [851,900]......done in 0.0235 seconds
+    Generating and analyzing graphs   [901,950]......done in 0.0234 seconds
+    Generating and analyzing graphs  [951,1000]......done in 0.0235 seconds
+                                       ...............................................done.
+
+    => Vertices properties of the inferred ensemble saved to /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.inf_vprop
+
+    => Inferred ensemble statistics by degree class saved to /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.inf_vstat
+
+Extracting the original graph statistics by degree class..............................done.
+
+    => Original graph statistics by degree class saved to /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.obs_vstat
+
+Computing two-sample Kolmogorov-Smirnov test......
+Test statistic: 0.0740, critical_value: 0.4061
+The null hypothesis is not rejected at level 0.0500
+Two data samples does come from the same distribution
+
+Internal parameters and options
+    ALREADY_INFERRED_PARAMETERS_FILENAME   
+    BETA_ABS_MAX                           25
+    BETA_ABS_MIN                           1.01
+    CHARACTERIZATION_MODE                  true
+    CHARACTERIZATION_NB_GRAPHS             1000
+    CLEAN_RAW_OUTPUT_MODE                  false
+    CUSTOM_BETA                            false
+    CUSTOM_CHARACTERIZATION_NB_GRAPHS      false
+    CUSTOM_INFERRED_COORDINATES            false
+    CUSTOM_OUTPUT_ROOTNAME_MODE            false
+    CUSTOM_SEED                            false
+    EDGELIST_FILENAME:                     /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701.edge
+    EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+    EXP_DIST_NB_INTEGRATION_STEPS          1000
+    KAPPA_MAX_NB_ITER_CONV                 500
+    KAPPA_POST_INFERENCE_MODE              true
+    MAXIMIZATION_MODE                      true
+    MIN_NB_ANGLES_TO_TRY                   100
+    NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+    NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+    NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+    NUMERICAL_ZERO                         1e-10
+    QUIET_MODE                             false
+    REFINE_MODE                            false
+    ROOTNAME_OUTPUT:                       /home/msuarez/Escritorio/self_similarity/main_branch/github/self-similarity-in-social-movements/new_plots_review/embeddings/ch/non-CTW/394701/2/394701
+    SEED                                   1785377580
+    VALIDATION_MODE                        true
+    VERBOSE_MODE                           false
+    VERSION                                0.9
+
+Ended on: 2026/07/30 2:13 UTC
+Elapsed CPU time (embedding):                3.5817 seconds
+    initialization:                          0.0006 seconds
+    parameters inference:                    3.2484 seconds
+    initial positions:                       0.0883 seconds
+    refining positions:                      0.1702 seconds
+    adjusting kappas:                        0.0743 seconds
+Elapsed CPU time (validation):               0.4719 seconds
+    validating embedding:                    0.0009 seconds
+    characterizing ensemble:                 0.4710 seconds
+===========================================================================================

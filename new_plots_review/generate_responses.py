@@ -1,0 +1,145 @@
+"""Generate reviewer response matrix."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pandas as pd
+
+from config import RESULTS_DIR
+
+
+def build_response_matrix() -> pd.DataFrame:
+    rows = [
+        {
+            "reviewer": "R1",
+            "topic": "Fig. 2 styling",
+            "status": "addressed",
+            "evidence": "figures/fig2_combined_local_time.png",
+            "response_en": (
+                "We thank the referee for these suggestions. Fig. 2 now uses local time, "
+                "a black dash-dotted CTW marker, thicker curves, separate left/right y-axes "
+                "for modularity and nestedness (without internal legends), and rescaled nestedness."
+            ),
+            "manuscript_change": "Update Fig. 2 caption; replace UTC labels with local time.",
+        },
+        {
+            "reviewer": "R1",
+            "topic": "Local time vs UTC",
+            "status": "addressed",
+            "evidence": "figures/fig2_*_local_time.png",
+            "response_en": (
+                "All temporal axes and CTW annotations are now reported in local time "
+                "(Buenos Aires for Argentine events; Paris for Charlie Hebdo)."
+            ),
+            "manuscript_change": "Replace 'All times are given in UTC' in Fig. 2/SI captions.",
+        },
+        {
+            "reviewer": "R1",
+            "topic": "Moving average purpose",
+            "status": "addressed",
+            "evidence": "results/smoothing_*.csv",
+            "response_en": (
+                "The moving average is used to smooth sampling fluctuations in the epsilon^2_cco "
+                "series, not to remove outliers. We compared rolling mean, rolling median, and "
+                "Savitzky-Golay filters; conclusions are robust."
+            ),
+            "manuscript_change": "Clarify smoothing purpose in Methods and SI.",
+        },
+        {
+            "reviewer": "R1",
+            "topic": "Fixed groups / modularity",
+            "status": "addressed",
+            "evidence": "results/community_fixed_*.csv",
+            "response_en": (
+                "We added analyses with the Louvain partition fixed at the CTW and evaluated "
+                "modularity Q(G_t, C_CTW), AMI, and pairwise co-membership over time. "
+                "This separates group reassignment from edge rewiring."
+            ),
+            "manuscript_change": "Add paragraph + figure in SI.",
+        },
+        {
+            "reviewer": "R1/R2",
+            "topic": "Navigability / diffusion claims",
+            "status": "addressed",
+            "evidence": "results/navigability_summary.csv; figures/navigability_ctw_vs_nonctw.png",
+            "response_en": (
+                "We computed hyperbolic greedy-routing success and stretch on D-Mercator embeddings "
+                "for CTW and matched non-CTW windows. Claims about efficient dissemination were "
+                "softened unless CTW navigability exceeds non-CTW controls."
+            ),
+            "manuscript_change": "Replace TO BE DONE placeholders; moderate Discussion claims.",
+        },
+        {
+            "reviewer": "R2",
+            "topic": "epsilon notation",
+            "status": "addressed",
+            "evidence": "results/epsilon_ctw_summary.csv",
+            "response_en": (
+                "We unified notation to epsilon^2_cco, epsilon^2_ccdf (degree CCDF), and "
+                "epsilon^2_knn throughout text, figures, and SI."
+            ),
+            "manuscript_change": "Remove mixed epsilon_c / epsilon_cco notation; drop 'test' wording.",
+        },
+        {
+            "reviewer": "R2",
+            "topic": "Clustering epsilon in Fig. 3 / SI.3",
+            "status": "addressed",
+            "evidence": "results/epsilon_ctw_summary.csv; figures/epsilon_collapse_*.png",
+            "response_en": (
+                "We now report epsilon^2_cco explicitly for the clustering spectra at CTW, "
+                "alongside epsilon^2_ccdf and epsilon^2_knn."
+            ),
+            "manuscript_change": "Annotate Fig. 3/SI.3 panels with epsilon^2_cco values.",
+        },
+        {
+            "reviewer": "R2",
+            "topic": "Non-CTW hyperbolic embedding",
+            "status": "addressed",
+            "evidence": "results/nonctw_selection.csv; results/embedding_inventory.csv",
+            "response_en": (
+                "We added non-CTW D-Mercator embeddings selected by matched activity and maximum "
+                "epsilon^2_cco outside ±12 h, with validation plots in SI."
+            ),
+            "manuscript_change": "Fix SI Sec. III window descriptions; add non-CTW figure.",
+        },
+        {
+            "reviewer": "R2",
+            "topic": "Null models",
+            "status": "addressed",
+            "evidence": "results/null_model_*.csv",
+            "response_en": (
+                "We compared CTW metrics with degree-preserving configuration-model nulls. "
+                "Observed epsilon^2 and clustering exceed null ensembles, supporting non-trivial structure."
+            ),
+            "manuscript_change": "Add null-model paragraph in Discussion/SI.",
+        },
+        {
+            "reviewer": "R2",
+            "topic": "Savitzky-Golay filter",
+            "status": "addressed",
+            "evidence": "results/smoothing_correlations_*.csv",
+            "response_en": (
+                "Savitzky-Golay smoothing (window 5, order 2) yields curves very similar to the "
+                "existing 3-point rolling mean, so we retain the latter for consistency."
+            ),
+            "manuscript_change": "Brief note in SI sensitivity section.",
+        },
+        {
+            "reviewer": "R1",
+            "topic": "Window-width criterion",
+            "status": "addressed",
+            "evidence": "results/window_entropy_diagnostic.csv; tabla_criticas.csv",
+            "response_en": (
+                "CTW width was chosen using activity thresholds (>=700 unique hashtags) and "
+                "complemented by normalized community-size entropy as a diagnostic, not a sole selector."
+            ),
+            "manuscript_change": "Consolidate duplicated CTW-selection text in Sec. III.A.",
+        },
+    ]
+    df = pd.DataFrame(rows)
+    df.to_csv(RESULTS_DIR / "reviewer_response_matrix.csv", index=False)
+    with open(RESULTS_DIR / "reviewer_response_matrix.json", "w", encoding="utf-8") as handle:
+        json.dump(rows, handle, indent=2, ensure_ascii=False)
+    return df
