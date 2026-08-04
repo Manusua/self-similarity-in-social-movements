@@ -575,7 +575,7 @@ if os.path.isfile(coord_original):
     plot_inferred_theta_vs_original_theta()"""
 
 # Adds figure title.
-plt.suptitle("No al Tarifazo", y=0.99, va="top", ha="center")
+plt.suptitle("Charlie Hebdo", y=0.99, va="top", ha="center")
 
 # Save to file.
 plt.tight_layout(rect=[-0.012, -0.012, 1.012, 0.988])
