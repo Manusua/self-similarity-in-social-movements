@@ -27,12 +27,12 @@ from config import FIGURES_DIR, REPO_ROOT, RESULTS_DIR, TIMEZONE, ensure_dirs
 # Constants
 # ---------------------------------------------------------------------------
 
-HORA_CRITICA = {"nat": 429624, "9n": 437037, "ch": 394717}
+HORA_CRITICA = {"nat": 429623, "9n": 437037, "ch": 394717}
 # Comparison hours from latex_self_similarity.ipynb (hours before CTW)
 OTRA_HORA = {
     "nat": HORA_CRITICA["nat"] - 24,
     "9n": HORA_CRITICA["9n"] - 48,
-    "ch": HORA_CRITICA["ch"] - 72,
+    "ch": HORA_CRITICA["ch"] - 24,
 }
 
 MANIFESTATION_ORDER = ["nat", "9n", "ch"]
@@ -67,7 +67,7 @@ ANNOTATION_WINDOWS_ORIGINAL: Dict[str, Dict[str, List[Tuple[int, int]]]] = {
     },
     "ch": {
         "grey": [(394680, 394687), (394704, 394711), (394728, 394735), (394752, 394754)],
-        "orange": [(394716, 394724)],
+        "orange": [(394716, 394724), (394744, 394746)],
     },
 }
 
