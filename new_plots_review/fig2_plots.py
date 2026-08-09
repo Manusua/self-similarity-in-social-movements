@@ -302,8 +302,8 @@ def _format_xaxis(ax, manifestation: str, show_label: bool = True) -> None:
     ax.xaxis.set_major_formatter(plt.FuncFormatter(_local_tick))
     ax.xaxis.set_major_locator(MaxNLocator(nbins=12, integer=True))
     ax.xaxis.set_minor_locator(MaxNLocator(nbins=40, integer=True))
-    ax.tick_params(axis="x", which="major", labelsize=20, rotation=75)
-    ax.tick_params(axis="x", which="minor", length=3)
+    ax.tick_params(axis="x", which="major", labelsize=20, rotation=75, length=0, bottom=False)
+    ax.tick_params(axis="x", which="minor", length=0, bottom=False)
     if show_label:
         ax.set_xlabel(f"Date and hour (local, {city}, {year})", fontsize=22)
 
@@ -312,6 +312,7 @@ def _style_axis(ax, panel_label: Optional[str] = None) -> None:
     ax.grid(True, linestyle="--", alpha=0.4)
     ax.margins(x=0.01)
     ax.tick_params(axis="both", which="major", labelsize=20)
+    ax.tick_params(axis="x", which="both", length=0, bottom=False)
     if panel_label:
         ax.text(
             0.01,
