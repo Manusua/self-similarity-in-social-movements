@@ -19,20 +19,26 @@ from zoneinfo import ZoneInfo
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from matplotlib.ticker import MaxNLocator
+from matplotlib.ticker import FixedLocator, MaxNLocator, NullLocator
 
-from config import FIGURES_DIR, REPO_ROOT, RESULTS_DIR, TIMEZONE, ensure_dirs
+from config import FIGURES_DIR, HORA_CRITICA, REPO_ROOT, RESULTS_DIR, TIMEZONE, ensure_dirs
 
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
-HORA_CRITICA = {"nat": 429623, "9n": 437037, "ch": 394717}
 # Comparison hours from latex_self_similarity.ipynb (hours before CTW)
 OTRA_HORA = {
     "nat": HORA_CRITICA["nat"] - 24,
     "9n": HORA_CRITICA["9n"] - 48,
     "ch": HORA_CRITICA["ch"] - 24,
+}
+
+# Expected CTW local times (must match COLUMN_TITLES)
+EXPECTED_CTW_LOCAL = {
+    "nat": (2019, 1, 4, 21),
+    "9n": (2019, 11, 9, 18),
+    "ch": (2015, 1, 11, 14),
 }
 
 MANIFESTATION_ORDER = ["nat", "9n", "ch"]
@@ -99,6 +105,7 @@ COLOR_GREY_BAND = "gray"
 COLOR_ORANGE_BAND = "orange"
 
 MA_WINDOW = 3
+X_TICK_LENGTH = 6
 
 
 @dataclass(frozen=True)
@@ -288,10 +295,57 @@ def _apply_otra_hora(ax, manifestation: str) -> None:
     )
 
 
-def _format_xaxis(ax, manifestation: str, show_label: bool = True) -> None:
+def _hour_to_local(hour: int, manifestation: str) -> dt.datetime:
     tz_name = TIMEZONE[manifestation]
-    city = CITY_LABEL[manifestation]
-    year = X_LABEL_YEAR[manifestation]
+    return dt.datetime.fromtimestamp(int(hour) * 3600, tz=ZoneInfo("UTC")).astimezone(
+        ZoneInfo(tz_name)
+    )
+
+
+def _apply_x_tick_style(ax, show_tick_labels: bool) -> None:
+    ax.tick_params(
+        axis="x",
+        which="major",
+        labelsize=20,
+        rotation=75,
+        length=X_TICK_LENGTH,
+        bottom=True,
+        labelbottom=show_tick_labels,
+    )
+    ax.tick_params(axis="x", which="minor", length=0, bottom=False)
+
+
+def verify_ctw_local_times() -> None:
+    """Assert CTW hour indices map to the local times stated in column titles."""
+    for manifestation, (year, month, day, hour) in EXPECTED_CTW_LOCAL.items():
+        local = _hour_to_local(HORA_CRITICA[manifestation], manifestation)
+        expected = (local.year, local.month, local.day, local.hour)
+        assert expected == (year, month, day, hour), (
+            f"{manifestation}: CTW hour {HORA_CRITICA[manifestation]} "
+            f"maps to local {local:%Y-%m-%d %Hh} ({TIMEZONE[manifestation]}), "
+            f"expected {day:02d}/{month:02d}/{year} {hour:02d}h"
+        )
+
+
+def verify_column_xticks(
+    ax_top: plt.Axes,
+    ax_mid: plt.Axes,
+    ax_bottom: plt.Axes,
+) -> None:
+    """Assert aligned major ticks, visible marks, labels only on bottom row."""
+    ticks = [ax.get_xticks() for ax in (ax_top, ax_mid, ax_bottom)]
+    assert np.allclose(ticks[0], ticks[1]) and np.allclose(ticks[1], ticks[2])
+    for ax in (ax_top, ax_mid, ax_bottom):
+        assert not list(ax.xaxis.get_minorticklocs())
+    for ax in (ax_top, ax_mid):
+        assert all(t.get_text() == "" for t in ax.get_xticklabels())
+        assert ax.xaxis.get_major_ticks()[0].tick1line.get_visible()
+    assert any(t.get_text() for t in ax_bottom.get_xticklabels())
+    assert ax_bottom.xaxis.get_major_ticks()[0].tick1line.get_visible()
+
+
+def _local_tick_formatter(manifestation: str) -> plt.FuncFormatter:
+    tz_name = TIMEZONE[manifestation]
 
     def _local_tick(x_val, _pos):
         local = dt.datetime.fromtimestamp(int(x_val) * 3600, tz=ZoneInfo("UTC")).astimezone(
@@ -299,20 +353,62 @@ def _format_xaxis(ax, manifestation: str, show_label: bool = True) -> None:
         )
         return local.strftime("%d-%b %Hh")
 
-    ax.xaxis.set_major_formatter(plt.FuncFormatter(_local_tick))
+    return plt.FuncFormatter(_local_tick)
+
+
+def _format_xaxis(
+    ax,
+    manifestation: str,
+    show_label: bool = True,
+    show_tick_labels: bool = True,
+) -> List[float]:
+    """Configure x-axis ticks; return major tick positions."""
+    city = CITY_LABEL[manifestation]
+    year = X_LABEL_YEAR[manifestation]
+
+    ax.xaxis.set_major_formatter(_local_tick_formatter(manifestation))
     ax.xaxis.set_major_locator(MaxNLocator(nbins=12, integer=True))
-    ax.xaxis.set_minor_locator(MaxNLocator(nbins=40, integer=True))
-    ax.tick_params(axis="x", which="major", labelsize=20, rotation=75, length=0, bottom=False)
-    ax.tick_params(axis="x", which="minor", length=0, bottom=False)
+    ax.xaxis.set_minor_locator(NullLocator())
+    _apply_x_tick_style(ax, show_tick_labels)
     if show_label:
         ax.set_xlabel(f"Date and hour (local, {city}, {year})", fontsize=22)
+
+    ax.figure.canvas.draw()
+    return list(ax.get_xticks())
+
+
+def _apply_fixed_xaxis(
+    ax,
+    manifestation: str,
+    tick_locs: List[float],
+    show_tick_labels: bool = False,
+) -> None:
+    """Apply fixed major x-ticks (no minors, optional labels)."""
+    ax.xaxis.set_major_locator(FixedLocator(tick_locs))
+    ax.xaxis.set_major_formatter(_local_tick_formatter(manifestation))
+    ax.xaxis.set_minor_locator(NullLocator())
+    _apply_x_tick_style(ax, show_tick_labels)
+
+
+def _sync_column_xticks(
+    ax_top: plt.Axes,
+    ax_mid: plt.Axes,
+    ax_bottom: plt.Axes,
+    manifestation: str,
+) -> None:
+    """Align all three row axes to the bottom row's labeled major ticks."""
+    tick_locs = _format_xaxis(
+        ax_bottom, manifestation, show_label=True, show_tick_labels=True
+    )
+    _apply_fixed_xaxis(ax_top, manifestation, tick_locs, show_tick_labels=False)
+    _apply_fixed_xaxis(ax_mid, manifestation, tick_locs, show_tick_labels=False)
+    _apply_fixed_xaxis(ax_bottom, manifestation, tick_locs, show_tick_labels=True)
 
 
 def _style_axis(ax, panel_label: Optional[str] = None) -> None:
     ax.grid(True, linestyle="--", alpha=0.4)
     ax.margins(x=0.01)
-    ax.tick_params(axis="both", which="major", labelsize=20)
-    ax.tick_params(axis="x", which="both", length=0, bottom=False)
+    ax.tick_params(axis="y", which="major", labelsize=20)
     if panel_label:
         ax.text(
             0.01,
@@ -414,7 +510,7 @@ def plot_fig2_column(
     for ax in axes:
         ax.set_xlim(x0 - pad, x1 + pad)
 
-    _format_xaxis(axes[2], manifestation, show_label=True)
+    _sync_column_xticks(axes[0], axes[1], axes[2], manifestation)
 
     if show_legends:
         axes[0].legend(loc=(0.66, 0.65), fontsize=16)
@@ -437,6 +533,7 @@ def plot_fig2_column(
 
 def plot_fig2_combined(variant: VariantConfig, save: bool = True) -> Path:
     """Combined 3×3 figure with panels (a–i)."""
+    verify_ctw_local_times()
     ensure_dirs()
     plt.style.use("seaborn-v0_8-colorblind")
     fig, axes = plt.subplots(3, 3, figsize=(36, 12), dpi=120, sharex=False)
@@ -511,12 +608,14 @@ def plot_fig2_combined(variant: VariantConfig, save: bool = True) -> Path:
         _apply_ctw(ax_c, manifestation)
         _apply_otra_hora(ax_c, manifestation)
         _apply_bands(ax_c, manifestation)
-        _format_xaxis(ax_c, manifestation, show_label=True)
 
         x0, x1 = float(sub["hour"].min()), float(sub["hour"].max())
         pad = 0.01 * (x1 - x0)
         for ax in (ax_a, ax_b, ax_c):
             ax.set_xlim(x0 - pad, x1 + pad)
+
+        _sync_column_xticks(ax_a, ax_b, ax_c, manifestation)
+        verify_column_xticks(ax_a, ax_b, ax_c)
 
     fig.tight_layout()
     out = FIGURES_DIR / f"fig2_combined_{variant.name}_all.png"
