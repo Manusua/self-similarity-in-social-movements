@@ -43,12 +43,12 @@ EXPECTED_CTW_LOCAL = {
 
 MANIFESTATION_ORDER = ["nat", "9n", "ch"]
 MANIFESTATION_TITLES = {
-    "nat": "No al Tarifazo",
-    "9n": "9N",
+    "nat": "No al tarifazo",
+    "9n": "9n",
     "ch": "Charlie Hebdo",
 }
 COLUMN_TITLES = {
-    "nat": "No al Tarifazo. CTW: 04/01/2019 21h",
+    "nat": "No al tarifazo. CTW: 04/01/2019 21h",
     "9n": "9n. CTW: 09/11/2019 18h",
     "ch": "Charlie Hebdo. CTW: 11/01/15 14h",
 }
@@ -729,7 +729,7 @@ computed as a centered moving average over $N=3$ consecutive TWs.
 Yellow/orange bands in all panels highlight manually selected candidate intervals associated with local minima of
 $\\epsilon^2_{\\mathrm{cco}}(k)$, engagement peaks, and modular-to-nested transitions; grey bands mark low-activity
 periods (01:00–08:00 local time). The identified CTW for each movement is marked by a **green** dash-dotted vertical line.
-For No al Tarifazo (left) and Charlie Hebdo (right), a single clear CTW emerges. For 9N (centre), three candidate
+For No al tarifazo (left) and Charlie Hebdo (right), a single clear CTW emerges. For 9n (centre), three candidate
 segments show low $\\epsilon^2_{\\mathrm{cco}}(k)$ values, but only the second exhibits a clear modular-to-nested
 transition in the bipartite networks, unambiguously identifying the CTW. All times are given in UTC.
 """.strip()
