@@ -1,0 +1,28 @@
+manifestacion,hour,check,expected,observed,pass
+nat,429600,input_edge_exists,True,True,True
+nat,429600,embedding_coord_exists,True,True,True
+nat,429600,dmercator_log_complete,True,True,True
+nat,429600,coord_format_s1,s1_theta,s1_theta,True
+nat,429600,embedding_edge_matches_input,True,True,True
+nat,429600,n_pairs_all_ordered,47742,47742,True
+nat,429600,n_nodes_matches_header,219,219,True
+nat,429600,avg_topo_stretch_ge_1,>= 1,1.0359186211798048,True
+nat,429600,manifest_nodes_match_loader,219,219,True
+9n,436989,input_edge_exists,True,True,True
+9n,436989,embedding_coord_exists,True,True,True
+9n,436989,dmercator_log_complete,True,True,True
+9n,436989,coord_format_s1,s1_theta,s1_theta,True
+9n,436989,embedding_edge_matches_input,True,True,True
+9n,436989,n_pairs_all_ordered,13340,13340,True
+9n,436989,n_nodes_matches_header,116,116,True
+9n,436989,avg_topo_stretch_ge_1,>= 1,1.0427288760622184,True
+9n,436989,manifest_nodes_match_loader,116,116,True
+ch,394693,input_edge_exists,True,True,True
+ch,394693,embedding_coord_exists,True,True,True
+ch,394693,dmercator_log_complete,True,True,True
+ch,394693,coord_format_s1,s1_theta,s1_theta,True
+ch,394693,embedding_edge_matches_input,True,True,True
+ch,394693,n_pairs_all_ordered,99540,99540,True
+ch,394693,n_nodes_matches_header,316,316,True
+ch,394693,avg_topo_stretch_ge_1,>= 1,1.0410238097831002,True
+ch,394693,manifest_nodes_match_loader,316,316,True

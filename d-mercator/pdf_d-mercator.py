@@ -501,82 +501,204 @@ def plot_comparison_vprop():
 
 
 # ==================================================================================================
+# Main entry point
 # ==================================================================================================
-# Cálculo del embeding
-path = sys.argv[1]
+def configure_paths(name1: str, name2: str) -> dict:
+    """Set global file paths used by plotting functions."""
+    global ename_original, coord_original, vstat_original
+    global coord_inferred, vprop_inferred, vstat_inferred
+    global pconn_inferred, theta_inferred
 
-if len(sys.argv) > 2:
-    dim = sys.argv[2]
-else:
-    dim = 2
-if len(sys.argv) > 3:
-    val = sys.argv[3]
-    if val == "True":
-        v = True
-    elif val == "False":
-        v = False
-else:
-    v = True
-# Imprime un pdf con el resumen de la información
-
-# Sets the rootnames of the files.
-if len(sys.argv) == 2:
-    name1 = sys.argv[1][:-5]
-    name2 = sys.argv[1][:-5]
-elif len(sys.argv) == 3:
-    name1 = sys.argv[1]
-    name2 = sys.argv[2]
-else:
-    print("WARNING: Bad arguments. Please refer to the script for details. Exiting...")
-    exit()
-
-# Sets the filenames.
-ename_original = name1 + ".edge"              # edgelist
-coord_original = name1 + ".gen_coord"         # original coordinates
-vstat_original = name2 + ".obs_vstat"         # original properties
-coord_inferred = name2 + ".inf_coord"         # inferred coordinates
-vprop_inferred = name2 + ".inf_vprop"         # inferred properties
-vstat_inferred = name2 + ".inf_vstat"         # inferred properties
-pconn_inferred = name2 + ".inf_pconn"         # inferred probability of connection
-theta_inferred = name2 + ".inf_theta_density" # inferred angular density
-fname_outvalid = name2 + "_validation.pdf"    # figure's filename
-figure_title   = ('%r'%os.path.basename(name2)).replace('_', r'\_').strip("'")
-
-# Sets the figure objects.
-id_fig, nb_rows, nb_columns = 0, 2, 2
-if os.path.isfile(vprop_inferred):
-    id_fig, nb_rows, nb_columns = 0, 4, 1
-# id_fig, nb_rows, nb_columns = 0, 2, 3
-fig = plt.figure(figsize=(8 * nb_columns, 6 * nb_rows))
-
-# Plots the probablity of connection.
-if os.path.isfile(pconn_inferred):
-    plot_connection_probability()
-else:
-    plot_connection_probability_using_raw_data()
-
-# Plots the graph in the hyperbolic disk.
-plot_hyperbolic_disk()
-# plot_hyperbolic_disk_slow()
-
-"""# Plots the angular density.
-if os.path.isfile(theta_inferred):
-    plot_theta_density()
-else:
-    plot_theta_density_using_raw_data()"""
-
-# Plots
-if os.path.isfile(vprop_inferred):
-    plot_comparison_vprop()
+    ename_original = name1 + ".edge"
+    coord_original = name1 + ".gen_coord"
+    vstat_original = name2 + ".obs_vstat"
+    coord_inferred = name2 + ".inf_coord"
+    vprop_inferred = name2 + ".inf_vprop"
+    vstat_inferred = name2 + ".inf_vstat"
+    pconn_inferred = name2 + ".inf_pconn"
+    theta_inferred = name2 + ".inf_theta_density"
+    return {
+        "ename_original": ename_original,
+        "coord_original": coord_original,
+        "coord_inferred": coord_inferred,
+        "vprop_inferred": vprop_inferred,
+        "pconn_inferred": pconn_inferred,
+        "theta_inferred": theta_inferred,
+    }
 
 
-"""# Plots the comparison between the inferred and original angles.
-if os.path.isfile(coord_original):
-    plot_inferred_theta_vs_original_theta()"""
+def _panel_count(*, include_theta: bool, has_vprop: bool, has_gen_coord: bool) -> int:
+    count = 2  # connection probability + hyperbolic disk
+    if include_theta:
+        count += 1
+    if has_vprop:
+        count += 2  # k_nn + clustering
+    if has_gen_coord:
+        count += 1
+    return count
 
-# Adds figure title.
-plt.suptitle("Charlie Hebdo", y=0.99, va="top", ha="center")
 
-# Save to file.
-plt.tight_layout(rect=[-0.012, -0.012, 1.012, 0.988])
-fig.savefig(fname_outvalid)
+def plot_theta_density_standalone(output_path: str, name2: str | None = None) -> str:
+    """Save angular density as a standalone PNG."""
+    if name2 is not None:
+        configure_paths(name2, name2)
+    fig_standalone = plt.figure(figsize=(8, 6))
+    global fig, id_fig, nb_rows, nb_columns
+    old_fig = fig if "fig" in globals() else None
+    fig = fig_standalone
+    id_fig, nb_rows, nb_columns = 0, 1, 1
+    if os.path.isfile(theta_inferred):
+        plot_theta_density()
+    else:
+        plot_theta_density_using_raw_data()
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=180, bbox_inches="tight")
+    plt.close(fig)
+    if old_fig is not None:
+        fig = old_fig
+    return output_path
+
+
+def generate_validation_pdf(
+    name1: str,
+    name2: str,
+    output_path: str,
+    *,
+    title: str | None = None,
+    include_theta: bool = True,
+    include_angle_comparison: bool | None = None,
+) -> dict:
+    """Generate the multipanel validation PDF and return metadata about included panels."""
+    global fig, id_fig, nb_rows, nb_columns
+
+    paths = configure_paths(name1, name2)
+    has_vprop = os.path.isfile(vprop_inferred)
+    has_gen_coord = os.path.isfile(coord_original)
+    if include_angle_comparison is None:
+        include_angle_comparison = has_gen_coord
+
+    panels: list[str] = []
+    skipped: list[str] = []
+
+    if include_theta:
+        panels.append("theta_density")
+    if has_vprop:
+        panels.extend(["knn_comparison", "clustering_comparison"])
+    if include_angle_comparison and has_gen_coord:
+        panels.append("inferred_vs_original_theta")
+    elif include_angle_comparison and not has_gen_coord:
+        skipped.append("inferred_vs_original_theta: no .gen_coord (empirical network)")
+
+    nb_panels = _panel_count(
+        include_theta=include_theta,
+        has_vprop=has_vprop,
+        has_gen_coord=include_angle_comparison and has_gen_coord,
+    )
+    id_fig, nb_rows, nb_columns = 0, nb_panels, 1
+    fig = plt.figure(figsize=(8 * nb_columns, 6 * nb_rows))
+
+    if os.path.isfile(pconn_inferred):
+        plot_connection_probability()
+        panels.insert(0, "connection_probability_pconn")
+    else:
+        plot_connection_probability_using_raw_data()
+        panels.insert(0, "connection_probability_raw")
+
+    plot_hyperbolic_disk()
+    panels.insert(1, "hyperbolic_disk")
+
+    if include_theta:
+        if os.path.isfile(theta_inferred):
+            plot_theta_density()
+        else:
+            plot_theta_density_using_raw_data()
+
+    if has_vprop:
+        plot_comparison_vprop()
+
+    if include_angle_comparison and has_gen_coord:
+        plot_inferred_theta_vs_original_theta()
+
+    if title is None:
+        title = os.path.basename(name2)
+    plt.suptitle(title, y=0.99, va="top", ha="center")
+    plt.tight_layout(rect=[-0.012, -0.012, 1.012, 0.988])
+    fig.savefig(output_path)
+    plt.close(fig)
+
+    return {
+        "output_path": output_path,
+        "title": title,
+        "panels": panels,
+        "skipped_panels": skipped,
+        "has_vprop": has_vprop,
+        "has_gen_coord": has_gen_coord,
+        **paths,
+    }
+
+
+def _parse_cli():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate D-Mercator validation PDF")
+    parser.add_argument(
+        "path",
+        nargs="?",
+        help="Path to .edge file or embedding root (without extension)",
+    )
+    parser.add_argument("name2", nargs="?", help="Optional second root name")
+    parser.add_argument("--root", help="Embedding root path without extension")
+    parser.add_argument("--output", "-o", help="Output PDF path")
+    parser.add_argument("--title", help="Figure title")
+    parser.add_argument(
+        "--no-theta",
+        action="store_true",
+        help="Skip angular density panel",
+    )
+    parser.add_argument(
+        "--theta-png",
+        help="Also save standalone angular density PNG to this path",
+    )
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    args = _parse_cli()
+
+    if args.root:
+        name1 = args.root
+        name2 = args.root
+    elif args.path and args.name2:
+        name1 = args.path
+        name2 = args.name2
+    elif args.path:
+        if args.path.endswith(".edge"):
+            name1 = args.path[:-5]
+            name2 = args.path[:-5]
+        else:
+            name1 = args.path
+            name2 = args.path
+    else:
+        print("WARNING: Bad arguments. Please refer to the script for details. Exiting...")
+        sys.exit(1)
+
+    output_path = args.output or (name2 + "_validation.pdf")
+    title = args.title
+    if title is None and "ch" in os.path.basename(name2).lower():
+        title = "Charlie Hebdo"
+    elif title is None:
+        title = os.path.basename(name2)
+
+    meta = generate_validation_pdf(
+        name1,
+        name2,
+        output_path,
+        title=title,
+        include_theta=not args.no_theta,
+    )
+    if args.theta_png:
+        plot_theta_density_standalone(args.theta_png, name2)
+    print(f"Saved {output_path}")
+    if meta["skipped_panels"]:
+        for item in meta["skipped_panels"]:
+            print(f"Skipped: {item}")
